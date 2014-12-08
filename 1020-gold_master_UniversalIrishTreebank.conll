@@ -24700,7 +24700,7 @@
 
 1	Ríomhphost	post	NOUN	NOUN	_	0	ROOT	_	_
 2	:	:	PUNCT	PUNCT	_	3	p	_	_
-3	post@clubsult.com	post@clubsult.com	X	X	_	1	compmod	_	_
+3	post@clubsult.com	post@clubsult.com	SYM	SYM	_	1	compmod	_	_
 4	)	)	PUNCT	PUNCT	_	3	p	_	_
 5	.	.	PUNCT	PUNCT	_	1	p	_	_
 
