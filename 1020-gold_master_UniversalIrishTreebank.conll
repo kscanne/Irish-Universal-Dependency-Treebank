@@ -383,11 +383,11 @@
 14	leat	le	ADP	ADP	_	3	case	_	_
 15	,	,	.	.	_	3	punct	_	_
 16	a	a	PRT	PRT	_	17	prt	_	_
-17	naofacht	naofacht	NOUN	NOUN	_	3	nmod	_	_
+17	naofacht	naofacht	NOUN	NOUN	_	3	vocative	_	_
 18	?	?	.	.	_	3	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	10	punct	_	_
-2	Dhera	Dhera	PROPN	PROPN	_	10	nmod	_	_
+2	Dhera	Dhera	PROPN	PROPN	_	10	vocative	_	_
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	mo	mo	DET	DET	_	5	poss	_	_
 5	thrua	trua	NOUN	NOUN	_	2	compound	_	_
@@ -2184,7 +2184,7 @@
 3	leat	le	ADP	ADP	_	2	case	_	_
 4	,	,	PUNCT	PUNCT	_	2	punct	_	_
 5	a	a	PART	PART	_	6	prt	_	_
-6	Dhoráid	Dhoráid	NOUN	NOUN	_	2	nmod	_	_
+6	Dhoráid	Dhoráid	NOUN	NOUN	_	2	vocative	_	_
 7	!	!	.	.	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
@@ -4261,7 +4261,7 @@
 11	dóigh	dóigh	NOUN	NOUN	_	10	attr	_	_
 12	liom	le	ADP	ADP	_	11	case	_	_
 13	a	a	PART	PART	_	14	prt	_	_
-14	Mháiréad	Máiréad	NOUN	NOUN	_	10	nmod	_	_
+14	Mháiréad	Máiréad	NOUN	NOUN	_	10	vocative	_	_
 15	,	,	.	.	_	16	punct	_	_
 16	go	go	PRT	PRT	_	17	prt	_	_
 17	bhfuil	bí	VERB	VERB	_	10	csubj:cop	_	_
@@ -4288,7 +4288,7 @@
 6	abhaile	abhaile	ADV	ADV	_	5	advmod	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	a	a	PART	PART	_	9	prt	_	_
-9	bhithiúnaigh	bithiúnach	NOUN	NOUN	_	5	nmod	_	_
+9	bhithiúnaigh	bithiúnach	NOUN	NOUN	_	5	vocative	_	_
 10	!	!	.	.	_	5	punct	_	_
 
 1	(8)	(8)	X	X	_	20	nummod	_	_
@@ -5782,25 +5782,25 @@
 10	bia	bia	NOUN	NOUN	_	8	compound	_	_
 11	:	:	PUNCT	PUNCT	_	13	punct	_	_
 12	-	-	PUNCT	PUNCT	_	13	punct	_	_
-13	1)	1)	X	X	_	14	nummod	_	_
-14	dathuithe	dathú	NOUN	NOUN	_	8	appos	_	_
+13	1)	1)	X	X	_	8	list	_	_
+14	dathuithe	dathú	NOUN	NOUN	_	13	appos	_	_
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
-16	2)	2)	X	X	_	17	nummod	_	_
-17	leasaithigh	leasaitheach	NOUN	NOUN	_	8	appos	_	_
+16	2)	2)	X	X	_	8	list	_	_
+17	leasaithigh	leasaitheach	NOUN	NOUN	_	16	appos	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
-19	3)	3)	X	X	_	20	nummod	_	_
-20	antocsaídigh	antocsaídigh	NOUN	NOUN	_	8	appos	_	_
+19	3)	3)	X	X	_	8	list	_	_
+20	antocsaídigh	antocsaídigh	NOUN	NOUN	_	19	appos	_	_
 21	,	,	PUNCT	PUNCT	_	22	punct	_	_
-22	4)	4)	X	X	_	23	nummod	_	_
-23	eiblitheoirí	eiblitheoir	NOUN	NOUN	_	8	appos	_	_
+22	4)	4)	X	X	_	8	list	_	_
+23	eiblitheoirí	eiblitheoir	NOUN	NOUN	_	22	appos	_	_
 24	agus	agus	CONJ	CONJ	_	23	cc	_	_
 25	cobhsaitheoirí	cobhsaitheoir	NOUN	NOUN	_	23	conj	_	_
 26	,	,	PUNCT	PUNCT	_	27	punct	_	_
-27	5)	5)	X	X	_	28	nummod	_	_
-28	milsitheoirí	milsitheoir	NOUN	NOUN	_	8	appos	_	_
+27	5)	5)	X	X	_	8	list	_	_
+28	milsitheoirí	milsitheoir	NOUN	NOUN	_	27	appos	_	_
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
-30	6)	6)	X	X	_	31	nummod	_	_
-31	blastáin	blastán	NOUN	NOUN	_	8	appos	_	_
+30	6)	6)	X	X	_	8	list	_	_
+31	blastáin	blastán	NOUN	NOUN	_	30	appos	_	_
 32	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Fad	fad	NOUN	NOUN	_	4	mark	_	_
@@ -6866,7 +6866,7 @@
 4	orm	ar	ADP	ADP	_	2	case	_	_
 5	,	,	PUNCT	PUNCT	_	10	punct	_	_
 6	a	a	PART	PART	_	7	prt	_	_
-7	fheara	fear	NOUN	NOUN	_	10	nmod	_	_
+7	fheara	fear	NOUN	NOUN	_	10	vocative	_	_
 8	,	,	.	.	_	10	punct	_	_
 9	'	'	.	.	_	10	punct	_	_
 10	arsa	arsa	VERB	VERB	_	0	ROOT	_	_
@@ -8901,7 +8901,7 @@
 24	eile	eile	DET	DET	_	23	det	_	_
 25	.	.	.	.	_	1	punct	_	_
 
-1	PÁIDÍ	Páidí	PROPN	PROPN	_	2	nmod	_	_
+1	PÁIDÍ	Páidí	PROPN	PROPN	_	2	vocative	_	_
 2	Cuir	cuir	VERB	VERB	_	0	ROOT	_	_
 3	do	do	DET	DET	_	4	poss	_	_
 4	lámh	lámh	NOUN	NOUN	_	2	dobj	_	_
@@ -8910,7 +8910,7 @@
 7	ghualainn	gualainn	NOUN	NOUN	_	5	adpobj	_	_
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	a	a	PART	PART	_	10	prt	_	_
-10	sheanduine	duine	NOUN	NOUN	_	2	nmod	_	_
+10	sheanduine	duine	NOUN	NOUN	_	2	vocative	_	_
 11	.	.	.	.	_	2	punct	_	_
 
 1	Deir	abair	VERB	VERB	_	0	ROOT	_	_
@@ -9021,7 +9021,7 @@
 6	stad	stad	NOUN	NOUN	_	5	adpobj	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Och	och	ITJ	ITJ	_	4	advmod	_	_
+1	Och	och	ITJ	ITJ	_	4	discourse	_	_
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3	a	a	PART	PART	_	4	prt	_	_
 4	chumannaigh	chumannaigh	NOUN	NOUN	_	0	ROOT	_	_
@@ -9248,7 +9248,7 @@
 2	leat	le	ADP	ADP	_	1	case	_	_
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	a	a	PART	PART	_	5	prt	_	_
-5	Mhichíl	Mhichíl	NOUN	NOUN	_	1	nmod	_	_
+5	Mhichíl	Mhichíl	NOUN	NOUN	_	1	vocative	_	_
 6	ghrinn	grinn	ADJ	ADJ	_	5	amod	_	_
 7	.	.	.	.	_	1	punct	_	_
 
@@ -10181,7 +10181,7 @@
 1	A	a	PART	PART	_	4	prt	_	_
 2	Dhochtúir	dochtúir	NOUN	NOUN	_	4	compound	_	_
 3	Van	Van	NOUN	NOUN	_	4	prt	_	_
-4	Helsing	Helsing	NOUN	NOUN	_	22	nmod	_	_
+4	Helsing	Helsing	NOUN	NOUN	_	22	vocative	_	_
 5	,	,	.	.	_	6	punct	_	_
 6	má	má	CONJ	CONJ	_	7	mark	_	_
 7	thagann	tar	VERB	VERB	_	22	advcl	_	_
@@ -11050,7 +11050,7 @@
 4	imeacht	imeacht	NOUN	NOUN	_	1	nsubj	_	_
 5	isteach	isteach	ADV	ADV	_	4	advmod	_	_
 6	a	a	PART	PART	_	7	prt	_	_
-7	Tom	Tom	NOUN	NOUN	_	1	nmod	_	_
+7	Tom	Tom	NOUN	NOUN	_	1	vocative	_	_
 8	.	.	.	.	_	1	punct	_	_
 
 1	Le	le	ADP	ADP	_	6	case	_	_
@@ -12729,9 +12729,9 @@
 34	in	i	ADP	ADP	_	33	case	_	_
 35	Airteagal	airteagal	NOUN	NOUN	_	34	adpobj	_	_
 36	67	67	NUM	NUM	_	35	nummod	_	_
-37	:	:	.	.	_	39	punct	_	_
-38	(1)	(1)	X	X	_	39	nummod	_	_
-39	bearta	beart	NOUN	NOUN	_	18	appos	_	_
+37	:	:	.	.	_	38	punct	_	_
+38	(1)	(1)	X	X	_	18	list	_	_
+39	bearta	beart	NOUN	NOUN	_	38	appos	_	_
 40	d'	de	ADP	ADP	_	39	case	_	_
 41	fhonn	fonn	NOUN	NOUN	_	43	dobj	_	_
 42	a	a	PRT	PRT	_	43	aux	_	_
@@ -12767,9 +12767,9 @@
 72	teorainneacha	teorainn	NOUN	NOUN	_	71	compound	_	_
 73	inmheánacha	inmheánach	ADJ	ADJ	_	72	amod	_	_
 74	dóibh	do	ADP	ADP	_	71	case	_	_
-75	;	;	.	.	_	77	punct	_	_
-76	(2)	(2)	X	X	_	77	nummod	_	_
-77	bearta	beart	NOUN	NOUN	_	39	conj	_	_
+75	;	;	.	.	_	76	punct	_	_
+76	(2)	(2)	X	X	_	18	list	_	_
+77	bearta	beart	NOUN	NOUN	_	76	appos	_	_
 78	maidir_le	maidir_le	ADP	ADP	_	77	case	_	_
 79	teorainneacha	teorainn	NOUN	NOUN	_	84	dobj	_	_
 80	seachtracha	seachtrach	ADJ	ADJ	_	79	amod	_	_
@@ -12878,9 +12878,9 @@
 183	maidir_le	maidir_le	ADP	ADP	_	182	case	_	_
 184	víosa	víosa	NOUN	NOUN	_	183	adpobj	_	_
 185	chomhionanu	chomhionanu	NOUN	NOUN	_	184	compound	_	_
-186	;	;	.	.	_	188	punct	_	_
-187	(3)	(3)	X	X	_	188	nummod	_	_
-188	bearta	beart	NOUN	NOUN	_	39	conj	_	_
+186	;	;	.	.	_	187	punct	_	_
+187	(3)	(3)	X	X	_	18	list	_	_
+188	bearta	beart	NOUN	NOUN	_	187	appos	_	_
 189	ag	ag	ADP	ADP	_	188	xcomp	_	_
 190	leagan	leagan	NOUN	NOUN	_	189	adpobj	_	_
 191	amach	amach	ADV	ADV	_	190	advmod	_	_
@@ -13193,7 +13193,7 @@
 13	sibh	sibh	PRON	PRON	_	11	dobj	_	_
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
 15	a	a	PART	PART	_	16	prt	_	_
-16	mhaca	mhaca	NOUN	NOUN	_	11	nmod	_	_
+16	mhaca	mhaca	NOUN	NOUN	_	11	vocative	_	_
 17	Uisnigh	Uisnigh	NOUN	NOUN	_	16	compound	_	_
 18	,	,	.	.	_	19	punct	_	_
 19	agus	agus	CONJ	CONJ	_	11	cc	_	_
@@ -13563,7 +13563,7 @@
 1	A	a	PART	PART	_	2	prt	_	_
 2	Phádraig	Pádraig	NOUN	NOUN	_	4	compound	_	_
 3	Uí	uí	PRT	PRT	_	4	prt	_	_
-4	Chaiticín	chaiticín	NOUN	NOUN	_	5	nmod	_	_
+4	Chaiticín	chaiticín	NOUN	NOUN	_	5	vocative	_	_
 5	beirim	beir	VERB	VERB	_	0	ROOT	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	sbhae	svae	NOUN	NOUN	_	5	dobj	_	_
@@ -14532,7 +14532,7 @@
 28	seo	seo	PRON	PRON	_	26	det	_	_
 29	anois	anois	ADV	ADV	_	26	advmod	_	_
 30	a	a	PRT	PRT	_	31	prt	_	_
-31	pheaitín	peata	NOUN	NOUN	_	26	nmod	_	_
+31	pheaitín	peata	NOUN	NOUN	_	26	vocative	_	_
 32	bán	bán	ADJ	ADJ	_	31	amod	_	_
 33	mo	mo	DET	DET	_	34	poss	_	_
 34	chroí	croí	NOUN	NOUN	_	31	compound	_	_
@@ -15064,7 +15064,7 @@
 33	líne	líne	NOUN	NOUN	_	31	adpobj	_	_
 34	.	.	.	.	_	8	punct	_	_
 
-1	Leoga	leoga	ITJ	ITJ	_	3	advmod	_	_
+1	Leoga	leoga	ITJ	ITJ	_	3	discourse	_	_
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	tá	bí	VERB	VERB	_	0	ROOT	_	_
 4	aitheantas	aitheantas	NOUN	NOUN	_	3	nsubj	_	_
@@ -15713,7 +15713,7 @@
 
 1	'	'	PUNCT	PUNCT	_	5	punct	_	_
 2	'	'	PUNCT	PUNCT	_	5	punct	_	_
-3	Á	á	ITJ	ITJ	_	5	advmod	_	_
+3	Á	á	ITJ	ITJ	_	5	discourse	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	níl	bí	VERB	VERB	_	0	ROOT	_	_
 6	sé	sé	PRON	PRON	_	5	nsubj	_	_
@@ -16018,7 +16018,7 @@
 6	trup	trup	NOUN	NOUN	_	4	compound	_	_
 7	,	,	PUNCT	PUNCT	_	9	punct	_	_
 8	a	a	PART	PART	_	9	prt	_	_
-9	Chapaillín	capaillín	NOUN	NOUN	_	4	nmod	_	_
+9	Chapaillín	capaillín	NOUN	NOUN	_	4	vocative	_	_
 10	'	'	.	.	_	11	punct	_	_
 11	agus	agus	CONJ	CONJ	_	1	cc	_	_
 12	dhamhsaigh	damhsaigh	VERB	VERB	_	1	conj	_	_
@@ -16108,7 +16108,7 @@
 17	!	!	.	.	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	3	punct	_	_
-2	Ó	ó	ITJ	ITJ	_	3	advmod	_	_
+2	Ó	ó	ITJ	ITJ	_	3	discourse	_	_
 3	glacaim	glac	VERB	VERB	_	7	ccomp	_	_
 4	pardún	pardún	NOUN	NOUN	_	3	nsubj	_	_
 5	agat	ag	ADP	ADP	_	3	case	_	_
@@ -16655,7 +16655,7 @@
 3	Anois	anois	ADV	ADV	_	10	advmod	_	_
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	a	a	PART	PART	_	6	prt	_	_
-6	Pháidín	Páidín	NOUN	NOUN	_	10	nmod	_	_
+6	Pháidín	Páidín	NOUN	NOUN	_	10	vocative	_	_
 7	,	,	.	.	_	10	punct	_	_
 8	'	'	.	.	_	10	punct	_	_
 9	a	a	PRT	PRT	_	10	prt	_	_
@@ -22478,7 +22478,7 @@
 8	na	na	DET	DET	_	9	det	_	_
 9	táillí	táille	NOUN	NOUN	_	7	dobj	_	_
 10	-	-	.	.	_	11	punct	_	_
-11	Fahey	Fahey	NOUN	NOUN	_	7	nmod	_	_
+11	Fahey	Fahey	NOUN	NOUN	_	7	vocative	_	_
 12	Brú	Brú	NOUN	NOUN	_	1	nmod	_	_
 13	Tráchta	trácht	NOUN	NOUN	_	12	compound	_	_
 14	i	i	ADP	ADP	_	12	case	_	_
@@ -22489,7 +22489,7 @@
 2	Ach	ach	CONJ	CONJ	_	7	advmod	_	_
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	a	a	PART	PART	_	5	prt	_	_
-5	Bheartla	Bheartla	NOUN	NOUN	_	7	nmod	_	_
+5	Bheartla	Bheartla	NOUN	NOUN	_	7	vocative	_	_
 6	,	,	.	.	_	7	punct	_	_
 7	ní	is	VERB	VERB	_	0	ROOT	_	_
 8	hí	í	PRON	PRON	_	10	prt	_	_
@@ -22507,7 +22507,7 @@
 20	chéanna	céanna	ADJ	ADJ	_	16	amod	_	_
 21	-	-	.	.	_	16	punct	_	_
 22	a	a	PRT	PRT	_	23	prt	_	_
-23	Shéamais	Shéamais	NOUN	NOUN	_	7	nmod	_	_
+23	Shéamais	Shéamais	NOUN	NOUN	_	7	vocative	_	_
 24	.	.	.	.	_	7	punct	_	_
 
 1	Éileofar	éiligh	VERB	VERB	_	0	ROOT	_	_
@@ -23641,7 +23641,7 @@
 3	anseo	anseo	ADV	ADV	_	2	advmod	_	_
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	a	a	PART	PART	_	6	prt	_	_
-6	dhaoine	duine	NOUN	NOUN	_	2	nmod	_	_
+6	dhaoine	duine	NOUN	NOUN	_	2	vocative	_	_
 7	uaisle	uasal	ADJ	ADJ	_	6	amod	_	_
 8	.	.	.	.	_	2	punct	_	_
 
