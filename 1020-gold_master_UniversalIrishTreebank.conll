@@ -260,7 +260,7 @@
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	Séard	Séard	PROPN	PROPN	_	0	ROOT	_	_
 3	atá	bí	VERB	VERB	_	2	acl:relcl	_	_
-4	De	de	PART	PART	_	5	name	_	_
+4	De	de	PART	PART	_	3	name	_	_
 5	Róiste	Róiste	NOUN	NOUN	_	3	nsubj	_	_
 6	a	a	PRT	PRT	_	3	xcomp	_	_
 7	rá	rá	NOUN	NOUN	_	6	nmod	_	_
@@ -296,7 +296,7 @@
 6	na	na	DET	DET	_	7	det	_	_
 7	Peirse	Peirse	PROPN	PROPN	_	5	compound	_	_
 8	Muireann	Muireann	PROPN	PROPN	_	1	nmod	_	_
-9	Ó	ó	PART	PART	_	10	name	_	_
+9	Ó	ó	PART	PART	_	8	name	_	_
 10	Briain	Briain	PROPN	PROPN	_	8	name	_	_
 11	Cairt	cairt	NOUN	NOUN	_	8	appos	_	_
 12	na	na	DET	DET	_	13	det	_	_
@@ -524,7 +524,7 @@
 26	.	.	.	.	_	1	punct	_	_
 
 1	Anne-Marie	Anne-Marie	PROPN	PROPN	_	0	ROOT	_	_
-2	Nic	nic	PART	PART	_	3	name	_	_
+2	Nic	nic	PART	PART	_	1	name	_	_
 3	Dhonncha	Donncha	PROPN	PROPN	_	1	name	_	_
 4	Bean	Bean	NOUN	NOUN	_	1	appos	_	_
 5	phósta	pósta	ADJ	ADJ	_	4	amod	_	_
@@ -605,7 +605,7 @@
 8	fásta	fásta	ADJ	ADJ	_	7	amod	_	_
 9	gach	gach	DET	DET	_	10	det	_	_
 10	oíche	oíche	NOUN	NOUN	_	2	advmod	_	_
-11	Dé	Dé	NOUN	NOUN	_	12	name	_	_
+11	Dé	Dé	NOUN	NOUN	_	12	compound	_	_
 12	Luain	luain	NOUN	NOUN	_	10	compound	_	_
 13	ag	ag	ADP	ADP	_	2	case	_	_
 14	8.30	8.30	NUM	NUM	_	13	nmod	_	_
@@ -843,7 +843,7 @@
 
 1	Cuireann	cuir	VERB	VERB	_	0	ROOT	_	_
 2	Paul	Paul	PROPN	PROPN	_	1	nsubj	_	_
-3	Ó	ó	PART	PART	_	4	name	_	_
+3	Ó	ó	PART	PART	_	2	name	_	_
 4	Braoin	Braoin	PROPN	PROPN	_	2	name	_	_
 5	as	as	ADP	ADP	_	1	case	_	_
 6	Baile	Baile	NOUN	NOUN	_	5	nmod	_	_
@@ -1507,7 +1507,7 @@
 7	dhéanamh	déanamh	NOUN	NOUN	_	3	nmod	_	_
 8	míníonn	mínigh	VERB	VERB	_	0	ROOT	_	_
 9	Ó	ó	PRT	PRT	_	10	name	_	_
-10	Conaire	Conaire	NOUN	NOUN	_	8	nsubj	_	_
+10	Conaire	Conaire	PROPN	PROPN	_	8	nsubj	_	_
 11	ceann	ceann	NOUN	NOUN	_	8	dobj	_	_
 12	de	de	ADP	ADP	_	11	case	_	_
 13	nósanna	nós	NOUN	NOUN	_	12	nmod	_	_
@@ -1756,10 +1756,10 @@
 8	i	i	ADP	ADP	_	1	case	_	_
 9	nGaoth	gaoth	NOUN	NOUN	_	8	nmod	_	_
 10	Dobhair	dobhar	NOUN	NOUN	_	9	compound	_	_
-11	Dé	Dé	NOUN	NOUN	_	12	name	_	_
+11	Dé	Dé	NOUN	NOUN	_	12	mark:prt	_	_
 12	Sathairn	Satharn	NOUN	NOUN	_	1	advmod	_	_
 13	agus	agus	CONJ	CONJ	_	12	cc	_	_
-14	Dé	Dé	NOUN	NOUN	_	12	name	_	_
+14	Dé	Dé	NOUN	NOUN	_	12	mark:prt	_	_
 15	Domhnaigh	Domhnach	NOUN	NOUN	_	12	conj	_	_
 16	seo	seo	DET	DET	_	12	det	_	_
 17	caite	caite	ADJ	ADJ	_	12	amod	_	_
@@ -1827,26 +1827,26 @@
 11	Cúirteanna	cúirt	NOUN	NOUN	_	8	compound	_	_
 12	bhí	bí	VERB	VERB	_	0	ROOT	_	_
 13	Ó	ó	PRT	PRT	_	14	name	_	_
-14	Conchubhair	Conchubhair	NOUN	NOUN	_	12	nsubj	_	_
+14	Conchubhair	Conchubhair	PROPN	PROPN	_	12	nsubj	_	_
 15	agus	agus	CONJ	CONJ	_	14	cc	_	_
 16	Ó	ó	PRT	PRT	_	17	name	_	_
-17	Maoilíosa	Maoilíosa	NOUN	NOUN	_	14	conj	_	_
+17	Maoilíosa	Maoilíosa	PROPN	PROPN	_	14	conj	_	_
 18	,	,	.	.	_	21	punct	_	_
-19	Earnán	Earnán	NOUN	NOUN	_	21	compound	_	_
-20	Ó	ó	PRT	PRT	_	21	name	_	_
-21	Máille	Máille	NOUN	NOUN	_	14	conj	_	_
+19	Earnán	Earnán	PROPN	PROPN	_	21	compound	_	_
+20	Ó	ó	PRT	PRT	_	19	name	_	_
+21	Máille	Máille	PROPN	PROPN	_	14	conj	_	_
 22	,	,	.	.	_	24	punct	_	_
-23	Seán	Seán	NOUN	NOUN	_	24	compound	_	_
-24	Lemass	Lemass	NOUN	NOUN	_	14	conj	_	_
+23	Seán	Seán	PROPN	PROPN	_	24	compound	_	_
+24	Lemass	Lemass	PROPN	PROPN	_	14	conj	_	_
 25	,	,	.	.	_	28	punct	_	_
-26	Seán	Seán	NOUN	NOUN	_	28	compound	_	_
-27	Mac	mac	PRT	PRT	_	28	name	_	_
-28	Giolla	Giolla	NOUN	NOUN	_	14	conj	_	_
-29	Bhríde	Bríd	NOUN	NOUN	_	28	compound	_	_
+26	Seán	Seán	PROPN	PROPN	_	28	compound	_	_
+27	Mac	mac	PRT	PRT	_	26	name	_	_
+28	Giolla	Giolla	PROPN	PROPN	_	14	conj	_	_
+29	Bhríde	Bríd	PROPN	PROPN	_	28	compound	_	_
 30	agus	agus	CONJ	CONJ	_	14	cc	_	_
-31	Aindrias	aindrias	NOUN	NOUN	_	33	compound	_	_
-32	Mac	mac	PRT	PRT	_	33	name	_	_
-33	Domhnaill	Domhnaill	NOUN	NOUN	_	14	conj	_	_
+31	Aindrias	aindrias	PROPN	PROPN	_	33	compound	_	_
+32	Mac	mac	PRT	PRT	_	31	name	_	_
+33	Domhnaill	Domhnaill	PROPN	PROPN	_	14	conj	_	_
 34	.	.	.	.	_	12	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
@@ -3377,9 +3377,9 @@
 22	,	,	.	.	_	23	punct	_	_
 23	Conraitheoir	conraitheoir	NOUN	NOUN	_	9	conj	_	_
 24	gníomhach	gníomhach	ADJ	ADJ	_	23	amod	_	_
-25	Liam	Liam	NOUN	NOUN	_	27	compound	_	_
-26	Ó	ó	PRT	PRT	_	27	name	_	_
-27	Briain	Briain	NOUN	NOUN	_	23	appos	_	_
+25	Liam	Liam	PROPN	PROPN	_	27	appos	_	_
+26	Ó	ó	PRT	PRT	_	25	name	_	_
+27	Briain	Briain	PROPN	PROPN	_	25	name	_	_
 28	istigh	istigh	ADV	ADV	_	23	advmod	_	_
 29	ina	i	ADP	ADP	_	28	case	_	_
 30	lár	lár	NOUN	NOUN	_	29	nmod	_	_
@@ -4912,9 +4912,9 @@
 17	teach	teach	NOUN	NOUN	_	3	appos	_	_
 18	inar	i	PRT	PRT	_	19	rel	_	_
 19	thug	tabhair	VERB	VERB	_	17	acl:relcl	_	_
-20	Dúbhglas	Dúbhglas	NOUN	NOUN	_	22	compound	_	_
-21	de	de	PRT	PRT	_	22	name	_	_
-22	h-Íde	h-Íde	NOUN	NOUN	_	19	nsubj	_	_
+20	Dúbhglas	Dúbhglas	PROPN	PROPN	_	19	nsubj	_	_
+21	de	de	PRT	PRT	_	20	name	_	_
+22	h-Íde	h-Íde	PROPN	PROPN	_	20	name	_	_
 23	an	an	DET	DET	_	24	det	_	_
 24	chuid	cuid	NOUN	NOUN	_	19	dobj	_	_
 25	ba	is	VERB	VERB	_	24	xcomp	_	_
@@ -5269,7 +5269,7 @@
 5	Gaillimh	Gaillimh	PROPN	PROPN	_	4	nmod	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	maidin	maidin	NOUN	NOUN	_	1	nmod	_	_
-8	Dé	Dé	NOUN	NOUN	_	9	name	_	_
+8	Dé	Dé	NOUN	NOUN	_	9	mark:prt	_	_
 9	Sathairn	Satharn	NOUN	NOUN	_	7	compound	_	_
 10	,	,	PUNCT	PUNCT	_	7	punct	_	_
 11	ceol	ceol	NOUN	NOUN	_	1	nmod	_	_
@@ -6312,9 +6312,9 @@
 
 1	D'	do	PART	PART	_	2	mark:prt	_	_
 2	admhaigh	admhaigh	VERB	VERB	_	0	ROOT	_	_
-3	Piaras	Piaras	NOUN	NOUN	_	5	compound	_	_
-4	Ó	ó	PRT	PRT	_	5	name	_	_
-5	Dochartaigh	Dochartaigh	NOUN	NOUN	_	2	nsubj	_	_
+3	Piaras	Piaras	PROPN	PROPN	_	2	nsubj	_	_
+4	Ó	ó	PRT	PRT	_	3	name	_	_
+5	Dochartaigh	Dochartaigh	PROPN	PROPN	_	3	name	_	_
 6	go	go	PRT	PRT	_	7	mark:prt	_	_
 7	raibh	bí	VERB	VERB	_	2	ccomp	_	_
 8	an	an	DET	DET	_	9	det	_	_
@@ -6725,9 +6725,9 @@
 10	bhí	bí	VERB	VERB	_	7	nsubj	_	_
 11	cónaí	cónaí	NOUN	NOUN	_	10	nsubj	_	_
 12	ar	ar	ADP	ADP	_	10	case	_	_
-13	Cholm	Colm	NOUN	NOUN	_	15	compound	_	_
-14	de	de	PRT	PRT	_	15	name	_	_
-15	Bhailís	bhailís	NOUN	NOUN	_	12	nmod	_	_
+13	Cholm	Colm	PROPN	PROPN	_	12	nmod	_	_
+14	de	de	PRT	PRT	_	13	name	_	_
+15	Bhailís	bhailís	PROPN	PROPN	_	13	name	_	_
 16	.	.	.	.	_	1	punct	_	_
 
 1	Chomh	chomh	ADV	ADV	_	2	advmod	_	_
@@ -7361,9 +7361,9 @@
 11	Concepta	Concepta	NOUN	NOUN	_	8	nsubj	_	_
 12	an	an	DET	DET	_	13	det	_	_
 13	tréadaí	tréadaí	NOUN	NOUN	_	8	dobj	_	_
-14	Eoin	Eoin	NOUN	NOUN	_	16	compound	_	_
-15	Mac	mac	PRT	PRT	_	16	name	_	_
-16	Diarmada	Diarmaid	NOUN	NOUN	_	13	appos	_	_
+14	Eoin	Eoin	PROPN	PROPN	_	13	appos	_	_
+15	Mac	mac	PRT	PRT	_	14	name	_	_
+16	Diarmada	Diarmaid	PROPN	PROPN	_	14	name	_	_
 17	ag	ag	ADP	ADP	_	13	xcomp	_	_
 18	bailiú	bailigh	NOUN	NOUN	_	17	nmod	_	_
 19	leis	le	ADP	ADP	_	18	case	_	_
@@ -7407,8 +7407,8 @@
 1	Foireann	foireann	NOUN	NOUN	_	0	ROOT	_	_
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_
 3	Robert	Robert	PROPN	PROPN	_	1	nmod	_	_
-4	de	de	PART	PART	_	5	name	_	_
-5	Niro	Niro	NOUN	NOUN	_	3	name	_	_
+4	de	de	PART	PART	_	3	name	_	_
+5	Niro	Niro	PROPN	PROPN	_	3	name	_	_
 6	,	,	.	.	_	8	punct	_	_
 7	Kenneth	Kenneth	NOUN	NOUN	_	8	compound	_	_
 8	Branagh	Branagh	NOUN	NOUN	_	1	compound	_	_
@@ -8043,10 +8043,10 @@
 10	a	a	PART	PART	_	11	rel	_	_
 11	leanas	lean	VERB	VERB	_	8	acl:relcl	_	_
 12	ó	ó	ADP	ADP	_	8	case	_	_
-13	Sheán	Seán	NOUN	NOUN	_	16	compound	_	_
-14	Sheáin	Seáin	NOUN	NOUN	_	16	compound	_	_
-15	Í	í	PRON	PRON	_	16	name	_	_
-16	Chearnaigh	Cearnaigh	NOUN	NOUN	_	12	nmod	_	_
+13	Sheán	Seán	PROPN	PROPN	_	12	nmod	_	_
+14	Sheáin	Seáin	PROPN	PROPN	_	13	name	_	_
+15	Í	í	PRON	PRON	_	13	name	_	_
+16	Chearnaigh	Cearnaigh	PROPN	PROPN	_	13	name	_	_
 17	ar	ar	ADP	ADP	_	8	case	_	_
 18	an	an	DET	DET	_	19	det	_	_
 19	ábhar	ábhar	NOUN	NOUN	_	17	nmod	_	_
@@ -8150,11 +8150,11 @@
 10	go	go	PRT	PRT	_	11	mark:prt	_	_
 11	háirithe	áirithe	ADJ	ADJ	_	7	advmod	_	_
 12	do	do	ADP	ADP	_	7	case	_	_
-13	Sheán	Seán	NOUN	NOUN	_	15	compound	_	_
-14	Ó	ó	PRT	PRT	_	15	name	_	_
-15	Gallchóir	Gallchóir	NOUN	NOUN	_	12	nmod	_	_
+13	Sheán	Seán	NOUN	NOUN	_	12	nmod	_	_
+14	Ó	ó	PRT	PRT	_	13	name	_	_
+15	Gallchóir	Gallchóir	NOUN	NOUN	_	13	name	_	_
 16	,	,	.	.	_	17	punct	_	_
-17	Stiúrthóir	stiúrthóir	NOUN	NOUN	_	15	appos	_	_
+17	Stiúrthóir	stiúrthóir	NOUN	NOUN	_	13	appos	_	_
 18	Ginearálta	ginearálta	ADJ	ADJ	_	17	amod	_	_
 19	an	an	DET	DET	_	20	det	_	_
 20	Fhorais	foras	NOUN	NOUN	_	17	compound	_	_
@@ -8227,7 +8227,7 @@
 10	Átha_Cliath	Átha_Cliath	PROPN	PROPN	_	9	compound	_	_
 11	í	í	PRON	PRON	_	12	nmod	_	_
 12	Seosaimhín	Seosaimhín	PROPN	PROPN	_	1	nsubj	_	_
-13	Ní	ní	PART	PART	_	14	name	_	_
+13	Ní	ní	PART	PART	_	12	name	_	_
 14	Bheaglaoich	Beaglaoich	PROPN	PROPN	_	12	name	_	_
 15	a	a	PRT	PRT	_	16	rel	_	_
 16	tógadh	tóg	VERB	VERB	_	12	acl:relcl	_	_
@@ -8922,7 +8922,7 @@
 7	háite	áit	NOUN	NOUN	_	4	nmod	_	_
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	Pádraic	Pádraic	PROPN	PROPN	_	2	appos	_	_
-10	Ua	Ua	PROPN	PROPN	_	11	name	_	_
+10	Ua	Ua	PROPN	PROPN	_	9	name	_	_
 11	Dubhthaigh	Dubhthaigh	PROPN	PROPN	_	9	name	_	_
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	go	go	PART	PART	_	14	mark:prt	_	_
@@ -9279,7 +9279,7 @@
 6	léiriú	léiriú	NOUN	NOUN	_	5	dobj	_	_
 7	ar	ar	ADP	ADP	_	5	case	_	_
 8	Shiobhán	Siobhán	PROPN	PROPN	_	7	nmod	_	_
-9	O'	o	PART	PART	_	10	name	_	_
+9	O'	o	PART	PART	_	8	name	_	_
 10	Keefe	Keefe	NOUN	NOUN	_	8	name	_	_
 11	,	,	.	.	_	13	punct	_	_
 12	an	an	DET	DET	_	13	det	_	_
@@ -9683,9 +9683,9 @@
 13	a	a	DET	DET	_	14	nmod:poss	_	_
 14	pósta	pósadh	NOUN	NOUN	_	12	nmod	_	_
 15	ar	ar	ADP	ADP	_	14	case	_	_
-16	Thomás	Tomás	PROPN	PROPN	_	18	compound	_	_
-17	Ó	ó	PART	PART	_	18	name	_	_
-18	Maoileoin	Maoileoin	NOUN	NOUN	_	15	nmod	_	_
+16	Thomás	Tomás	PROPN	PROPN	_	15	nmod	_	_
+17	Ó	ó	PART	PART	_	16	name	_	_
+18	Maoileoin	Maoileoin	NOUN	NOUN	_	16	name	_	_
 19	sa	i	ADP	ADP	_	14	case	_	_
 20	Dún	dún	NOUN	NOUN	_	19	nmod	_	_
 21	Mór	Mór	NOUN	NOUN	_	20	compound	_	_
@@ -10338,8 +10338,8 @@
 10	ach	ach	CONJ	CONJ	_	11	mark	_	_
 11	bíonn	bí	VERB	VERB	_	2	advcl	_	_
 12	Clann	clann	NOUN	NOUN	_	11	nsubj	_	_
-13	Mc	mac	PRT	PRT	_	14	name	_	_
-14	Ewen	Ewen	NOUN	NOUN	_	12	compound	_	_
+13	Mc	mac	PRT	PRT	_	12	name	_	_
+14	Ewen	Ewen	NOUN	NOUN	_	12	name	_	_
 15	ag	ag	ADP	ADP	_	11	xcomp	_	_
 16	déanamh	déanamh	NOUN	NOUN	_	15	nmod	_	_
 17	fógraíochta	fógraíocht	NOUN	NOUN	_	16	dobj	_	_
@@ -10360,7 +10360,7 @@
 5	ab	is	VERB	VERB	_	0	ROOT	_	_
 6	ea	ea	PRON	PRON	_	7	nmod	_	_
 7	Dónall	Dónall	PROPN	PROPN	_	5	nsubj	_	_
-8	Ó	ó	PART	PART	_	9	name	_	_
+8	Ó	ó	PART	PART	_	7	name	_	_
 9	Muláin	Muláin	PROPN	PROPN	_	7	name	_	_
 10	,	,	.	.	_	11	punct	_	_
 11	údar	údar	NOUN	NOUN	_	7	appos	_	_
@@ -10460,9 +10460,9 @@
 2	a	a	PART	PART	_	3	mark:prt	_	_
 3	tchítear	tchí	VERB	VERB	_	9	advcl	_	_
 4	do	do	ADP	ADP	_	3	case	_	_
-5	Sheosamh	Seosamh	NOUN	NOUN	_	7	compound	_	_
-6	Mac	mac	PRT	PRT	_	7	name	_	_
-7	Grianna	Grianna	NOUN	NOUN	_	4	nmod	_	_
+5	Sheosamh	Seosamh	NOUN	NOUN	_	4	nmod	_	_
+6	Mac	mac	PRT	PRT	_	5	name	_	_
+7	Grianna	Grianna	NOUN	NOUN	_	5	name	_	_
 8	é	é	PRON	PRON	_	3	dobj	_	_
 9	caithfidh	caith	VERB	VERB	_	0	ROOT	_	_
 10	an	an	DET	DET	_	11	det	_	_
@@ -10654,9 +10654,9 @@
 
 1	Grianghraif	grianghraf	NOUN	NOUN	_	0	ROOT	_	_
 2	le	le	ADP	ADP	_	1	case	_	_
-3	Maidhc	Maidhc	PROPN	PROPN	_	5	compound	_	_
-4	Ó	ó	PART	PART	_	5	name	_	_
-5	Seachnasaí	seachnasaí	NOUN	NOUN	_	2	nmod	_	_
+3	Maidhc	Maidhc	PROPN	PROPN	_	2	nmod	_	_
+4	Ó	ó	PART	PART	_	3	name	_	_
+5	Seachnasaí	seachnasaí	NOUN	NOUN	_	3	name	_	_
 6	.	.	.	.	_	1	punct	_	_
 
 1	Is	is	VERB	VERB	_	0	ROOT	_	_
@@ -10825,7 +10825,7 @@
 30	Leabhair	leabhar	NOUN	NOUN	_	28	compound	_	_
 31	úd	úd	DET	DET	_	32	det	_	_
 32	Pádraig	Pádraig	PROPN	PROPN	_	28	compound	_	_
-33	Ó	ó	PART	PART	_	34	name	_	_
+33	Ó	ó	PART	PART	_	32	name	_	_
 34	Fiannachta	Fiannachta	NOUN	NOUN	_	32	name	_	_
 35	atá	bí	VERB	VERB	_	26	nsubj	_	_
 36	faoi	faoi	ADP	ADP	_	35	xcomp:pred	_	_
@@ -11265,7 +11265,7 @@
 4	máthar	máthair	NOUN	NOUN	_	2	compound	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	Bean	Bean	PROPN	PROPN	_	2	appos	_	_
-7	Uí	uí	PART	PART	_	8	name	_	_
+7	Uí	uí	PART	PART	_	6	name	_	_
 8	Eidhin	Eidhin	NOUN	NOUN	_	6	name	_	_
 9	,	,	.	.	_	10	punct	_	_
 10	as	as	ADP	ADP	_	2	case	_	_
@@ -11304,9 +11304,9 @@
 4	sé	sé	PRON	PRON	_	3	nsubj	_	_
 5	aithne	aithne	NOUN	NOUN	_	3	dobj	_	_
 6	ar	ar	ADP	ADP	_	3	case	_	_
-7	Bhreandán	Breandán	NOUN	NOUN	_	9	compound	_	_
-8	Ó	ó	PRT	PRT	_	9	name	_	_
-9	hEithir	heithir	NOUN	NOUN	_	6	nmod	_	_
+7	Bhreandán	Breandán	NOUN	NOUN	_	6	nmod	_	_
+8	Ó	ó	PRT	PRT	_	7	name	_	_
+9	hEithir	heithir	NOUN	NOUN	_	7	name	_	_
 10	ní	ní	PRT	PRT	_	11	neg	_	_
 11	raibh	bí	VERB	VERB	_	0	ROOT	_	_
 12	aon	aon	DET	DET	_	13	det	_	_
@@ -11474,7 +11474,7 @@
 
 1	Bhíodh	bí	VERB	VERB	_	0	ROOT	_	_
 2	Conall	Conall	PROPN	PROPN	_	1	nsubj	_	_
-3	Ó	ó	PART	PART	_	4	name	_	_
+3	Ó	ó	PART	PART	_	2	name	_	_
 4	Dochartaigh	Dochartaigh	NOUN	NOUN	_	2	name	_	_
 5	ag	ag	ADP	ADP	_	1	xcomp	_	_
 6	airneál	airneál	NOUN	NOUN	_	5	nmod	_	_
@@ -11559,9 +11559,9 @@
 4	a	a	PART	PART	_	5	rel	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	ag	ag	ADP	ADP	_	5	case	_	_
-7	Seosamh	Seosamh	NOUN	NOUN	_	9	compound	_	_
-8	Ó	ó	PRT	PRT	_	9	name	_	_
-9	Cearbhaill	Cearbhaill	NOUN	NOUN	_	6	nmod	_	_
+7	Seosamh	Seosamh	PROPN	PROPN	_	6	nmod	_	_
+8	Ó	ó	PRT	PRT	_	7	name	_	_
+9	Cearbhaill	Cearbhaill	PROPN	PROPN	_	7	name	_	_
 10	di	do	ADP	ADP	_	3	case	_	_
 11	gruaim	gruaim	NOUN	NOUN	_	1	dobj	_	_
 12	agus	agus	CONJ	CONJ	_	11	cc	_	_
@@ -12113,7 +12113,7 @@
 1	Ba	is	VERB	VERB	_	0	ROOT	_	_
 2	í	í	PRON	PRON	_	3	nmod	_	_
 3	Dearbhla	Dearbhla	PROPN	PROPN	_	1	xcomp:pred	_	_
-4	Ní	is	VERB	VERB	_	5	name	_	_
+4	Ní	is	VERB	VERB	_	3	name	_	_
 5	Bhrolacháin	bhrolachán	NOUN	NOUN	_	3	name	_	_
 6	a	a	PART	PART	_	7	mark:prt	_	_
 7	léirigh	léirigh	VERB	VERB	_	1	nsubj	_	_
@@ -13561,9 +13561,9 @@
 20	.	.	.	.	_	2	punct	_	_
 
 1	A	a	PART	PART	_	2	case:voc	_	_
-2	Phádraig	Pádraig	NOUN	NOUN	_	4	compound	_	_
-3	Uí	uí	PRT	PRT	_	4	name	_	_
-4	Chaiticín	chaiticín	NOUN	NOUN	_	5	vocative	_	_
+2	Phádraig	Pádraig	NOUN	NOUN	_	5	vocative	_	_
+3	Uí	uí	PRT	PRT	_	2	name	_	_
+4	Chaiticín	chaiticín	NOUN	NOUN	_	2	name	_	_
 5	beirim	beir	VERB	VERB	_	0	ROOT	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	sbhae	svae	NOUN	NOUN	_	5	dobj	_	_
@@ -13801,7 +13801,7 @@
 21	sé	sé	PRON	PRON	_	20	nsubj	_	_
 22	sásta	sásta	ADJ	ADJ	_	20	xcomp:pred	_	_
 23	seo	seo	PRON	PRON	_	25	dobj	_	_
-24	a	a	PRT	PRT	_	25	name	_	_
+24	a	a	PRT	PRT	_	25	aux	_	_
 25	dhéanamh	déanamh	NOUN	NOUN	_	20	xcomp	_	_
 26	agus	agus	CONJ	CONJ	_	20	cc	_	_
 27	fuair	faigh	VERB	VERB	_	20	conj	_	_
@@ -13929,9 +13929,9 @@
 1	Dar	dar	VERB	VERB	_	0	ROOT	_	_
 2	leis	le	ADP	ADP	_	1	case	_	_
 3	an	an	DET	DET	_	4	det	_	_
-4	Uasal	uasal	NOUN	NOUN	_	6	compound	_	_
-5	Ó	ó	PART	PART	_	6	name	_	_
-6	Murchú	Murchú	NOUN	NOUN	_	2	nmod	_	_
+4	Uasal	uasal	NOUN	NOUN	_	2	nmod	_	_
+5	Ó	ó	PART	PART	_	4	name	_	_
+6	Murchú	Murchú	NOUN	NOUN	_	4	name	_	_
 7	,	,	.	.	_	8	punct	_	_
 8	chuir	cuir	VERB	VERB	_	1	ccomp	_	_
 9	an	an	DET	DET	_	10	det	_	_
@@ -14283,7 +14283,7 @@
 13	Daly	Daly	PROPN	PROPN	_	12	name	_	_
 14	,	,	.	.	_	15	punct	_	_
 15	Máire	Máire	PROPN	PROPN	_	9	conj	_	_
-16	O	o	PRT	PRT	_	17	name	_	_
+16	O	o	PRT	PRT	_	15	name	_	_
 17	Keefe	Keefe	PROPN	PROPN	_	15	name	_	_
 18	,	,	.	.	_	19	punct	_	_
 19	Séamus	Séamus	PROPN	PROPN	_	9	conj	_	_
@@ -14293,7 +14293,7 @@
 23	Linnane	Linnane	PROPN	PROPN	_	22	name	_	_
 24	,	,	.	.	_	25	punct	_	_
 25	Breándán	breándán	PROPN	PROPN	_	9	conj	_	_
-26	Ó	ó	PRT	PRT	_	27	name	_	_
+26	Ó	ó	PRT	PRT	_	25	name	_	_
 27	Beaglaoich	Beaglaoich	PROPN	PROPN	_	25	name	_	_
 28	,	,	.	.	_	29	punct	_	_
 29	Denis	Denis	PROPN	PROPN	_	9	conj	_	_
@@ -14314,9 +14314,9 @@
 8	an	an	DET	DET	_	9	det	_	_
 9	tAire	aire	NOUN	NOUN	_	7	nsubj	_	_
 10	Sláinte	sláinte	NOUN	NOUN	_	9	compound	_	_
-11	Bairbre	Bairbre	NOUN	NOUN	_	13	compound	_	_
-12	de	de	PRT	PRT	_	13	name	_	_
-13	Brún	Brún	NOUN	NOUN	_	9	appos	_	_
+11	Bairbre	Bairbre	NOUN	NOUN	_	9	appos	_	_
+12	de	de	PRT	PRT	_	11	name	_	_
+13	Brún	Brún	NOUN	NOUN	_	11	name	_	_
 14	chun	chun	ADP	ADP	_	7	case	_	_
 15	tosaigh	tosach	NOUN	NOUN	_	14	nmod	_	_
 16	le	le	ADP	ADP	_	7	xcomp	_	_
@@ -14648,7 +14648,7 @@
 6	tábhairne	tábhairne	NOUN	NOUN	_	5	nmod	_	_
 7	,	,	PUNCT	PUNCT	_	9	punct	_	_
 8	O'	O'	PART	PART	_	9	name	_	_
-9	Shea's	Shea's	NOUN	NOUN	_	6	appos	_	_
+9	Shea's	Shea's	PROPN	PROPN	_	6	appos	_	_
 10	i	i	ADP	ADP	_	9	case	_	_
 11	nDomhnach	Domhnach	NOUN	NOUN	_	10	nmod	_	_
 12	Broc	Broc	NOUN	NOUN	_	11	compound	_	_
@@ -14852,7 +14852,7 @@
 22	Dobhair	dobhar	NOUN	NOUN	_	21	compound	_	_
 23	,	,	.	.	_	24	punct	_	_
 24	tráthnóna	tráthnóna	NOUN	NOUN	_	10	nmod	_	_
-25	Dé	Dé	NOUN	NOUN	_	26	name	_	_
+25	Dé	Dé	NOUN	NOUN	_	26	mark:prt	_	_
 26	Sathairn	Satharn	NOUN	NOUN	_	24	compound	_	_
 27	,	,	.	.	_	28	punct	_	_
 28	ar	ar	ADP	ADP	_	10	case	_	_
@@ -14982,9 +14982,9 @@
 7	lárnach	lárnach	ADJ	ADJ	_	6	amod	_	_
 8	sin	sin	DET	DET	_	6	det	_	_
 9	ón	ó	ADP	ADP	_	6	case	_	_
-10	Ollamh	ollamh	NOUN	NOUN	_	12	compound	_	_
-11	Ó	ó	PART	PART	_	12	name	_	_
-12	Néill	Néill	NOUN	NOUN	_	9	nmod	_	_
+10	Ollamh	ollamh	NOUN	NOUN	_	9	nmod	_	_
+11	Ó	ó	PART	PART	_	10	name	_	_
+12	Néill	Néill	NOUN	NOUN	_	10	name	_	_
 13	,	,	.	.	_	14	punct	_	_
 14	chualathas	clois	VERB	VERB	_	1	ccomp	_	_
 15	sainléacht	léacht	NOUN	NOUN	_	14	dobj	_	_
@@ -15044,9 +15044,9 @@
 13	thugadh	tabhair	VERB	VERB	_	11	acl:relcl	_	_
 14	sé	sé	PRON	PRON	_	13	nsubj	_	_
 15	d'	do	ADP	ADP	_	13	case	_	_
-16	Iníon	iníon	NOUN	NOUN	_	18	compound	_	_
-17	Nic	nic	PRT	PRT	_	18	name	_	_
-18	Suibhne	Suibhne	NOUN	NOUN	_	15	nmod	_	_
+16	Iníon	iníon	NOUN	NOUN	_	15	nmod	_	_
+17	Nic	nic	PRT	PRT	_	16	name	_	_
+18	Suibhne	Suibhne	NOUN	NOUN	_	16	name	_	_
 19	le	le	ADP	ADP	_	13	case	_	_
 20	traenáil	traenáil	NOUN	NOUN	_	19	nmod	_	_
 21	an	an	DET	DET	_	22	det	_	_
@@ -16163,7 +16163,7 @@
 7	Cinn	ceann	NOUN	NOUN	_	6	compound	_	_
 8	ar	ar	ADP	ADP	_	7	case	_	_
 9	Phádraig	Pádraig	PROPN	PROPN	_	8	nmod	_	_
-10	Ó	ó	PART	PART	_	11	name	_	_
+10	Ó	ó	PART	PART	_	9	name	_	_
 11	hIceadha	hiceadha	PROPN	PROPN	_	9	name	_	_
 12	Foilsithe	foilsithe	ADJ	ADJ	_	6	xcomp:pred	_	_
 13	ag	ag	ADP	ADP	_	12	case	_	_
@@ -16187,9 +16187,9 @@
 31	cuimhneacháin	cuimhneachán	NOUN	NOUN	_	30	compound	_	_
 32	seo	seo	DET	DET	_	30	det	_	_
 33	ar	ar	ADP	ADP	_	30	case	_	_
-34	Phádraig	Pádraig	NOUN	NOUN	_	36	compound	_	_
-35	Ó	ó	PRT	PRT	_	36	name	_	_
-36	hIceadha	hiceadha	NOUN	NOUN	_	33	nmod	_	_
+34	Phádraig	Pádraig	PROPN	PROPN	_	33	nmod	_	_
+35	Ó	ó	PRT	PRT	_	34	name	_	_
+36	hIceadha	hiceadha	PROPN	PROPN	_	34	name	_	_
 37	i	i	ADP	ADP	_	28	case	_	_
 38	dtoll	toll	NOUN	NOUN	_	37	nmod	_	_
 39	a	a	DET	DET	_	40	nmod:poss	_	_
@@ -16387,8 +16387,8 @@
 1	Pléann	pléigh	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	t-ollamh	ollamh	NOUN	NOUN	_	1	nsubj	_	_
-4	Mac	mac	PART	PART	_	5	name	_	_
-5	Craith	Craith	NOUN	NOUN	_	3	compound	_	_
+4	Mac	mac	PART	PART	_	3	name	_	_
+5	Craith	Craith	NOUN	NOUN	_	3	name	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	dóigh	dóigh	NOUN	NOUN	_	1	dobj	_	_
 8	ar	ar	PRT	PRT	_	9	mark:prt	_	_
@@ -16799,8 +16799,8 @@
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	agus	agus	CONJ	CONJ	_	7	cc	_	_
 13	Liz	Liz	PROPN	PROPN	_	7	conj	_	_
-14	O'	o'	PART	PART	_	15	name	_	_
-15	Donnell	Donnell	NOUN	NOUN	_	12	name	_	_
+14	O'	o'	PART	PART	_	13	name	_	_
+15	Donnell	Donnell	PROPN	PROPN	_	13	name	_	_
 16	.	.	.	.	_	1	punct	_	_
 
 1	Dá	dá	SCONJ	SCONJ	_	0	ROOT	_	_
@@ -17416,9 +17416,9 @@
 22	Chormaic	Cormac	NOUN	NOUN	_	20	conj	_	_
 23	,	,	.	.	_	24	punct	_	_
 24	Éire	Éire	NOUN	NOUN	_	19	appos	_	_
-25	Choinn	Conn	NOUN	NOUN	_	27	compound	_	_
-26	Uí	uí	PRT	PRT	_	27	name	_	_
-27	Néill	Néill	NOUN	NOUN	_	24	compound	_	_
+25	Choinn	Conn	NOUN	NOUN	_	24	compound	_	_
+26	Uí	uí	PRT	PRT	_	25	name	_	_
+27	Néill	Néill	NOUN	NOUN	_	25	name	_	_
 28	?	?	.	.	_	6	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
@@ -17995,9 +17995,9 @@
 1	Rinneadh	déan	VERB	VERB	_	0	ROOT	_	_
 2	ball	ball	NOUN	NOUN	_	1	dobj	_	_
 3	de	de	ADP	ADP	_	2	case	_	_
-4	de	de	PART	PART	_	6	name	_	_
-5	Rafiq	Rafiq	NOUN	NOUN	_	6	compound	_	_
-6	Mottiar	Mottiar	NOUN	NOUN	_	3	nmod	_	_
+4	de	de	PART	PART	_	5	name	_	_
+5	Rafiq	Rafiq	NOUN	NOUN	_	3	nmod	_	_
+6	Mottiar	Mottiar	NOUN	NOUN	_	5	name	_	_
 7	sa	i	ADP	ADP	_	1	case	_	_
 8	bhliain	bliain	NOUN	NOUN	_	7	nmod	_	_
 9	1965	1965	NUM	NUM	_	8	nummod	_	_
@@ -18674,10 +18674,10 @@
 4	sin	sin	PRON	PRON	_	3	nmod	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	bhronn	bronn	VERB	VERB	_	0	ROOT	_	_
-7	Teaghlach	teaghlach	NOUN	NOUN	_	9	compound	_	_
-8	Uí	uí	PART	PART	_	9	name	_	_
-9	Ghallchóir	Gallchóir	NOUN	NOUN	_	6	nsubj	_	_
-10	as	as	ADP	ADP	_	9	case	_	_
+7	Teaghlach	teaghlach	NOUN	NOUN	_	6	nsubj	_	_
+8	Uí	uí	PART	PART	_	7	name	_	_
+9	Ghallchóir	Gallchóir	NOUN	NOUN	_	7	name	_	_
+10	as	as	ADP	ADP	_	7	case	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	Bhun	bun	NOUN	NOUN	_	10	nmod	_	_
 13	Bheag	beag	ADJ	ADJ	_	12	amod	_	_
@@ -18979,9 +18979,9 @@
 52	as	as	ADP	ADP	_	51	case	_	_
 53	oifig	oifig	NOUN	NOUN	_	52	nmod	_	_
 54	an	an	DET	DET	_	55	det	_	_
-55	Aire	aire	NOUN	NOUN	_	57	compound	_	_
-56	de	de	PRT	PRT	_	57	name	_	_
-57	Valera	Valera	NOUN	NOUN	_	53	compound	_	_
+55	Aire	aire	NOUN	NOUN	_	53	compound	_	_
+56	de	de	PRT	PRT	_	55	name	_	_
+57	Valera	Valera	NOUN	NOUN	_	55	name	_	_
 58	,	,	.	.	_	59	punct	_	_
 59	deirtear	abair	VERB	VERB	_	46	parataxis	_	_
 60	linn	le	ADP	ADP	_	59	case	_	_
@@ -19209,7 +19209,7 @@
 1	Lean	Lean	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	Iníon	iníon	NOUN	NOUN	_	1	nsubj	_	_
-4	de	de	PART	PART	_	5	name	_	_
+4	de	de	PART	PART	_	3	name	_	_
 5	Brún	Brún	NOUN	NOUN	_	3	compound	_	_
 6	uirthi	ar	ADP	ADP	_	1	case	_	_
 7	le	le	ADP	ADP	_	1	xcomp	_	_
@@ -19756,7 +19756,7 @@
 34	air	ar	ADP	ADP	_	31	case	_	_
 35	inniu	inniu	ADV	ADV	_	31	advmod	_	_
 36	,	,	.	.	_	37	punct	_	_
-37	Dé	Dé	NOUN	NOUN	_	38	name	_	_
+37	Dé	Dé	NOUN	NOUN	_	38	mark:prt	_	_
 38	Luain	Luan	NOUN	NOUN	_	35	nmod	_	_
 39	,	,	.	.	_	40	punct	_	_
 40	ionas	ionas	NOUN	NOUN	_	42	mark	_	_
@@ -19963,7 +19963,7 @@
 
 1	Le	le	ADP	ADP	_	0	ROOT	_	_
 2	Concubhar	Concubhar	PROPN	PROPN	_	1	nmod	_	_
-3	Ó	ó	PART	PART	_	4	name	_	_
+3	Ó	ó	PART	PART	_	2	name	_	_
 4	Liatháin	Liatháin	NOUN	NOUN	_	2	name	_	_
 5	.	.	.	.	_	1	punct	_	_
 
@@ -20644,7 +20644,7 @@
 41	an	an	DET	DET	_	42	det	_	_
 42	Dr.	Dochtúir	X	X	_	43	mark:prt	_	_
 43	Caoilfhionn	Caoilfhionn	PROPN	PROPN	_	40	nsubj	_	_
-44	Nic	nic	PRT	PRT	_	45	name	_	_
+44	Nic	nic	PRT	PRT	_	43	name	_	_
 45	Pháidín	Páidín	PROPN	PROPN	_	43	name	_	_
 46	,	,	.	.	_	47	punct	_	_
 47	Stiúrthóir	stiúrthóir	NOUN	NOUN	_	43	nmod	_	_
@@ -22093,7 +22093,7 @@
 18	a	a	PRT	PRT	_	19	rel	_	_
 19	bhaist	baist	VERB	VERB	_	17	acl:relcl	_	_
 20	Ó	ó	PRT	PRT	_	21	name	_	_
-21	Ríordáin	Ríordáin	NOUN	NOUN	_	19	nsubj	_	_
+21	Ríordáin	Ríordáin	PROPN	PROPN	_	19	nsubj	_	_
 22	air	ar	ADP	ADP	_	19	case	_	_
 23	,	,	.	.	_	24	punct	_	_
 24	Raidhse	raidhse	NOUN	NOUN	_	17	appos	_	_
@@ -22295,9 +22295,9 @@
 10	a	a	PART	PART	_	11	rel	_	_
 11	raibh	bí	VERB	VERB	_	9	acl:relcl	_	_
 12	athair	athair	NOUN	NOUN	_	11	nsubj	_	_
-13	Dhúbhglais	Dhúbhglais	NOUN	NOUN	_	15	compound	_	_
-14	de	de	ADP	ADP	_	15	name	_	_
-15	h-Íde	Íde	NOUN	NOUN	_	12	compound	_	_
+13	Dhúbhglais	Dhúbhglais	PROPN	PROPN	_	12	compound	_	_
+14	de	de	ADP	ADP	_	13	name	_	_
+15	h-Íde	Íde	PROPN	PROPN	_	13	name	_	_
 16	ina	i	ADP	ADP	_	11	xcomp:pred	_	_
 17	mhinistéir	mhinistéir	NOUN	NOUN	_	16	nmod	_	_
 18	inti	i	ADP	ADP	_	17	case	_	_
@@ -22471,7 +22471,7 @@
 1	Faisean	faisean	NOUN	NOUN	_	0	ROOT	_	_
 2	le	le	ADP	ADP	_	1	case	_	_
 3	Úna	Úna	PROPN	PROPN	_	2	nmod	_	_
-4	Ní	ní	PART	PART	_	5	name	_	_
+4	Ní	ní	PART	PART	_	3	name	_	_
 5	Bhrannagáin	Bhrannagáin	NOUN	NOUN	_	3	name	_	_
 6	Ná	ná	PRT	PRT	_	7	mark:prt	_	_
 7	híocaigí	híoc	VERB	VERB	_	1	ccomp	_	_
@@ -22782,13 +22782,13 @@
 9	an	an	DET	DET	_	10	det	_	_
 10	nGinearál	ginearál	NOUN	NOUN	_	8	nmod	_	_
 11	Seán	Seán	PROPN	PROPN	_	10	compound	_	_
-12	Mac	mac	PART	PART	_	13	name	_	_
+12	Mac	mac	PART	PART	_	11	name	_	_
 13	Eoin	Eoin	PROPN	PROPN	_	11	name	_	_
 14	agus	agus	CONJ	CONJ	_	10	cc	_	_
 15	an	an	DET	DET	_	16	det	_	_
 16	Ginearál	ginearál	NOUN	NOUN	_	10	conj	_	_
 17	Risteárd	Risteárd	PROPN	PROPN	_	16	compound	_	_
-18	Ó	ó	PRT	PRT	_	19	name	_	_
+18	Ó	ó	PRT	PRT	_	17	name	_	_
 19	Maolchatha	Maolchatha	PROPN	PROPN	_	17	name	_	_
 20	,	,	.	.	_	21	punct	_	_
 21	iar-ardshaighdiúirí	iar-ardshaighdiúirí	NOUN	NOUN	_	16	appos	_	_
@@ -23243,11 +23243,11 @@
 6	fhéidir	féidir	NOUN	NOUN	_	5	xcomp:pred	_	_
 7	go	go	PART	PART	_	8	mark:prt	_	_
 8	dtiocfadh	tar	VERB	VERB	_	5	csubj:cop	_	_
-9	Pat	Pat	NOUN	NOUN	_	13	compound	_	_
+9	Pat	Pat	NOUN	NOUN	_	8	nsubj	_	_
 10	An	an	DET	DET	_	11	det	_	_
-11	Cóp	Cóp	NOUN	NOUN	_	13	compound	_	_
-12	Ó	ó	PRT	PRT	_	13	name	_	_
-13	Gallchóir	Gallchóir	NOUN	NOUN	_	8	nsubj	_	_
+11	Cóp	Cóp	NOUN	NOUN	_	8	compound	_	_
+12	Ó	ó	PRT	PRT	_	8	name	_	_
+13	Gallchóir	Gallchóir	NOUN	NOUN	_	8	name	_	_
 14	ar_ais	ar_ais	ADV	ADV	_	8	advmod	_	_
 15	ón	ó	ADP	ADP	_	8	case	_	_
 16	Eoraip	Eoraip	NOUN	NOUN	_	15	nmod	_	_
@@ -23450,7 +23450,7 @@
 3	suimiúila	suimiúil	ADJ	ADJ	_	2	amod	_	_
 4	déanann	déan	VERB	VERB	_	0	ROOT	_	_
 5	P.	P.	X	X	_	4	nsubj	_	_
-6	Ó	ó	PART	PART	_	7	name	_	_
+6	Ó	ó	PART	PART	_	5	name	_	_
 7	Síocháin	Síocháin	PROPN	PROPN	_	5	name	_	_
 8	comparáid	comparáid	NOUN	NOUN	_	4	dobj	_	_
 9	idir	idir	ADP	ADP	_	4	case	_	_
@@ -24044,11 +24044,11 @@
 
 1	Phós	pós	VERB	VERB	_	0	ROOT	_	_
 2	Siobhán	Siobhán	PROPN	PROPN	_	1	nsubj	_	_
-3	Ní	ní	PART	PART	_	4	name	_	_
+3	Ní	ní	PART	PART	_	2	name	_	_
 4	Bhrádaigh	Brádaigh	PROPN	PROPN	_	2	name	_	_
 5	agus	agus	CONJ	CONJ	_	2	cc	_	_
 6	Setanta	Setanta	PROPN	PROPN	_	2	conj	_	_
-7	Ó	ó	PRT	PRT	_	8	name	_	_
+7	Ó	ó	PRT	PRT	_	6	name	_	_
 8	Dochartaigh	Dochartaigh	PROPN	PROPN	_	6	name	_	_
 9	ar	ar	ADP	ADP	_	1	case	_	_
 10	an	an	DET	DET	_	12	det	_	_
