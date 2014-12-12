@@ -30,7 +30,7 @@
 19	an	an	DET	DET	_	20	det	_	_
 20	rud	rud	NOUN	NOUN	_	17	xcomp:pred	_	_
 21	deireanach	deireanach	ADJ	ADJ	_	20	amod	_	_
-22	a	a	PART	PART	_	23	rel	_	_
+22	a	a	PART	PART	_	23	dobj	_	_
 23	tharraing	tarraing	VERB	VERB	_	20	acl:relcl	_	_
 24	sé	sé	PRON	PRON	_	23	nsubj	_	_
 25	amach	amach	ADV	ADV	_	23	advmod	_	_
@@ -38,7 +38,7 @@
 27	staic	staic	NOUN	NOUN	_	17	nsubj	_	_
 28	chruinn	cruinn	ADJ	ADJ	_	27	amod	_	_
 29	adhmaid	adhmad	NOUN	NOUN	_	27	compound	_	_
-30	a	a	PART	PART	_	31	rel	_	_
+30	a	a	PART	PART	_	31	nsubj	_	_
 31	bhí	bí	VERB	VERB	_	27	acl:relcl	_	_
 32	idir	idir	ADP	ADP	_	31	xcomp:pred	_	_
 33	dhá	dó	NUM	NUM	_	34	nummod	_	_
@@ -62,7 +62,7 @@
 2	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	tOrdú	ordú	NOUN	NOUN	_	2	nsubj	_	_
-5	dá	dá	SCONJ	SCONJ	_	6	rel	_	_
+5	dá	dá	SCONJ	SCONJ	_	6	dobj	_	_
 6	dtagraítear	tagair	VERB	VERB	_	4	acl:relcl	_	_
 7	thuas	thuas	ADV	ADV	_	6	advmod	_	_
 8	déanta	déanta	ADJ	ADJ	_	4	amod	_	_
@@ -84,7 +84,7 @@
 24	bhfeidhmiú	feidhmiú	NOUN	NOUN	_	23	nmod	_	_
 25	na	na	DET	DET	_	26	det	_	_
 26	gcumhachtaí	cumhacht	NOUN	NOUN	_	24	dobj	_	_
-27	a	a	PART	PART	_	28	rel	_	_
+27	a	a	PART	PART	_	28	dobj	_	_
 28	dtugtar	tabhair	VERB	VERB	_	24	acl:relcl	_	_
 29	dó	do	ADP	ADP	_	28	case	_	_
 30	faoi	faoi	ADP	ADP	_	28	case	_	_
@@ -346,7 +346,7 @@
 1	Ar	ar	ADP	ADP	_	8	case	_	_
 2	na	na	DET	DET	_	3	det	_	_
 3	rudaí	rud	NOUN	NOUN	_	1	nmod	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	ar	ar	ADP	ADP	_	5	case	_	_
 7	ceant	ceant	NOUN	NOUN	_	6	nmod	_	_
@@ -437,7 +437,7 @@
 16	an	an	DET	DET	_	17	det	_	_
 17	tslí	slí	NOUN	NOUN	_	14	conj	_	_
 18	shotalach	sotalach	ADJ	ADJ	_	17	amod	_	_
-19	ar	ar	PART	PART	_	20	rel	_	_
+19	ar	ar	PART	PART	_	20	dobj	_	_
 20	chaith	caith	VERB	VERB	_	17	acl:relcl	_	_
 21	na	na	DET	DET	_	22	det	_	_
 22	páirtithe	páirtí	NOUN	NOUN	_	20	nsubj	_	_
@@ -513,7 +513,7 @@
 15	dhaltaí	dalta	NOUN	NOUN	_	9	dobj	_	_
 16	na	na	DET	DET	_	17	det	_	_
 17	Gaeltachta	gaeltacht	NOUN	NOUN	_	15	compound	_	_
-18	nach	nach	PART	PART	_	19	rel	_	_
+18	nach	nach	PART	PART	_	19	nsubj	_	_
 19	bhfuil	bí	VERB	VERB	_	15	acl:relcl	_	_
 20	a	a	DET	DET	_	21	nmod:poss	_	_
 21	lánchumas	cumas	NOUN	NOUN	_	19	nsubj	_	_
@@ -835,7 +835,7 @@
 1	rud	rud	NOUN	NOUN	_	0	ROOT	_	_
 2	ar	ar	ADP	ADP	_	1	case	_	_
 3	bith	bith	NOUN	NOUN	_	2	nmod	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	athraíonn	athraigh	VERB	VERB	_	1	acl:relcl	_	_
 6	luas	luas	NOUN	NOUN	_	5	nsubj	_	_
 7	ruda	rud	NOUN	NOUN	_	6	compound	_	_
@@ -859,7 +859,7 @@
 16	é	é	PRON	PRON	_	14	nsubj	_	_
 17	ar	ar	ADP	ADP	_	1	case	_	_
 18	alt	alt	NOUN	NOUN	_	17	nmod	_	_
-19	a	a	PART	PART	_	20	rel	_	_
+19	a	a	PART	PART	_	20	dobj	_	_
 20	foilsíodh	foilsigh	VERB	VERB	_	18	acl:relcl	_	_
 21	in	i	ADP	ADP	_	20	case	_	_
 22	eagrán	eagrán	NOUN	NOUN	_	21	nmod	_	_
@@ -869,7 +869,7 @@
 26	Irish	Irish	PROPN	PROPN	_	25	compound	_	_
 27	Computer	Computer	PROPN	PROPN	_	26	compound	_	_
 28	agus	agus	CONJ	CONJ	_	20	cc	_	_
-29	a	a	PART	PART	_	30	rel	_	_
+29	a	a	PART	PART	_	30	dobj	_	_
 30	athfoilsítear	athfoilsí	VERB	VERB	_	20	conj	_	_
 31	anseo	anseo	ADV	ADV	_	30	advmod	_	_
 32	le	le	ADP	ADP	_	30	case	_	_
@@ -893,7 +893,7 @@
 8	chéadchonaic	feic	VERB	VERB	_	1	nsubj	_	_
 9	mé	mé	PRON	PRON	_	8	nsubj	_	_
 10	gabhar	gabhar	NOUN	NOUN	_	8	dobj	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	nsubj	_	_
 12	bhí	bí	VERB	VERB	_	10	acl:relcl	_	_
 13	go	go	PART	PART	_	14	mark:prt	_	_
 14	díreach	díreach	ADJ	ADJ	_	12	amod	_	_
@@ -960,7 +960,7 @@
 2	na	na	DET	DET	_	3	det	_	_
 3	folúntais	folúntas	NOUN	NOUN	_	1	nsubj	_	_
 4	seo	seo	DET	DET	_	3	det	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	leanas	lean	VERB	VERB	_	3	acl:relcl	_	_
 7	le	le	ADP	ADP	_	1	xcomp	_	_
 8	líonadh	líonadh	NOUN	NOUN	_	7	nmod	_	_
@@ -1059,13 +1059,13 @@
 54	Danmhairge	Danmhairg	PROPN	PROPN	_	52	compound	_	_
 55	,	,	PUNCT	PUNCT	_	56	punct	_	_
 56	bean	bean	NOUN	NOUN	_	47	appos	_	_
-57	a	a	PART	PART	_	58	rel	_	_
+57	a	a	PART	PART	_	58	nsubj	_	_
 58	bhí	bí	VERB	VERB	_	56	acl:relcl	_	_
 59	mar	mar	ADP	ADP	_	58	xcomp:pred	_	_
 60	Leas-Uachtarán	Leas-Uachtarán	NOUN	NOUN	_	59	nmod	_	_
 61	ar	ar	ADP	ADP	_	60	case	_	_
 62	Ghrúpa	grúpa	NOUN	NOUN	_	61	nmod	_	_
-63	nach	nach	PART	PART	_	64	rel	_	_
+63	nach	nach	PART	PART	_	64	nsubj	_	_
 64	raibh	bí	VERB	VERB	_	62	acl:relcl	_	_
 65	de	de	ADP	ADP	_	64	xcomp:pred	_	_
 66	theideal	teideal	NOUN	NOUN	_	65	nmod	_	_
@@ -1094,13 +1094,13 @@
 13	don	do	ADP	ADP	_	12	case	_	_
 14	Chuideachta	cuideachta	NOUN	NOUN	_	13	nmod	_	_
 15	nó	nó	CONJ	CONJ	_	12	cc	_	_
-16	a	a	PART	PART	_	17	rel	_	_
+16	a	a	PART	PART	_	17	nsubj	_	_
 17	bheidh	bí	VERB	VERB	_	12	conj	_	_
 18	ar	ar	ADP	ADP	_	17	xcomp:pred	_	_
 19	teachtadh	teachtadh	NOUN	NOUN	_	18	nmod	_	_
 20	aici	ag	ADP	ADP	_	19	case	_	_
 21	agus	agus	CONJ	CONJ	_	12	cc	_	_
-22	a	a	PART	PART	_	23	rel	_	_
+22	a	a	PART	PART	_	23	nsubj	_	_
 23	bheidh	bí	VERB	VERB	_	12	conj	_	_
 24	i	i	ADP	ADP	_	23	xcomp:pred	_	_
 25	bhfeidhm	feidhm	NOUN	NOUN	_	24	nmod	_	_
@@ -1142,14 +1142,14 @@
 61	bhfochuideachta	cuideachta	NOUN	NOUN	_	59	nmod	_	_
 62	a	a	DET	DET	_	63	det	_	_
 63	mhéid	méid	NOUN	NOUN	_	36	advmod	_	_
-64	a	a	PART	PART	_	65	rel	_	_
+64	a	a	PART	PART	_	65	dobj	_	_
 65	bhaineann	bain	VERB	VERB	_	63	acl:relcl	_	_
 66	sé	sé	PRON	PRON	_	65	nsubj	_	_
 67	nó	nó	CONJ	CONJ	_	66	cc	_	_
 68	sí	sí	PRON	PRON	_	66	conj	_	_
 69	le	le	ADP	ADP	_	65	case	_	_
 70	feidhm	feidhm	NOUN	NOUN	_	69	nmod	_	_
-71	a	a	PART	PART	_	72	rel	_	_
+71	a	a	PART	PART	_	72	dobj	_	_
 72	thugtar	tabhair	VERB	VERB	_	70	acl:relcl	_	_
 73	don	do	ADP	ADP	_	72	case	_	_
 74	fhochuideachta	cuideachta	NOUN	NOUN	_	72	nmod	_	_
@@ -1159,7 +1159,7 @@
 78	Achta	acht	NOUN	NOUN	_	76	compound	_	_
 79	seo	seo	DET	DET	_	78	det	_	_
 80	nó	nó	CONJ	CONJ	_	72	cc	_	_
-81	a	a	PART	PART	_	82	rel	_	_
+81	a	a	PART	PART	_	82	nsubj	_	_
 82	bheidh	bí	VERB	VERB	_	72	conj	_	_
 83	teagmhasach	teagmhasach	ADJ	ADJ	_	82	xcomp:pred	_	_
 84	nó	nó	CONJ	CONJ	_	83	cc	_	_
@@ -1262,7 +1262,7 @@
 4	Conradh	conradh	NOUN	NOUN	_	3	nmod	_	_
 5	na	na	DET	DET	_	6	det	_	_
 6	Gaeilge	Gaeilge	PROPN	PROPN	_	4	compound	_	_
-7	nach	nach	PART	PART	_	8	rel	_	_
+7	nach	nach	PART	PART	_	8	nsubj	_	_
 8	raibh	bí	VERB	VERB	_	2	acl:relcl	_	_
 9	riamh	riamh	ADV	ADV	_	8	advmod	_	_
 10	cheana	cheana	ADV	ADV	_	8	advmod	_	_
@@ -1327,11 +1327,11 @@
 30	as	as	ADP	ADP	_	25	conj	_	_
 31	aon	aon	DET	DET	_	32	det	_	_
 32	rialachán	rialachán	NOUN	NOUN	_	30	nmod	_	_
-33	a	a	PART	PART	_	34	rel	_	_
+33	a	a	PART	PART	_	34	dobj	_	_
 34	déanfar	déan	VERB	VERB	_	32	acl:relcl	_	_
 35	fé	faoi	ADP	ADP	_	34	case	_	_
 36	no	nó	CONJ	CONJ	_	24	cc	_	_
-37	a	a	PART	PART	_	38	rel	_	_
+37	a	a	PART	PART	_	38	nsubj	_	_
 38	eireos	éirigh	VERB	VERB	_	24	conj	_	_
 39	de_bharr	de_bharr	ADP	ADP	_	38	case	_	_
 40	ceachtar	ceachtar	PRON	PRON	_	39	nmod	_	_
@@ -1354,7 +1354,7 @@
 57	chláruithe	clárú	NOUN	NOUN	_	56	compound	_	_
 58	an	an	DET	DET	_	59	det	_	_
 59	áitreibh	áitreabh	NOUN	NOUN	_	57	compound	_	_
-60	ina	i	PART	PART	_	61	rel	_	_
+60	ina	i	PART	PART	_	61	dobj	_	_
 61	bhfuil	bí	VERB	VERB	_	59	acl:relcl	_	_
 62	an	an	DET	DET	_	63	det	_	_
 63	clár	clár	NOUN	NOUN	_	61	nsubj	_	_
@@ -1390,7 +1390,7 @@
 93	eile	eile	DET	DET	_	92	det	_	_
 94	(	(	PUNCT	PUNCT	_	95	punct	_	_
 95	ar	ar	ADP	ADP	_	92	case	_	_
-96	a	a	PART	PART	_	97	rel	_	_
+96	a	a	PART	PART	_	97	dobj	_	_
 97	n-áirítear	áirigh	VERB	VERB	_	92	acl:relcl	_	_
 98	cóipeanna	cóip	NOUN	NOUN	_	97	dobj	_	_
 99	dhíobh	de	ADP	ADP	_	98	compound	_	_
@@ -1404,7 +1404,7 @@
 107	ar	ar	ADP	ADP	_	106	case	_	_
 108	fáil	fáil	NOUN	NOUN	_	107	nmod	_	_
 109	)	)	PUNCT	PUNCT	_	95	punct	_	_
-110	a	a	PART	PART	_	111	rel	_	_
+110	a	a	PART	PART	_	111	dobj	_	_
 111	iarrfidh	iarr	VERB	VERB	_	79	acl:relcl	_	_
 112	an	an	DET	DET	_	113	det	_	_
 113	cigire	cigire	NOUN	NOUN	_	111	nsubj	_	_
@@ -1427,7 +1427,7 @@
 130	ndeár	deara	NOUN	NOUN	_	129	nmod	_	_
 131	éinní	ní	NOUN	NOUN	_	130	compound	_	_
 132	áirithe	áirithe	ADJ	ADJ	_	131	amod	_	_
-133	d'	do	ADP	ADP	_	134	rel	_	_
+133	d'	do	ADP	ADP	_	134	nsubj	_	_
 134	fhágaint	fágáil	NOUN	NOUN	_	131	acl:relcl	_	_
 135	amach	amach	ADV	ADV	_	134	advmod	_	_
 136	as	as	ADP	ADP	_	134	case	_	_
@@ -1581,7 +1581,7 @@
 27	agus	agus	CONJ	CONJ	_	24	cc	_	_
 28	le	le	ADP	ADP	_	24	conj	_	_
 29	daoine	duine	NOUN	NOUN	_	28	nmod	_	_
-30	a	a	PART	PART	_	31	rel	_	_
+30	a	a	PART	PART	_	31	nsubj	_	_
 31	bheidh	bí	VERB	VERB	_	29	acl:relcl	_	_
 32	ag	ag	ADP	ADP	_	31	xcomp	_	_
 33	éileamh	éileamh	NOUN	NOUN	_	32	nmod	_	_
@@ -1598,11 +1598,11 @@
 44	gach	gach	DET	DET	_	45	det	_	_
 45	cirt	ceart	NOUN	NOUN	_	43	compound	_	_
 46	neamhchláraithe	neamhchláraithe	ADJ	ADJ	_	45	compound	_	_
-47	a	a	PART	PART	_	48	rel	_	_
+47	a	a	PART	PART	_	48	nsubj	_	_
 48	raibh	bí	VERB	VERB	_	45	acl:relcl	_	_
 49	an	an	DET	DET	_	50	det	_	_
 50	talamh	talamh	NOUN	NOUN	_	48	nsubj	_	_
-51	a	a	PART	PART	_	52	rel	_	_
+51	a	a	PART	PART	_	52	dobj	_	_
 52	aistreofar	aistrigh	VERB	VERB	_	50	acl:relcl	_	_
 53	ar	ar	ADP	ADP	_	48	case	_	_
 54	teachtadh	teachtadh	NOUN	NOUN	_	53	nmod	_	_
@@ -1741,7 +1741,7 @@
 22	in_aghaidh	in_aghaidh	ADP	ADP	_	21	case	_	_
 23	na	na	DET	DET	_	24	det	_	_
 24	hEaglaise	eaglais	NOUN	NOUN	_	22	nmod	_	_
-25	inar	i	PART	PART	_	26	rel	_	_
+25	inar	i	PART	PART	_	26	dobj	_	_
 26	rugadh	beir	VERB	VERB	_	24	acl:relcl	_	_
 27	iad	iad	PRON	PRON	_	26	dobj	_	_
 28	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -1817,7 +1817,7 @@
 1	Ina	i	ADP	ADP	_	12	xcomp:pred	_	_
 2	measc	measc	NOUN	NOUN	_	1	nmod	_	_
 3	siúd	siúd	PRON	PRON	_	2	compound	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	gníomhach	gníomhach	ADJ	ADJ	_	5	xcomp:pred	_	_
 7	i	i	ADP	ADP	_	5	case	_	_
@@ -1852,7 +1852,7 @@
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	chuile	gach_uile	DET	DET	_	3	det	_	_
 3	rud	rud	NOUN	NOUN	_	1	nsubj	_	_
-4	dá	dá	SCONJ	SCONJ	_	5	rel	_	_
+4	dá	dá	SCONJ	SCONJ	_	5	nsubj	_	_
 5	bhfuil	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	le	le	ADP	ADP	_	5	xcomp	_	_
 7	rá	rá	NOUN	NOUN	_	6	nmod	_	_
@@ -1867,7 +1867,7 @@
 5	mó	mór	ADJ	ADJ	_	4	xcomp:pred	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	nádúrthacht	nádúrthacht	NOUN	NOUN	_	4	nsubj	_	_
-8	a	a	PART	PART	_	9	rel	_	_
+8	a	a	PART	PART	_	9	nsubj	_	_
 9	bhaineann	bain	VERB	VERB	_	7	acl:relcl	_	_
 10	le	le	ADP	ADP	_	9	case	_	_
 11	samplaí	sampla	NOUN	NOUN	_	10	nmod	_	_
@@ -1960,7 +1960,7 @@
 39	cibé	cibé	DET	DET	_	40	det	_	_
 40	caoi	caoi	NOUN	NOUN	_	38	nmod	_	_
 41	,	,	PUNCT	PUNCT	_	43	punct	_	_
-42	a	a	PART	PART	_	43	rel	_	_
+42	a	a	PART	PART	_	43	nsubj	_	_
 43	bhí	bí	VERB	VERB	_	40	acl:relcl	_	_
 44	forordaithe	ordaithe	ADJ	ADJ	_	43	xcomp:pred	_	_
 45	roimh	roimh	ADP	ADP	_	44	case	_	_
@@ -1970,7 +1970,7 @@
 49	ailt	alt	NOUN	NOUN	_	47	compound	_	_
 50	seo	seo	DET	DET	_	49	det	_	_
 51	nó	nó	CONJ	CONJ	_	43	cc	_	_
-52	a	a	PART	PART	_	53	rel	_	_
+52	a	a	PART	PART	_	53	dobj	_	_
 53	fhorordófar	fhorordófar	VERB	VERB	_	43	conj	_	_
 54	ó	ó	ADP	ADP	_	53	case	_	_
 55	am	am	NOUN	NOUN	_	54	nmod	_	_
@@ -2142,7 +2142,7 @@
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
 3	leabhar	leabhar	NOUN	NOUN	_	1	dobj	_	_
 4	áit	áit	SCONJ	SCONJ	_	1	nmod	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	bhí	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	sé	sé	PRON	PRON	_	6	nsubj	_	_
 8	ar	ar	ADP	ADP	_	6	xcomp	_	_
@@ -2226,7 +2226,7 @@
 15	)	)	PUNCT	PUNCT	_	12	punct	_	_
 16	ina	i	ADP	ADP	_	10	case	_	_
 17	taobh	taobh	NOUN	NOUN	_	16	nmod	_	_
-18	a	a	PART	PART	_	19	rel	_	_
+18	a	a	PART	PART	_	19	dobj	_	_
 19	leagfar	leag	VERB	VERB	_	6	acl:relcl	_	_
 20	fé	faoi	ADP	ADP	_	19	case	_	_
 21	n-a	n-a	PART	PART	_	22	nmod:poss	_	_
@@ -2251,7 +2251,7 @@
 40	na	na	DET	DET	_	41	det	_	_
 41	scrúduithe	scrúdú	NOUN	NOUN	_	37	conj	_	_
 42	le	le	ADP	ADP	_	44	case	_	_
-43	n-a	a	PART	PART	_	44	rel	_	_
+43	n-a	a	PART	PART	_	44	dobj	_	_
 44	mbaineann	bain	VERB	VERB	_	37	acl:relcl	_	_
 45	an	an	DET	DET	_	46	det	_	_
 46	aithris	aithris	NOUN	NOUN	_	44	nsubj	_	_
@@ -2261,7 +2261,7 @@
 50	bheith	bheith	NOUN	NOUN	_	49	nmod	_	_
 51	de	de	ADP	ADP	_	50	case	_	_
 52	shaghas	saghas	NOUN	NOUN	_	51	nmod	_	_
-53	a	a	PART	PART	_	54	rel	_	_
+53	a	a	PART	PART	_	54	nsubj	_	_
 54	chuireann	cuir	VERB	VERB	_	52	acl:relcl	_	_
 55	in	i	ADP	ADP	_	54	case	_	_
 56	áirithe	áirithe	NOUN	NOUN	_	55	nmod	_	_
@@ -2270,7 +2270,7 @@
 59	ag	ag	ADP	ADP	_	58	case	_	_
 60	daoine	duine	NOUN	NOUN	_	59	nmod	_	_
 61	,	,	PUNCT	PUNCT	_	62	punct	_	_
-62	a	a	PART	PART	_	63	rel	_	_
+62	a	a	PART	PART	_	63	nsubj	_	_
 63	gheobhaidh	faigh	VERB	VERB	_	60	acl:relcl	_	_
 64	teisteas	teastas	NOUN	NOUN	_	63	dobj	_	_
 65	tástála	tástáil	NOUN	NOUN	_	64	compound	_	_
@@ -2279,7 +2279,7 @@
 68	no	nó	CONJ	CONJ	_	66	cc	_	_
 69	ón	ó	ADP	ADP	_	66	conj	_	_
 70	gcólucht	gcólucht	NOUN	NOUN	_	69	nmod	_	_
-71	a	a	PART	PART	_	72	rel	_	_
+71	a	a	PART	PART	_	72	nsubj	_	_
 72	cheangalann	cheangalann	NOUN	NOUN	_	70	acl:relcl	_	_
 73	ar	ar	ADP	ADP	_	72	case	_	_
 74	dhaoine	duine	NOUN	NOUN	_	73	nmod	_	_
@@ -2323,7 +2323,7 @@
 112	aon	aon	DET	DET	_	113	det	_	_
 113	teisteas	teastas	NOUN	NOUN	_	111	nsubj	_	_
 114	tástála	tástáil	NOUN	NOUN	_	113	compound	_	_
-115	a	a	PART	PART	_	116	rel	_	_
+115	a	a	PART	PART	_	116	dobj	_	_
 116	dheonfidh	deonaigh	VERB	VERB	_	113	acl:relcl	_	_
 117	an	an	DET	DET	_	118	det	_	_
 118	coláiste	coláiste	NOUN	NOUN	_	116	nsubj	_	_
@@ -2340,7 +2340,7 @@
 129	tar_éis	tar_éis	ADP	ADP	_	125	conj	_	_
 130	an	an	DET	DET	_	131	det	_	_
 131	dáta	dáta	NOUN	NOUN	_	129	nmod	_	_
-132	a	a	PART	PART	_	133	rel	_	_
+132	a	a	PART	PART	_	133	dobj	_	_
 133	luadhfar	luaigh	VERB	VERB	_	131	acl:relcl	_	_
 134	chuige	chuig	ADP	ADP	_	133	case	_	_
 135	sin	sin	PRON	PRON	_	134	nmod	_	_
@@ -2367,7 +2367,7 @@
 4	léinn	léann	NOUN	NOUN	_	3	compound	_	_
 5	seandálaíochta	seandálaíocht	NOUN	NOUN	_	3	compound	_	_
 6	anois	anois	ADV	ADV	_	1	advmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	léann	léigh	VERB	VERB	_	3	acl:relcl	_	_
 9	an	an	DET	DET	_	10	det	_	_
 10	cuntas	cuntas	NOUN	NOUN	_	8	dobj	_	_
@@ -2534,7 +2534,7 @@
 4	ó	ó	ADP	ADP	_	3	case	_	_
 5	na	na	DET	DET	_	6	det	_	_
 6	Ballstáit	stát	NOUN	NOUN	_	4	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	bhfuil	bí	VERB	VERB	_	6	acl:relcl	_	_
 9	an	an	DET	DET	_	10	det	_	_
 10	euro	euro	NOUN	NOUN	_	8	nsubj	_	_
@@ -2702,7 +2702,7 @@
 21	dhroim	droim	NOUN	NOUN	_	20	nmod	_	_
 22	an	an	DET	DET	_	23	det	_	_
 23	domhain	domhan	NOUN	NOUN	_	21	compound	_	_
-24	a	a	PART	PART	_	25	rel	_	_
+24	a	a	PART	PART	_	25	nsubj	_	_
 25	bhí	bí	VERB	VERB	_	17	acl:relcl	_	_
 26	iontaidh-leoireachta	iontaidh-leoireacht	NOUN	NOUN	_	25	nsubj	_	_
 27	leis	le	ADP	ADP	_	25	case	_	_
@@ -2798,7 +2798,7 @@
 1	(4)	(4)	X	X	_	9	nummod	_	_
 2	Gach	gach	DET	DET	_	3	det	_	_
 3	rialachán	rialachán	NOUN	NOUN	_	9	nmod	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	dobj	_	_
 5	déanfar	déan	VERB	VERB	_	3	acl:relcl	_	_
 6	fén	faoi	ADP	ADP	_	5	case	_	_
 7	alt	alt	NOUN	NOUN	_	6	nmod	_	_
@@ -2832,7 +2832,7 @@
 35	lá	lá	NOUN	NOUN	_	34	nmod	_	_
 36	is	agus	CONJ	CONJ	_	35	cc	_	_
 37	fiche	fiche	NOUN	NOUN	_	35	conj	_	_
-38	a	a	PART	PART	_	39	rel	_	_
+38	a	a	PART	PART	_	39	dobj	_	_
 39	shuidhfidh	shuidh	VERB	VERB	_	35	acl:relcl	_	_
 40	an	an	DET	DET	_	41	det	_	_
 41	Tigh	teach	NOUN	NOUN	_	39	nsubj	_	_
@@ -2867,7 +2867,7 @@
 70	do	do	ADP	ADP	_	69	case	_	_
 71	dhleathacht	dhleathacht	NOUN	NOUN	_	70	nmod	_	_
 72	éinní	ní	NOUN	NOUN	_	71	compound	_	_
-73	a	a	PART	PART	_	74	rel	_	_
+73	a	a	PART	PART	_	74	dobj	_	_
 74	dineadh	déan	VERB	VERB	_	71	acl:relcl	_	_
 75	roimhe	roimh	ADP	ADP	_	74	case	_	_
 76	sin	sin	PRON	PRON	_	75	nmod	_	_
@@ -2888,7 +2888,7 @@
 1	Déantar	déan	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	chompháirt	páirt	NOUN	NOUN	_	1	dobj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	rothlú	rothlú	NOUN	NOUN	_	3	acl:relcl	_	_
 6	tuathal	tuathal	NOUN	NOUN	_	5	nsubj	_	_
 7	thart	thart	ADV	ADV	_	5	advmod	_	_
@@ -2915,7 +2915,7 @@
 4	ar	ar	ADP	ADP	_	3	case	_	_
 5	bith	bith	NOUN	NOUN	_	4	nmod	_	_
 6	eile	eile	DET	DET	_	3	det	_	_
-7	nach	nach	PART	PART	_	8	rel	_	_
+7	nach	nach	PART	PART	_	8	nsubj	_	_
 8	bhfuil	bí	VERB	VERB	_	3	acl:relcl	_	_
 9	ag	ag	ADP	ADP	_	8	xcomp	_	_
 10	teacht	teacht	NOUN	NOUN	_	9	nmod	_	_
@@ -2972,7 +2972,7 @@
 28	an	an	DET	DET	_	29	det	_	_
 29	oíche	oíche	NOUN	NOUN	_	7	appos	_	_
 30	sul	sul	NOUN	NOUN	_	29	compound	_	_
-31	ar	ar	PART	PART	_	32	rel	_	_
+31	ar	ar	PART	PART	_	32	nsubj	_	_
 32	pósadh	pós	VERB	VERB	_	29	acl:relcl	_	_
 33	le	le	ADP	ADP	_	32	case	_	_
 34	Micil	Micil	PROPN	PROPN	_	33	nmod	_	_
@@ -3137,7 +3137,7 @@
 4	tá	bí	VERB	VERB	_	0	ROOT	_	_
 5	gunnadóirí	gunnadóir	NOUN	NOUN	_	4	nsubj	_	_
 6	ann	i	ADP	ADP	_	4	xcomp:pred	_	_
-7	nach	nach	PART	PART	_	8	rel	_	_
+7	nach	nach	PART	PART	_	8	nsubj	_	_
 8	smaoiníonn	smaoinigh	VERB	VERB	_	5	acl:relcl	_	_
 9	ach	ach	SCONJ	SCONJ	_	8	mark:prt	_	_
 10	go	go	PART	PART	_	11	mark:prt	_	_
@@ -3149,7 +3149,7 @@
 16	agus	agus	CONJ	CONJ	_	4	cc	_	_
 17	cinn	ceann	NOUN	NOUN	_	4	conj	_	_
 18	eile	eile	DET	DET	_	17	det	_	_
-19	nach	nach	PART	PART	_	20	rel	_	_
+19	nach	nach	PART	PART	_	20	nsubj	_	_
 20	smaoiníonn	smaoinigh	VERB	VERB	_	17	acl:relcl	_	_
 21	ar	ar	ADP	ADP	_	20	case	_	_
 22	rud	rud	NOUN	NOUN	_	21	nmod	_	_
@@ -3324,7 +3324,7 @@
 5	gciorcal	ciorcal	NOUN	NOUN	_	4	nmod	_	_
 6	ramhar	ramhar	ADJ	ADJ	_	5	amod	_	_
 7	nuair	nuair	SCONJ	SCONJ	_	9	mark	_	_
-8	a	a	PART	PART	_	9	rel	_	_
+8	a	a	PART	PART	_	9	mark:prt	_	_
 9	tugadh	tabhair	VERB	VERB	_	1	advcl	_	_
 10	faoi	faoi	ADP	ADP	_	9	case	_	_
 11	deara	deara	NOUN	NOUN	_	10	nmod	_	_
@@ -3436,7 +3436,7 @@
 11	phaitinn	paitinn	NOUN	NOUN	_	9	nmod	_	_
 12	den	de	ADP	ADP	_	11	case	_	_
 13	tsórt	tsórt	NOUN	NOUN	_	12	nmod	_	_
-14	a	a	PART	PART	_	15	rel	_	_
+14	a	a	PART	PART	_	15	dobj	_	_
 15	luaidhtear	luaidh	VERB	VERB	_	13	acl:relcl	_	_
 16	san	i	ADP	ADP	_	15	case	_	_
 17	alt	alt	NOUN	NOUN	_	16	nmod	_	_
@@ -3455,7 +3455,7 @@
 30	sa	i	ADP	ADP	_	29	case	_	_
 31	chlár	clár	NOUN	NOUN	_	30	nmod	_	_
 32	Bhriotáineach	Briotáin	ADJ	ADJ	_	31	compound	_	_
-33	a	a	PART	PART	_	34	rel	_	_
+33	a	a	PART	PART	_	34	nsubj	_	_
 34	bhaineann	bain	VERB	VERB	_	25	acl:relcl	_	_
 35	leis	le	ADP	ADP	_	34	case	_	_
 36	an	an	DET	DET	_	37	det	_	_
@@ -3473,7 +3473,7 @@
 48	áireamhacht	áireamhacht	NOUN	NOUN	_	47	nmod	_	_
 49	iomláin	iomlán	NOUN	NOUN	_	48	compound	_	_
 50	ar	is	VERB	VERB	_	52	advmod	_	_
-51	ar	ar	PART	PART	_	52	rel	_	_
+51	ar	ar	PART	PART	_	52	dobj	_	_
 52	deonadh	deon	VERB	VERB	_	46	acl:relcl	_	_
 53	an	an	DET	DET	_	54	det	_	_
 54	phaitinn	paitinn	NOUN	NOUN	_	52	dobj	_	_
@@ -3576,7 +3576,7 @@
 28	an	an	DET	DET	_	29	det	_	_
 29	saghas	saghas	NOUN	NOUN	_	27	nmod	_	_
 30	ábhair	ábhar	NOUN	NOUN	_	29	compound	_	_
-31	a	a	PART	PART	_	32	rel	_	_
+31	a	a	PART	PART	_	32	dobj	_	_
 32	raibh	bí	VERB	VERB	_	30	acl:relcl	_	_
 33	meas	meas	NOUN	NOUN	_	32	nsubj	_	_
 34	ag	ag	ADP	ADP	_	32	case	_	_
@@ -3607,7 +3607,7 @@
 59	leith	leith	NOUN	NOUN	_	58	nmod	_	_
 60	na	na	DET	DET	_	61	det	_	_
 61	mban	bean	NOUN	NOUN	_	59	compound	_	_
-62	a	a	PART	PART	_	63	rel	_	_
+62	a	a	PART	PART	_	63	nsubj	_	_
 63	bhí	bí	VERB	VERB	_	61	acl:relcl	_	_
 64	le	le	ADP	ADP	_	63	xcomp	_	_
 65	feiscint	feiscint	NOUN	NOUN	_	64	nmod	_	_
@@ -3732,7 +3732,7 @@
 29	thionscnamh	tionscnamh	NOUN	NOUN	_	13	xcomp	_	_
 30	agus	agus	CONJ	CONJ	_	29	cc	_	_
 31	tacú	tacú	NOUN	NOUN	_	29	conj	_	_
-32	lena	le	PART	PART	_	33	rel	_	_
+32	lena	le	PART	PART	_	33	nsubj	_	_
 33	raibh	bí	VERB	VERB	_	31	acl:relcl	_	_
 34	ann	i	ADP	ADP	_	33	xcomp:pred	_	_
 35	cheana	cheana	ADV	ADV	_	33	advmod	_	_
@@ -3788,7 +3788,7 @@
 21	mé	mé	PRON	PRON	_	20	nsubj	_	_
 22	fliú	fliú	NOUN	NOUN	_	20	dobj	_	_
 23	mór	mór	ADJ	ADJ	_	22	amod	_	_
-24	a	a	PART	PART	_	25	rel	_	_
+24	a	a	PART	PART	_	25	nsubj	_	_
 25	bhí	bí	VERB	VERB	_	22	acl:relcl	_	_
 26	ag	ag	ADP	ADP	_	25	xcomp	_	_
 27	goil	goil	NOUN	NOUN	_	26	nmod	_	_
@@ -3860,7 +3860,7 @@
 39	na	na	DET	DET	_	40	det	_	_
 40	piotail	piotail	NOUN	NOUN	_	38	nsubj	_	_
 41	,	,	PUNCT	PUNCT	_	42	punct	_	_
-42	a	a	PART	PART	_	43	rel	_	_
+42	a	a	PART	PART	_	43	nsubj	_	_
 43	bhíonn	bí	VERB	VERB	_	40	acl:relcl	_	_
 44	dathannach	dathannach	ADJ	ADJ	_	43	xcomp:pred	_	_
 45	de	de	ADP	ADP	_	43	case	_	_
@@ -3882,13 +3882,13 @@
 61	na	na	DET	DET	_	62	det	_	_
 62	siopail	siopail	NOUN	NOUN	_	60	nsubj	_	_
 63	,	,	PUNCT	PUNCT	_	64	punct	_	_
-64	a	a	PART	PART	_	65	rel	_	_
+64	a	a	PART	PART	_	65	nsubj	_	_
 65	bhíonn	bí	VERB	VERB	_	62	acl:relcl	_	_
 66	glas	glas	ADJ	ADJ	_	65	xcomp:pred	_	_
 67	de	de	ADP	ADP	_	65	case	_	_
 68	ghnáth	gnáth	NOUN	NOUN	_	67	nmod	_	_
 69	agus	agus	CONJ	CONJ	_	65	cc	_	_
-70	a	a	PART	PART	_	71	rel	_	_
+70	a	a	PART	PART	_	71	nsubj	_	_
 71	luíonn	luigh	VERB	VERB	_	65	conj	_	_
 72	lasmuigh	lasmuigh	ADV	ADV	_	71	advmod	_	_
 73	de	de	ADP	ADP	_	72	case	_	_
@@ -3909,7 +3909,7 @@
 4	ar	ar	ADP	ADP	_	1	case	_	_
 5	an	an	DET	DET	_	6	det	_	_
 6	gcomhrá	comhrá	NOUN	NOUN	_	4	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	bhí	bí	VERB	VERB	_	6	acl:relcl	_	_
 9	ag	ag	ADP	ADP	_	8	case	_	_
 10	an	an	DET	DET	_	11	det	_	_
@@ -3939,7 +3939,7 @@
 6	sé	sé	PRON	PRON	_	5	nsubj	_	_
 7	le	le	ADP	ADP	_	5	case	_	_
 8	fadhb	fadhb	NOUN	NOUN	_	7	nmod	_	_
-9	a	a	PART	PART	_	11	rel	_	_
+9	a	a	PART	PART	_	11	dobj	_	_
 10	d'	do	PART	PART	_	11	mark:prt	_	_
 11	fhéadfaí	féad	VERB	VERB	_	8	acl:relcl	_	_
 12	a	a	PART	PART	_	13	mark	_	_
@@ -4006,7 +4006,7 @@
 2	eochair	eochair	NOUN	NOUN	_	1	dobj	_	_
 3	i	i	ADP	ADP	_	1	case	_	_
 4	nglas	glas	NOUN	NOUN	_	3	nmod	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	raibh	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	meirg	meirg	NOUN	NOUN	_	6	nsubj	_	_
 8	na	na	DET	DET	_	9	det	_	_
@@ -4019,7 +4019,7 @@
 15	ón	ó	ADP	ADP	_	6	case	_	_
 16	díoscán	díoscán	NOUN	NOUN	_	15	nmod	_	_
 17	gránna	gránna	ADJ	ADJ	_	16	amod	_	_
-18	a	a	PART	PART	_	19	rel	_	_
+18	a	a	PART	PART	_	19	dobj	_	_
 19	rinne	déan	VERB	VERB	_	16	acl:relcl	_	_
 20	sé	sé	PRON	PRON	_	19	nsubj	_	_
 21	agus	agus	CONJ	CONJ	_	1	cc	_	_
@@ -4075,7 +4075,7 @@
 18	thuairiscítear	tuairiscigh	VERB	VERB	_	1	advcl	_	_
 19	cén	cé	PRON	PRON	_	18	dobj	_	_
 20	fhealsúnacht	fealsúnacht	NOUN	NOUN	_	19	compound	_	_
-21	a	a	PART	PART	_	22	rel	_	_
+21	a	a	PART	PART	_	22	nsubj	_	_
 22	ba	is	VERB	VERB	_	20	acl:relcl	_	_
 23	bhun	bun	NOUN	NOUN	_	22	xcomp:pred	_	_
 24	leis	le	ADP	ADP	_	23	case	_	_
@@ -4214,7 +4214,7 @@
 49	chomh	chomh	ADV	ADV	_	50	advmod	_	_
 50	hálainn	álainn	ADJ	ADJ	_	45	amod	_	_
 51	is	agus	CONJ	CONJ	_	53	advmod	_	_
-52	a	a	PART	PART	_	53	rel	_	_
+52	a	a	PART	PART	_	53	dobj	_	_
 53	chonaic	feic	VERB	VERB	_	50	acl:relcl	_	_
 54	tú	tú	PRON	PRON	_	53	nsubj	_	_
 55	ariamh	ariamh	ADV	ADV	_	53	advmod	_	_
@@ -4273,7 +4273,7 @@
 23	chéad	céad	NUM	NUM	_	24	nummod	_	_
 24	lá	lá	NOUN	NOUN	_	22	nmod	_	_
 25	sin	sin	DET	DET	_	24	det	_	_
-26	ar	ar	PART	PART	_	27	rel	_	_
+26	ar	ar	PART	PART	_	27	dobj	_	_
 27	leag	leag	VERB	VERB	_	24	acl:relcl	_	_
 28	mé	mé	PRON	PRON	_	27	nsubj	_	_
 29	súil	súil	NOUN	NOUN	_	27	dobj	_	_
@@ -4354,7 +4354,7 @@
 4	méid	méid	NOUN	NOUN	_	2	nsubj	_	_
 5	sin	sin	DET	DET	_	4	det	_	_
 6	suimiúil	suimiúil	ADJ	ADJ	_	2	xcomp:pred	_	_
-7	a	a	PART	PART	_	9	rel	_	_
+7	a	a	PART	PART	_	9	dobj	_	_
 8	d'	do	PART	PART	_	9	mark:prt	_	_
 9	inis	inis	VERB	VERB	_	4	acl:relcl	_	_
 10	tú	tú	PRON	PRON	_	9	nsubj	_	_
@@ -4402,7 +4402,7 @@
 6	an	an	DET	DET	_	7	det	_	_
 7	corn	corn	NOUN	NOUN	_	19	dobj	_	_
 8	mór	mór	ADJ	ADJ	_	7	amod	_	_
-9	a	a	PART	PART	_	10	rel	_	_
+9	a	a	PART	PART	_	10	nsubj	_	_
 10	bhíonn	bí	VERB	VERB	_	7	acl:relcl	_	_
 11	á	do	ADP	ADP	_	10	xcomp	_	_
 12	lorg	lorg	NOUN	NOUN	_	11	nmod	_	_
@@ -4478,7 +4478,7 @@
 4	cé	cé	PRON	PRON	_	5	nsubj	_	_
 5	mhéad	méad	NOUN	NOUN	_	2	compound	_	_
 6	fuinnimh	fuinneamh	NOUN	NOUN	_	5	compound	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	bheidh	bí	VERB	VERB	_	5	acl:relcl	_	_
 9	le	le	ADP	ADP	_	8	xcomp	_	_
 10	fáil	fáil	NOUN	NOUN	_	9	nmod	_	_
@@ -4563,7 +4563,7 @@
 9	de	de	ADP	ADP	_	8	case	_	_
 10	na	na	DET	DET	_	11	det	_	_
 11	hiarrachtaí	iarracht	NOUN	NOUN	_	9	nmod	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	dobj	_	_
 13	rinneadh	déan	VERB	VERB	_	11	acl:relcl	_	_
 14	leis	le	ADP	ADP	_	13	case	_	_
 15	an	an	DET	DET	_	16	det	_	_
@@ -4581,7 +4581,7 @@
 27	shampla	sampla	NOUN	NOUN	_	26	nmod	_	_
 28	den	de	ADP	ADP	_	27	case	_	_
 29	bhealach	bealach	NOUN	NOUN	_	28	nmod	_	_
-30	inar	i	PART	PART	_	31	rel	_	_
+30	inar	i	PART	PART	_	31	nsubj	_	_
 31	éirigh	éirigh	VERB	VERB	_	29	acl:relcl	_	_
 32	leis	le	ADP	ADP	_	31	case	_	_
 33	na	na	DET	DET	_	34	det	_	_
@@ -4734,7 +4734,7 @@
 17	gradam	gradam	NOUN	NOUN	_	15	dobj	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	rud	rud	NOUN	NOUN	_	15	nmod	_	_
-20	a	a	PART	PART	_	21	rel	_	_
+20	a	a	PART	PART	_	21	nsubj	_	_
 21	chiallóidh	ciallaigh	VERB	VERB	_	19	acl:relcl	_	_
 22	nach	nach	PART	PART	_	23	mark:prt	_	_
 23	mbeidh	bí	VERB	VERB	_	21	ccomp	_	_
@@ -4780,7 +4780,7 @@
 
 1	cineál	cineál	NOUN	NOUN	_	28	nmod	_	_
 2	ainmhí	ainmhí	NOUN	NOUN	_	1	compound	_	_
-3	a	a	PART	PART	_	4	rel	_	_
+3	a	a	PART	PART	_	4	nsubj	_	_
 4	chaitheann	caith	VERB	VERB	_	1	acl:relcl	_	_
 5	cuid	cuid	NOUN	NOUN	_	4	dobj	_	_
 6	dá	de	ADP	ADP	_	5	case	_	_
@@ -4818,7 +4818,7 @@
 38	díobh	de	ADP	ADP	_	34	case	_	_
 39	,	,	PUNCT	PUNCT	_	40	punct	_	_
 40	rudaí	rud	NOUN	NOUN	_	35	appos	_	_
-41	a	a	PART	PART	_	42	rel	_	_
+41	a	a	PART	PART	_	42	dobj	_	_
 42	sheoltar	seol	VERB	VERB	_	40	acl:relcl	_	_
 43	ar_ais	ar_ais	ADV	ADV	_	42	advmod	_	_
 44	isteach	isteach	ADV	ADV	_	42	advmod	_	_
@@ -4830,7 +4830,7 @@
 1	(	(	PUNCT	PUNCT	_	11	punct	_	_
 2	Fiú	fiú	NOUN	NOUN	_	11	advmod	_	_
 3	teaghlaigh	teaghlach	NOUN	NOUN	_	2	compound	_	_
-4	nach	nach	PART	PART	_	5	rel	_	_
+4	nach	nach	PART	PART	_	5	nsubj	_	_
 5	bhfuil	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	chomh	chomh	ADV	ADV	_	7	advmod	_	_
 7	maith	maith	ADJ	ADJ	_	5	amod	_	_
@@ -4867,7 +4867,7 @@
 2	leis	le	ADP	ADP	_	1	xcomp:pred	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	scáileanna	scáil	NOUN	NOUN	_	2	nmod	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	chaitheann	caith	VERB	VERB	_	4	acl:relcl	_	_
 7	réada	réad	NOUN	NOUN	_	6	nsubj	_	_
 8	faoi	faoi	ADP	ADP	_	6	case	_	_
@@ -4896,7 +4896,7 @@
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	teach	teach	NOUN	NOUN	_	1	nsubj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	ag	ag	ADP	ADP	_	5	case	_	_
 7	an	an	DET	DET	_	8	det	_	_
@@ -4910,7 +4910,7 @@
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
 16	an	an	DET	DET	_	17	det	_	_
 17	teach	teach	NOUN	NOUN	_	3	appos	_	_
-18	inar	i	PART	PART	_	19	rel	_	_
+18	inar	i	PART	PART	_	19	dobj	_	_
 19	thug	tabhair	VERB	VERB	_	17	acl:relcl	_	_
 20	Dúbhglas	Dúbhglas	PROPN	PROPN	_	19	nsubj	_	_
 21	de	de	PART	PART	_	20	name	_	_
@@ -4947,7 +4947,7 @@
 52	Eaglais	Eaglais	PROPN	PROPN	_	51	compound	_	_
 53	na	na	DET	DET	_	54	det	_	_
 54	hÉireann	Éire	PROPN	PROPN	_	52	compound	_	_
-55	a	a	PART	PART	_	56	rel	_	_
+55	a	a	PART	PART	_	56	dobj	_	_
 56	raibh	bí	VERB	VERB	_	51	acl:relcl	_	_
 57	athair	athair	NOUN	NOUN	_	56	nsubj	_	_
 58	Dhúbhglais	Dhúbhglais	PROPN	PROPN	_	57	compound	_	_
@@ -4993,7 +4993,7 @@
 1	Cad	cad	PRON	PRON	_	0	ROOT	_	_
 2	ina	i	ADP	ADP	_	1	xcomp:pred	_	_
 3	thaobh	taobh	NOUN	NOUN	_	2	nmod	_	_
-4	ná	nach	PART	PART	_	5	rel	_	_
+4	ná	nach	PART	PART	_	5	dobj	_	_
 5	haithneodh	haithneodh	NOUN	NOUN	_	1	acl:relcl	_	_
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
 7	ná	nach	PART	PART	_	8	mark:prt	_	_
@@ -5054,7 +5054,7 @@
 17	1920	1920	NUM	NUM	_	16	nummod	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	áit	áit	NOUN	NOUN	_	13	appos	_	_
-20	a	a	PART	PART	_	21	rel	_	_
+20	a	a	PART	PART	_	21	nsubj	_	_
 21	raibh	bí	VERB	VERB	_	19	acl:relcl	_	_
 22	sé	sé	PRON	PRON	_	21	nsubj	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
@@ -5079,7 +5079,7 @@
 5	ann	i	ADP	ADP	_	3	xcomp:pred	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	duine	duine	NOUN	NOUN	_	4	appos	_	_
-8	ar	ar	PART	PART	_	9	rel	_	_
+8	ar	ar	PART	PART	_	9	dobj	_	_
 9	oibrigh	oibrigh	VERB	VERB	_	7	acl:relcl	_	_
 10	cumhacht	cumhacht	NOUN	NOUN	_	9	dobj	_	_
 11	Dé	dia	NOUN	NOUN	_	10	compound	_	_
@@ -5092,7 +5092,7 @@
 18	shlánú	slánú	NOUN	NOUN	_	13	nmod	_	_
 19	,	,	PUNCT	PUNCT	_	7	punct	_	_
 20	duine	duine	NOUN	NOUN	_	4	appos	_	_
-21	ar	ar	PART	PART	_	22	rel	_	_
+21	ar	ar	PART	PART	_	22	dobj	_	_
 22	gheall	geall	VERB	VERB	_	20	acl:relcl	_	_
 23	Dia	dia	NOUN	NOUN	_	22	nsubj	_	_
 24	dó	do	ADP	ADP	_	22	case	_	_
@@ -5308,7 +5308,7 @@
 4	sa	i	ADP	ADP	_	1	xcomp:pred	_	_
 5	halla	halla	NOUN	NOUN	_	4	nmod	_	_
 6	mhór	mór	ADJ	ADJ	_	5	amod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	bhí	bí	VERB	VERB	_	5	acl:relcl	_	_
 9	chóir	cóir	NOUN	NOUN	_	8	xcomp:pred	_	_
 10	lán	lán	ADJ	ADJ	_	9	amod	_	_
@@ -5322,7 +5322,7 @@
 6	ar	ar	ADP	ADP	_	2	case	_	_
 7	thuras	turas	NOUN	NOUN	_	6	nmod	_	_
 8	scoile	scoil	NOUN	NOUN	_	7	compound	_	_
-9	a	a	PART	PART	_	10	rel	_	_
+9	a	a	PART	PART	_	10	dobj	_	_
 10	thug	tabhair	VERB	VERB	_	7	acl:relcl	_	_
 11	siad	siad	PRON	PRON	_	10	nsubj	_	_
 12	ar	ar	ADP	ADP	_	10	case	_	_
@@ -5350,7 +5350,7 @@
 7	an	an	DET	DET	_	8	det	_	_
 8	seanchreideamh	creideamh	NOUN	NOUN	_	5	dobj	_	_
 9	sin	sin	DET	DET	_	8	det	_	_
-10	a	a	PART	PART	_	11	rel	_	_
+10	a	a	PART	PART	_	11	dobj	_	_
 11	raibh	bí	VERB	VERB	_	8	acl:relcl	_	_
 12	tacaíocht	tacaíocht	NOUN	NOUN	_	11	nsubj	_	_
 13	an	an	DET	DET	_	14	det	_	_
@@ -5395,7 +5395,7 @@
 9	agus	agus	CONJ	CONJ	_	8	cc	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	bealach	bealach	NOUN	NOUN	_	8	conj	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	dobj	_	_
 13	chaitear	caith	VERB	VERB	_	11	acl:relcl	_	_
 14	le	le	ADP	ADP	_	13	case	_	_
 15	seandaoine	duine	NOUN	NOUN	_	14	dobj	_	_
@@ -5498,7 +5498,7 @@
 19	de	de	ADP	ADP	_	18	case	_	_
 20	na	na	DET	DET	_	21	det	_	_
 21	cúiseanna	cúis	NOUN	NOUN	_	19	nmod	_	_
-22	a	a	PART	PART	_	23	rel	_	_
+22	a	a	PART	PART	_	23	dobj	_	_
 23	dhéantar	déan	VERB	VERB	_	21	acl:relcl	_	_
 24	íocaíocht	íocaíocht	NOUN	NOUN	_	23	dobj	_	_
 25	seach-reachtúil	reachtúil	ADJ	ADJ	_	24	amod	_	_
@@ -5537,7 +5537,7 @@
 14	liathróide	liathróid	NOUN	NOUN	_	13	compound	_	_
 15	agus	agus	CONJ	CONJ	_	1	cc	_	_
 16	ribín	ribín	NOUN	NOUN	_	1	conj	_	_
-17	a	a	PART	PART	_	18	rel	_	_
+17	a	a	PART	PART	_	18	dobj	_	_
 18	bhuaigh	buaigh	VERB	VERB	_	16	acl:relcl	_	_
 19	Gormley	Gormley	PROPN	PROPN	_	18	nsubj	_	_
 20	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -5564,7 +5564,7 @@
 4	Fromista	Fromista	PROPN	PROPN	_	3	nmod	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	áit	áit	NOUN	NOUN	_	4	appos	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	bhfuil	bí	VERB	VERB	_	6	acl:relcl	_	_
 9	séipéal	séipéal	NOUN	NOUN	_	8	nsubj	_	_
 10	álainn	álainn	ADJ	ADJ	_	9	amod	_	_
@@ -5653,7 +5653,7 @@
 13	chaith	caith	VERB	VERB	_	1	advcl	_	_
 14	siad	siad	PRON	PRON	_	13	nsubj	_	_
 15	saol	saol	NOUN	NOUN	_	13	dobj	_	_
-16	a	a	PART	PART	_	17	rel	_	_
+16	a	a	PART	PART	_	17	nsubj	_	_
 17	bhí	bí	VERB	VERB	_	15	acl:relcl	_	_
 18	uasal	uasal	ADJ	ADJ	_	17	xcomp:pred	_	_
 19	ach	ach	CONJ	CONJ	_	18	cc	_	_
@@ -5725,13 +5725,13 @@
 5	cúis	cúis	NOUN	NOUN	_	4	nsubj	_	_
 6	eile	eile	DET	DET	_	5	det	_	_
 7	ann	i	ADP	ADP	_	4	xcomp:pred	_	_
-8	a	a	PART	PART	_	9	rel	_	_
+8	a	a	PART	PART	_	9	nsubj	_	_
 9	mhíníonn	mínigh	VERB	VERB	_	5	acl:relcl	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	spéis	spéis	NOUN	NOUN	_	9	dobj	_	_
 12	ar	ar	ADP	ADP	_	11	case	_	_
 13	leith	leith	NOUN	NOUN	_	12	nmod	_	_
-14	a	a	PART	PART	_	15	rel	_	_
+14	a	a	PART	PART	_	15	dobj	_	_
 15	léirigh	léirigh	VERB	VERB	_	11	acl:relcl	_	_
 16	údaráis	údarás	NOUN	NOUN	_	15	nsubj	_	_
 17	na	na	DET	DET	_	18	det	_	_
@@ -5749,7 +5749,7 @@
 4	air	ar	ADP	ADP	_	1	case	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	beart	beart	NOUN	NOUN	_	1	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	chuir	cuir	VERB	VERB	_	6	acl:relcl	_	_
 9	fearg	fearg	NOUN	NOUN	_	8	dobj	_	_
 10	ar	ar	ADP	ADP	_	8	case	_	_
@@ -6000,7 +6000,7 @@
 4	Cén	cé	DET	DET	_	5	nsubj	_	_
 5	dul	dul	NOUN	NOUN	_	0	ROOT	_	_
 6	as	as	ADP	ADP	_	5	case	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	bhí	bí	VERB	VERB	_	5	acl:relcl	_	_
 9	agam	ag	ADP	ADP	_	8	case	_	_
 10	?	?	PUNCT	PUNCT	_	5	punct	_	_
@@ -6010,7 +6010,7 @@
 3	an	an	DET	DET	_	4	det	_	_
 4	bhfo-alt	alt	NOUN	NOUN	_	9	dobj	_	_
 5	seo	seo	DET	DET	_	4	det	_	_
-6	a	a	PART	PART	_	7	rel	_	_
+6	a	a	PART	PART	_	7	nsubj	_	_
 7	leanas	lean	VERB	VERB	_	4	acl:relcl	_	_
 8	a	a	PART	PART	_	9	mark	_	_
 9	chur	cur	NOUN	NOUN	_	2	nmod	_	_
@@ -6376,7 +6376,7 @@
 2	agus	agus	CONJ	CONJ	_	1	cc	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	dúshaothrú	dúshaothrú	NOUN	NOUN	_	1	conj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	rinneadh	déan	VERB	VERB	_	4	acl:relcl	_	_
 7	uirthi	ar	ADP	ADP	_	6	case	_	_
 8	san	i	ADP	ADP	_	6	case	_	_
@@ -6439,7 +6439,7 @@
 2	measc	measc	NOUN	NOUN	_	1	nmod	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	n-ábhar	ábhar	NOUN	NOUN	_	2	compound	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	mbeidh	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	taighde	taighde	NOUN	NOUN	_	6	nsubj	_	_
 8	á	do	ADP	ADP	_	6	xcomp	_	_
@@ -6452,7 +6452,7 @@
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
 16	tá	bí	VERB	VERB	_	0	ROOT	_	_
 17	forbairtí	forbairt	NOUN	NOUN	_	16	nsubj	_	_
-18	a	a	PART	PART	_	19	rel	_	_
+18	a	a	PART	PART	_	19	nsubj	_	_
 19	bhaineann	bain	VERB	VERB	_	17	acl:relcl	_	_
 20	leis	le	ADP	ADP	_	19	case	_	_
 21	an	an	DET	DET	_	22	det	_	_
@@ -6464,7 +6464,7 @@
 27	forbairt	forbairt	NOUN	NOUN	_	17	compound	_	_
 28	suímh	suíomh	NOUN	NOUN	_	27	compound	_	_
 29	idirlín	líon	NOUN	NOUN	_	28	compound	_	_
-30	a	a	PART	PART	_	31	rel	_	_
+30	a	a	PART	PART	_	31	nsubj	_	_
 31	bhaineann	bain	VERB	VERB	_	28	acl:relcl	_	_
 32	le	le	ADP	ADP	_	31	case	_	_
 33	foilsitheoireacht	foilsitheoireacht	NOUN	NOUN	_	32	nmod	_	_
@@ -6530,7 +6530,7 @@
 14	sé	sé	PRON	PRON	_	13	nsubj	_	_
 15	pé	pé	PRON	PRON	_	13	dobj	_	_
 16	rud	rud	NOUN	NOUN	_	15	compound	_	_
-17	a	a	PART	PART	_	18	rel	_	_
+17	a	a	PART	PART	_	18	nsubj	_	_
 18	bhí	bí	VERB	VERB	_	15	acl:relcl	_	_
 19	aige	ag	ADP	ADP	_	18	case	_	_
 20	i_rith	i_rith	ADP	ADP	_	18	case	_	_
@@ -6543,7 +6543,7 @@
 27	sos	sos	NOUN	NOUN	_	26	nmod	_	_
 28	dóibh	do	ADP	ADP	_	27	case	_	_
 29	siúd	siúd	PRON	PRON	_	25	dobj	_	_
-30	a	a	PART	PART	_	31	rel	_	_
+30	a	a	PART	PART	_	31	nsubj	_	_
 31	bhí	bí	VERB	VERB	_	29	acl:relcl	_	_
 32	mar	mar	ADP	ADP	_	31	xcomp:pred	_	_
 33	chúram	cúram	NOUN	NOUN	_	32	nmod	_	_
@@ -6553,7 +6553,7 @@
 1	Féadfaidh	féad	VERB	VERB	_	0	ROOT	_	_
 2	aon	aon	DET	DET	_	3	det	_	_
 3	pháirtí	páirtí	NOUN	NOUN	_	1	nsubj	_	_
-4	ar	ar	PART	PART	_	5	rel	_	_
+4	ar	ar	PART	PART	_	5	nsubj	_	_
 5	theip	teip	VERB	VERB	_	3	acl:relcl	_	_
 6	ar	ar	ADP	ADP	_	5	case	_	_
 7	a	a	DET	DET	_	8	nmod:poss	_	_
@@ -6582,7 +6582,7 @@
 7	!	!	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Criosanna	crios	NOUN	NOUN	_	0	ROOT	_	_
-2	a	a	PART	PART	_	3	rel	_	_
+2	a	a	PART	PART	_	3	dobj	_	_
 3	thugtar	tabhair	VERB	VERB	_	1	acl:relcl	_	_
 4	ar	ar	ADP	ADP	_	3	case	_	_
 5	na	na	DET	DET	_	6	det	_	_
@@ -6798,7 +6798,7 @@
 3	é	é	PRON	PRON	_	2	nmod	_	_
 4	an	an	DET	DET	_	5	det	_	_
 5	uair	uair	NOUN	NOUN	_	1	nsubj	_	_
-6	a	a	PART	PART	_	7	rel	_	_
+6	a	a	PART	PART	_	7	nsubj	_	_
 7	baineadh	bain	VERB	VERB	_	5	acl:relcl	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	gheit	geit	NOUN	NOUN	_	7	dobj	_	_
@@ -6891,7 +6891,7 @@
 4	ullamh	ullamh	ADJ	ADJ	_	3	xcomp:pred	_	_
 5	don	do	ADP	ADP	_	4	case	_	_
 6	tromaíocht	tromaíocht	NOUN	NOUN	_	5	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	rinneadh	déan	VERB	VERB	_	6	acl:relcl	_	_
 9	ar_fud	ar_fud	ADP	ADP	_	8	case	_	_
 10	na	na	DET	DET	_	11	det	_	_
@@ -6903,7 +6903,7 @@
 16	bhfuil	bí	VERB	VERB	_	13	csubj:cop	_	_
 17	an	an	DET	DET	_	18	det	_	_
 18	réasúnú	réasúnú	NOUN	NOUN	_	16	nsubj	_	_
-19	a	a	PART	PART	_	20	rel	_	_
+19	a	a	PART	PART	_	20	nsubj	_	_
 20	spreag	spreag	VERB	VERB	_	18	acl:relcl	_	_
 21	an	an	DET	DET	_	22	det	_	_
 22	cinneadh	cinneadh	NOUN	NOUN	_	20	dobj	_	_
@@ -6995,7 +6995,7 @@
 10	seibineach	seibineach	NOUN	NOUN	_	1	nmod	_	_
 11	de	de	ADP	ADP	_	10	case	_	_
 12	ghiorria	giorria	NOUN	NOUN	_	11	nmod	_	_
-13	a	a	PART	PART	_	15	rel	_	_
+13	a	a	PART	PART	_	15	nsubj	_	_
 14	d'	do	PART	PART	_	15	mark:prt	_	_
 15	éiríodh	éirigh	VERB	VERB	_	10	acl:relcl	_	_
 16	as	as	ADP	ADP	_	15	case	_	_
@@ -7151,7 +7151,7 @@
 4	eolais	eolas	NOUN	NOUN	_	2	nsubj	_	_
 5	faoin	faoi	ADP	ADP	_	4	case	_	_
 6	taisteal	taisteal	NOUN	NOUN	_	5	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	rinne	déan	VERB	VERB	_	6	acl:relcl	_	_
 9	Naomh	naomh	PROPN	PROPN	_	10	compound	_	_
 10	Pádraig	Pádraig	PROPN	PROPN	_	8	nsubj	_	_
@@ -7173,7 +7173,7 @@
 12	aimsir	aimsir	NOUN	NOUN	_	10	nmod	_	_
 13	chaite	caite	ADJ	ADJ	_	12	amod	_	_
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	nsubj	_	_
 16	fhágann	fág	VERB	VERB	_	2	acl:relcl	_	_
 17	gur	is	VERB	VERB	_	16	ccomp	_	_
 18	deacair	deacair	ADJ	ADJ	_	17	xcomp:pred	_	_
@@ -7218,7 +7218,7 @@
 26	coinníollacha	coinníoll	NOUN	NOUN	_	25	nmod	_	_
 27	sláinte	sláinte	NOUN	NOUN	_	26	compound	_	_
 28	ainmhithe	ainmhí	NOUN	NOUN	_	27	compound	_	_
-29	a	a	PART	PART	_	30	rel	_	_
+29	a	a	PART	PART	_	30	nsubj	_	_
 30	rialaíonn	rialaigh	VERB	VERB	_	26	acl:relcl	_	_
 31	trádáil	trádáil	NOUN	NOUN	_	30	dobj	_	_
 32	in	i	ADP	ADP	_	30	case	_	_
@@ -7378,7 +7378,7 @@
 28	ná	ná	SCONJ	SCONJ	_	30	mark	_	_
 29	an	an	DET	DET	_	30	det	_	_
 30	radharc	radharc	NOUN	NOUN	_	24	xcomp	_	_
-31	a	a	PART	PART	_	32	rel	_	_
+31	a	a	PART	PART	_	32	nsubj	_	_
 32	bhí	bí	VERB	VERB	_	30	acl:relcl	_	_
 33	le	le	ADP	ADP	_	32	xcomp	_	_
 34	feiceáil	feic	NOUN	NOUN	_	33	nmod	_	_
@@ -7435,7 +7435,7 @@
 4	ar	ar	ADP	ADP	_	1	case	_	_
 5	na	na	DET	DET	_	6	det	_	_
 6	bealaí	bealach	NOUN	NOUN	_	4	nmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	bhí	bí	VERB	VERB	_	6	acl:relcl	_	_
 9	ag	ag	ADP	ADP	_	8	case	_	_
 10	údaráis	údarás	NOUN	NOUN	_	9	nmod	_	_
@@ -7507,7 +7507,7 @@
 3	dlí	dlí	NOUN	NOUN	_	5	dobj	_	_
 4	a	a	PART	PART	_	5	mark	_	_
 5	reachtáil	reachtáil	NOUN	NOUN	_	2	xcomp	_	_
-6	a	a	PART	PART	_	7	rel	_	_
+6	a	a	PART	PART	_	7	nsubj	_	_
 7	thabharfadh	tabhair	VERB	VERB	_	3	acl:relcl	_	_
 8	treoir	treoir	NOUN	NOUN	_	7	dobj	_	_
 9	don	do	ADP	ADP	_	7	case	_	_
@@ -7585,7 +7585,7 @@
 9	ina	i	ADP	ADP	_	8	xcomp:pred	_	_
 10	magistri	magistri	NOUN	NOUN	_	9	nmod	_	_
 11	tráth	tráth	NOUN	NOUN	_	8	advmod	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	nsubj	_	_
 13	bhíodh	bí	VERB	VERB	_	1	acl:relcl	_	_
 14	ann	i	ADP	ADP	_	13	xcomp:pred	_	_
 15	.	.	PUNCT	PUNCT	_	13	punct	_	_
@@ -7634,7 +7634,7 @@
 
 1	An	an	DET	DET	_	2	det	_	_
 2	rud	rud	NOUN	NOUN	_	0	ROOT	_	_
-3	a	a	PART	PART	_	4	rel	_	_
+3	a	a	PART	PART	_	4	nsubj	_	_
 4	theastaigh	teastaigh	VERB	VERB	_	2	acl:relcl	_	_
 5	ó	ó	ADP	ADP	_	4	case	_	_
 6	Bhreandán	Breandán	PROPN	PROPN	_	5	nmod	_	_
@@ -7707,7 +7707,7 @@
 23	ag	ag	ADP	ADP	_	22	case	_	_
 24	na	na	DET	DET	_	25	det	_	_
 25	ceisteanna	ceist	NOUN	NOUN	_	23	nmod	_	_
-26	a	a	PART	PART	_	27	rel	_	_
+26	a	a	PART	PART	_	27	dobj	_	_
 27	chuireann	cuir	VERB	VERB	_	25	acl:relcl	_	_
 28	a	a	DET	DET	_	29	nmod:poss	_	_
 29	cheannairí	ceannaire	NOUN	NOUN	_	27	nsubj	_	_
@@ -7740,7 +7740,7 @@
 21	na	na	DET	DET	_	22	det	_	_
 22	hainmhithe	ainmhí	NOUN	NOUN	_	20	nmod	_	_
 23	beaga	beag	ADJ	ADJ	_	22	amod	_	_
-24	a	a	PART	PART	_	25	rel	_	_
+24	a	a	PART	PART	_	25	dobj	_	_
 25	fheiceann	feic	VERB	VERB	_	22	acl:relcl	_	_
 26	tú	tú	PRON	PRON	_	25	nsubj	_	_
 27	ar	ar	ADP	ADP	_	25	case	_	_
@@ -7837,7 +7837,7 @@
 2	Máire	Máire	PROPN	PROPN	_	1	nsubj	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	fear	fear	NOUN	NOUN	_	1	dobj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	bhí	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	ag	ag	ADP	ADP	_	6	xcomp	_	_
 8	iascaireacht	iascaireacht	NOUN	NOUN	_	7	nmod	_	_
@@ -7887,7 +7887,7 @@
 8	eile	eile	DET	DET	_	7	det	_	_
 9	nós	nós	NOUN	NOUN	_	7	compound	_	_
 10	imeachta	imeacht	NOUN	NOUN	_	9	compound	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	dobj	_	_
 12	seoladh	seoladh	NOUN	NOUN	_	5	acl:relcl	_	_
 13	chuig	chuig	ADP	ADP	_	12	case	_	_
 14	an	an	DET	DET	_	15	det	_	_
@@ -7929,7 +7929,7 @@
 50	eile	eile	DET	DET	_	49	det	_	_
 51	nós	nós	NOUN	NOUN	_	49	compound	_	_
 52	imeachta	imeacht	NOUN	NOUN	_	51	compound	_	_
-53	a	a	PART	PART	_	54	rel	_	_
+53	a	a	PART	PART	_	54	dobj	_	_
 54	seoladh	seoladh	NOUN	NOUN	_	47	acl:relcl	_	_
 55	chuig	chuig	ADP	ADP	_	54	case	_	_
 56	an	an	DET	DET	_	57	det	_	_
@@ -8020,7 +8020,7 @@
 12	an	an	DET	DET	_	14	det	_	_
 13	chéad	céad	NUM	NUM	_	14	nummod	_	_
 14	duine	duine	NOUN	NOUN	_	9	nsubj	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	dobj	_	_
 16	cuireadh	cuir	VERB	VERB	_	14	acl:relcl	_	_
 17	inti	i	ADP	ADP	_	16	case	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
@@ -8040,7 +8040,7 @@
 7	sa	i	ADP	ADP	_	1	xcomp:pred	_	_
 8	chuntas	cuntas	NOUN	NOUN	_	7	nmod	_	_
 9	seo	seo	DET	DET	_	8	det	_	_
-10	a	a	PART	PART	_	11	rel	_	_
+10	a	a	PART	PART	_	11	nsubj	_	_
 11	leanas	lean	VERB	VERB	_	8	acl:relcl	_	_
 12	ó	ó	ADP	ADP	_	8	case	_	_
 13	Sheán	Seán	PROPN	PROPN	_	12	nmod	_	_
@@ -8063,7 +8063,7 @@
 30	féin	féin	NOUN	NOUN	_	29	compound	_	_
 31	:	:	PUNCT	PUNCT	_	32	punct	_	_
 32	Scéal	scéal	NOUN	NOUN	_	1	compound	_	_
-33	a	a	PART	PART	_	34	rel	_	_
+33	a	a	PART	PART	_	34	nsubj	_	_
 34	thairringíonn	thairring	VERB	VERB	_	32	acl:relcl	_	_
 35	scéal	scéal	NOUN	NOUN	_	34	dobj	_	_
 36	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -8160,7 +8160,7 @@
 20	Fhorais	foras	NOUN	NOUN	_	17	compound	_	_
 21	Riaracháin	riarachán	NOUN	NOUN	_	20	compound	_	_
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
-23	a	a	PART	PART	_	24	rel	_	_
+23	a	a	PART	PART	_	24	nsubj	_	_
 24	thug	tabhair	VERB	VERB	_	17	acl:relcl	_	_
 25	lántacaíocht	tacaíocht	NOUN	NOUN	_	24	dobj	_	_
 26	ó	ó	ADP	ADP	_	24	case	_	_
@@ -8229,7 +8229,7 @@
 12	Seosaimhín	Seosaimhín	PROPN	PROPN	_	1	nsubj	_	_
 13	Ní	ní	PART	PART	_	12	name	_	_
 14	Bheaglaoich	Beaglaoich	PROPN	PROPN	_	12	name	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	dobj	_	_
 16	tógadh	tóg	VERB	VERB	_	12	acl:relcl	_	_
 17	i	i	ADP	ADP	_	16	case	_	_
 18	mBaile	Baile	PROPN	PROPN	_	17	nmod	_	_
@@ -8250,7 +8250,7 @@
 8	/	/	PUNCT	PUNCT	_	5	cc	_	_
 9	cumainn	cumann	NOUN	NOUN	_	5	conj	_	_
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	dobj	_	_
 12	bhfuil	bí	VERB	VERB	_	5	acl:relcl	_	_
 13	suim	suim	NOUN	NOUN	_	12	nsubj	_	_
 14	acu	ag	ADP	ADP	_	12	case	_	_
@@ -8373,7 +8373,7 @@
 75	fianaise	fianaise	NOUN	NOUN	_	74	xcomp:pred	_	_
 76	é	é	PRON	PRON	_	75	nmod	_	_
 77	ar	ar	ADP	ADP	_	74	nsubj	_	_
-78	a	a	PART	PART	_	79	rel	_	_
+78	a	a	PART	PART	_	79	nsubj	_	_
 79	bhfuil	bí	VERB	VERB	_	77	acl:relcl	_	_
 80	ann	i	ADP	ADP	_	79	xcomp:pred	_	_
 81	.	.	PUNCT	PUNCT	_	24	punct	_	_
@@ -8414,7 +8414,7 @@
 24	fileata	fileata	ADJ	ADJ	_	23	amod	_	_
 25	is	is	PART	PART	_	26	mark:prt	_	_
 26	mó	mór	ADJ	ADJ	_	23	amod	_	_
-27	a	a	PART	PART	_	28	rel	_	_
+27	a	a	PART	PART	_	28	dobj	_	_
 28	sheachain	seachain	VERB	VERB	_	23	acl:relcl	_	_
 29	filí	file	NOUN	NOUN	_	28	nsubj	_	_
 30	maithe	maith	ADJ	ADJ	_	29	amod	_	_
@@ -8462,7 +8462,7 @@
 10	ar	ar	ADP	ADP	_	9	case	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	chomhairle	comhairle	NOUN	NOUN	_	10	nmod	_	_
-13	a	a	PART	PART	_	14	rel	_	_
+13	a	a	PART	PART	_	14	dobj	_	_
 14	thugtar	tabhair	VERB	VERB	_	12	acl:relcl	_	_
 15	san	i	ADP	ADP	_	14	case	_	_
 16	Bhíobla	Bíobla	NOUN	NOUN	_	15	nmod	_	_
@@ -8549,7 +8549,7 @@
 29	Laoghaoire	Laoghaoire	PROPN	PROPN	_	28	compound	_	_
 30	,	,	PUNCT	PUNCT	_	31	punct	_	_
 31	áit	áit	NOUN	NOUN	_	28	appos	_	_
-32	ar	ar	PART	PART	_	33	rel	_	_
+32	ar	ar	PART	PART	_	33	dobj	_	_
 33	thángadar	tar	VERB	VERB	_	31	acl:relcl	_	_
 34	i	i	ADP	ADP	_	33	case	_	_
 35	dtír	tír	NOUN	NOUN	_	34	nmod	_	_
@@ -8680,7 +8680,7 @@
 6	iomchuí	iomchuí	ADJ	ADJ	_	5	xcomp:pred	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	t-ionad	ionad	NOUN	NOUN	_	5	nsubj	_	_
-9	inar	i	PART	PART	_	10	rel	_	_
+9	inar	i	PART	PART	_	10	dobj	_	_
 10	scoir	scoir	VERB	VERB	_	8	acl:relcl	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	tAthair	athair	NOUN	NOUN	_	10	nsubj	_	_
@@ -8702,7 +8702,7 @@
 28	ag	ag	ADP	ADP	_	24	case	_	_
 29	an	an	DET	DET	_	30	det	_	_
 30	véarsa	véarsa	NOUN	NOUN	_	28	nmod	_	_
-31	a	a	PART	PART	_	32	rel	_	_
+31	a	a	PART	PART	_	32	dobj	_	_
 32	dúramar	abair	VERB	VERB	_	30	acl:relcl	_	_
 33	romhainn	roimh	ADP	ADP	_	32	case	_	_
 34	,	,	PUNCT	PUNCT	_	35	punct	_	_
@@ -8856,7 +8856,7 @@
 10	bhfios	fios	NOUN	NOUN	_	9	nmod	_	_
 11	-	-	PUNCT	PUNCT	_	12	punct	_	_
 12	i_ndiaidh	i_ndiaidh	ADP	ADP	_	4	case	_	_
-13	a	a	PART	PART	_	14	rel	_	_
+13	a	a	PART	PART	_	14	nsubj	_	_
 14	raibh	bí	VERB	VERB	_	12	acl:relcl	_	_
 15	céasta	céasta	ADJ	ADJ	_	14	xcomp:pred	_	_
 16	aige	ag	ADP	ADP	_	15	case	_	_
@@ -9284,7 +9284,7 @@
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
 12	an	an	DET	DET	_	13	det	_	_
 13	banaisteoir	aisteoir	NOUN	NOUN	_	10	appos	_	_
-14	a	a	PART	PART	_	15	rel	_	_
+14	a	a	PART	PART	_	15	nsubj	_	_
 15	chaith	caith	VERB	VERB	_	13	acl:relcl	_	_
 16	tús	tús	NOUN	NOUN	_	15	dobj	_	_
 17	a	a	DET	DET	_	18	nmod:poss	_	_
@@ -9320,7 +9320,7 @@
 17	faoin	faoi	ADP	ADP	_	14	case	_	_
 18	gCloch	cloch	NOUN	NOUN	_	17	nmod	_	_
 19	Chora	Cora	PROPN	PROPN	_	18	compound	_	_
-20	a	a	PART	PART	_	21	rel	_	_
+20	a	a	PART	PART	_	21	dobj	_	_
 21	shíl	síl	VERB	VERB	_	18	acl:relcl	_	_
 22	an	an	DET	DET	_	23	det	_	_
 23	Coileánach	Coileáin	PROPN	PROPN	_	21	nsubj	_	_
@@ -9340,7 +9340,7 @@
 1	FEARAIS	fearas	NOUN	NOUN	_	6	compound	_	_
 2	TI	TI	PROPN	PROPN	_	1	compound	_	_
 3	GNIOMHARTHA	gniomharth	NOUN	NOUN	_	1	compound	_	_
-4	DA	DA	PROPN	PROPN	_	5	rel	_	_
+4	DA	DA	PROPN	PROPN	_	5	dobj	_	_
 5	dTAGRAITEAR	tagair	VERB	VERB	_	1	acl:relcl	_	_
 6	Fear	fear	NOUN	NOUN	_	0	ROOT	_	_
 7	cathrach	cathair	NOUN	NOUN	_	6	amod	_	_
@@ -9352,7 +9352,7 @@
 13	shampla	sampla	NOUN	NOUN	_	12	nmod	_	_
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
 15	fear	fear	NOUN	NOUN	_	9	appos	_	_
-16	a	a	PART	PART	_	17	rel	_	_
+16	a	a	PART	PART	_	17	nsubj	_	_
 17	bheadh	bí	VERB	VERB	_	15	acl:relcl	_	_
 18	ina	i	ADP	ADP	_	17	xcomp:pred	_	_
 19	éan	éan	NOUN	NOUN	_	18	nmod	_	_
@@ -9392,7 +9392,7 @@
 2	an	an	DET	DET	_	3	det	_	_
 3	modh	modh	NOUN	NOUN	_	1	nmod	_	_
 4	reacaireachta	reacaireacht	NOUN	NOUN	_	3	compound	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	úsáidtear	úsáid	VERB	VERB	_	3	acl:relcl	_	_
 7	san	i	ADP	ADP	_	6	case	_	_
 8	insint	insint	NOUN	NOUN	_	7	nmod	_	_
@@ -9420,7 +9420,7 @@
 10	a	a	DET	DET	_	11	nmod:poss	_	_
 11	athair	athair	NOUN	NOUN	_	9	nmod	_	_
 12	féin	féin	NOUN	NOUN	_	11	compound	_	_
-13	a	a	PART	PART	_	14	rel	_	_
+13	a	a	PART	PART	_	14	nsubj	_	_
 14	dhéanfaidh	déan	VERB	VERB	_	3	acl:relcl	_	_
 15	feall	feall	NOUN	NOUN	_	14	dobj	_	_
 16	is	is	VERB	VERB	_	1	ccomp	_	_
@@ -9585,7 +9585,7 @@
 37	géagach	géagach	ADJ	ADJ	_	36	amod	_	_
 38	na	na	DET	DET	_	39	det	_	_
 39	croise	cros	NOUN	NOUN	_	36	compound	_	_
-40	a	a	PART	PART	_	41	rel	_	_
+40	a	a	PART	PART	_	41	dobj	_	_
 41	chaithfí	caith	VERB	VERB	_	39	acl:relcl	_	_
 42	a	a	PART	PART	_	43	mark	_	_
 43	iompar	iompar	NOUN	NOUN	_	41	xcomp	_	_
@@ -9627,7 +9627,7 @@
 12	cheadaigh	ceadaigh	VERB	VERB	_	1	conj	_	_
 13	seisean	seisean	PRON	PRON	_	12	nsubj	_	_
 14	toirmeasc	toirmeasc	NOUN	NOUN	_	12	dobj	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	nsubj	_	_
 16	chuireann	cuir	VERB	VERB	_	14	acl:relcl	_	_
 17	cosc	cosc	NOUN	NOUN	_	16	dobj	_	_
 18	ar	ar	ADP	ADP	_	16	case	_	_
@@ -9645,7 +9645,7 @@
 30	an	an	DET	DET	_	31	det	_	_
 31	Gharda	garda	NOUN	NOUN	_	29	nmod	_	_
 32	,	,	PUNCT	PUNCT	_	34	punct	_	_
-33	a	a	PART	PART	_	34	rel	_	_
+33	a	a	PART	PART	_	34	nsubj	_	_
 34	chuireann	cuir	VERB	VERB	_	14	acl:relcl	_	_
 35	cosc	cosc	NOUN	NOUN	_	34	dobj	_	_
 36	air	ar	ADP	ADP	_	34	case	_	_
@@ -9694,17 +9694,17 @@
 1	(5)	(5)	X	X	_	2	nummod	_	_
 2	Beidh	bí	VERB	VERB	_	0	ROOT	_	_
 3	cóip	cóip	NOUN	NOUN	_	2	nsubj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	thugann	tabhair	VERB	VERB	_	3	acl:relcl	_	_
 6	le	le	ADP	ADP	_	5	case	_	_
 7	tuisgint	tuiscint	NOUN	NOUN	_	6	nmod	_	_
 8	gur	is	VERB	VERB	_	2	ccomp	_	_
 9	cóip	cóip	NOUN	NOUN	_	8	xcomp:pred	_	_
 10	í	í	PRON	PRON	_	8	nsubj	_	_
-11	do	do	ADP	ADP	_	12	rel	_	_
+11	do	do	ADP	ADP	_	12	dobj	_	_
 12	clóbhuaileadh	clóbhuail	VERB	VERB	_	9	acl:relcl	_	_
 13	agus	agus	CONJ	CONJ	_	12	cc	_	_
-14	do	do	ADP	ADP	_	15	rel	_	_
+14	do	do	ADP	ADP	_	15	dobj	_	_
 15	foillsíodh	foillsigh	VERB	VERB	_	12	conj	_	_
 16	ag	ag	ADP	ADP	_	13	case	_	_
 17	an	an	DET	DET	_	18	det	_	_
@@ -9720,7 +9720,7 @@
 27	de	de	ADP	ADP	_	26	case	_	_
 28	dhochtúirí	dochtúir	NOUN	NOUN	_	27	nmod	_	_
 29	leighis	leigheas	NOUN	NOUN	_	28	compound	_	_
-30	a	a	PART	PART	_	31	rel	_	_
+30	a	a	PART	PART	_	31	nsubj	_	_
 31	bheidh	bí	VERB	VERB	_	26	acl:relcl	_	_
 32	de	de	ADP	ADP	_	31	case	_	_
 33	thurus	turas	NOUN	NOUN	_	32	nmod	_	_
@@ -9734,10 +9734,10 @@
 41	leighis	leigheas	NOUN	NOUN	_	40	compound	_	_
 42	is	is	PART	PART	_	43	mark:prt	_	_
 43	déanaí	déanach	ADJ	ADJ	_	38	amod	_	_
-44	do	do	PART	PART	_	45	rel	_	_
+44	do	do	PART	PART	_	45	dobj	_	_
 45	clóbhuaileadh	clóbhuail	VERB	VERB	_	38	acl:relcl	_	_
 46	agus	agus	CONJ	CONJ	_	45	cc	_	_
-47	do	do	PART	PART	_	48	rel	_	_
+47	do	do	PART	PART	_	48	dobj	_	_
 48	foillsíodh	foillsigh	VERB	VERB	_	45	conj	_	_
 49	amhlaidh	amhlaidh	ADV	ADV	_	48	advmod	_	_
 50	,	,	PUNCT	PUNCT	_	51	punct	_	_
@@ -9760,7 +9760,7 @@
 67	ar	ar	ADP	ADP	_	51	case	_	_
 68	gach	gach	DET	DET	_	69	det	_	_
 69	éinne	duine	NOUN	NOUN	_	67	nmod	_	_
-70	go	go	PART	PART	_	71	rel	_	_
+70	go	go	PART	PART	_	71	mark:prt	_	_
 71	bhfuil	bí	VERB	VERB	_	69	acl:relcl	_	_
 72	a	a	DET	DET	_	73	nmod:poss	_	_
 73	ainm	ainm	NOUN	NOUN	_	71	nsubj	_	_
@@ -9785,7 +9785,7 @@
 92	agus	agus	CONJ	CONJ	_	67	cc	_	_
 93	ar	ar	ADP	ADP	_	67	conj	_	_
 94	éinne	duine	NOUN	NOUN	_	93	nmod	_	_
-95	ná	nach	X	X	_	96	rel	_	_
+95	ná	nach	X	X	_	96	dobj	_	_
 96	fuil	bí	VERB	VERB	_	94	acl:relcl	_	_
 97	a	a	DET	DET	_	98	nmod:poss	_	_
 98	ainm	ainm	NOUN	NOUN	_	96	nsubj	_	_
@@ -9822,7 +9822,7 @@
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	le	le	ADP	ADP	_	8	case	_	_
 18	grúpa	grúpa	NOUN	NOUN	_	17	nmod	_	_
-19	a	a	PART	PART	_	20	rel	_	_
+19	a	a	PART	PART	_	20	nsubj	_	_
 20	bhí	bí	VERB	VERB	_	18	acl:relcl	_	_
 21	ag	ag	ADP	ADP	_	20	xcomp	_	_
 22	iarraidh	iarraidh	NOUN	NOUN	_	21	nmod	_	_
@@ -9851,7 +9851,7 @@
 1	Agus	agus	CONJ	CONJ	_	20	advmod	_	_
 2	ón	ó	ADP	ADP	_	20	case	_	_
 3	uair	uair	NOUN	NOUN	_	2	nmod	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	dobj	_	_
 5	chuir	cuir	VERB	VERB	_	3	acl:relcl	_	_
 6	mé	mé	PRON	PRON	_	5	nsubj	_	_
 7	mo	mo	DET	DET	_	8	nmod:poss	_	_
@@ -9934,7 +9934,7 @@
 8	faoi	faoi	ADP	ADP	_	7	case	_	_
 9	chosa	cos	NOUN	NOUN	_	8	nmod	_	_
 10	aingeal	aingeal	NOUN	NOUN	_	9	compound	_	_
-11	A	a	PART	PART	_	12	rel	_	_
+11	A	a	PART	PART	_	12	nsubj	_	_
 12	thuirling	tuirling	VERB	VERB	_	10	acl:relcl	_	_
 13	ann	i	ADP	ADP	_	12	case	_	_
 14	go	go	PART	PART	_	15	mark:prt	_	_
@@ -9971,7 +9971,7 @@
 2	a'	an	DET	DET	_	3	det	_	_
 3	Phoic	poc	NOUN	NOUN	_	1	compound	_	_
 4	Duine	duine	NOUN	NOUN	_	10	compound	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	bheadh	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	ag	ag	ADP	ADP	_	6	xcomp	_	_
 8	ceannach	ceannach	NOUN	NOUN	_	7	nmod	_	_
@@ -10229,7 +10229,7 @@
 49	ón	ó	ADP	ADP	_	45	case	_	_
 50	mám	mám	NOUN	NOUN	_	49	nmod	_	_
 51	millteach	millteach	ADJ	ADJ	_	50	amod	_	_
-52	a	a	PART	PART	_	53	rel	_	_
+52	a	a	PART	PART	_	53	nsubj	_	_
 53	bhí	bí	VERB	VERB	_	50	acl:relcl	_	_
 54	uirthi	ar	ADP	ADP	_	53	case	_	_
 55	.	.	PUNCT	PUNCT	_	22	punct	_	_
@@ -10272,7 +10272,7 @@
 8	uirthi	ar	ADP	ADP	_	1	case	_	_
 9	-	-	PUNCT	PUNCT	_	10	punct	_	_
 10	ceann	ceann	NOUN	NOUN	_	3	appos	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	nsubj	_	_
 12	rachas	téigh	VERB	VERB	_	10	acl:relcl	_	_
 13	thart	thart	ADV	ADV	_	12	advmod	_	_
 14	ar	ar	ADP	ADP	_	12	case	_	_
@@ -10284,7 +10284,7 @@
 1	Mínigh	mínigh	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	chaoi	caoi	NOUN	NOUN	_	1	dobj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	dtéann	téigh	VERB	VERB	_	3	acl:relcl	_	_
 6	a	a	DET	DET	_	8	nmod:poss	_	_
 7	gcuid	cuid	NOUN	NOUN	_	8	advmod	_	_
@@ -10375,7 +10375,7 @@
 20	'	'	PUNCT	PUNCT	_	17	punct	_	_
 21	,	,	PUNCT	PUNCT	_	22	punct	_	_
 22	amhrán	amhrán	NOUN	NOUN	_	13	appos	_	_
-23	go	go	PART	PART	_	24	rel	_	_
+23	go	go	PART	PART	_	24	dobj	_	_
 24	raibh	bí	VERB	VERB	_	22	acl:relcl	_	_
 25	báidh	báidh	NOUN	NOUN	_	24	nsubj	_	_
 26	an	an	DET	DET	_	27	det	_	_
@@ -10384,7 +10384,7 @@
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
 30	agus	agus	CONJ	CONJ	_	22	cc	_	_
 31	amhrán	amhrán	NOUN	NOUN	_	22	conj	_	_
-32	a	a	PART	PART	_	33	rel	_	_
+32	a	a	PART	PART	_	33	dobj	_	_
 33	chan	can	VERB	VERB	_	31	acl:relcl	_	_
 34	Gaeilgeoirí	Gaeilgeoir	NOUN	NOUN	_	33	nsubj	_	_
 35	le	le	ADP	ADP	_	33	case	_	_
@@ -10435,7 +10435,7 @@
 6	ar	ar	ADP	ADP	_	5	case	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	ealaín	ealaín	NOUN	NOUN	_	6	nmod	_	_
-9	a	a	PART	PART	_	10	rel	_	_
+9	a	a	PART	PART	_	10	nsubj	_	_
 10	bhí	bí	VERB	VERB	_	8	acl:relcl	_	_
 11	ar	ar	ADP	ADP	_	10	case	_	_
 12	siúl	siúl	NOUN	NOUN	_	11	nmod	_	_
@@ -10480,7 +10480,7 @@
 22	sin	sin	PRON	PRON	_	21	det	_	_
 23	na	na	DET	DET	_	24	det	_	_
 24	truaillíochta	truaillíochta	NOUN	NOUN	_	19	dobj	_	_
-25	a	a	PART	PART	_	26	rel	_	_
+25	a	a	PART	PART	_	26	nsubj	_	_
 26	chuireann	cuir	VERB	VERB	_	24	acl:relcl	_	_
 27	an	an	DET	DET	_	28	det	_	_
 28	saol	saol	NOUN	NOUN	_	26	dobj	_	_
@@ -10558,7 +10558,7 @@
 5	an	an	DET	DET	_	6	det	_	_
 6	t-eolas	eolas	NOUN	NOUN	_	4	nsubj	_	_
 7	breise	breis	NOUN	NOUN	_	6	compound	_	_
-8	a	a	PART	PART	_	9	rel	_	_
+8	a	a	PART	PART	_	9	dobj	_	_
 9	lorgaíodh	lorg	VERB	VERB	_	6	acl:relcl	_	_
 10	le	le	ADP	ADP	_	4	case	_	_
 11	gné	gné	NOUN	NOUN	_	10	nmod	_	_
@@ -10567,7 +10567,7 @@
 14	den	de	ADP	ADP	_	11	case	_	_
 15	obair	obair	NOUN	NOUN	_	14	nmod	_	_
 16	theicniúil	teicniúil	ADJ	ADJ	_	15	amod	_	_
-17	a	a	PART	PART	_	18	rel	_	_
+17	a	a	PART	PART	_	18	nsubj	_	_
 18	bhaineann	bain	VERB	VERB	_	15	acl:relcl	_	_
 19	le	le	ADP	ADP	_	18	case	_	_
 20	tógáil	tógáil	NOUN	NOUN	_	19	nmod	_	_
@@ -10715,7 +10715,7 @@
 19	1942	1942	NUM	NUM	_	12	nummod	_	_
 20	,	,	PUNCT	PUNCT	_	19	punct	_	_
 21	5)	5)	X	X	_	19	nummod	_	_
-22	a	a	PART	PART	_	23	rel	_	_
+22	a	a	PART	PART	_	23	dobj	_	_
 23	luaigh	luaigh	VERB	VERB	_	9	acl:relcl	_	_
 24	mé	mé	PRON	PRON	_	23	nsubj	_	_
 25	i	i	ADP	ADP	_	23	case	_	_
@@ -10727,7 +10727,7 @@
 2	an	an	DET	DET	_	3	det	_	_
 3	teicníocht	teicníocht	NOUN	NOUN	_	1	nsubj	_	_
 4	inste	inste	ADJ	ADJ	_	3	amod	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	roghnaíonn	roghnaigh	VERB	VERB	_	3	acl:relcl	_	_
 7	sé	sé	PRON	PRON	_	6	nsubj	_	_
 8	thar_a_bheith	thar_a_bheith	ADV	ADV	_	9	advmod	_	_
@@ -11220,7 +11220,7 @@
 2	fíorthuisceanach	tuisceanach	ADJ	ADJ	_	1	amod	_	_
 3	é	é	PRON	PRON	_	4	nmod	_	_
 4	Ciarán	Ciarán	PROPN	PROPN	_	1	nsubj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	thug	tabhair	VERB	VERB	_	4	acl:relcl	_	_
 7	faoi	faoi	ADP	ADP	_	6	case	_	_
 8	deara	deara	NOUN	NOUN	_	7	nmod	_	_
@@ -11372,7 +11372,7 @@
 4	ar	ar	ADP	ADP	_	3	case	_	_
 5	atmaisféar	atmaisféar	NOUN	NOUN	_	4	nmod	_	_
 6	ranga	rang	NOUN	NOUN	_	5	compound	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	léiríonn	léirigh	VERB	VERB	_	1	acl:relcl	_	_
 9	meas	meas	NOUN	NOUN	_	8	dobj	_	_
 10	ar	ar	ADP	ADP	_	8	case	_	_
@@ -11431,7 +11431,7 @@
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	priontáil	priontáil	NOUN	NOUN	_	1	nmod	_	_
 11	lazer	lazer	X	X	_	10	compound	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	nsubj	_	_
 13	bhéidh	bí	VERB	VERB	_	11	acl:relcl	_	_
 14	i	i	ADP	ADP	_	13	xcomp:pred	_	_
 15	ndán	dán	NOUN	NOUN	_	14	nmod	_	_
@@ -11523,7 +11523,7 @@
 4	as	as	ADP	ADP	_	3	case	_	_
 5	taisí	taise	NOUN	NOUN	_	4	nmod	_	_
 6	orgánach	orgánach	ADJ	ADJ	_	5	amod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	nsubj	_	_
 8	mhair	mair	VERB	VERB	_	5	acl:relcl	_	_
 9	na	na	DET	DET	_	10	det	_	_
 10	milliúin	milliún	NOUN	NOUN	_	11	nummod	_	_
@@ -11556,7 +11556,7 @@
 1	Chuir	cuir	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	scéala	scéala	NOUN	NOUN	_	1	nsubj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	ag	ag	ADP	ADP	_	5	case	_	_
 7	Seosamh	Seosamh	PROPN	PROPN	_	6	nmod	_	_
@@ -11617,7 +11617,7 @@
 15	gnáthchúrsaí	cúrsa	NOUN	NOUN	_	14	nmod	_	_
 16	an	an	DET	DET	_	17	det	_	_
 17	tsaoil	saol	NOUN	NOUN	_	15	compound	_	_
-18	ina	i	PART	PART	_	19	rel	_	_
+18	ina	i	PART	PART	_	19	dobj	_	_
 19	rabhas	bí	VERB	VERB	_	17	acl:relcl	_	_
 20	ag	ag	ADP	ADP	_	19	xcomp	_	_
 21	maireachtaint	maireachtaint	NOUN	NOUN	_	20	nmod	_	_
@@ -11650,7 +11650,7 @@
 5	gcábán	cábán	NOUN	NOUN	_	4	nmod	_	_
 6	bád	bád	NOUN	NOUN	_	5	compound	_	_
 7	canála	canáil	NOUN	NOUN	_	6	compound	_	_
-8	a	a	PART	PART	_	9	rel	_	_
+8	a	a	PART	PART	_	9	dobj	_	_
 9	raibh	bí	VERB	VERB	_	5	acl:relcl	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	Rose	Rose	PROPN	PROPN	_	9	nsubj	_	_
@@ -11662,7 +11662,7 @@
 1	Fuair	faigh	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	chathair	cathair	NOUN	NOUN	_	1	nsubj	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	dobj	_	_
 5	raibh	bí	VERB	VERB	_	3	acl:relcl	_	_
 6	sí	sí	PRON	PRON	_	5	nsubj	_	_
 7	ina	i	ADP	ADP	_	5	xcomp:pred	_	_
@@ -11675,7 +11675,7 @@
 14	ón	ó	ADP	ADP	_	1	case	_	_
 15	nathair	nathair	NOUN	NOUN	_	14	nmod	_	_
 16	nimhe	nimh	NOUN	NOUN	_	15	compound	_	_
-17	a	a	PART	PART	_	18	rel	_	_
+17	a	a	PART	PART	_	18	nsubj	_	_
 18	bhí	bí	VERB	VERB	_	15	acl:relcl	_	_
 19	flúirseach	flúirseach	ADJ	ADJ	_	18	xcomp:pred	_	_
 20	timpeall	timpeall	NOUN	NOUN	_	19	nmod	_	_
@@ -11739,7 +11739,7 @@
 28	gcomhthéacs	comhthéacs	NOUN	NOUN	_	27	nmod	_	_
 29	an	an	DET	DET	_	30	det	_	_
 30	ilteangachais	ilteangachas	NOUN	NOUN	_	28	compound	_	_
-31	a	a	PART	PART	_	32	rel	_	_
+31	a	a	PART	PART	_	32	dobj	_	_
 32	chothaigh	cothaigh	VERB	VERB	_	30	acl:relcl	_	_
 33	athréimniú	réimniú	NOUN	NOUN	_	32	nsubj	_	_
 34	na	na	DET	DET	_	35	det	_	_
@@ -11805,7 +11805,7 @@
 8	ná	ná	CONJ	CONJ	_	9	mark	_	_
 9	gur	is	VERB	VERB	_	1	advcl	_	_
 10	eagraíocht	eagraíocht	NOUN	NOUN	_	9	xcomp:pred	_	_
-11	ina	i	PART	PART	_	12	rel	_	_
+11	ina	i	PART	PART	_	12	dobj	_	_
 12	bhfuil	bí	VERB	VERB	_	10	acl:relcl	_	_
 13	dhá	dó	NUM	NUM	_	14	nummod	_	_
 14	shruth	sruth	NOUN	NOUN	_	12	nsubj	_	_
@@ -11859,7 +11859,7 @@
 12	scriosta	scriosadh	NOUN	NOUN	_	10	compound	_	_
 13	ag	ag	ADP	ADP	_	12	case	_	_
 14	coincleach	coincleach	NOUN	NOUN	_	13	nmod	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	nsubj	_	_
 16	fhásann	fás	VERB	VERB	_	14	acl:relcl	_	_
 17	ar	ar	ADP	ADP	_	16	case	_	_
 18	an	an	DET	DET	_	19	det	_	_
@@ -11945,7 +11945,7 @@
 2	fhan	fan	VERB	VERB	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	fear	fear	NOUN	NOUN	_	2	nsubj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	bhuaigh	buaigh	VERB	VERB	_	4	acl:relcl	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	crannchur	crannchur	NOUN	NOUN	_	6	dobj	_	_
@@ -11987,7 +11987,7 @@
 2	é	é	PRON	PRON	_	1	xcomp:pred	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	uair	uair	NOUN	NOUN	_	1	nsubj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	tuigeadh	tuig	VERB	VERB	_	4	acl:relcl	_	_
 7	dos	do	ADP	ADP	_	6	case	_	_
 8	na	na	DET	DET	_	9	det	_	_
@@ -12021,7 +12021,7 @@
 15	137	137	NUM	NUM	_	13	nummod	_	_
 16	)	)	PUNCT	PUNCT	_	15	punct	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_
-18	a	a	PART	PART	_	19	rel	_	_
+18	a	a	PART	PART	_	19	nsubj	_	_
 19	bhí	bí	VERB	VERB	_	8	acl:relcl	_	_
 20	'	'	PUNCT	PUNCT	_	21	punct	_	_
 21	mar	mar	SCONJ	SCONJ	_	22	mark	_	_
@@ -12140,7 +12140,7 @@
 28	an	an	DET	DET	_	29	det	_	_
 29	dlúthdhiosca	diosca	NOUN	NOUN	_	23	nsubj	_	_
 30	blasta	blasta	ADJ	ADJ	_	29	amod	_	_
-31	a	a	PART	PART	_	33	rel	_	_
+31	a	a	PART	PART	_	33	dobj	_	_
 32	d'	do	PART	PART	_	33	mark:prt	_	_
 33	eisigh	eisigh	VERB	VERB	_	29	acl:relcl	_	_
 34	sí	sí	PRON	PRON	_	33	nsubj	_	_
@@ -12203,7 +12203,7 @@
 
 1	Cé	cé	PRON	PRON	_	0	ROOT	_	_
 2	air	ar	ADP	ADP	_	1	case	_	_
-3	a	a	PART	PART	_	4	rel	_	_
+3	a	a	PART	PART	_	4	nsubj	_	_
 4	bhfuil	bí	VERB	VERB	_	1	acl:relcl	_	_
 5	muid	muid	PRON	PRON	_	4	nsubj	_	_
 6	ag	ag	ADP	ADP	_	4	xcomp	_	_
@@ -12221,7 +12221,7 @@
 18	dtiocfaidh	tar	VERB	VERB	_	16	advcl	_	_
 19	an	an	DET	DET	_	20	det	_	_
 20	lá	lá	NOUN	NOUN	_	18	nsubj	_	_
-21	a	a	PART	PART	_	22	rel	_	_
+21	a	a	PART	PART	_	22	dobj	_	_
 22	bheidh	bí	VERB	VERB	_	20	acl:relcl	_	_
 23	An	an	DET	DET	_	24	det	_	_
 24	Páirtí	páirtí	NOUN	NOUN	_	22	nsubj	_	_
@@ -12299,7 +12299,7 @@
 11	de	de	ADP	ADP	_	9	case	_	_
 12	thragóidí	tragóid	NOUN	NOUN	_	11	nmod	_	_
 13	dosheachanta	dosheachanta	ADJ	ADJ	_	12	amod	_	_
-14	a	a	PART	PART	_	15	rel	_	_
+14	a	a	PART	PART	_	15	nsubj	_	_
 15	laghdaigh	laghdaigh	VERB	VERB	_	9	acl:relcl	_	_
 16	muinín	muinín	NOUN	NOUN	_	15	dobj	_	_
 17	in	i	ADP	ADP	_	16	case	_	_
@@ -12307,7 +12307,7 @@
 19	an	an	DET	DET	_	20	det	_	_
 20	IRA	IRA	X	X	_	18	compound	_	_
 21	agus	agus	CONJ	CONJ	_	15	cc	_	_
-22	a	a	PART	PART	_	23	rel	_	_
+22	a	a	PART	PART	_	23	nsubj	_	_
 23	chuidigh	cuidigh	VERB	VERB	_	15	conj	_	_
 24	le	le	ADP	ADP	_	23	case	_	_
 25	fórsaí	fórsa	NOUN	NOUN	_	24	nmod	_	_
@@ -12332,7 +12332,7 @@
 8	óna	ó	ADP	ADP	_	5	conj	_	_
 9	breith	breith	NOUN	NOUN	_	8	nmod	_	_
 10	duine	duine	NOUN	NOUN	_	2	nsubj	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	dobj	_	_
 12	bheirtear	beir	VERB	VERB	_	10	acl:relcl	_	_
 13	in	i	ADP	ADP	_	12	case	_	_
 14	oileán	oileán	NOUN	NOUN	_	13	nmod	_	_
@@ -12360,7 +12360,7 @@
 2	comparáide	comparáid	NOUN	NOUN	_	1	compound	_	_
 3	-	-	PUNCT	PUNCT	_	4	punct	_	_
 4	Aidiachtaí	aidiacht	NOUN	NOUN	_	1	compound	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	chríochnaíonn	críochnaigh	VERB	VERB	_	4	acl:relcl	_	_
 7	ar	ar	ADP	ADP	_	6	case	_	_
 8	chonsan	consan	NOUN	NOUN	_	7	nmod	_	_
@@ -12490,7 +12490,7 @@
 24	úsáid	úsáid	NOUN	NOUN	_	30	dobj	_	_
 25	na	na	DET	DET	_	26	det	_	_
 26	leithreasaí	leithreas	NOUN	NOUN	_	24	compound	_	_
-27	lena	le	PART	PART	_	28	rel	_	_
+27	lena	le	PART	PART	_	28	dobj	_	_
 28	mbaineann	bain	VERB	VERB	_	26	acl:relcl	_	_
 29	a	a	PART	PART	_	30	mark	_	_
 30	áirithiú	áirithiú	NOUN	NOUN	_	23	xcomp	_	_
@@ -12538,7 +12538,7 @@
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	gan	gan	ADP	ADP	_	5	case	_	_
 18	stoc	stoc	NOUN	NOUN	_	20	dobj	_	_
-19	a	a	PART	PART	_	20	rel	_	_
+19	a	a	PART	PART	_	20	dobj	_	_
 20	shéide	séid	VERB	VERB	_	17	nmod	_	_
 21	ná	ná	CONJ	CONJ	_	20	cc	_	_
 22	cuaille	cuaille	NOUN	NOUN	_	25	dobj	_	_
@@ -12558,7 +12558,7 @@
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	is	is	VERB	VERB	_	0	ROOT	_	_
 11	iad	iad	PRON	PRON	_	10	xcomp:pred	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	nsubj	_	_
 13	bheidh	bí	VERB	VERB	_	10	acl:relcl	_	_
 14	ar	ar	ADP	ADP	_	13	case	_	_
 15	an	an	DET	DET	_	16	det	_	_
@@ -12603,7 +12603,7 @@
 15	údaráis	údarás	NOUN	NOUN	_	12	compound	_	_
 16	don	do	ADP	ADP	_	15	case	_	_
 17	limistéar	limistéar	NOUN	NOUN	_	16	nmod	_	_
-18	a	a	PART	PART	_	19	rel	_	_
+18	a	a	PART	PART	_	19	nsubj	_	_
 19	bheidh	bí	VERB	VERB	_	17	acl:relcl	_	_
 20	i	i	ADP	ADP	_	19	xcomp:pred	_	_
 21	gceist	ceist	NOUN	NOUN	_	20	nmod	_	_
@@ -12614,7 +12614,7 @@
 3	)	)	PUNCT	PUNCT	_	2	punct	_	_
 4	Aon	aon	DET	DET	_	5	det	_	_
 5	duine	duine	NOUN	NOUN	_	0	ROOT	_	_
-6	a	a	PART	PART	_	7	rel	_	_
+6	a	a	PART	PART	_	7	nsubj	_	_
 7	sháróidh	sáraigh	VERB	VERB	_	5	acl:relcl	_	_
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	gan	gan	ADP	ADP	_	7	case	_	_
@@ -12636,7 +12636,7 @@
 25	chead	cead	NOUN	NOUN	_	33	dobj	_	_
 26	gealltóireachta	gealltóireacht	NOUN	NOUN	_	25	compound	_	_
 27	cúrsa	cúrsa	NOUN	NOUN	_	26	compound	_	_
-28	a	a	PART	PART	_	29	rel	_	_
+28	a	a	PART	PART	_	29	nsubj	_	_
 29	bheidh	bí	VERB	VERB	_	25	acl:relcl	_	_
 30	deonaithe	deonaithe	ADJ	ADJ	_	29	xcomp:pred	_	_
 31	dó	do	ADP	ADP	_	30	case	_	_
@@ -12712,7 +12712,7 @@
 17	na	na	DET	DET	_	18	det	_	_
 18	bearta	beart	NOUN	NOUN	_	14	dobj	_	_
 19	seo	seo	DET	DET	_	18	det	_	_
-20	a	a	PART	PART	_	21	rel	_	_
+20	a	a	PART	PART	_	21	nsubj	_	_
 21	leanas	lean	VERB	VERB	_	18	acl:relcl	_	_
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
 23	ag	ag	ADP	ADP	_	14	xcomp	_	_
@@ -12724,7 +12724,7 @@
 29	an	an	DET	DET	_	30	det	_	_
 30	nós	nós	NOUN	NOUN	_	28	nmod	_	_
 31	imeachta	imeacht	NOUN	NOUN	_	30	compound	_	_
-32	dá	dá	SCONJ	SCONJ	_	33	rel	_	_
+32	dá	dá	SCONJ	SCONJ	_	33	dobj	_	_
 33	dtagraítear	tagair	VERB	VERB	_	31	acl:relcl	_	_
 34	in	i	ADP	ADP	_	33	case	_	_
 35	Airteagal	airteagal	NOUN	NOUN	_	34	nmod	_	_
@@ -12777,7 +12777,7 @@
 82	mBallstát	stát	NOUN	NOUN	_	79	compound	_	_
 83	a	a	PART	PART	_	84	mark	_	_
 84	thrasnú	trasnú	NOUN	NOUN	_	78	nmod	_	_
-85	a	a	PART	PART	_	86	rel	_	_
+85	a	a	PART	PART	_	86	dobj	_	_
 86	bhunóidh	bunaigh	VERB	VERB	_	77	acl:relcl	_	_
 87	:	:	PUNCT	PUNCT	_	89	punct	_	_
 88	(a)	(a)	X	X	_	89	nummod	_	_
@@ -12785,7 +12785,7 @@
 90	agus	agus	CONJ	CONJ	_	89	cc	_	_
 91	nósanna	nós	NOUN	NOUN	_	89	conj	_	_
 92	imeachta	imeacht	NOUN	NOUN	_	91	compound	_	_
-93	a	a	PART	PART	_	94	rel	_	_
+93	a	a	PART	PART	_	94	nsubj	_	_
 94	leanfaidh	lean	VERB	VERB	_	89	acl:relcl	_	_
 95	na	na	DET	DET	_	96	det	_	_
 96	Ballstáit	stát	NOUN	NOUN	_	94	nsubj	_	_
@@ -12816,7 +12816,7 @@
 121	trí	trí	NUM	NUM	_	122	nummod	_	_
 122	mhí	mí	NOUN	NOUN	_	118	compound	_	_
 123	,	,	PUNCT	PUNCT	_	124	punct	_	_
-124	lena	le	PART	PART	_	125	rel	_	_
+124	lena	le	PART	PART	_	125	dobj	_	_
 125	n-áirítear	áirigh	VERB	VERB	_	111	acl:relcl	_	_
 126	:	:	PUNCT	PUNCT	_	128	punct	_	_
 127	(i)	(i)	X	X	_	128	nummod	_	_
@@ -12824,7 +12824,7 @@
 129	na	na	DET	DET	_	131	det	_	_
 130	dtríú	trí	NUM	NUM	_	131	nummod	_	_
 131	tíortha	tír	NOUN	NOUN	_	128	compound	_	_
-132	a	a	PART	PART	_	133	rel	_	_
+132	a	a	PART	PART	_	133	nsubj	_	_
 133	mbeidh	bí	VERB	VERB	_	131	acl:relcl	_	_
 134	ar	ar	ADP	ADP	_	133	case	_	_
 135	a	a	DET	DET	_	136	nmod:poss	_	_
@@ -12845,7 +12845,7 @@
 150	na	na	DET	DET	_	152	det	_	_
 151	dtríú	trí	NUM	NUM	_	152	nummod	_	_
 152	tíortha	tír	NOUN	NOUN	_	149	compound	_	_
-153	a	a	PART	PART	_	154	rel	_	_
+153	a	a	PART	PART	_	154	nsubj	_	_
 154	mbeidh	bí	VERB	VERB	_	152	acl:relcl	_	_
 155	a	a	DET	DET	_	156	nmod:poss	_	_
 156	náisiúnaigh	náisiúnach	NOUN	NOUN	_	154	nsubj	_	_
@@ -12886,7 +12886,7 @@
 191	amach	amach	ADV	ADV	_	190	advmod	_	_
 192	na	na	DET	DET	_	193	det	_	_
 193	gcoinníollacha	coinníoll	NOUN	NOUN	_	190	dobj	_	_
-194	faoina	faoi	PART	PART	_	195	rel	_	_
+194	faoina	faoi	PART	PART	_	195	dobj	_	_
 195	mbeidh	bí	VERB	VERB	_	193	acl:relcl	_	_
 196	saoirse	saoirse	NOUN	NOUN	_	195	nsubj	_	_
 197	taistil	taisteal	NOUN	NOUN	_	196	compound	_	_
@@ -13262,7 +13262,7 @@
 8	ar	ar	ADP	ADP	_	7	case	_	_
 9	fiche	fiche	NUM	NUM	_	10	nummod	_	_
 10	bealach	bealach	NOUN	NOUN	_	8	nmod	_	_
-11	a	a	PART	PART	_	12	rel	_	_
+11	a	a	PART	PART	_	12	dobj	_	_
 12	bhféadfaí	féad	VERB	VERB	_	10	acl:relcl	_	_
 13	úsáid	úsáid	NOUN	NOUN	_	17	dobj	_	_
 14	níos	níos	NOUN	NOUN	_	15	mark:prt	_	_
@@ -13341,7 +13341,7 @@
 46	leith	leith	NOUN	NOUN	_	45	nmod	_	_
 47	caiteachais	caiteachas	NOUN	NOUN	_	46	compound	_	_
 48	chaipitiúil	chaipitiúil	ADJ	ADJ	_	47	amod	_	_
-49	arna	ar	ADP	ADP	_	50	rel	_	_
+49	arna	ar	ADP	ADP	_	50	dobj	_	_
 50	thabhú	tabhú	NOUN	NOUN	_	47	acl:relcl	_	_
 51	an	an	DET	DET	_	53	det	_	_
 52	3ú	3	NUM	NUM	_	53	nummod	_	_
@@ -13431,7 +13431,7 @@
 136	den	de	ADP	ADP	_	135	case	_	_
 137	sórt	sórt	NOUN	NOUN	_	136	nmod	_	_
 138	sin	sin	DET	DET	_	137	det	_	_
-139	a	a	PART	PART	_	140	rel	_	_
+139	a	a	PART	PART	_	140	nsubj	_	_
 140	bheidh	bí	VERB	VERB	_	133	acl:relcl	_	_
 141	le	le	ADP	ADP	_	140	xcomp	_	_
 142	cur	cur	NOUN	NOUN	_	141	nmod	_	_
@@ -13444,7 +13444,7 @@
 149	(1)	(1)	NUM	NUM	_	147	nummod	_	_
 150	ná	ná	CONJ	CONJ	_	131	cc	_	_
 151	méid	méid	NOUN	NOUN	_	131	conj	_	_
-152	a	a	PART	PART	_	153	rel	_	_
+152	a	a	PART	PART	_	153	dobj	_	_
 153	chinnfear	cinn	VERB	VERB	_	151	acl:relcl	_	_
 154	de_réir	de_réir	ADP	ADP	_	153	case	_	_
 155	na	na	DET	DET	_	156	det	_	_
@@ -13517,7 +13517,7 @@
 37	cé	cé	SCONJ	SCONJ	_	39	mark	_	_
 38	chomh	chomh	ADV	ADV	_	39	advmod	_	_
 39	héifeachtach	éifeachtach	ADJ	ADJ	_	24	amod	_	_
-40	a	a	PART	PART	_	42	rel	_	_
+40	a	a	PART	PART	_	42	nsubj	_	_
 41	d'	do	PART	PART	_	42	mark:prt	_	_
 42	imir	imir	VERB	VERB	_	39	acl:relcl	_	_
 43	Luimneach	Luimneach	PROPN	PROPN	_	42	nsubj	_	_
@@ -13568,7 +13568,7 @@
 6	an	an	DET	DET	_	7	det	_	_
 7	sbhae	svae	NOUN	NOUN	_	5	dobj	_	_
 8	duit	do	ADP	ADP	_	5	case	_	_
-9	Ar	ar	ADP	ADP	_	11	rel	_	_
+9	Ar	ar	ADP	ADP	_	11	dobj	_	_
 10	a	a	PART	PART	_	11	mark:prt	_	_
 11	bhfaca	feic	VERB	VERB	_	7	acl:relcl	_	_
 12	mé	mé	PRON	PRON	_	11	nsubj	_	_
@@ -13659,7 +13659,7 @@
 13	an	an	DET	DET	_	14	det	_	_
 14	lá	lá	NOUN	NOUN	_	7	nmod	_	_
 15	céanna	céanna	ADJ	ADJ	_	14	amod	_	_
-16	a	a	PART	PART	_	17	rel	_	_
+16	a	a	PART	PART	_	17	nsubj	_	_
 17	bhí	bí	VERB	VERB	_	14	acl:relcl	_	_
 18	Bill	Bill	PROPN	PROPN	_	19	compound	_	_
 19	Clinton	Clinton	PROPN	PROPN	_	17	nsubj	_	_
@@ -13719,7 +13719,7 @@
 7	athair	athair	NOUN	NOUN	_	5	nsubj	_	_
 8	agus	agus	CONJ	CONJ	_	7	cc	_	_
 9	máthair	máthair	NOUN	NOUN	_	7	conj	_	_
-10	a	a	PART	PART	_	11	rel	_	_
+10	a	a	PART	PART	_	11	nsubj	_	_
 11	sheas	seas	VERB	VERB	_	7	acl:relcl	_	_
 12	sa	i	ADP	ADP	_	11	case	_	_
 13	spota	spota	NOUN	NOUN	_	12	nmod	_	_
@@ -13891,10 +13891,10 @@
 18	foghar	foghar	NOUN	NOUN	_	16	conj	_	_
 19	uathu	ó	ADP	ADP	_	16	case	_	_
 20	thar	thar	ADP	ADP	_	16	case	_	_
-21	a	a	PART	PART	_	22	rel	_	_
+21	a	a	PART	PART	_	22	dobj	_	_
 22	bhfacthas	feic	VERB	VERB	_	20	acl:relcl	_	_
 23	nó	nó	CONJ	CONJ	_	22	cc	_	_
-24	a	a	PART	PART	_	25	rel	_	_
+24	a	a	PART	PART	_	25	dobj	_	_
 25	gcualathas	gcualathas	NOUN	NOUN	_	22	conj	_	_
 26	cheana	cheana	ADV	ADV	_	25	advmod	_	_
 27	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -13904,7 +13904,7 @@
 3	McMahon	McMahon	PROPN	PROPN	_	2	name	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	duine	duine	NOUN	NOUN	_	2	appos	_	_
-6	a	a	PART	PART	_	7	rel	_	_
+6	a	a	PART	PART	_	7	nsubj	_	_
 7	bhfuil	bí	VERB	VERB	_	5	acl:relcl	_	_
 8	baint	baint	NOUN	NOUN	_	7	nsubj	_	_
 9	aici	ag	ADP	ADP	_	7	case	_	_
@@ -13919,7 +13919,7 @@
 2	fhág	fág	VERB	VERB	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	bád	bád	NOUN	NOUN	_	2	nsubj	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	dobj	_	_
 6	chonaic	feic	VERB	VERB	_	4	acl:relcl	_	_
 7	mac	mac	NOUN	NOUN	_	6	nsubj	_	_
 8	an	an	DET	DET	_	9	det	_	_
@@ -13994,7 +13994,7 @@
 34	arís	arís	ADV	ADV	_	31	advmod	_	_
 35	san	i	ADP	ADP	_	31	case	_	_
 36	áit	áit	NOUN	NOUN	_	35	nmod	_	_
-37	ina	i	PART	PART	_	38	rel	_	_
+37	ina	i	PART	PART	_	38	nsubj	_	_
 38	bhfuil	bí	VERB	VERB	_	36	acl:relcl	_	_
 39	sé	sé	PRON	PRON	_	38	nsubj	_	_
 40	anois	anois	ADV	ADV	_	38	advmod	_	_
@@ -14083,7 +14083,7 @@
 29	sa	i	ADP	ADP	_	28	case	_	_
 30	rás	rás	NOUN	NOUN	_	29	nmod	_	_
 31	leathcheannais	ceannas	NOUN	NOUN	_	30	compound	_	_
-32	inar	i	PART	PART	_	33	rel	_	_
+32	inar	i	PART	PART	_	33	dobj	_	_
 33	rith	rith	VERB	VERB	_	30	acl:relcl	_	_
 34	sé	sé	PRON	PRON	_	33	nsubj	_	_
 35	na	na	DET	DET	_	37	det	_	_
@@ -14121,7 +14121,7 @@
 4	dara	dara	NUM	NUM	_	5	nummod	_	_
 5	huair	uair	NOUN	NOUN	_	1	nsubj	_	_
 6	riamh	riamh	ADV	ADV	_	5	advmod	_	_
-7	a	a	PART	PART	_	8	rel	_	_
+7	a	a	PART	PART	_	8	dobj	_	_
 8	chasfar	cas	VERB	VERB	_	5	acl:relcl	_	_
 9	na	na	DET	DET	_	10	det	_	_
 10	contaetha	contae	NOUN	NOUN	_	8	nsubj	_	_
@@ -14272,7 +14272,7 @@
 2	measc	measc	NOUN	NOUN	_	1	nmod	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	n-aíonna	aoi	NOUN	NOUN	_	2	compound	_	_
-5	a	a	PART	PART	_	6	rel	_	_
+5	a	a	PART	PART	_	6	nsubj	_	_
 6	bheidh	bí	VERB	VERB	_	4	acl:relcl	_	_
 7	i_láthair	i_láthair	ADP	ADP	_	6	xcomp:pred	_	_
 8	beidh	bí	VERB	VERB	_	0	ROOT	_	_
@@ -14352,7 +14352,7 @@
 1	Aon	aon	DET	DET	_	2	det	_	_
 2	uair	uair	NOUN	NOUN	_	23	nmod	_	_
 3	amháin	amháin	ADJ	ADJ	_	2	amod	_	_
-4	a	a	PART	PART	_	5	rel	_	_
+4	a	a	PART	PART	_	5	nsubj	_	_
 5	bheidh	bí	VERB	VERB	_	2	acl:relcl	_	_
 6	na	na	DET	DET	_	7	det	_	_
 7	páistí	páiste	NOUN	NOUN	_	5	nsubj	_	_
@@ -14398,7 +14398,7 @@
 47	na	na	DET	DET	_	48	det	_	_
 48	straitéisí	straitéis	NOUN	NOUN	_	46	nmod	_	_
 49	uilig	uile	DET	DET	_	48	det	_	_
-50	a	a	PART	PART	_	51	rel	_	_
+50	a	a	PART	PART	_	51	dobj	_	_
 51	dtig	tar	VERB	VERB	_	48	acl:relcl	_	_
 52	leis	le	ADP	ADP	_	51	case	_	_
 53	smaoineamh	smaoineamh	NOUN	NOUN	_	51	xcomp	_	_
@@ -14461,7 +14461,7 @@
 6	dorchadas	dorchadas	NOUN	NOUN	_	5	nsubj	_	_
 7	fionnuar	fionnuar	ADJ	ADJ	_	6	amod	_	_
 8	ann	i	ADP	ADP	_	5	xcomp:pred	_	_
-9	a	a	PART	PART	_	10	rel	_	_
+9	a	a	PART	PART	_	10	nsubj	_	_
 10	choinneodh	coinnigh	VERB	VERB	_	6	acl:relcl	_	_
 11	faoi	faoi	ADP	ADP	_	10	case	_	_
 12	cheilt	ceilt	NOUN	NOUN	_	11	nmod	_	_
@@ -14558,7 +14558,7 @@
 10	é	é	PRON	PRON	_	12	nmod	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	smaointiú	smaointiú	NOUN	NOUN	_	9	xcomp:pred	_	_
-13	a	a	PART	PART	_	14	rel	_	_
+13	a	a	PART	PART	_	14	nsubj	_	_
 14	tháinig	tar	VERB	VERB	_	12	acl:relcl	_	_
 15	chugam	chuig	ADP	ADP	_	14	case	_	_
 16	gur	is	VERB	VERB	_	9	nsubj	_	_
@@ -14568,7 +14568,7 @@
 20	de	de	ADP	ADP	_	18	case	_	_
 21	lorg	lorg	NOUN	NOUN	_	20	nmod	_	_
 22	láimhe	lámh	NOUN	NOUN	_	21	compound	_	_
-23	a	a	PART	PART	_	25	rel	_	_
+23	a	a	PART	PART	_	25	dobj	_	_
 24	d'	do	PART	PART	_	25	mark:prt	_	_
 25	fhágfadh	fág	VERB	VERB	_	21	acl:relcl	_	_
 26	fear	fear	NOUN	NOUN	_	25	nsubj	_	_
@@ -14607,7 +14607,7 @@
 7	an	an	DET	DET	_	8	det	_	_
 8	caiteachas	caiteachas	NOUN	NOUN	_	1	dobj	_	_
 9	riaracháin	riarachán	NOUN	NOUN	_	8	compound	_	_
-10	a	a	PART	PART	_	11	rel	_	_
+10	a	a	PART	PART	_	11	dobj	_	_
 11	thabhóidh	tabhaigh	VERB	VERB	_	8	acl:relcl	_	_
 12	na	na	DET	DET	_	13	det	_	_
 13	hinstitiúidí	institiúid	NOUN	NOUN	_	11	nsubj	_	_
@@ -14620,7 +14620,7 @@
 20	an	an	DET	DET	_	21	det	_	_
 21	Aontas	aontas	NOUN	NOUN	_	19	nmod	_	_
 22	Eorpach	Eorpach	PROPN	PROPN	_	21	compound	_	_
-23	a	a	PART	PART	_	24	rel	_	_
+23	a	a	PART	PART	_	24	nsubj	_	_
 24	bhaineann	bain	VERB	VERB	_	18	acl:relcl	_	_
 25	leis	le	ADP	ADP	_	24	case	_	_
 26	an	an	DET	DET	_	27	det	_	_
@@ -14836,12 +14836,12 @@
 6	bith	bith	NOUN	NOUN	_	5	nmod	_	_
 7	orthu	ar	ADP	ADP	_	3	case	_	_
 8	sin	sin	PRON	PRON	_	7	det	_	_
-9	a	a	PART	PART	_	10	rel	_	_
+9	a	a	PART	PART	_	10	dobj	_	_
 10	thréig	tréig	VERB	VERB	_	7	acl:relcl	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	beár	beár	NOUN	NOUN	_	10	nsubj	_	_
 13	agus	agus	CONJ	CONJ	_	10	cc	_	_
-14	a	a	PART	PART	_	15	rel	_	_
+14	a	a	PART	PART	_	15	nsubj	_	_
 15	bhailigh	bailigh	VERB	VERB	_	10	conj	_	_
 16	isteach	isteach	ADV	ADV	_	15	advmod	_	_
 17	san	i	ADP	ADP	_	15	case	_	_
@@ -14892,7 +14892,7 @@
 12	de	de	ADP	ADP	_	11	case	_	_
 13	bhean	bean	NOUN	NOUN	_	12	nmod	_	_
 14	thanaí	tanaí	ADJ	ADJ	_	13	amod	_	_
-15	a	a	PART	PART	_	16	rel	_	_
+15	a	a	PART	PART	_	16	dobj	_	_
 16	chuir	cuir	VERB	VERB	_	13	acl:relcl	_	_
 17	píce	píce	NOUN	NOUN	_	16	nsubj	_	_
 18	féar	féar	NOUN	NOUN	_	17	compound	_	_
@@ -15040,7 +15040,7 @@
 9	iontach	iontach	ADJ	ADJ	_	8	xcomp:pred	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	cúnamh	cúnamh	NOUN	NOUN	_	8	nsubj	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	dobj	_	_
 13	thugadh	tabhair	VERB	VERB	_	11	acl:relcl	_	_
 14	sé	sé	PRON	PRON	_	13	nsubj	_	_
 15	d'	do	ADP	ADP	_	13	case	_	_
@@ -15157,7 +15157,7 @@
 9	na	na	DET	DET	_	10	det	_	_
 10	nGaeilgeoirí	Gaeilgeoir	NOUN	NOUN	_	8	compound	_	_
 11	maithe	maith	ADJ	ADJ	_	10	amod	_	_
-12	a	a	PART	PART	_	13	rel	_	_
+12	a	a	PART	PART	_	13	nsubj	_	_
 13	bhí	bí	VERB	VERB	_	10	acl:relcl	_	_
 14	ag	ag	ADP	ADP	_	13	xcomp	_	_
 15	teacht	teacht	NOUN	NOUN	_	14	nmod	_	_
