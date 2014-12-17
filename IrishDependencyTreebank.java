@@ -19,7 +19,7 @@ import java.util.ArrayList;
  * @author fosterjen
  */
 public class IrishDependencyTreebank {
-
+    static ArrayList sentences = new ArrayList();
     /**
      * @param args the command line arguments
      */
@@ -30,15 +30,15 @@ public class IrishDependencyTreebank {
             int lineCount = 0;
             BufferedReader b = new BufferedReader(new FileReader(new File(args[0])));
             String line = b.readLine();
-            ArrayList lines = new ArrayList();
             
             while (line != null)
             {
-                lines.add(line);
+                sentences.add(line);
                 line = b.readLine();         
             }      
             b.close();
-             process(lines);
+             processPP(sentences);
+             printSentences(sentences);
         }
         catch (IOException io)
         {
@@ -47,7 +47,7 @@ public class IrishDependencyTreebank {
        
     }
     
-    public static void process(ArrayList sentences) 
+    public static void processPP(ArrayList sentences) 
     {
         int lineCount = 0;
         String line;
@@ -134,20 +134,152 @@ public class IrishDependencyTreebank {
                 else if (finishedSentence || finishedFile)
                 {
                     sentences.set(prepLine,"***"+line+"***");
-                    i = prepLine+1;
-                    lineCount = prepLine+1;
                 }
             }
         }
+       
+    }
+    
+    public static void processCopula(ArrayList sentences) 
+    {
+        int lineCount = 0, copLine = 0, predLine = 0;
+        String line;
+                  
         for (int i=0; i < sentences.size(); i++)
         {
-            System.out.println(sentences.get(i));
+            line = (String) sentences.get(i); 
+            boolean isNotAPred = false;
+            boolean isNotASubj = false;
+            boolean finishedSentence = false;
+            boolean finishedFile = false;
+            //System.out.println("LINE" + line);
+            lineCount++;
+            String nextLine;
+            String [] tokens = line.split("\t");    
+            if (tokens.length > 1 && tokens[1].equals("is"))
+            {
+                String copId = tokens[0];
+                String copHeadId = tokens[6];
+                copLine = i;
+                lineCount = i;
+                
+                String [] predTokens = null;
+                String predHead = null;
+                String predId = null;
+                String [] subjTokens = null;
+                String subjHead = null;
+                
+                do
+                {
+                    lineCount++;
+                    isNotAPred = false;
+                    nextLine = (String) sentences.get(lineCount);
+                    //System.out.println("NEXTLINE " + nextLine);
+                        
+                    if (nextLine == null)
+                    {
+                        finishedFile = true;
+                    }
+                    else if (nextLine.length() <= 1)
+                    {
+                        finishedSentence = true;     
+                    }
+                    else 
+                    {
+                        predTokens = nextLine.split("\t");
+                        predId = predTokens[0];
+                        predHead = predTokens[6];
+                        if (!predHead.equals(copId))
+                        {
+                            isNotAPred = true; 
+                        }    
+                    }             
+                }while (isNotAPred && !finishedSentence && !finishedFile);
+                   
+                if (!finishedSentence && !finishedFile)
+                {
+                    //the new head of the pred is the head of the cop
+                    predTokens[6] = copHeadId;
+                    //the new head of the cop is the pred
+                    tokens[6] = predId;
+                    //the cop's relation to the pred is "cop"
+                    tokens[7] = "cop";
+                    predLine = lineCount;
+                    //now find the subj of the predicate
+                    String anotherLine = null;
+                    do
+                    {
+                        lineCount++;
+                        isNotASubj = false;
+                        anotherLine = (String) sentences.get(lineCount);
+                        //System.out.println("NEXTLINE " + anotherLine);
+                        
+                        if (anotherLine == null)
+                        {
+                            finishedFile = true;
+                        }
+                        else if (anotherLine.length() <= 1)
+                        {
+                            finishedSentence = true;     
+                        }
+                        else 
+                        {
+                            subjTokens = anotherLine.split("\t");
+                            subjHead = subjTokens[6];
+                            if (!subjHead.equals(copId))
+                            {
+                                isNotASubj = true; 
+                            }    
+                        }             
+                    }while (isNotASubj && !finishedSentence && !finishedFile);
+                    if (!finishedSentence && !finishedFile)
+                    {
+                        subjTokens[6] = copHeadId;
+                        anotherLine = "";
+                        for (int x=0; x < subjTokens.length-1; x++)
+                        {
+                            anotherLine += subjTokens[x] + "\t";
+                        }
+                        anotherLine += subjTokens[subjTokens.length-1];
+                        sentences.set(lineCount,anotherLine);
+                    }
+                    else
+                    {
+                        sentences.set(copLine,"***"+line+"***");
+                        i = copLine + 1;
+                        lineCount = copLine + 1;
+                    }
+                    
+                    line = ""; nextLine = "";
+                    for (int k=0; k < tokens.length-1; k++)
+                    {
+                        line += tokens[k] + "\t";
+                    }
+                    line += tokens[tokens.length-1];
+                    for (int j=0; j < predTokens.length-1; j++)
+                    {
+                        nextLine += predTokens[j] + "\t";
+                    }
+                    nextLine += predTokens[predTokens.length-1];
+                    //System.out.println(line);
+                    //System.out.println(prepLine);
+                    sentences.set(copLine,line);
+                    sentences.set(predLine,nextLine);
+                }
+                else if (finishedSentence || finishedFile)
+                {
+                    sentences.set(copLine,"***"+line+"***");
+                }
+            }
         }
-        
-            
-            
-           
-           
+       
+    }
+    public static void printSentences(ArrayList sentences)
+    {
+         for (int i=0; i < sentences.size(); i++)
+        {
+            System.out.println(sentences.get(i));
+        }      
     }
     
 }
