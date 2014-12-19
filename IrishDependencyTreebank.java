@@ -37,7 +37,8 @@ public class IrishDependencyTreebank {
                 line = b.readLine();         
             }      
             b.close();
-             processPP(sentences);
+             //processPP(sentences);
+             processCopula(sentences);
              printSentences(sentences);
         }
         catch (IOException io)
@@ -144,7 +145,7 @@ public class IrishDependencyTreebank {
     {
         int lineCount = 0, copLine = 0, predLine = 0;
         String line;
-                  
+       
         for (int i=0; i < sentences.size(); i++)
         {
             line = (String) sentences.get(i); 
@@ -156,7 +157,7 @@ public class IrishDependencyTreebank {
             lineCount++;
             String nextLine;
             String [] tokens = line.split("\t");    
-            if (tokens.length > 1 && tokens[1].equals("is"))
+            if (tokens.length > 1 && tokens[2].equals("is") &&!tokens[7].equals("mark:prt"))
             {
                 String copId = tokens[0];
                 String copHeadId = tokens[6];
@@ -189,8 +190,9 @@ public class IrishDependencyTreebank {
                         predTokens = nextLine.split("\t");
                         predId = predTokens[0];
                         predHead = predTokens[6];
-                        if (!predHead.equals(copId))
+                        if (!predTokens[7].startsWith("xcomp") || !predHead.equals(copId))
                         {
+                            //System.out.println("not a pred");
                             isNotAPred = true; 
                         }    
                     }             
@@ -200,6 +202,8 @@ public class IrishDependencyTreebank {
                 {
                     //the new head of the pred is the head of the cop
                     predTokens[6] = copHeadId;
+                    //the relation associated with the cop is now associated with the pred
+                    predTokens[7] = tokens[7];
                     //the new head of the cop is the pred
                     tokens[6] = predId;
                     //the cop's relation to the pred is "cop"
@@ -234,7 +238,7 @@ public class IrishDependencyTreebank {
                     }while (isNotASubj && !finishedSentence && !finishedFile);
                     if (!finishedSentence && !finishedFile)
                     {
-                        subjTokens[6] = copHeadId;
+                        subjTokens[6] = predId;
                         anotherLine = "";
                         for (int x=0; x < subjTokens.length-1; x++)
                         {
@@ -245,7 +249,7 @@ public class IrishDependencyTreebank {
                     }
                     else
                     {
-                        sentences.set(copLine,"***"+line+"***");
+                        sentences.set(copLine,"+++"+line+"+++");
                         i = copLine + 1;
                         lineCount = copLine + 1;
                     }
@@ -268,7 +272,7 @@ public class IrishDependencyTreebank {
                 }
                 else if (finishedSentence || finishedFile)
                 {
-                    sentences.set(copLine,"***"+line+"***");
+                    sentences.set(copLine,"+++"+line+"+++");
                 }
             }
         }
