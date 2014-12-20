@@ -209,12 +209,11 @@ public class IrishDependencyTreebank {
                     //the cop's relation to the pred is "cop"
                     tokens[7] = "cop";
                     predLine = lineCount;
-                    //now find the subj of the predicate
+                    //now find the subj of the predicate and anything else that used to depend on the copula verb
                     String anotherLine = null;
                     do
                     {
                         lineCount++;
-                        isNotASubj = false;
                         anotherLine = (String) sentences.get(lineCount);
                         //System.out.println("NEXTLINE " + anotherLine);
                         
@@ -230,29 +229,19 @@ public class IrishDependencyTreebank {
                         {
                             subjTokens = anotherLine.split("\t");
                             subjHead = subjTokens[6];
-                            if (!subjHead.equals(copId))
+                            if (subjHead.equals(copId))
                             {
-                                isNotASubj = true; 
+                                subjTokens[6] = predId;
+                                anotherLine = "";
+                                for (int x=0; x < subjTokens.length-1; x++)
+                                {
+                                    anotherLine += subjTokens[x] + "\t";
+                                }
+                                anotherLine += subjTokens[subjTokens.length-1];
+                                sentences.set(lineCount,anotherLine);
                             }    
                         }             
-                    }while (isNotASubj && !finishedSentence && !finishedFile);
-                    if (!finishedSentence && !finishedFile)
-                    {
-                        subjTokens[6] = predId;
-                        anotherLine = "";
-                        for (int x=0; x < subjTokens.length-1; x++)
-                        {
-                            anotherLine += subjTokens[x] + "\t";
-                        }
-                        anotherLine += subjTokens[subjTokens.length-1];
-                        sentences.set(lineCount,anotherLine);
-                    }
-                    else
-                    {
-                        sentences.set(copLine,"+++"+line+"+++");
-                        i = copLine + 1;
-                        lineCount = copLine + 1;
-                    }
+                    }while (!finishedSentence && !finishedFile);
                     
                     line = ""; nextLine = "";
                     for (int k=0; k < tokens.length-1; k++)
@@ -265,8 +254,6 @@ public class IrishDependencyTreebank {
                         nextLine += predTokens[j] + "\t";
                     }
                     nextLine += predTokens[predTokens.length-1];
-                    //System.out.println(line);
-                    //System.out.println(prepLine);
                     sentences.set(copLine,line);
                     sentences.set(predLine,nextLine);
                 }
