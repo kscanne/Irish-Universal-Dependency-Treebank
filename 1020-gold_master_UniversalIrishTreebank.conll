@@ -25,7 +25,7 @@
 14	iad	iad	PRON	PRON	_	10	dobj	_	_
 15	;	;	PUNCT	PUNCT	_	16	punct	_	_
 16	agus	agus	CONJ	CONJ	_	3	cc	_	_
-+++17	ba	is	VERB	VERB	_	20	cop	_	_+++
+17	ba	is	VERB	VERB	_	20	cop	_	_
 18	é	é	PRON	PRON	_	20	nmod	_	_
 19	an	an	DET	DET	_	20	det	_	_
 20	rud	rud	NOUN	NOUN	_	3	conj	_	_
@@ -207,7 +207,7 @@
 14	agus	agus	CONJ	CONJ	_	1	cc	_	_
 15	measann	meas	VERB	VERB	_	1	conj	_	_
 16	go_leor	go_leor	NOUN	NOUN	_	15	nsubj	_	_
-+++17	gurb	is	VERB	VERB	_	20	cop	_	_+++
+17	gurb	is	VERB	VERB	_	20	cop	_	_
 18	é	é	PRON	PRON	_	20	nmod	_	_
 19	an	an	DET	DET	_	20	det	_	_
 20	píobaire	píobaire	NOUN	NOUN	_	15	ccomp	_	_
@@ -220,13 +220,13 @@
 
 1	An	an	DET	DET	_	2	det	_	_
 2	Fhíor-Ghaeltacht	Fhíor-Ghaeltacht	PROPN	PROPN	_	7	dobj	_	_
-+++3	ab	is	VERB	VERB	_	4	cop	_	_+++
+3	ab	is	VERB	VERB	_	4	cop	_	_
 4	ait	ait	ADJ	ADJ	_	0	ROOT	_	_
 ***5	liom	le	ADP	ADP	_	4	case	_	_***
 6	a	a	PART	PART	_	7	mark	_	_
 7	choinneáil	coinneáil	NOUN	NOUN	_	4	nsubj	_	_
 8	amhla	amhlaidh	ADV	ADV	_	7	advmod	_	_
-9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	Tá	bí	VERB	VERB	_	0	ROOT	_	_
@@ -323,7 +323,7 @@
 ***12	air	ar	ADP	ADP	_	9	case	_	_***
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	Éireannaigh	Éireannach	PROPN	PROPN	_	0	ROOT	_	_
 3	a	a	DET	DET	_	4	nmod:poss	_	_
 4	sheanthuismitheoirí	sheanthuismitheoir	NOUN	NOUN	_	2	nsubj	_	_
@@ -332,8 +332,8 @@
 7	a	a	DET	DET	_	8	det	_	_
 8	athar	athair	NOUN	NOUN	_	6	compound	_	_
 9	ach	ach	SCONJ	SCONJ	_	10	mark	_	_
-+++10	ba	is	VERB	VERB	_	11	cop	_	_+++
-11	ón	ó	ADP	ADP	_	1	advcl	_	_
+10	ba	is	VERB	VERB	_	11	cop	_	_
+11	ón	ó	ADP	ADP	_	2	advcl	_	_
 12	Rúis	Rúis	PROPN	PROPN	_	11	nmod	_	_
 13	agus	agus	CONJ	CONJ	_	11	cc	_	_
 14	ón	ó	ADP	ADP	_	11	conj	_	_
@@ -419,7 +419,7 @@
 31	acu	ag	ADP	ADP	_	30	compound	_	_
 32	!	!	PUNCT	PUNCT	_	10	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	de_bharr	de_bharr	ADP	ADP	_	0	ROOT	_	_
 3	a	a	DET	DET	_	4	nmod:poss	_	_
 4	chontúirt	contúirt	NOUN	NOUN	_	2	nmod	_	_
@@ -432,7 +432,7 @@
 11	bhí	bí	VERB	VERB	_	2	nsubj	_	_
 12	imní	imní	NOUN	NOUN	_	11	nsubj	_	_
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
-14	sin	sin	PRON	PRON	_	1	nmod	_	_
+14	sin	sin	PRON	PRON	_	2	nmod	_	_
 15	agus	agus	CONJ	CONJ	_	14	cc	_	_
 16	an	an	DET	DET	_	17	det	_	_
 17	tslí	slí	NOUN	NOUN	_	14	conj	_	_
@@ -459,9 +459,9 @@
 38	tráth	tráth	NOUN	NOUN	_	20	advmod	_	_
 39	an	an	DET	DET	_	40	det	_	_
 40	Reifrinn	reifreann	NOUN	NOUN	_	38	compound	_	_
-41	.	.	PUNCT	PUNCT	_	1	punct	_	_
+41	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	léir	léir	ADJ	ADJ	_	0	ROOT	_	_
 3	ón	ó	ADP	ADP	_	4	case	_	_
 4	teideal	teideal	NOUN	NOUN	_	2	nmod	_	_
@@ -473,7 +473,7 @@
 10	sa	i	ADP	ADP	_	11	case	_	_
 11	dráma	dráma	NOUN	NOUN	_	6	nmod	_	_
 12	seo	seo	DET	DET	_	11	det	_	_
-13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bíonn	bí	VERB	VERB	_	0	ROOT	_	_
 2	suas	suas	ADV	ADV	_	1	advmod	_	_
@@ -633,7 +633,7 @@
 20	ann	i	ADP	ADP	_	18	xcomp:pred	_	_
 21	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	cosúil	cosúil	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	raibh	bí	VERB	VERB	_	2	csubj:cop	_	_
@@ -645,11 +645,11 @@
 10	acu	ag	ADP	ADP	_	9	compound	_	_
 11	istigh	istigh	ADV	ADV	_	4	xcomp:pred	_	_
 12	-	-	PUNCT	PUNCT	_	13	punct	_	_
-13	bhí	bí	VERB	VERB	_	1	parataxis	_	_
+13	bhí	bí	VERB	VERB	_	2	parataxis	_	_
 14	100	100	NUM	NUM	_	13	nsubj	_	_
 15	i	i	ADP	ADP	_	13	xcomp:pred	_	_
 16	nGaillimh	Gaillimh	PROPN	PROPN	_	13	nmod	_	_
-17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Titeann	tit	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -665,7 +665,7 @@
 5	éirí	éirí	NOUN	NOUN	_	4	dobj	_	_
 6	ar	ar	ADP	ADP	_	7	case	_	_
 7	mire	mire	NOUN	NOUN	_	4	nmod	_	_
-+++8	gur	is	VERB	VERB	_	9	cop	_	_+++
+8	gur	is	VERB	VERB	_	9	cop	_	_
 9	tubaist	tubaist	NOUN	NOUN	_	1	ccomp	_	_
 10	éigin	éigin	ADJ	ADJ	_	9	amod	_	_
 11	trom	trom	ADJ	ADJ	_	9	amod	_	_
@@ -696,7 +696,7 @@
 20	ag	ag	ADP	ADP	_	1	xcomp	_	_
 21	faire	faire	NOUN	NOUN	_	20	nmod	_	_
 ***22	orthu	ar	ADP	ADP	_	21	case	_	_***
-+++23	nach	is	VERB	VERB	_	29	cop	_	_+++
+23	nach	is	VERB	VERB	_	29	cop	_	_
 24	bocht	bocht	ADJ	ADJ	_	26	xcomp:pred	_	_
 25	an	an	DET	DET	_	26	det	_	_
 26	cás	cás	NOUN	NOUN	_	23	nsubj	_	_
@@ -712,7 +712,7 @@
 36	oíche	oíche	NOUN	NOUN	_	35	nmod	_	_
 37	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	fios	fios	NOUN	NOUN	_	0	ROOT	_	_
 ***3	domsa	do	ADP	ADP	_	2	case	_	_***
 4	conas	conas	ADV	ADV	_	2	nsubj	_	_
@@ -726,7 +726,7 @@
 12	thitim	titim	NOUN	NOUN	_	15	nmod	_	_
 13	na	na	DET	DET	_	14	det	_	_
 14	hoíche	oíche	NOUN	NOUN	_	12	compound	_	_
-15	bhíos	bí	VERB	VERB	_	1	advcl	_	_
+15	bhíos	bí	VERB	VERB	_	2	advcl	_	_
 16	caoch	caoch	ADJ	ADJ	_	15	nsubj	_	_
 17	ar	ar	ADP	ADP	_	19	case	_	_
 18	na	na	DET	DET	_	19	det	_	_
@@ -740,7 +740,7 @@
 26	ina	i	ADP	ADP	_	27	case	_	_
 27	ainneoin	ainneoin	NOUN	NOUN	_	22	nmod	_	_
 28	seo	seo	PRON	PRON	_	27	det	_	_
-29	.	.	PUNCT	PUNCT	_	1	punct	_	_
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -788,7 +788,7 @@
 18	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Creidtear	creid	VERB	VERB	_	0	ROOT	_	_
-+++2	gur	is	VERB	VERB	_	4	cop	_	_+++
+2	gur	is	VERB	VERB	_	4	cop	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	mailíseach	mailíseach	ADJ	ADJ	_	1	ccomp	_	_
 5	a	a	PART	PART	_	6	mark:prt	_	_
@@ -854,7 +854,7 @@
 11	seo	seo	DET	DET	_	10	det	_	_
 12	chugainn	chuig	ADP	ADP	_	10	compound	_	_
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
-+++14	ar	is	VERB	VERB	_	15	cop	_	_+++
+14	ar	is	VERB	VERB	_	15	cop	_	_
 15	aistriúchán	aistriúchán	NOUN	NOUN	_	10	ccomp	_	_
 16	é	é	PRON	PRON	_	15	nsubj	_	_
 17	ar	ar	ADP	ADP	_	18	case	_	_
@@ -883,7 +883,7 @@
 40	McColgan	McColgan	PROPN	PROPN	_	39	name	_	_
 41	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	i_gceann	i_gceann	ADP	ADP	_	0	ROOT	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	na	na	DET	DET	_	5	det	_	_
@@ -905,9 +905,9 @@
 20	ar	ar	ADP	ADP	_	22	case	_	_
 21	an	an	DET	DET	_	22	det	_	_
 22	saol	saol	NOUN	NOUN	_	19	nmod	_	_
-23	.	.	PUNCT	PUNCT	_	1	punct	_	_
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	mór	mór	ADJ	ADJ	_	0	ROOT	_	_
 3	4	4	NUM	NUM	_	4	nummod	_	_
 4	chóip	cóip	NOUN	NOUN	_	8	dobj	_	_
@@ -943,7 +943,7 @@
 34	,	,	PUNCT	PUNCT	_	35	punct	_	_
 35	Co.	Co.	X	X	_	16	compound	_	_
 36	Chiarraí	Ciarraí	PROPN	PROPN	_	37	compound	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	8	punct	_	_
 2	Maróidh	maraigh	VERB	VERB	_	8	ccomp	_	_
@@ -975,7 +975,7 @@
 7	gcuid	cuid	NOUN	NOUN	_	5	nmod	_	_
 8	féin	féin	NOUN	NOUN	_	7	compound	_	_
 ***9	acu	ag	ADP	ADP	_	4	case	_	_***
-+++10	ba	is	VERB	VERB	_	13	cop	_	_+++
+10	ba	is	VERB	VERB	_	13	cop	_	_
 11	iad	iad	PRON	PRON	_	13	nmod	_	_
 12	an	an	DET	DET	_	13	det	_	_
 13	pobal	pobal	NOUN	NOUN	_	0	ROOT	_	_
@@ -984,7 +984,7 @@
 16	dhéanadh	déan	VERB	VERB	_	13	nsubj	_	_
 17	cúram	cúram	NOUN	NOUN	_	16	nsubj	_	_
 ***18	díobh	de	ADP	ADP	_	16	case	_	_***
-19	.	.	PUNCT	PUNCT	_	10	punct	_	_
+19	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 1	Bhíodh	bí	VERB	VERB	_	0	ROOT	_	_
 2	tithe	teach	NOUN	NOUN	_	1	nsubj	_	_
@@ -1413,7 +1413,7 @@
 116	réasúnta	réasúnta	ADJ	ADJ	_	111	advmod	_	_
 117	chun	chun	ADP	ADP	_	118	case	_	_
 118	féachaint	féachaint	NOUN	NOUN	_	111	nmod	_	_
-+++119	an	is	VERB	VERB	_	120	cop	_	_+++
+119	an	is	VERB	VERB	_	120	cop	_	_
 120	fíor	fíor	ADJ	ADJ	_	118	ccomp	_	_
 121	aon	aon	DET	DET	_	122	det	_	_
 122	iontráil	iontráil	NOUN	NOUN	_	120	nsubj	_	_
@@ -1421,8 +1421,8 @@
 124	sa	i	ADP	ADP	_	125	case	_	_
 125	chlár	clár	NOUN	NOUN	_	122	nmod	_	_
 126	san	sin	X	X	_	125	det	_	_
-127	no	nó	CONJ	CONJ	_	119	cc	_	_
-128	cad	cad	PRON	PRON	_	119	conj	_	_
+127	no	nó	CONJ	CONJ	_	120	cc	_	_
+128	cad	cad	PRON	PRON	_	120	conj	_	_
 129	fé	faoi	ADP	ADP	_	128	xcomp:pred	_	_
 130	ndeár	deara	NOUN	NOUN	_	129	nmod	_	_
 131	éinní	ní	NOUN	NOUN	_	130	compound	_	_
@@ -1485,7 +1485,7 @@
 33	in	i	ADP	ADP	_	34	case	_	_
 34	Éirinn	Éire	PROPN	PROPN	_	25	nmod	_	_
 35	,	,	PUNCT	PUNCT	_	36	punct	_	_
-+++36	gur	is	VERB	VERB	_	37	cop	_	_+++
+36	gur	is	VERB	VERB	_	37	cop	_	_
 37	gluaiseacht	gluaiseacht	NOUN	NOUN	_	1	ccomp	_	_
 38	neo-thraidisiúnta	traidisiúnta	ADJ	ADJ	_	37	amod	_	_
 39	thar_a_bheith	thar_a_bheith	ADV	ADV	_	40	advmod	_	_
@@ -1516,7 +1516,7 @@
 16	an	an	DET	DET	_	17	det	_	_
 17	duine	duine	NOUN	NOUN	_	15	compound	_	_
 18	-	-	PUNCT	PUNCT	_	19	punct	_	_
-+++19	is	is	VERB	VERB	_	20	cop	_	_+++
+19	is	is	VERB	VERB	_	20	cop	_	_
 20	é	é	PRON	PRON	_	8	parataxis	_	_
 21	sin	sin	DET	DET	_	20	det	_	_
 22	go	go	PART	PART	_	23	mark:prt	_	_
@@ -1613,13 +1613,13 @@
 59	aistreoir	aistreoir	NOUN	NOUN	_	56	nmod	_	_
 60	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	mise	mé	PRON	PRON	_	0	ROOT	_	_
 3	atá	bí	VERB	VERB	_	2	nsubj	_	_
 4	ag	ag	ADP	ADP	_	3	xcomp	_	_
 5	déanamh	déanamh	NOUN	NOUN	_	4	nmod	_	_
 6	cáca	cáca	NOUN	NOUN	_	5	dobj	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Sheas	seas	VERB	VERB	_	0	ROOT	_	_
 2	a	a	DET	DET	_	3	nmod:poss	_	_
@@ -1662,7 +1662,7 @@
 20	rud	rud	NOUN	NOUN	_	23	compound	_	_
 21	ráite	ráite	ADJ	ADJ	_	20	xcomp:pred	_	_
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
-+++23	is	is	VERB	VERB	_	24	cop	_	_+++
+23	is	is	VERB	VERB	_	24	cop	_	_
 24	láithreán	láithreán	NOUN	NOUN	_	1	advcl	_	_
 25	uafásach	uafásach	ADJ	ADJ	_	24	amod	_	_
 26	é	é	PRON	PRON	_	24	nsubj	_	_
@@ -1693,7 +1693,7 @@
 16	chomhpháirteach	páirteach	ADJ	ADJ	_	15	amod	_	_
 17	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	iad	iad	PRON	PRON	_	0	ROOT	_	_
 3	seo	seo	PRON	PRON	_	2	det	_	_
 4	Frank	Frank	PROPN	PROPN	_	2	nsubj	_	_
@@ -1715,7 +1715,7 @@
 20	Micheal	Micheal	PROPN	PROPN	_	4	conj	_	_
 21	J.	J.	X	X	_	20	name	_	_
 22	Ryan	Ryan	PROPN	PROPN	_	20	name	_	_
-23	.	.	PUNCT	PUNCT	_	1	punct	_	_
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Go	go	PART	PART	_	2	mark:prt	_	_
 2	deimhin	deimhin	ADJ	ADJ	_	3	advmod	_	_
@@ -1863,7 +1863,7 @@
 1	Ar	ar	ADP	ADP	_	2	case	_	_
 2	ndóigh	dóigh	NOUN	NOUN	_	4	nmod	_	_
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
-+++4	is	is	PART	PART	_	5	cop	_	_+++
+4	is	is	PART	PART	_	5	cop	_	_
 5	mó	mór	ADJ	ADJ	_	0	ROOT	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	nádúrthacht	nádúrthacht	NOUN	NOUN	_	5	nsubj	_	_
@@ -1875,7 +1875,7 @@
 13	ná	ná	CONJ	CONJ	_	11	cc	_	_
 14	a	a	DET	DET	_	15	nmod:poss	_	_
 15	chéile	céile	NOUN	NOUN	_	11	conj	_	_
-16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+16	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 1	TOGRA	TOGRA	X	X	_	4	nmod	_	_
 2	IONAID	ionad	NOUN	NOUN	_	1	compound	_	_
@@ -2081,7 +2081,7 @@
 17	:	:	PUNCT	PUNCT	_	18	punct	_	_
 18	féach	féach	VERB	VERB	_	1	parataxis	_	_
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
-+++20	nach	is	VERB	VERB	_	21	cop	_	_+++
+20	nach	is	VERB	VERB	_	21	cop	_	_
 21	maith	maith	ADJ	ADJ	_	1	ccomp	_	_
 22	an	an	DET	DET	_	23	det	_	_
 23	rud	rud	NOUN	NOUN	_	21	nsubj	_	_
@@ -2108,12 +2108,12 @@
 13	tuisceanach	tuisceanach	ADJ	ADJ	_	12	amod	_	_
 14	áirithe	áirithe	ADJ	ADJ	_	12	amod	_	_
 15	ionas	ionas	NOUN	NOUN	_	16	mark	_	_
-+++16	gur	is	VERB	VERB	_	17	cop	_	_+++
+16	gur	is	VERB	VERB	_	17	cop	_	_
 17	tuigthe	tuigthe	ADJ	ADJ	_	1	ccomp	_	_
 18	go	go	PART	PART	_	19	mark:prt	_	_
 19	maith	maith	ADJ	ADJ	_	17	advmod	_	_
 ***20	dúinn	do	ADP	ADP	_	17	case	_	_***
-+++21	nach	is	VERB	VERB	_	23	cop	_	_+++
+21	nach	is	VERB	VERB	_	23	cop	_	_
 22	aon	aon	DET	DET	_	23	det	_	_
 23	bhábóg	bábóg	NOUN	NOUN	_	17	csubj:cop	_	_
 24	cheannéadrom	cheannéadrom	ADJ	ADJ	_	23	amod	_	_
@@ -2126,10 +2126,10 @@
 31	haigne	aigne	NOUN	NOUN	_	29	compound	_	_
 32	í	í	PRON	PRON	_	33	nmod	_	_
 33	Eibhlín	Eibhlín	PROPN	PROPN	_	23	nsubj	_	_
-34	agus	agus	CONJ	CONJ	_	21	cc	_	_
-+++35	nach	is	VERB	VERB	_	37	cop	_	_+++
+34	agus	agus	CONJ	CONJ	_	23	cc	_	_
+35	nach	is	VERB	VERB	_	37	cop	_	_
 36	aon	aon	DET	DET	_	37	det	_	_
-37	ridire	ridire	NOUN	NOUN	_	21	conj	_	_
+37	ridire	ridire	NOUN	NOUN	_	23	conj	_	_
 38	ar	ar	ADP	ADP	_	40	case	_	_
 39	a	a	DET	DET	_	40	nmod:poss	_	_
 40	chapall	capall	NOUN	NOUN	_	37	nmod	_	_
@@ -2149,12 +2149,12 @@
 9	fáil	fáil	NOUN	NOUN	_	8	nmod	_	_
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	mar	mar	ADP	ADP	_	0	ROOT	_	_
 3	sin	sin	PRON	PRON	_	2	nmod	_	_
 4	atá	bí	VERB	VERB	_	2	nsubj	_	_
-5	áfach	áfach	ADV	ADV	_	1	advmod	_	_
-6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+5	áfach	áfach	ADV	ADV	_	2	advmod	_	_
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Chuige	chuig	ADP	ADP	_	2	case	_	_
 2	sin	sin	PRON	PRON	_	4	nmod	_	_
@@ -2299,7 +2299,7 @@
 88	agus	agus	CONJ	CONJ	_	87	cc	_	_
 89	an	an	DET	DET	_	90	det	_	_
 90	t-eolas	eolas	NOUN	NOUN	_	87	conj	_	_
-+++91	is	is	VERB	VERB	_	92	cop	_	_+++
+91	is	is	VERB	VERB	_	92	cop	_	_
 92	gá	gá	NOUN	NOUN	_	87	acl:relcl	_	_
 93	chun	chun	ADP	ADP	_	97	case	_	_
 94	a	a	DET	DET	_	95	nmod:poss	_	_
@@ -2361,12 +2361,12 @@
 150	sin	sin	DET	DET	_	149	det	_	_
 151	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	beag	beag	ADJ	ADJ	_	0	ROOT	_	_
 3	mac	mac	NOUN	NOUN	_	2	nsubj	_	_
 4	léinn	léann	NOUN	NOUN	_	3	compound	_	_
 5	seandálaíochta	seandálaíocht	NOUN	NOUN	_	3	compound	_	_
-6	anois	anois	ADV	ADV	_	1	advmod	_	_
+6	anois	anois	ADV	ADV	_	2	advmod	_	_
 7	a	a	PART	PART	_	8	nsubj	_	_
 8	léann	léigh	VERB	VERB	_	3	acl:relcl	_	_
 9	an	an	DET	DET	_	10	det	_	_
@@ -2387,12 +2387,12 @@
 24	inmheánaigh	inmheánach	ADJ	ADJ	_	23	amod	_	_
 25	seo	seo	DET	DET	_	23	det	_	_
 26	,	,	PUNCT	PUNCT	_	27	punct	_	_
-27	tá	bí	VERB	VERB	_	1	parataxis	_	_
+27	tá	bí	VERB	VERB	_	2	parataxis	_	_
 28	dhá	dó	NUM	NUM	_	29	nummod	_	_
 29	chineál	cineál	NOUN	NOUN	_	27	nsubj	_	_
 30	duine	duine	NOUN	NOUN	_	29	compound	_	_
 31	ann	i	ADP	ADP	_	27	xcomp:pred	_	_
-32	.	.	PUNCT	PUNCT	_	1	punct	_	_
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	4	mark	_	_
 2	nuair	nuair	SCONJ	SCONJ	_	4	mark	_	_
@@ -2409,7 +2409,7 @@
 13	cheap	ceap	VERB	VERB	_	8	conj	_	_
 14	siad	siad	PRON	PRON	_	13	nsubj	_	_
 15	féin	féin	NOUN	NOUN	_	14	compound	_	_
-+++16	gurb	is	VERB	VERB	_	19	cop	_	_+++
+16	gurb	is	VERB	VERB	_	19	cop	_	_
 17	ea	ea	PRON	PRON	_	16	nsubj	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	báite	báite	ADJ	ADJ	_	13	ccomp	_	_
@@ -2465,7 +2465,7 @@
 ***8	agam	ag	ADP	ADP	_	7	case	_	_***
 9	!	!	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	i	i	ADP	ADP	_	0	ROOT	_	_
 3	Vicar	Vicar	PROPN	PROPN	_	4	compound	_	_
 4	St	St	X	X	_	2	nmod	_	_
@@ -2497,14 +2497,14 @@
 30	ceoil	ceol	NOUN	NOUN	_	29	compound	_	_
 31	a	a	PART	PART	_	32	mark	_	_
 32	mhúscailt	múscailt	NOUN	NOUN	_	25	nmod	_	_
-33	.	.	PUNCT	PUNCT	_	1	punct	_	_
+33	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dia's	Dia	PROPN	PROPN	_	6	nsubj	_	_
 2	Muire	Muire	NOUN	NOUN	_	1	compound	_	_
 ***3	duit	do	ADP	ADP	_	6	case	_	_***
 4	...	...	PUNCT	PUNCT	_	6	punct	_	_
 5	...	...	PUNCT	PUNCT	_	6	punct	_	_
-++++++6	sea	is	VERB	VERB	_	0	ROOT	_	_++++++
++++6	sea	is	VERB	VERB	_	0	ROOT	_	_+++
 7	...	...	PUNCT	PUNCT	_	6	punct	_	_
 8	...	...	PUNCT	PUNCT	_	6	punct	_	_
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -2555,15 +2555,15 @@
 25	sin	sin	DET	DET	_	24	det	_	_
 26	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	hamháin	amháin	ADJ	ADJ	_	0	ROOT	_	_
 3	mar	mar	ADP	ADP	_	2	xcomp:pred	_	_
 4	shaoránach	saoránach	NOUN	NOUN	_	3	nmod	_	_
 5	ach	ach	SCONJ	SCONJ	_	3	cc	_	_
 6	mar	mar	ADP	ADP	_	3	conj	_	_
 7	ealaíontóir	ealaíontóir	NOUN	NOUN	_	6	nmod	_	_
-8	fosta	fosta	ADV	ADV	_	1	advmod	_	_
-9	goilleann	goill	VERB	VERB	_	1	ccomp	_	_
+8	fosta	fosta	ADV	ADV	_	2	advmod	_	_
+9	goilleann	goill	VERB	VERB	_	2	ccomp	_	_
 10	tosca	toisc	NOUN	NOUN	_	9	nsubj	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	tsaoil	saol	NOUN	NOUN	_	10	compound	_	_
@@ -2574,13 +2574,13 @@
 17	ar	ar	ADP	ADP	_	19	case	_	_
 18	an	an	DET	DET	_	19	det	_	_
 19	fhile	file	NOUN	NOUN	_	9	nmod	_	_
-20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ar	ar	ADP	ADP	_	3	case	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	drochuair	drochuair	NOUN	NOUN	_	5	nmod	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
-+++5	ní	is	VERB	VERB	_	6	cop	_	_+++
+5	ní	is	VERB	VERB	_	6	cop	_	_
 6	mór	mór	ADJ	ADJ	_	0	ROOT	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	staidéar	staidéar	NOUN	NOUN	_	11	dobj	_	_
@@ -2591,7 +2591,7 @@
 13	athló	lá	NOUN	NOUN	_	11	nmod	_	_
 14	cheal	ceal	NOUN	NOUN	_	13	compound	_	_
 15	acmhainní	acmhainn	NOUN	NOUN	_	14	compound	_	_
-16	.	.	PUNCT	PUNCT	_	5	punct	_	_
+16	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 1	Siúd	siúd	PRON	PRON	_	0	ROOT	_	_
 2	é	é	PRON	PRON	_	5	nmod	_	_
@@ -2603,7 +2603,7 @@
 8	an	an	DET	DET	_	9	det	_	_
 9	t-ábhar	ábhar	NOUN	NOUN	_	1	nsubj	_	_
 10	trua	trua	ADJ	ADJ	_	9	amod	_	_
-+++11	ba	is	VERB	VERB	_	12	cop	_	_+++
+11	ba	is	VERB	VERB	_	12	cop	_	_
 12	mhó	mór	ADJ	ADJ	_	9	acl:relcl	_	_
 13	dá	dá	SCONJ	SCONJ	_	14	mark	_	_
 14	bhfaca	feic	VERB	VERB	_	12	xcomp	_	_
@@ -2647,7 +2647,7 @@
 10	tamaill	tamall	NOUN	NOUN	_	4	nmod	_	_
 11	fhada	fada	ADJ	ADJ	_	10	amod	_	_
 12	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++13	ba	is	VERB	VERB	_	14	cop	_	_+++
+13	ba	is	VERB	VERB	_	14	cop	_	_
 14	é	é	PRON	PRON	_	1	conj	_	_
 15	sin	sin	PRON	PRON	_	14	det	_	_
 16	an	an	DET	DET	_	18	det	_	_
@@ -2779,7 +2779,7 @@
 9	Rómhánaigh	Rómhánach	NOUN	NOUN	_	2	nmod	_	_
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	ach	ach	SCONJ	SCONJ	_	2	cc	_	_
-+++12	níor	is	VERB	VERB	_	13	cop	_	_+++
+12	níor	is	VERB	VERB	_	13	cop	_	_
 13	mhór	mór	ADJ	ADJ	_	2	conj	_	_
 14	do	do	ADP	ADP	_	16	case	_	_
 15	na	na	DET	DET	_	16	det	_	_
@@ -2814,12 +2814,12 @@
 17	chó	chomh	ADV	ADV	_	18	advmod	_	_
 18	luath	luath	ADJ	ADJ	_	9	amod	_	_
 19	agus	agus	SCONJ	SCONJ	_	20	mark	_	_
-+++20	is	is	VERB	VERB	_	21	cop	_	_+++
+20	is	is	VERB	VERB	_	21	cop	_	_
 21	féidir	féidir	NOUN	NOUN	_	9	advcl	_	_
 22	é	é	PRON	PRON	_	21	nsubj	_	_
 23	tar_éis	tar_éis	ADP	ADP	_	25	case	_	_
 24	a	a	DET	DET	_	25	nmod:poss	_	_
-25	dhéanta	déanta	NOUN	NOUN	_	20	nmod	_	_
+25	dhéanta	déanta	NOUN	NOUN	_	21	nmod	_	_
 26	agus	agus	CONJ	CONJ	_	9	cc	_	_
 27	má	má	SCONJ	SCONJ	_	28	mark	_	_
 28	dhineann	déan	VERB	VERB	_	56	advcl	_	_
@@ -2942,15 +2942,15 @@
 7	phictiúir	pictiúr	NOUN	NOUN	_	5	compound	_	_
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Níor	is	VERB	VERB	_	2	cop	_	_+++
+1	Níor	is	VERB	VERB	_	2	cop	_	_
 2	thada	tada	NOUN	NOUN	_	0	ROOT	_	_
 3	é	é	PRON	PRON	_	4	nmod	_	_
 4	sin	sin	PRON	PRON	_	2	nsubj	_	_
 5	le_hais	le_hais	ADP	ADP	_	7	case	_	_
 6	na	na	DET	DET	_	7	det	_	_
-7	hoíche	oíche	NOUN	NOUN	_	1	nmod	_	_
+7	hoíche	oíche	NOUN	NOUN	_	2	nmod	_	_
 8	ar	ar	PART	PART	_	9	mark:prt	_	_
-9	fhéach	féach	VERB	VERB	_	1	ccomp	_	_
+9	fhéach	féach	VERB	VERB	_	2	ccomp	_	_
 10	Cóil	Cóil	PROPN	PROPN	_	9	nsubj	_	_
 11	le	le	ADP	ADP	_	9	xcomp	_	_
 12	himeacht	imeacht	NOUN	NOUN	_	11	nmod	_	_
@@ -2977,8 +2977,8 @@
 33	le	le	ADP	ADP	_	34	case	_	_
 34	Micil	Micil	PROPN	PROPN	_	32	nmod	_	_
 35	í	í	PRON	PRON	_	32	dobj	_	_
-36	...	...	PUNCT	PUNCT	_	1	punct	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+36	...	...	PUNCT	PUNCT	_	2	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	19	punct	_	_
 2	Níor	níor	PART	PART	_	3	neg	_	_
@@ -3063,11 +3063,11 @@
 16	cha	cha	X	X	_	11	nmod	_	_
 17	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	deas	deas	ADJ	ADJ	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	lá	lá	NOUN	NOUN	_	2	nsubj	_	_
-5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Nár	nár	PART	PART	_	2	mark:prt	_	_
 2	thug	tabhair	VERB	VERB	_	0	ROOT	_	_
@@ -3083,11 +3083,11 @@
 3	siad	siad	PRON	PRON	_	2	nsubj	_	_
 ***4	faoi	faoi	ADP	ADP	_	2	case	_	_***
 5	mar	mar	ADP	ADP	_	6	mark	_	_
-++++++6	is	is	VERB	VERB	_	2	advcl	_	_++++++
++++6	is	is	VERB	VERB	_	2	advcl	_	_+++
 7	féidir	féidir	NOUN	NOUN	_	6	nsubj	_	_
 ***8	leo	le	ADP	ADP	_	6	case	_	_***
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-+++10	is	is	VERB	VERB	_	11	cop	_	_+++
+10	is	is	VERB	VERB	_	11	cop	_	_
 11	dóigh	dóigh	NOUN	NOUN	_	0	ROOT	_	_
 ***12	liom	le	ADP	ADP	_	11	case	_	_***
 13	go	go	PART	PART	_	14	mark:prt	_	_
@@ -3103,8 +3103,8 @@
 23	Pádraig	Pádraig	PROPN	PROPN	_	20	nmod	_	_
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
 25	ach	ach	SCONJ	SCONJ	_	26	mark	_	_
-+++26	is	is	VERB	VERB	_	27	cop	_	_+++
-27	ina	i	ADP	ADP	_	10	advcl	_	_
+26	is	is	VERB	VERB	_	27	cop	_	_
+27	ina	i	ADP	ADP	_	11	advcl	_	_
 28	lámha	lámh	NOUN	NOUN	_	27	nmod	_	_
 29	féin	féin	NOUN	NOUN	_	28	compound	_	_
 30	a	a	PART	PART	_	31	mark:prt	_	_
@@ -3113,15 +3113,15 @@
 33	an	an	PART	PART	_	31	xcomp:pred	_	_
 34	ag	ag	ADP	ADP	_	31	xcomp	_	_
 35	imirt	imirt	NOUN	NOUN	_	34	nmod	_	_
-36	nó	nó	CONJ	CONJ	_	26	cc	_	_
-37	i	i	ADP	ADP	_	26	conj	_	_
+36	nó	nó	CONJ	CONJ	_	27	cc	_	_
+37	i	i	ADP	ADP	_	27	conj	_	_
 38	measc	measc	NOUN	NOUN	_	37	nmod	_	_
 39	an	an	DET	DET	_	40	det	_	_
 40	tslua	slua	NOUN	NOUN	_	38	compound	_	_
 41	a	a	PART	PART	_	42	mark:prt	_	_
 42	bheidh	bí	VERB	VERB	_	37	nsubj	_	_
 43	siad	siad	PRON	PRON	_	42	nsubj	_	_
-44	.	.	PUNCT	PUNCT	_	10	punct	_	_
+44	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 1	Ní	ní	PART	PART	_	2	neg	_	_
 2	thugtar	tabhair	VERB	VERB	_	0	ROOT	_	_
@@ -3258,7 +3258,7 @@
 28	amháin	amháin	ADJ	ADJ	_	27	amod	_	_
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
 30	agus	agus	CONJ	CONJ	_	16	cc	_	_
-+++31	gur	is	VERB	VERB	_	32	cop	_	_+++
+31	gur	is	VERB	VERB	_	32	cop	_	_
 32	ó	ó	ADP	ADP	_	16	conj	_	_
 33	Dhún	dún	NOUN	NOUN	_	32	nmod	_	_
 34	Chaoin	Caoin	PROPN	PROPN	_	33	compound	_	_
@@ -3472,7 +3472,7 @@
 47	den	de	ADP	ADP	_	48	case	_	_
 48	áireamhacht	áireamhacht	NOUN	NOUN	_	46	nmod	_	_
 49	iomláin	iomlán	NOUN	NOUN	_	48	compound	_	_
-++++++50	ar	is	VERB	VERB	_	52	advmod	_	_++++++
++++50	ar	is	VERB	VERB	_	52	advmod	_	_+++
 51	ar	ar	PART	PART	_	52	dobj	_	_
 52	deonadh	deon	VERB	VERB	_	46	acl:relcl	_	_
 53	an	an	DET	DET	_	54	det	_	_
@@ -3675,7 +3675,7 @@
 8	é	é	PRON	PRON	_	6	dobj	_	_
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	4	cop	_	_+++
+1	Is	is	VERB	VERB	_	4	cop	_	_
 2	é	é	PRON	PRON	_	5	nmod	_	_
 3	mo	mo	DET	DET	_	4	nmod:poss	_	_
 4	bhrón	brón	NOUN	NOUN	_	0	ROOT	_	_
@@ -3686,9 +3686,9 @@
 9	imigh	imigh	VERB	VERB	_	4	csubj:cop	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	uair	uair	NOUN	NOUN	_	9	nsubj	_	_
-12	.	.	PUNCT	PUNCT	_	1	punct	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhéidir	féidir	NOUN	NOUN	_	0	ROOT	_	_
 3	le	le	ADP	ADP	_	4	case	_	_
 4	Dia	dia	NOUN	NOUN	_	2	nmod	_	_
@@ -3699,7 +3699,7 @@
 9	ar	ar	ADP	ADP	_	10	case	_	_
 10	fónamh	fónamh	NOUN	NOUN	_	7	nmod	_	_
 ***11	as	as	ADP	ADP	_	6	case	_	_***
-12	.	.	PUNCT	PUNCT	_	1	punct	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhíodh	bí	VERB	VERB	_	0	ROOT	_	_
 2	díospóireachtaí	díospóireacht	NOUN	NOUN	_	1	nsubj	_	_
@@ -3755,7 +3755,7 @@
 15	ach	ach	SCONJ	SCONJ	_	18	mark	_	_
 16	anois	anois	ADV	ADV	_	18	advmod	_	_
 17	,	,	PUNCT	PUNCT	_	18	punct	_	_
-+++18	ba	is	VERB	VERB	_	19	cop	_	_+++
+18	ba	is	VERB	VERB	_	19	cop	_	_
 19	lugha	beag	ADJ	ADJ	_	6	advcl	_	_
 20	ná	ná	CONJ	CONJ	_	19	cc	_	_
 21	frigh	fríd	NOUN	NOUN	_	19	conj	_	_
@@ -3831,7 +3831,7 @@
 10	fireann	fir	ADJ	ADJ	_	8	amod	_	_
 11	)	)	PUNCT	PUNCT	_	10	punct	_	_
 12	;	;	PUNCT	PUNCT	_	13	punct	_	_
-+++13	is	is	VERB	VERB	_	15	cop	_	_+++
+13	is	is	VERB	VERB	_	15	cop	_	_
 14	iad	iad	PRON	PRON	_	15	nmod	_	_
 15	codanna	cuid	NOUN	NOUN	_	0	ROOT	_	_
 16	an	an	DET	DET	_	17	det	_	_
@@ -3845,10 +3845,10 @@
 24	an	an	DET	DET	_	25	det	_	_
 25	tsíollann	síollann	NOUN	NOUN	_	19	conj	_	_
 26	;	;	PUNCT	PUNCT	_	27	punct	_	_
-+++27	is	is	VERB	VERB	_	30	cop	_	_+++
+27	is	is	VERB	VERB	_	30	cop	_	_
 28	iad	iad	PRON	PRON	_	30	nmod	_	_
 29	an	an	DET	DET	_	30	det	_	_
-30	t-antar	antar	NOUN	NOUN	_	13	ccomp	_	_
+30	t-antar	antar	NOUN	NOUN	_	15	ccomp	_	_
 31	agus	agus	CONJ	CONJ	_	30	cc	_	_
 32	an	an	DET	DET	_	33	det	_	_
 33	fasc	fasc	NOUN	NOUN	_	30	conj	_	_
@@ -3856,7 +3856,7 @@
 35	an	an	DET	DET	_	36	det	_	_
 36	staimín	staimín	NOUN	NOUN	_	34	compound	_	_
 37	;	;	PUNCT	PUNCT	_	38	punct	_	_
-38	cuidíonn	cuidigh	VERB	VERB	_	13	ccomp	_	_
+38	cuidíonn	cuidigh	VERB	VERB	_	15	ccomp	_	_
 39	na	na	DET	DET	_	40	det	_	_
 40	piotail	piotail	NOUN	NOUN	_	38	nsubj	_	_
 41	,	,	PUNCT	PUNCT	_	42	punct	_	_
@@ -3878,7 +3878,7 @@
 57	a	a	PART	PART	_	58	mark	_	_
 58	phailniú	pailniú	NOUN	NOUN	_	54	nmod	_	_
 59	;	;	PUNCT	PUNCT	_	60	punct	_	_
-60	cosnaíonn	cosain	VERB	VERB	_	13	ccomp	_	_
+60	cosnaíonn	cosain	VERB	VERB	_	15	ccomp	_	_
 61	na	na	DET	DET	_	62	det	_	_
 62	siopail	siopail	NOUN	NOUN	_	60	nsubj	_	_
 63	,	,	PUNCT	PUNCT	_	64	punct	_	_
@@ -3901,7 +3901,7 @@
 80	é	é	PRON	PRON	_	71	nsubj	_	_
 81	ina	i	ADP	ADP	_	80	xcomp:pred	_	_
 82	bhachlóg	bachlóg	NOUN	NOUN	_	81	nmod	_	_
-83	.	.	PUNCT	PUNCT	_	13	punct	_	_
+83	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 1	Déan	déan	VERB	VERB	_	0	ROOT	_	_
 2	cur	cur	NOUN	NOUN	_	1	dobj	_	_
@@ -3919,13 +3919,13 @@
 14	Seáinín	seáinín	NOUN	NOUN	_	11	nmod	_	_
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	cuntas	cuntas	NOUN	NOUN	_	0	ROOT	_	_
 3	réasúnta	réasúnta	ADJ	ADJ	_	2	amod	_	_
 4	é	é	PRON	PRON	_	2	nsubj	_	_
 5	sa	i	ADP	ADP	_	6	case	_	_
-6	mhórchuid	mórchuid	NOUN	NOUN	_	1	nmod	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+6	mhórchuid	mórchuid	NOUN	NOUN	_	2	nmod	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Laethanta	lá	NOUN	NOUN	_	0	ROOT	_	_
 2	Saoire	saoire	NOUN	NOUN	_	1	compound	_	_
@@ -3956,7 +3956,7 @@
 8	cabáiste	cabáiste	NOUN	NOUN	_	5	conj	_	_
 9	an-ghann	gann	ADJ	ADJ	_	3	xcomp:pred	_	_
 10	;	;	PUNCT	PUNCT	_	11	punct	_	_
-+++11	b'	is	VERB	VERB	_	12	cop	_	_+++
+11	b'	is	VERB	VERB	_	12	cop	_	_
 12	fhéidir	féidir	NOUN	NOUN	_	3	parataxis	_	_
 13	nach	nach	PART	PART	_	14	mark:prt	_	_
 14	mbeadh	bí	VERB	VERB	_	12	csubj:cop	_	_
@@ -3972,7 +3972,7 @@
 1	Beidh	bí	VERB	VERB	_	0	ROOT	_	_
 2	feachtas	feachtas	NOUN	NOUN	_	1	nsubj	_	_
 3	margaíochta	margaíocht	NOUN	NOUN	_	2	compound	_	_
-+++4	ar	is	VERB	VERB	_	5	cop	_	_+++
+4	ar	is	VERB	VERB	_	5	cop	_	_
 5	fiú	fiú	NOUN	NOUN	_	2	ccomp	_	_
 6	E50	E50	X	X	_	5	compound	_	_
 7	,000	,000	NUM	NUM	_	6	nummod	_	_
@@ -4023,7 +4023,7 @@
 19	rinne	déan	VERB	VERB	_	16	acl:relcl	_	_
 20	sé	sé	PRON	PRON	_	19	nsubj	_	_
 21	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++22	b'	is	VERB	VERB	_	23	cop	_	_+++
+22	b'	is	VERB	VERB	_	23	cop	_	_
 23	iúd	iúd	PRON	PRON	_	1	conj	_	_
 24	an	an	DET	DET	_	25	det	_	_
 25	doras	doras	NOUN	NOUN	_	23	nsubj	_	_
@@ -4058,7 +4058,7 @@
 1	Mhol	mol	VERB	VERB	_	0	ROOT	_	_
 2	duine	duine	NOUN	NOUN	_	1	nsubj	_	_
 3	éigin	éigin	ADJ	ADJ	_	2	amod	_	_
-+++4	gur	is	VERB	VERB	_	5	cop	_	_+++
+4	gur	is	VERB	VERB	_	5	cop	_	_
 5	cheart	ceart	ADJ	ADJ	_	1	ccomp	_	_
 6	ceithre	ceathair	NUM	NUM	_	7	nummod	_	_
 7	theanga	teanga	NOUN	NOUN	_	9	dobj	_	_
@@ -4076,7 +4076,7 @@
 19	cén	cé	PRON	PRON	_	18	dobj	_	_
 20	fhealsúnacht	fealsúnacht	NOUN	NOUN	_	19	compound	_	_
 21	a	a	PART	PART	_	22	nsubj	_	_
-+++22	ba	is	VERB	VERB	_	23	cop	_	_+++
+22	ba	is	VERB	VERB	_	23	cop	_	_
 23	bhun	bun	NOUN	NOUN	_	20	acl:relcl	_	_
 24	leis	le	ADP	ADP	_	26	case	_	_
 25	an	an	DET	DET	_	26	det	_	_
@@ -4165,7 +4165,7 @@
 
 1	Cailín	cailín	NOUN	NOUN	_	3	nsubj	_	_
 2	deas	deas	ADJ	ADJ	_	1	amod	_	_
-+++3	ab	is	VERB	VERB	_	4	cop	_	_+++
+3	ab	is	VERB	VERB	_	4	cop	_	_
 4	fhearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***5	liom	le	ADP	ADP	_	4	case	_	_***
 6	a	a	PART	PART	_	7	mark	_	_
@@ -4181,7 +4181,7 @@
 16	'	'	PUNCT	PUNCT	_	17	punct	_	_
 17	Gus	agus	CONJ	CONJ	_	19	mark	_	_
 18	dá	dá	SCONJ	SCONJ	_	19	mark	_	_
-19	bpósfainn	pós	VERB	VERB	_	3	advcl	_	_
+19	bpósfainn	pós	VERB	VERB	_	4	advcl	_	_
 20	cailleach	cailleach	NOUN	NOUN	_	19	nsubj	_	_
 21	ghránna	gránna	ADJ	ADJ	_	20	amod	_	_
 22	mo	mo	DET	DET	_	23	nmod:poss	_	_
@@ -4218,7 +4218,7 @@
 53	chonaic	feic	VERB	VERB	_	50	acl:relcl	_	_
 54	tú	tú	PRON	PRON	_	53	nsubj	_	_
 55	ariamh	ariamh	ADV	ADV	_	53	advmod	_	_
-56	.	.	PUNCT	PUNCT	_	3	punct	_	_
+56	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	taibhsí	taibhse	NOUN	NOUN	_	1	nsubj	_	_
@@ -4257,14 +4257,14 @@
 7	scríobh	scríobh	VERB	VERB	_	3	conj	_	_
 8	sé	sé	PRON	PRON	_	7	nsubj	_	_
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-+++10	Is	is	VERB	VERB	_	11	cop	_	_+++
+10	Is	is	VERB	VERB	_	11	cop	_	_
 11	dóigh	dóigh	NOUN	NOUN	_	6	ccomp	_	_
 ***12	liom	le	ADP	ADP	_	11	case	_	_***
 13	a	a	PART	PART	_	14	case:voc	_	_
 14	Mháiréad	Máiréad	PROPN	PROPN	_	11	vocative	_	_
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
 16	go	go	PART	PART	_	17	mark:prt	_	_
-17	bhfuil	bí	VERB	VERB	_	10	csubj:cop	_	_
+17	bhfuil	bí	VERB	VERB	_	11	csubj:cop	_	_
 18	mé	mé	PRON	PRON	_	17	nsubj	_	_
 19	i	i	ADP	ADP	_	17	xcomp:pred	_	_
 20	ngrá	grá	NOUN	NOUN	_	19	nmod	_	_
@@ -4366,7 +4366,7 @@
 16	sé	sé	PRON	PRON	_	15	nsubj	_	_
 17	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
-++++++1	Ba	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	Ba	is	VERB	VERB	_	0	ROOT	_	_+++
 2	ar	ar	ADP	ADP	_	4	case	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	ceantair	ceantar	NOUN	NOUN	_	1	nmod	_	_
@@ -4380,7 +4380,7 @@
 12	i	i	ADP	ADP	_	13	case	_	_
 13	bhfeidhm	feidhm	NOUN	NOUN	_	9	nmod	_	_
 14	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++15	ba	is	VERB	VERB	_	16	cop	_	_+++
+15	ba	is	VERB	VERB	_	16	cop	_	_
 16	ar	ar	ADP	ADP	_	1	conj	_	_
 17	an	an	DET	DET	_	18	det	_	_
 18	phobal	pobal	NOUN	NOUN	_	16	nmod	_	_
@@ -4646,7 +4646,7 @@
 11	seo	seo	DET	DET	_	10	det	_	_
 12	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-++++++1	Sea	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	Sea	is	VERB	VERB	_	0	ROOT	_	_+++
 2	!	!	PUNCT	PUNCT	_	1	punct	_	_
 
 1	De_réir	de_réir	ADP	ADP	_	2	case	_	_
@@ -4694,10 +4694,10 @@
 4	amach	amach	ADV	ADV	_	3	advmod	_	_
 5	ón	ó	ADP	ADP	_	6	case	_	_
 6	gcomhluadar	comhluadar	NOUN	NOUN	_	3	nmod	_	_
-+++7	is	is	VERB	VERB	_	8	cop	_	_+++
+7	is	is	VERB	VERB	_	8	cop	_	_
 8	eol	eol	NOUN	NOUN	_	0	ROOT	_	_
 ***9	duit	do	ADP	ADP	_	8	case	_	_***
-+++10	b'	is	VERB	VERB	_	11	cop	_	_+++
+10	b'	is	VERB	VERB	_	11	cop	_	_
 11	fhéidir	féidir	NOUN	NOUN	_	8	csubj:cop	_	_
 12	go	go	PART	PART	_	13	mark:prt	_	_
 13	n-imeodh	imigh	VERB	VERB	_	11	csubj:cop	_	_
@@ -4706,7 +4706,7 @@
 16	as	as	ADP	ADP	_	18	case	_	_
 17	mo	mo	DET	DET	_	18	nmod:poss	_	_
 18	chroí	croí	NOUN	NOUN	_	13	nmod	_	_
-19	.	.	PUNCT	PUNCT	_	7	punct	_	_
+19	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 1	Thug	tabhair	VERB	VERB	_	0	ROOT	_	_
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -4717,7 +4717,7 @@
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
 2	meastar	meas	VERB	VERB	_	0	ROOT	_	_
-++++++3	gur	is	VERB	VERB	_	2	ccomp	_	_++++++
++++3	gur	is	VERB	VERB	_	2	ccomp	_	_+++
 4	ar	ar	ADP	ADP	_	5	case	_	_
 5	chroí-lár	lár	NOUN	NOUN	_	3	nmod	_	_
 6	thaca	taca	NOUN	NOUN	_	5	compound	_	_
@@ -4852,7 +4852,7 @@
 23	dá	de	ADP	ADP	_	24	case	_	_
 24	bhrí	brí	NOUN	NOUN	_	26	nmod	_	_
 25	sin	sin	PRON	PRON	_	24	det	_	_
-+++26	ní	is	VERB	VERB	_	27	cop	_	_+++
+26	ní	is	VERB	VERB	_	27	cop	_	_
 27	mar	mar	ADP	ADP	_	11	conj	_	_
 28	fhoinse	foinse	NOUN	NOUN	_	27	nmod	_	_
 29	saibhris	saibhreas	NOUN	NOUN	_	28	compound	_	_
@@ -4863,7 +4863,7 @@
 34	)	)	PUNCT	PUNCT	_	35	punct	_	_
 35	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	leis	le	ADP	ADP	_	0	ROOT	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	scáileanna	scáil	NOUN	NOUN	_	2	nmod	_	_
@@ -4883,7 +4883,7 @@
 18	anseo	anseo	ADV	ADV	_	17	advmod	_	_
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	ach	ach	SCONJ	SCONJ	_	21	mark	_	_
-21	baineann	bain	VERB	VERB	_	1	advcl	_	_
+21	baineann	bain	VERB	VERB	_	2	advcl	_	_
 22	na	na	DET	DET	_	23	det	_	_
 23	prionsabail	prionsabal	NOUN	NOUN	_	21	nsubj	_	_
 24	chéanna	céanna	ADJ	ADJ	_	23	amod	_	_
@@ -4891,7 +4891,7 @@
 26	an	an	DET	DET	_	27	det	_	_
 27	solas	solas	NOUN	NOUN	_	21	nmod	_	_
 28	saorga	saorga	ADJ	ADJ	_	27	amod	_	_
-29	.	.	PUNCT	PUNCT	_	1	punct	_	_
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -4917,7 +4917,7 @@
 22	h-Íde	h-Íde	PROPN	PROPN	_	20	name	_	_
 23	an	an	DET	DET	_	24	det	_	_
 24	chuid	cuid	NOUN	NOUN	_	19	dobj	_	_
-+++25	ba	is	VERB	VERB	_	26	cop	_	_+++
+25	ba	is	VERB	VERB	_	26	cop	_	_
 26	mhó	mór	ADJ	ADJ	_	24	xcomp	_	_
 27	dá	de	ADP	ADP	_	28	case	_	_
 28	óige	óige	NOUN	NOUN	_	24	nmod	_	_
@@ -5059,7 +5059,7 @@
 22	sé	sé	PRON	PRON	_	21	nsubj	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
 24	mar	mar	SCONJ	SCONJ	_	25	mark	_	_
-++++++25	ba	is	VERB	VERB	_	21	advcl	_	_++++++
++++25	ba	is	VERB	VERB	_	21	advcl	_	_+++
 26	nós	nós	NOUN	NOUN	_	25	nsubj	_	_
 27	,	,	PUNCT	PUNCT	_	28	punct	_	_
 28	ina	i	PART	PART	_	21	xcomp:pred	_	_
@@ -5072,9 +5072,9 @@
 35	fad	fad	NOUN	NOUN	_	32	nmod	_	_
 36	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-++++++1	IS	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	IS	is	VERB	VERB	_	0	ROOT	_	_+++
 2	É	é	PRON	PRON	_	1	nsubj	_	_
-+++3	IS	is	VERB	VERB	_	5	cop	_	_+++
+3	IS	is	VERB	VERB	_	5	cop	_	_
 4	PAITRIARC	patrarc	NOUN	NOUN	_	3	nsubj	_	_
 5	ann	i	ADP	ADP	_	1	ccomp	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
@@ -5105,7 +5105,7 @@
 31	sin	sin	DET	DET	_	30	det	_	_
 32	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	chóir	cóir	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	gcuirfí	cuir	VERB	VERB	_	2	csubj:cop	_	_
@@ -5148,7 +5148,7 @@
 41	a	a	PART	PART	_	42	mark	_	_
 42	dhéanamh	déanamh	NOUN	NOUN	_	27	conj	_	_
 ***43	orthu	ar	ADP	ADP	_	42	case	_	_***
-44	.	.	PUNCT	PUNCT	_	1	punct	_	_
+44	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Níl	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -5219,12 +5219,12 @@
 10	paidreachaí	paidreachaí	NOUN	NOUN	_	9	dobj	_	_
 11	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	An	is	VERB	VERB	_	3	cop	_	_+++
+1	An	is	VERB	VERB	_	3	cop	_	_
 2	í	í	PRON	PRON	_	3	nmod	_	_
 3	Eilís	Eilís	PROPN	PROPN	_	0	ROOT	_	_
 4	an	an	DET	DET	_	5	det	_	_
 5	bainisteoir	bainisteoir	NOUN	NOUN	_	3	nsubj	_	_
-6	?	?	PUNCT	PUNCT	_	1	punct	_	_
+6	?	?	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -5237,7 +5237,7 @@
 9	gcailín	cailín	NOUN	NOUN	_	6	nmod	_	_
 10	dathúil	dathúil	ADJ	ADJ	_	9	amod	_	_
 11	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++12	ba	is	VERB	VERB	_	15	cop	_	_+++
+12	ba	is	VERB	VERB	_	15	cop	_	_
 13	ea	ea	PRON	PRON	_	15	nmod	_	_
 14	a	a	PART	PART	_	15	mark:prt	_	_
 15	dhéine	dian	ADJ	ADJ	_	1	conj	_	_
@@ -5372,7 +5372,7 @@
 6	cúramach	cúramach	ADJ	ADJ	_	2	advmod	_	_
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	léir	léir	ADJ	ADJ	_	0	ROOT	_	_
 ***3	dó	do	ADP	ADP	_	2	case	_	_***
 4	misneach	misneach	NOUN	NOUN	_	2	nsubj	_	_
@@ -5382,7 +5382,7 @@
 8	na	na	DET	DET	_	10	det	_	_
 9	seacht	seacht	NUM	NUM	_	10	nummod	_	_
 10	dtúr	túr	NOUN	NOUN	_	4	compound	_	_
-11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhéimnigh	béimnigh	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
@@ -5431,14 +5431,14 @@
 10	thaispeáint	taispeáint	NOUN	NOUN	_	1	nsubj	_	_
 ***11	di	do	ADP	ADP	_	10	case	_	_***
 12	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++13	ní	is	VERB	VERB	_	14	cop	_	_+++
+13	ní	is	VERB	VERB	_	14	cop	_	_
 14	hamháin	amháin	ADJ	ADJ	_	1	conj	_	_
 15	sin	sin	PRON	PRON	_	14	nsubj	_	_
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	ach	ach	SCONJ	SCONJ	_	20	mark	_	_
 18	í	í	PRON	PRON	_	20	nsubj	_	_
 19	a	a	PART	PART	_	20	mark	_	_
-20	bheith	bheith	NOUN	NOUN	_	13	advcl	_	_
+20	bheith	bheith	NOUN	NOUN	_	14	advcl	_	_
 21	mar	mar	ADP	ADP	_	20	xcomp:pred	_	_
 22	chuid	cuid	NOUN	NOUN	_	21	nmod	_	_
 23	den	de	ADP	ADP	_	24	case	_	_
@@ -5477,7 +5477,7 @@
 10	bos	bos	NOUN	NOUN	_	9	dobj	_	_
 11	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	léir	léir	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	bhféadfadh	féad	VERB	VERB	_	2	csubj:cop	_	_
@@ -5512,7 +5512,7 @@
 33	mbliana	bliain	NOUN	NOUN	_	29	dobj	_	_
 34	riaráistí	riaráiste	NOUN	NOUN	_	33	compound	_	_
 35	pinsin	pinsean	NOUN	NOUN	_	34	compound	_	_
-36	.	.	PUNCT	PUNCT	_	1	punct	_	_
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Spreagann	spreag	VERB	VERB	_	0	ROOT	_	_
 2	na	na	DET	DET	_	1	det	_	_
@@ -5676,7 +5676,7 @@
 36	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Sé	is	VERB	VERB	_	4	cop	_	_+++
+2	Sé	is	VERB	VERB	_	4	cop	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	t-iontas	iontas	NOUN	NOUN	_	0	ROOT	_	_
 5	é	é	PRON	PRON	_	4	nmod	_	_
@@ -5716,7 +5716,7 @@
 39	dreamanna	dream	NOUN	NOUN	_	37	conj	_	_
 40	sa	i	ADP	ADP	_	41	case	_	_
 41	tír	tír	NOUN	NOUN	_	37	nmod	_	_
-42	.	.	PUNCT	PUNCT	_	2	punct	_	_
+42	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Sa	i	ADP	ADP	_	2	case	_	_
 2	deireadh	deireadh	NOUN	NOUN	_	4	nmod	_	_
@@ -5773,7 +5773,7 @@
 1	Cineálacha	cineál	NOUN	NOUN	_	4	nmod	_	_
 2	Breiseán	breiseán	NOUN	NOUN	_	1	compound	_	_
 3	Bia	bia	NOUN	NOUN	_	2	compound	_	_
-+++4	Is	is	VERB	VERB	_	5	cop	_	_+++
+4	Is	is	VERB	VERB	_	5	cop	_	_
 5	iad	iad	PRON	PRON	_	0	ROOT	_	_
 6	seo	seo	PRON	PRON	_	5	det	_	_
 7	na	na	DET	DET	_	8	det	_	_
@@ -5801,7 +5801,7 @@
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
 30	6)	6)	X	X	_	8	list	_	_
 31	blastáin	blastán	NOUN	NOUN	_	30	appos	_	_
-32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+32	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 1	Fad	fad	NOUN	NOUN	_	4	mark	_	_
 2	is	agus	SCONJ	SCONJ	_	1	advmod	_	_
@@ -5820,7 +5820,7 @@
 15	ag	ag	ADP	ADP	_	13	xcomp:pred	_	_
 16	baile	baile	NOUN	NOUN	_	15	nmod	_	_
 17	-	-	PUNCT	PUNCT	_	18	punct	_	_
-+++18	ní	is	VERB	VERB	_	19	cop	_	_+++
+18	ní	is	VERB	VERB	_	19	cop	_	_
 19	gá	gá	NOUN	NOUN	_	13	parataxis	_	_
 20	ach	ach	SCONJ	SCONJ	_	21	mark	_	_
 21	smaoineamh	smaoineamh	NOUN	NOUN	_	19	xcomp	_	_
@@ -5858,7 +5858,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	(2)	(2)	X	X	_	2	nummod	_	_
-+++2	Is	is	VERB	VERB	_	3	cop	_	_+++
+2	Is	is	VERB	VERB	_	3	cop	_	_
 3	sa	i	ADP	ADP	_	0	ROOT	_	_
 4	bhfuirm	bhfuirm	NOUN	NOUN	_	3	nmod	_	_
 5	orduithe	ordú	NOUN	NOUN	_	4	compound	_	_
@@ -5866,9 +5866,9 @@
 7	bheidh	bí	VERB	VERB	_	3	nsubj	_	_
 8	gach	gach	DET	DET	_	9	det	_	_
 9	paitinn	paitinn	NOUN	NOUN	_	7	nsubj	_	_
-10	agus	agus	CONJ	CONJ	_	2	cc	_	_
-+++11	is	is	VERB	VERB	_	12	cop	_	_+++
-12	i_gcóir	i_gcóir	ADP	ADP	_	2	conj	_	_
+10	agus	agus	CONJ	CONJ	_	3	cc	_	_
+11	is	is	VERB	VERB	_	12	cop	_	_
+12	i_gcóir	i_gcóir	ADP	ADP	_	3	conj	_	_
 13	aon	aon	NUM	NUM	_	14	nummod	_	_
 14	chumadóireachta	cumadóireacht	NOUN	NOUN	_	12	nmod	_	_
 15	amháin	amháin	ADJ	ADJ	_	14	amod	_	_
@@ -5877,7 +5877,7 @@
 18	í	í	PRON	PRON	_	17	dobj	_	_
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	ach	ach	SCONJ	SCONJ	_	21	mark	_	_
-21	féadfidh	féad	VERB	VERB	_	2	advcl	_	_
+21	féadfidh	féad	VERB	VERB	_	3	advcl	_	_
 22	níos	níos	NOUN	NOUN	_	23	mark:prt	_	_
 23	mó	mór	ADJ	ADJ	_	26	amod	_	_
 24	ná	ná	CONJ	CONJ	_	23	advmod	_	_
@@ -5911,7 +5911,7 @@
 52	ar	ar	ADP	ADP	_	54	case	_	_
 53	an	an	DET	DET	_	54	det	_	_
 54	scór	scór	NOUN	NOUN	_	51	nmod	_	_
-+++55	gur	is	VERB	VERB	_	56	cop	_	_+++
+55	gur	is	VERB	VERB	_	56	cop	_	_
 56	i_gcóir	i_gcóir	ADP	ADP	_	35	ccomp	_	_
 57	níos	níos	NOUN	NOUN	_	58	mark:prt	_	_
 58	mó	mór	ADJ	ADJ	_	61	amod	_	_
@@ -5922,7 +5922,7 @@
 63	do	do	PART	PART	_	64	case	_	_
 64	deonadh	deon	VERB	VERB	_	61	nmod	_	_
 65	í	í	PRON	PRON	_	56	nsubj	_	_
-66	.	.	PUNCT	PUNCT	_	2	punct	_	_
+66	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	3	mark	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -5963,7 +5963,7 @@
 6	Daisy	Daisy	PROPN	PROPN	_	1	nmod	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++9	is	is	VERB	VERB	_	10	cop	_	_+++
+9	is	is	VERB	VERB	_	10	cop	_	_
 10	mór	mór	ADJ	ADJ	_	1	conj	_	_
 11	mar	mar	ADP	ADP	_	13	mark	_	_
 12	a	a	PART	PART	_	13	mark:prt	_	_
@@ -6056,12 +6056,12 @@
 49	)	)	PUNCT	PUNCT	_	47	punct	_	_
 50	.	.	PUNCT	PUNCT	_	18	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	3	cop	_	_+++
+1	Is	is	VERB	VERB	_	3	cop	_	_
 2	í	í	PRON	PRON	_	3	nmod	_	_
 3	Croinic	croinic	NOUN	NOUN	_	0	ROOT	_	_
 4	Thomáis	Tomás	PROPN	PROPN	_	3	compound	_	_
 5	Eccleston	Eccleston	PROPN	PROPN	_	4	name	_	_
-+++6	is	is	VERB	VERB	_	7	cop	_	_+++
+6	is	is	VERB	VERB	_	7	cop	_	_
 7	foinse	foinse	NOUN	NOUN	_	3	csubj:cop	_	_
 8	do	do	ADP	ADP	_	9	case	_	_
 9	sheoladh	seoladh	NOUN	NOUN	_	7	nmod	_	_
@@ -6071,7 +6071,7 @@
 13	Maidir_le	maidir_le	ADP	ADP	_	16	mark	_	_
 14	fuaimeanna	fuaim	NOUN	NOUN	_	13	nmod	_	_
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
-16	éist	éist	VERB	VERB	_	1	advcl	_	_
+16	éist	éist	VERB	VERB	_	3	advcl	_	_
 17	leis	le	ADP	ADP	_	18	case	_	_
 18	seo	seo	PRON	PRON	_	16	nmod	_	_
 19	:	:	PUNCT	PUNCT	_	21	punct	_	_
@@ -6081,33 +6081,33 @@
 23	aisteacha	aisteach	ADJ	ADJ	_	21	amod	_	_
 24	na	na	DET	DET	_	25	det	_	_
 25	hoíche	oíche	NOUN	NOUN	_	21	compound	_	_
-+++26	ba	is	VERB	VERB	_	27	cop	_	_+++
+26	ba	is	VERB	VERB	_	27	cop	_	_
 27	bhreátha	breá	ADJ	ADJ	_	21	xcomp	_	_
 28	leis	le	ADP	ADP	_	30	case	_	_
 29	an	an	DET	DET	_	30	det	_	_
 30	dall	dall	NOUN	NOUN	_	27	nmod	_	_
-31	.	.	PUNCT	PUNCT	_	1	punct	_	_
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	Máirtín	Máirtín	PROPN	PROPN	_	1	nsubj	_	_
 3	conspóideach	conspóideach	ADJ	ADJ	_	1	xcomp:pred	_	_
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	An	is	VERB	VERB	_	4	cop	_	_+++
+1	An	is	VERB	VERB	_	4	cop	_	_
 2	iad	iad	PRON	PRON	_	4	nmod	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	daoine	duine	NOUN	NOUN	_	0	ROOT	_	_
 5	siúd	siúd	DET	DET	_	4	det	_	_
 6	na	na	DET	DET	_	7	det	_	_
 7	buaiteoirí	buaiteoir	NOUN	NOUN	_	4	nsubj	_	_
-8	?	?	PUNCT	PUNCT	_	1	punct	_	_
+8	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Fórsa	fórsa	NOUN	NOUN	_	3	dobj	_	_
 2	a	a	PART	PART	_	3	mark	_	_
 3	Thomhas	tomhas	NOUN	NOUN	_	0	ROOT	_	_
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	chóir	cóir	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	gcuirfí	cuir	VERB	VERB	_	2	csubj:cop	_	_
@@ -6167,7 +6167,7 @@
 58	agus	agus	CONJ	CONJ	_	56	cc	_	_
 59	i	i	ADP	ADP	_	56	conj	_	_
 60	gceintiméadair	ceintiméadar	NOUN	NOUN	_	59	nmod	_	_
-61	.	.	PUNCT	PUNCT	_	1	punct	_	_
+61	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tar_éis	tar_éis	ADP	ADP	_	3	case	_	_
 2	trí	trí	NUM	NUM	_	3	nummod	_	_
@@ -6345,11 +6345,11 @@
 12	dhumpáil	dumpáil	NOUN	NOUN	_	5	nmod	_	_
 13	mhídhleathach	mídhleathach	ADJ	ADJ	_	12	amod	_	_
 14	agus	agus	CONJ	CONJ	_	5	cc	_	_
-++15	níor	is	VERB	VERB	_	19	cop	_	_++
+15	níor	is	VERB	VERB	_	16	cop	_	_
 16	cheart	ceart	ADJ	ADJ	_	5	conj	_	_
 17	aon	aon	DET	DET	_	18	det	_	_
 18	leisce	leisce	NOUN	NOUN	_	16	nsubj	_	_
-19	bheith	bheith	NOUN	NOUN	_	16	cop	_	_
+19	bheith	bheith	NOUN	NOUN	_	16	xcomp	_	_
 20	ar	ar	ADP	ADP	_	22	case	_	_
 21	aon	aon	DET	DET	_	22	det	_	_
 22	duine	duine	NOUN	NOUN	_	19	nmod	_	_
@@ -6360,7 +6360,7 @@
 27	na	na	DET	DET	_	28	det	_	_
 28	húdaráis	údarás	NOUN	NOUN	_	25	nmod	_	_
 29	má	má	SCONJ	SCONJ	_	30	mark	_	_
-30	tugtar	tabhair	VERB	VERB	_	19	advcl	_	_
+30	tugtar	tabhair	VERB	VERB	_	16	advcl	_	_
 31	a	a	DET	DET	_	32	nmod:poss	_	_
 32	leithéid	leithéid	NOUN	NOUN	_	30	dobj	_	_
 33	faoi	faoi	ADP	ADP	_	34	case	_	_
@@ -6417,7 +6417,7 @@
 7	ann	i	ADP	ADP	_	5	xcomp:pred	_	_
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	4	cop	_	_+++
+1	Ba	is	VERB	VERB	_	4	cop	_	_
 2	é	é	PRON	PRON	_	4	nmod	_	_
 3	a	a	DET	DET	_	4	nmod:poss	_	_
 4	dheartháir	deartháir	NOUN	NOUN	_	0	ROOT	_	_
@@ -6433,7 +6433,7 @@
 14	na	na	DET	DET	_	15	det	_	_
 15	seirbhíse	seirbhís	NOUN	NOUN	_	13	compound	_	_
 16	seo	seo	DET	DET	_	15	det	_	_
-17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	I	I	ADP	ADP	_	2	case	_	_
 2	measc	measc	NOUN	NOUN	_	16	nmod	_	_
@@ -6498,7 +6498,7 @@
 9	tuairim	tuairim	NOUN	NOUN	_	3	nmod	_	_
 10	sin	sin	DET	DET	_	9	det	_	_
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
-+++12	is	is	VERB	VERB	_	13	cop	_	_+++
+12	is	is	VERB	VERB	_	13	cop	_	_
 13	cinnte	cinnte	ADJ	ADJ	_	0	ROOT	_	_
 14	go	go	PART	PART	_	15	mark:prt	_	_
 15	raibh	bí	VERB	VERB	_	13	csubj:cop	_	_
@@ -6512,7 +6512,7 @@
 23	gcéadlaethanta	gcéadlaethanta	NOUN	NOUN	_	15	nmod	_	_
 24	na	na	DET	DET	_	25	det	_	_
 25	hathbheochana	athbheochan	NOUN	NOUN	_	23	compound	_	_
-26	.	.	PUNCT	PUNCT	_	12	punct	_	_
+26	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	ainm	ainm	NOUN	NOUN	_	1	nsubj	_	_
@@ -6719,7 +6719,7 @@
 4	soir	soir	ADV	ADV	_	1	advmod	_	_
 ***5	uaidh	ó	ADP	ADP	_	1	case	_	_***
 6	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++7	is	is	VERB	VERB	_	8	cop	_	_+++
+7	is	is	VERB	VERB	_	8	cop	_	_
 8	ann	i	ADP	ADP	_	1	conj	_	_
 9	a	a	PART	PART	_	10	mark:prt	_	_
 10	bhí	bí	VERB	VERB	_	8	nsubj	_	_
@@ -6793,7 +6793,7 @@
 47	)	)	PUNCT	PUNCT	_	18	punct	_	_
 48	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	in	i	ADP	ADP	_	0	ROOT	_	_
 3	é	é	PRON	PRON	_	2	nmod	_	_
 4	an	an	DET	DET	_	5	det	_	_
@@ -6804,9 +6804,9 @@
 9	gheit	geit	NOUN	NOUN	_	7	dobj	_	_
 10	as	as	ADP	ADP	_	11	case	_	_
 11	Pádhraic	Pádhraic	PROPN	PROPN	_	7	nmod	_	_
-12	.	.	PUNCT	PUNCT	_	1	punct	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	i	i	ADP	ADP	_	0	ROOT	_	_
 3	Roinn	roinn	NOUN	NOUN	_	2	nmod	_	_
 4	a	a	PART	PART	_	5	mark:prt	_	_
@@ -6816,8 +6816,8 @@
 8	a	a	PART	PART	_	9	mark:prt	_	_
 9	bhí	bí	VERB	VERB	_	2	nsubj	_	_
 10	Ciarraí	ciarraí	NOUN	NOUN	_	9	nsubj	_	_
-11	agus	agus	CONJ	CONJ	_	1	cc	_	_
-12	bhuaigh	buaigh	VERB	VERB	_	1	conj	_	_
+11	agus	agus	CONJ	CONJ	_	2	cc	_	_
+12	bhuaigh	buaigh	VERB	VERB	_	2	conj	_	_
 13	siad	siad	PRON	PRON	_	12	nsubj	_	_
 14	an	an	DET	DET	_	15	det	_	_
 15	Chraobh	craobh	NOUN	NOUN	_	12	dobj	_	_
@@ -6831,15 +6831,15 @@
 23	bheifeá	bí	VERB	VERB	_	20	advcl	_	_
 24	ag	ag	ADP	ADP	_	23	xcomp	_	_
 25	súil	súil	NOUN	NOUN	_	24	nmod	_	_
-26	.	.	PUNCT	PUNCT	_	1	punct	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 3	iadsan	iad	PRON	PRON	_	5	dobj	_	_
 4	a	a	PART	PART	_	5	mark	_	_
 5	sheachaint	seachaint	NOUN	NOUN	_	2	nsubj	_	_
 6	fosta	fosta	ADV	ADV	_	5	advmod	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Amach	amach	ADV	ADV	_	0	ROOT	_	_
 ***2	liom	le	ADP	ADP	_	1	case	_	_***
@@ -6897,7 +6897,7 @@
 10	na	na	DET	DET	_	11	det	_	_
 11	cruinne	cruinne	NOUN	NOUN	_	8	nmod	_	_
 12	agus	agus	CONJ	CONJ	_	3	cc	_	_
-+++13	is	is	VERB	VERB	_	14	cop	_	_+++
+13	is	is	VERB	VERB	_	14	cop	_	_
 14	cosúil	cosúil	ADJ	ADJ	_	3	conj	_	_
 15	go	go	PART	PART	_	16	mark:prt	_	_
 16	bhfuil	bí	VERB	VERB	_	14	csubj:cop	_	_
@@ -6913,7 +6913,7 @@
 26	gceannas	ceannas	NOUN	NOUN	_	25	nmod	_	_
 27	fós	fós	ADV	ADV	_	16	advmod	_	_
 28	:	:	PUNCT	PUNCT	_	29	punct	_	_
-+++29	gur	is	VERB	VERB	_	30	cop	_	_+++
+29	gur	is	VERB	VERB	_	30	cop	_	_
 30	gá	gá	NOUN	NOUN	_	3	ccomp	_	_
 31	córas	córas	NOUN	NOUN	_	35	dobj	_	_
 32	ceart	ceart	ADJ	ADJ	_	31	amod	_	_
@@ -6926,9 +6926,9 @@
 39	'	'	PUNCT	PUNCT	_	40	punct	_	_
 40	Eoraip	Eoraip	PROPN	PROPN	_	37	nmod	_	_
 41	'	'	PUNCT	PUNCT	_	40	punct	_	_
-42	agus	agus	CONJ	CONJ	_	29	cc	_	_
-+++43	gur	is	VERB	VERB	_	44	cop	_	_+++
-44	fearr	maith	ADJ	ADJ	_	29	conj	_	_
+42	agus	agus	CONJ	CONJ	_	30	cc	_	_
+43	gur	is	VERB	VERB	_	44	cop	_	_
+44	fearr	maith	ADJ	ADJ	_	30	conj	_	_
 45	don	do	ADP	ADP	_	46	case	_	_
 46	Fhrainc	Frainc	PROPN	PROPN	_	44	nmod	_	_
 47	a	a	PART	PART	_	48	mark	_	_
@@ -7025,7 +7025,7 @@
 40	rud	rud	NOUN	NOUN	_	1	nmod	_	_
 41	beo	beo	ADJ	ADJ	_	40	amod	_	_
 42	dearfa	dearfa	ADJ	ADJ	_	40	amod	_	_
-+++43	ba	is	VERB	VERB	_	44	cop	_	_+++
+43	ba	is	VERB	VERB	_	44	cop	_	_
 44	ar	ar	ADP	ADP	_	1	ccomp	_	_
 45	Mháirín	Máirín	PROPN	PROPN	_	44	nmod	_	_
 46	a	a	PART	PART	_	47	mark:prt	_	_
@@ -7034,7 +7034,7 @@
 49	nuair	nuair	SCONJ	SCONJ	_	52	mark	_	_
 50	a	a	PART	PART	_	52	mark:prt	_	_
 51	d'	do	PART	PART	_	52	mark:prt	_	_
-52	fheicfeadh	feic	VERB	VERB	_	43	advcl	_	_
+52	fheicfeadh	feic	VERB	VERB	_	44	advcl	_	_
 53	sé	sé	PRON	PRON	_	52	nsubj	_	_
 54	iad	iad	PRON	PRON	_	52	dobj	_	_
 55	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -7058,7 +7058,7 @@
 2	siad	siad	PRON	PRON	_	1	nsubj	_	_
 3	sásta	sásta	ADJ	ADJ	_	1	xcomp:pred	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
-+++5	is	is	VERB	VERB	_	6	cop	_	_+++
+5	is	is	VERB	VERB	_	6	cop	_	_
 6	cosúil	cosúil	ADJ	ADJ	_	1	ccomp	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	ligean	ligean	NOUN	NOUN	_	1	xcomp	_	_
@@ -7108,7 +7108,7 @@
 14	Daingean	Daingean	PROPN	PROPN	_	10	nmod	_	_
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	beag	beag	ADJ	ADJ	_	0	ROOT	_	_
 3	nár	nár	PART	PART	_	4	mark:prt	_	_
 4	thit	tit	VERB	VERB	_	2	nsubj	_	_
@@ -7117,13 +7117,13 @@
 7	dealbhóireachta	dealbhóireacht	NOUN	NOUN	_	6	compound	_	_
 ***8	uathu	ó	ADP	ADP	_	4	case	_	_***
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-10	bhíodar	bí	VERB	VERB	_	1	ccomp	_	_
+10	bhíodar	bí	VERB	VERB	_	2	ccomp	_	_
 11	sna	i	ADP	ADP	_	10	xcomp:pred	_	_
 12	trithí	tritheamh	NOUN	NOUN	_	11	nmod	_	_
 13	chomh	chomh	ADV	ADV	_	14	advmod	_	_
 14	mór	mór	ADJ	ADJ	_	10	advmod	_	_
 15	sin	sin	DET	DET	_	14	det	_	_
-16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	a	a	PART	PART	_	3	mark:prt	_	_
@@ -7175,7 +7175,7 @@
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
 15	a	a	PART	PART	_	16	nsubj	_	_
 16	fhágann	fág	VERB	VERB	_	2	acl:relcl	_	_
-+++17	gur	is	VERB	VERB	_	18	cop	_	_+++
+17	gur	is	VERB	VERB	_	18	cop	_	_
 18	deacair	deacair	ADJ	ADJ	_	16	ccomp	_	_
 19	scaradh	scaradh	NOUN	NOUN	_	18	nsubj	_	_
 20	scun	scun	NOUN	NOUN	_	19	compound	_	_
@@ -7185,7 +7185,7 @@
 24	fadó	fadó	ADV	ADV	_	23	advmod	_	_
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
 26	in	i	ADP	ADP	_	27	case	_	_
-27	ainneoin	ainneoin	NOUN	NOUN	_	17	nmod	_	_
+27	ainneoin	ainneoin	NOUN	NOUN	_	18	nmod	_	_
 28	do	do	DET	DET	_	29	det	_	_
 29	dhíchill	dícheall	NOUN	NOUN	_	27	compound	_	_
 30	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -7264,34 +7264,34 @@
 21	seo	seo	PRON	PRON	_	20	det	_	_
 22	;	;	PUNCT	PUNCT	_	23	punct	_	_
 23	féach	féach	VERB	VERB	_	1	parataxis	_	_
-+++24	an	is	VERB	VERB	_	26	cop	_	_+++
+24	an	is	VERB	VERB	_	26	cop	_	_
 25	é	é	PRON	PRON	_	26	nmod	_	_
 26	cóta	cóta	NOUN	NOUN	_	23	ccomp	_	_
 27	do	do	DET	DET	_	28	nmod:poss	_	_
 28	mhic	mac	NOUN	NOUN	_	26	compound	_	_
 29	é	é	PRON	PRON	_	26	nsubj	_	_
-30	nó	nó	CONJ	CONJ	_	24	cc	_	_
-+++31	nach	is	VERB	VERB	_	32	cop	_	_+++
-32	é	é	PRON	PRON	_	24	conj	_	_
+30	nó	nó	CONJ	CONJ	_	26	cc	_	_
+31	nach	is	VERB	VERB	_	32	cop	_	_
+32	é	é	PRON	PRON	_	26	conj	_	_
 33	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	fearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
 4	úlla	úll	NOUN	NOUN	_	2	nsubj	_	_
 5	ná	ná	CONJ	CONJ	_	4	cc	_	_
 6	oráistí	oráiste	NOUN	NOUN	_	4	conj	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Crothnófar	cruthaigh	VERB	VERB	_	0	ROOT	_	_
 2	Pól	Pól	PROPN	PROPN	_	1	dobj	_	_
 3	nó	nó	SCONJ	SCONJ	_	4	mark	_	_
-+++4	ba	is	VERB	VERB	_	5	cop	_	_+++
+4	ba	is	VERB	VERB	_	5	cop	_	_
 5	úrlabhraí	úrlabhraí	NOUN	NOUN	_	1	advcl	_	_
 6	maith	maith	ADJ	ADJ	_	5	amod	_	_
 7	é	é	PRON	PRON	_	5	nsubj	_	_
 8	ar	ar	ADP	ADP	_	9	case	_	_
-9	Raidió	raidió	NOUN	NOUN	_	4	nmod	_	_
+9	Raidió	raidió	NOUN	NOUN	_	5	nmod	_	_
 10	na	na	DET	DET	_	11	det	_	_
 11	Gaeltachta	gaeltacht	NOUN	NOUN	_	9	compound	_	_
 12	agus	agus	CONJ	CONJ	_	9	cc	_	_
@@ -7349,7 +7349,7 @@
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Dá	dá	SCONJ	SCONJ	_	2	mark	_	_
-++++++2	mba	is	VERB	VERB	_	24	advcl	_	_++++++
++++2	mba	is	VERB	VERB	_	24	advcl	_	_+++
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
 ***4	mar	mar	ADP	ADP	_	1	case	_	_***
 5	sin	sin	PRON	PRON	_	1	nmod	_	_
@@ -7371,13 +7371,13 @@
 21	an	an	DET	DET	_	22	det	_	_
 22	mbreacsholas	breacsholas	NOUN	NOUN	_	18	nmod	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
-++24	níorbh	is	VERB	VERB	_	30	cop	_	_++
+24	níorbh	is	VERB	VERB	_	25	cop	_	_
 25	aistí	aisteach	ADJ	ADJ	_	0	ROOT	_	_
 26	rud	rud	NOUN	NOUN	_	25	nsubj	_	_
-27	riamh	riamh	ADV	ADV	_	24	advmod	_	_
+27	riamh	riamh	ADV	ADV	_	25	advmod	_	_
 28	ná	ná	SCONJ	SCONJ	_	30	mark	_	_
 29	an	an	DET	DET	_	30	det	_	_
-30	radharc	radharc	NOUN	NOUN	_	25	cop	_	_
+30	radharc	radharc	NOUN	NOUN	_	25	xcomp	_	_
 31	a	a	PART	PART	_	32	nsubj	_	_
 32	bhí	bí	VERB	VERB	_	30	acl:relcl	_	_
 33	le	le	ADP	ADP	_	32	xcomp	_	_
@@ -7402,7 +7402,7 @@
 52	chun	chun	ADP	ADP	_	54	case	_	_
 53	an	an	DET	DET	_	54	det	_	_
 54	stáisiúin	stáisiún	NOUN	NOUN	_	49	nmod	_	_
-55	.	.	PUNCT	PUNCT	_	30	punct	_	_
+55	.	.	PUNCT	PUNCT	_	25	punct	_	_
 
 1	Foireann	foireann	NOUN	NOUN	_	0	ROOT	_	_
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_
@@ -7456,7 +7456,7 @@
 25	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Cailín	Cailín	PROPN	PROPN	_	2	xcomp:pred	_	_
-++++++2	is	is	VERB	VERB	_	0	ROOT	_	_++++++
++++2	is	is	VERB	VERB	_	0	ROOT	_	_+++
 3	ea	ea	PRON	PRON	_	4	nmod	_	_
 4	í	í	PRON	PRON	_	2	nsubj	_	_
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -7484,7 +7484,7 @@
 21	chaitheamh	caitheamh	NOUN	NOUN	_	18	conj	_	_
 22	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	cosúil	cosúil	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	bhfuil	bí	VERB	VERB	_	2	csubj:cop	_	_
@@ -7500,7 +7500,7 @@
 14	)	)	PUNCT	PUNCT	_	11	punct	_	_
 15	ar	ar	ADP	ADP	_	16	case	_	_
 16	bhrioscaí	briosca	NOUN	NOUN	_	4	nmod	_	_
-17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	D'	do	PART	PART	_	2	mark:prt	_	_
 2	fhéadfaí	féad	VERB	VERB	_	0	ROOT	_	_
@@ -7562,7 +7562,7 @@
 ***10	dúinn	do	ADP	ADP	_	5	case	_	_***
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	is	agus	CONJ	CONJ	_	5	cc	_	_
-+++13	gur	is	VERB	VERB	_	14	cop	_	_+++
+13	gur	is	VERB	VERB	_	14	cop	_	_
 14	tú	tú	PRON	PRON	_	5	conj	_	_
 15	an	an	DET	DET	_	16	det	_	_
 16	fear	fear	NOUN	NOUN	_	14	nsubj	_	_
@@ -7598,7 +7598,7 @@
 ***6	dó	do	ADP	ADP	_	4	case	_	_***
 7	seo	seo	PRON	PRON	_	4	dobj	_	_
 8	go	go	SCONJ	SCONJ	_	9	mark	_	_
-+++9	mba	is	VERB	VERB	_	10	cop	_	_+++
+9	mba	is	VERB	VERB	_	10	cop	_	_
 10	i	i	ADP	ADP	_	4	ccomp	_	_
 11	dtaobh	taobh	NOUN	NOUN	_	10	nmod	_	_
 12	poist	post	NOUN	NOUN	_	11	compound	_	_
@@ -7682,9 +7682,9 @@
 6	Scéaltacht	scéaltacht	NOUN	NOUN	_	1	nmod	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	fíor	fíor	ADJ	ADJ	_	0	ROOT	_	_
-+++3	gur	is	VERB	VERB	_	4	cop	_	_+++
+3	gur	is	VERB	VERB	_	4	cop	_	_
 4	láidre	láidir	ADJ	ADJ	_	2	csubj:cop	_	_
 5	Fianna_Fáil	Fianna_Fáil	PROPN	PROPN	_	4	nsubj	_	_
 6	ag	ag	ADP	ADP	_	5	xcomp	_	_
@@ -7694,14 +7694,14 @@
 10	ná	ná	CONJ	CONJ	_	5	cc	_	_
 11	Fine_Gael	Fine_Gael	PROPN	PROPN	_	5	conj	_	_
 12	faoi	faoi	ADP	ADP	_	13	case	_	_
-13	láthair	láthair	NOUN	NOUN	_	3	nmod	_	_
-14	agus	agus	CONJ	CONJ	_	1	cc	_	_
+13	láthair	láthair	NOUN	NOUN	_	4	nmod	_	_
+14	agus	agus	CONJ	CONJ	_	2	cc	_	_
 15	go	go	ADP	ADP	_	16	mark:prt	_	_
 16	fiú	fiú	NOUN	NOUN	_	20	advmod	_	_
 17	i	i	ADP	ADP	_	18	case	_	_
 18	bhFine	fine	NOUN	NOUN	_	16	nmod	_	_
 19	Gael	gael	NOUN	NOUN	_	18	compound	_	_
-20	tá	bí	VERB	VERB	_	1	conj	_	_
+20	tá	bí	VERB	VERB	_	2	conj	_	_
 21	maolú	maolú	NOUN	NOUN	_	20	nsubj	_	_
 22	tagtha	tagtha	ADJ	ADJ	_	21	xcomp:pred	_	_
 23	ag	ag	ADP	ADP	_	25	case	_	_
@@ -7715,7 +7715,7 @@
 31	bpolasaí	polasaí	NOUN	NOUN	_	27	nmod	_	_
 32	náisiúnta	náisiúnta	ADJ	ADJ	_	31	amod	_	_
 33	seo	seo	DET	DET	_	31	det	_	_
-34	.	.	PUNCT	PUNCT	_	1	punct	_	_
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Sliogáin	sliogán	NOUN	NOUN	_	6	nmod	_	_
 2	Eile	eile	DET	DET	_	1	det	_	_
@@ -7729,10 +7729,10 @@
 10	deara	deara	NOUN	NOUN	_	8	nmod	_	_
 ***11	agat	ag	ADP	ADP	_	8	case	_	_***
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_
-+++13	is	is	VERB	VERB	_	14	cop	_	_+++
+13	is	is	VERB	VERB	_	14	cop	_	_
 14	dócha	dócha	ADJ	ADJ	_	6	advmod	_	_
 15	,	,	PUNCT	PUNCT	_	14	punct	_	_
-+++16	gur	is	VERB	VERB	_	17	cop	_	_+++
+16	gur	is	VERB	VERB	_	17	cop	_	_
 17	sliogéisc	sliogéisc	NOUN	NOUN	_	8	ccomp	_	_
 18	cuid	cuid	NOUN	NOUN	_	17	nsubj	_	_
 19	mhaith	maith	ADJ	ADJ	_	18	amod	_	_
@@ -7781,13 +7781,13 @@
 5	gcogadh	cogadh	NOUN	NOUN	_	1	nmod	_	_
 6	sin	sin	DET	DET	_	5	det	_	_
 7	cé	cé	SCONJ	SCONJ	_	8	mark	_	_
-+++8	gur	is	VERB	VERB	_	9	cop	_	_+++
+8	gur	is	VERB	VERB	_	9	cop	_	_
 9	trua	trua	NOUN	NOUN	_	1	advcl	_	_
 10	i	i	ADP	ADP	_	11	case	_	_
 11	gcónaí	cónaí	NOUN	NOUN	_	9	nmod	_	_
 12	nuair	nuair	SCONJ	SCONJ	_	14	mark	_	_
 13	nach	nach	PART	PART	_	14	mark:prt	_	_
-14	mbíonn	bí	VERB	VERB	_	8	advcl	_	_
+14	mbíonn	bí	VERB	VERB	_	9	advcl	_	_
 15	aon	aon	DET	DET	_	16	det	_	_
 16	bhealach	bealach	NOUN	NOUN	_	14	nsubj	_	_
 17	eile	eile	DET	DET	_	16	det	_	_
@@ -7814,7 +7814,7 @@
 9	thuigeann	tuig	VERB	VERB	_	1	advcl	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	námha	námh	NOUN	NOUN	_	9	nsubj	_	_
-+++12	gur	is	VERB	VERB	_	13	cop	_	_+++
+12	gur	is	VERB	VERB	_	13	cop	_	_
 13	anseo	anseo	ADV	ADV	_	9	ccomp	_	_
 14	atá	bí	VERB	VERB	_	13	nsubj	_	_
 15	croí	croí	NOUN	NOUN	_	14	nsubj	_	_
@@ -7844,7 +7844,7 @@
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Daoine	duine	NOUN	NOUN	_	2	xcomp:pred	_	_
-++++++2	nach	is	VERB	VERB	_	0	ROOT	_	_++++++
++++2	nach	is	VERB	VERB	_	0	ROOT	_	_+++
 3	iad	iad	PRON	PRON	_	2	nsubj	_	_
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -7960,13 +7960,13 @@
 81	Breithiúnais	breithiúnas	NOUN	NOUN	_	80	compound	_	_
 82	.	.	PUNCT	PUNCT	_	27	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	ag	ag	ADP	ADP	_	0	ROOT	_	_
 3	déanamh	déanamh	NOUN	NOUN	_	2	nmod	_	_
 4	cáca	cáca	NOUN	NOUN	_	3	dobj	_	_
 5	atá	bí	VERB	VERB	_	2	nsubj	_	_
 6	mé	mé	PRON	PRON	_	5	nsubj	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	den	de	ADP	ADP	_	0	ROOT	_	_
 2	Chonradh	conradh	NOUN	NOUN	_	1	nmod	_	_
@@ -8014,7 +8014,7 @@
 6	an	an	DET	DET	_	7	det	_	_
 7	reilig	reilig	NOUN	NOUN	_	4	nmod	_	_
 8	mar	mar	SCONJ	SCONJ	_	9	mark	_	_
-+++9	gur	is	VERB	VERB	_	10	cop	_	_+++
+9	gur	is	VERB	VERB	_	10	cop	_	_
 10	Ultach	Ultach	PROPN	PROPN	_	1	advcl	_	_
 11	fir	fear	NOUN	NOUN	_	10	compound	_	_
 12	an	an	DET	DET	_	14	det	_	_
@@ -8026,7 +8026,7 @@
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	de_réir	de_réir	ADP	ADP	_	21	case	_	_
 20	an	an	DET	DET	_	21	det	_	_
-21	tseanchais	seanchas	NOUN	NOUN	_	9	nmod	_	_
+21	tseanchais	seanchas	NOUN	NOUN	_	10	nmod	_	_
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	!	!	PUNCT	PUNCT	_	0	ROOT	_	_
@@ -8052,13 +8052,13 @@
 19	ábhar	ábhar	NOUN	NOUN	_	8	nmod	_	_
 20	seo	seo	DET	DET	_	19	det	_	_
 21	ach	ach	SCONJ	SCONJ	_	22	mark	_	_
-+++22	is	is	VERB	VERB	_	23	cop	_	_+++
+22	is	is	VERB	VERB	_	23	cop	_	_
 23	fiú	fiú	NOUN	NOUN	_	1	ccomp	_	_
 24	súil	súil	NOUN	NOUN	_	26	dobj	_	_
 25	a	a	PART	PART	_	26	mark	_	_
 26	chaitheamh	caitheamh	NOUN	NOUN	_	23	nsubj	_	_
 ***27	air	ar	ADP	ADP	_	26	case	_	_***
-28	mar	mar	ADP	ADP	_	22	advmod	_	_
+28	mar	mar	ADP	ADP	_	23	advmod	_	_
 29	sin	sin	PRON	PRON	_	28	compound	_	_
 30	féin	féin	NOUN	NOUN	_	29	compound	_	_
 31	:	:	PUNCT	PUNCT	_	32	punct	_	_
@@ -8089,7 +8089,7 @@
 19	nGaeilge	Gaeilge	PROPN	PROPN	_	14	nmod	_	_
 20	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	mhaith	maith	ADJ	ADJ	_	0	ROOT	_	_
 3	le	le	ADP	ADP	_	4	case	_	_
 4	Smyllie	Smyllie	PROPN	PROPN	_	2	nmod	_	_
@@ -8101,7 +8101,7 @@
 10	sa	i	ADP	ADP	_	11	case	_	_
 11	saol	saol	NOUN	NOUN	_	6	nmod	_	_
 12	phoiblí	poiblí	ADJ	ADJ	_	11	amod	_	_
-13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ní	ní	PART	PART	_	2	neg	_	_
 2	thugann	tabhair	VERB	VERB	_	0	ROOT	_	_
@@ -8123,7 +8123,7 @@
 ***18	asam	as	ADP	ADP	_	15	case	_	_***
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	is	is	VERB	VERB	_	2	cop	_	_+++
+1	is	is	VERB	VERB	_	2	cop	_	_
 2	laistigh	laistigh	ADV	ADV	_	0	ROOT	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	bhliain	bliain	NOUN	NOUN	_	2	nmod	_	_
@@ -8136,9 +8136,9 @@
 11	a	a	PART	PART	_	12	mark:prt	_	_
 12	déanfar	déan	VERB	VERB	_	2	nsubj	_	_
 13	é	é	PRON	PRON	_	12	dobj	_	_
-14	.	.	PUNCT	PUNCT	_	1	punct	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	mian	mian	NOUN	NOUN	_	0	ROOT	_	_
 ***3	linn	le	ADP	ADP	_	2	case	_	_***
 4	ár	ár	DET	DET	_	5	nmod:poss	_	_
@@ -8167,7 +8167,7 @@
 27	thús	tús	NOUN	NOUN	_	24	nmod	_	_
 28	don	do	ADP	ADP	_	29	case	_	_
 29	ghnó	gnó	NOUN	NOUN	_	24	nmod	_	_
-30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+30	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tháinig	tar	VERB	VERB	_	0	ROOT	_	_
 2	mé	mé	PRON	PRON	_	1	nsubj	_	_
@@ -8192,7 +8192,7 @@
 5	ag	ag	ADP	ADP	_	6	case	_	_
 6	baile	baile	NOUN	NOUN	_	3	nmod	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
-+++8	is	is	VERB	VERB	_	9	cop	_	_+++
+8	is	is	VERB	VERB	_	9	cop	_	_
 9	trí	trí	ADP	ADP	_	0	ROOT	_	_
 10	mheán	meán	NOUN	NOUN	_	9	nmod	_	_
 11	an	an	DET	DET	_	12	det	_	_
@@ -8213,7 +8213,7 @@
 26	príobháideacha	príobháideach	ADJ	ADJ	_	25	amod	_	_
 27	sa	i	ADP	ADP	_	28	case	_	_
 28	Ghaeltacht	gaeltacht	NOUN	NOUN	_	19	nmod	_	_
-29	.	.	PUNCT	PUNCT	_	8	punct	_	_
+29	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 1	Iriseoir	iriseoir	NOUN	NOUN	_	0	ROOT	_	_
 2	agus	agus	CONJ	CONJ	_	1	cc	_	_
@@ -8291,7 +8291,7 @@
 4	SHAINCHEADU	shaincheadu	NOUN	NOUN	_	2	nmod	_	_
 5	Comharsain	Comharsain	PROPN	PROPN	_	7	xcomp:pred	_	_
 6	aoibhne	aoibhne	ADJ	ADJ	_	5	amod	_	_
-++++++7	ab	is	VERB	VERB	_	0	ROOT	_	_++++++
++++7	ab	is	VERB	VERB	_	0	ROOT	_	_+++
 8	ea	ea	PRON	PRON	_	9	nmod	_	_
 9	iad	iad	PRON	PRON	_	7	nsubj	_	_
 10	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -8310,7 +8310,7 @@
 12	más	má	SCONJ	SCONJ	_	24	ccomp	_	_
 13	rud	rud	NOUN	NOUN	_	12	xcomp:pred	_	_
 14	é	é	PRON	PRON	_	13	nmod	_	_
-+++15	gur	is	VERB	VERB	_	16	cop	_	_+++
+15	gur	is	VERB	VERB	_	16	cop	_	_
 16	faoi	faoi	ADP	ADP	_	12	csubj:cop	_	_
 17	fho-alt	alt	NOUN	NOUN	_	16	nmod	_	_
 18	(2)	(2)	X	X	_	17	nummod	_	_
@@ -8319,10 +8319,10 @@
 21	rinneadh	déan	VERB	VERB	_	16	nsubj	_	_
 22	é	é	PRON	PRON	_	21	dobj	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
-+++24	is	is	VERB	VERB	_	25	cop	_	_+++
+24	is	is	VERB	VERB	_	25	cop	_	_
 25	fianaise	fianaise	NOUN	NOUN	_	0	ROOT	_	_
 26	é	é	PRON	PRON	_	25	nmod	_	_
-+++27	gur	is	VERB	VERB	_	28	cop	_	_+++
+27	gur	is	VERB	VERB	_	28	cop	_	_
 28	Stát	stát	NOUN	NOUN	_	25	nsubj	_	_
 29	Conarthach	conarthach	ADJ	ADJ	_	28	amod	_	_
 30	aon	aon	DET	DET	_	31	det	_	_
@@ -8332,12 +8332,12 @@
 34	an	an	DET	DET	_	35	det	_	_
 35	dearbhú	dearbhú	NOUN	NOUN	_	33	nsubj	_	_
 36	,	,	PUNCT	PUNCT	_	37	punct	_	_
-37	agus	agus	CONJ	CONJ	_	24	cc	_	_
+37	agus	agus	CONJ	CONJ	_	25	cc	_	_
 38	(b)	(b)	X	X	_	37	nummod	_	_
 39	más	má	SCONJ	SCONJ	_	51	ccomp	_	_
 40	rud	rud	NOUN	NOUN	_	39	xcomp:pred	_	_
 41	é	é	PRON	PRON	_	40	nmod	_	_
-+++42	gur	is	VERB	VERB	_	43	cop	_	_+++
+42	gur	is	VERB	VERB	_	43	cop	_	_
 43	faoi	faoi	ADP	ADP	_	39	nsubj	_	_
 44	fho-alt	alt	NOUN	NOUN	_	43	nmod	_	_
 45	(2)	(2)	X	X	_	44	nummod	_	_
@@ -8346,8 +8346,8 @@
 48	rinneadh	déan	VERB	VERB	_	43	nsubj	_	_
 49	é	é	PRON	PRON	_	48	dobj	_	_
 50	,	,	PUNCT	PUNCT	_	51	punct	_	_
-+++51	is	is	VERB	VERB	_	52	cop	_	_+++
-52	fianaise	fianaise	NOUN	NOUN	_	24	conj	_	_
+51	is	is	VERB	VERB	_	52	cop	_	_
+52	fianaise	fianaise	NOUN	NOUN	_	25	conj	_	_
 53	é	é	PRON	PRON	_	52	nmod	_	_
 54	go	go	PART	PART	_	55	mark:prt	_	_
 55	ndearnadh	déan	VERB	VERB	_	52	nsubj	_	_
@@ -8368,15 +8368,15 @@
 70	bhun	bun	NOUN	NOUN	_	64	nmod	_	_
 71	Airteagal	airteagal	NOUN	NOUN	_	70	compound	_	_
 72	VI	VI	NUM	NUM	_	71	nummod	_	_
-73	agus	agus	CONJ	CONJ	_	24	cc	_	_
-+++74	is	is	VERB	VERB	_	75	cop	_	_+++
-75	fianaise	fianaise	NOUN	NOUN	_	24	conj	_	_
+73	agus	agus	CONJ	CONJ	_	25	cc	_	_
+74	is	is	VERB	VERB	_	75	cop	_	_
+75	fianaise	fianaise	NOUN	NOUN	_	25	conj	_	_
 76	é	é	PRON	PRON	_	75	nmod	_	_
 77	ar	ar	ADP	ADP	_	75	nsubj	_	_
 78	a	a	PART	PART	_	79	nsubj	_	_
 79	bhfuil	bí	VERB	VERB	_	77	acl:relcl	_	_
 80	ann	i	ADP	ADP	_	79	xcomp:pred	_	_
-81	.	.	PUNCT	PUNCT	_	24	punct	_	_
+81	.	.	PUNCT	PUNCT	_	25	punct	_	_
 
 1	Casaimid	cas	VERB	VERB	_	0	ROOT	_	_
 2	beirt	beirt	NOUN	NOUN	_	1	compound	_	_
@@ -8388,7 +8388,7 @@
 8	chéim	céim	NOUN	NOUN	_	1	nmod	_	_
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Níor	is	VERB	VERB	_	2	cop	_	_+++
+1	Níor	is	VERB	VERB	_	2	cop	_	_
 2	leasc	leasc	ADJ	ADJ	_	0	ROOT	_	_
 ***3	leis	le	ADP	ADP	_	2	case	_	_***
 4	siúd	siúd	PRON	PRON	_	3	det	_	_
@@ -8401,7 +8401,7 @@
 11	sofaisticiúil	sofaisticiúil	ADJ	ADJ	_	9	amod	_	_
 12	féin	féin	NOUN	NOUN	_	9	compound	_	_
 13	a	a	PART	PART	_	14	mark	_	_
-14	chur	cur	NOUN	NOUN	_	1	nsubj	_	_
+14	chur	cur	NOUN	NOUN	_	2	nsubj	_	_
 15	in	i	ADP	ADP	_	16	case	_	_
 16	iúl	iúl	NOUN	NOUN	_	14	nmod	_	_
 17	trí	trí	ADP	ADP	_	20	case	_	_
@@ -8424,7 +8424,7 @@
 34	an	an	DET	DET	_	36	det	_	_
 35	18ú	18	NUM	NUM	_	36	nummod	_	_
 36	céad	céad	NOUN	NOUN	_	33	compound	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	Tá	bí	VERB	VERB	_	0	ROOT	_	_
@@ -8471,7 +8471,7 @@
 19	:	:	PUNCT	PUNCT	_	21	punct	_	_
 20	'	'	PUNCT	PUNCT	_	21	punct	_	_
 21	Dá	dá	SCONJ	SCONJ	_	22	mark	_	_
-+++22	mb'	is	VERB	VERB	_	23	cop	_	_+++
+22	mb'	is	VERB	VERB	_	23	cop	_	_
 23	eol	eol	NOUN	NOUN	_	36	advcl	_	_
 24	don	do	ADP	ADP	_	25	case	_	_
 25	fhear	fear	NOUN	NOUN	_	23	nmod	_	_
@@ -8572,17 +8572,17 @@
 15	ar	ar	ADP	ADP	_	17	case	_	_
 16	an	an	DET	DET	_	17	det	_	_
 17	toirt	toirt	NOUN	NOUN	_	14	nmod	_	_
-+++18	gurbh	is	VERB	VERB	_	19	cop	_	_+++
+18	gurbh	is	VERB	VERB	_	19	cop	_	_
 19	Fhíníní	Fínín	NOUN	NOUN	_	13	ccomp	_	_
 20	iad	iad	PRON	PRON	_	19	nsubj	_	_
 21	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	3	cop	_	_+++
+1	Is	is	VERB	VERB	_	3	cop	_	_
 2	é	é	PRON	PRON	_	5	nmod	_	_
 3	Micheal	Micheal	PROPN	PROPN	_	0	ROOT	_	_
 4	D.	D.	X	X	_	3	name	_	_
 5	Higgins	Higgins	PROPN	PROPN	_	3	name	_	_
-+++6	ba	is	VERB	VERB	_	7	cop	_	_+++
+6	ba	is	VERB	VERB	_	7	cop	_	_
 7	chionsiocair	cionsiocair	NOUN	NOUN	_	3	nsubj	_	_
 ***8	leis	le	ADP	ADP	_	7	case	_	_***
 9	an	an	DET	DET	_	10	det	_	_
@@ -8592,13 +8592,13 @@
 13	sa	i	ADP	ADP	_	14	case	_	_
 14	bhliain	bliain	NOUN	NOUN	_	12	nmod	_	_
 15	1992	1992	NUM	NUM	_	14	nummod	_	_
-16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	An	is	VERB	VERB	_	2	cop	_	_+++
+1	An	is	VERB	VERB	_	2	cop	_	_
 2	leatsa	le	ADP	ADP	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	teach	teach	NOUN	NOUN	_	2	nsubj	_	_
-5	?	?	PUNCT	PUNCT	_	1	punct	_	_
+5	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Oighe	Oighe	PROPN	PROPN	_	0	ROOT	_	_
 2	chuimealta	chuimealta	ADJ	ADJ	_	1	amod	_	_
@@ -8676,7 +8676,7 @@
 2	Adhamhnán	Adhamhnán	PROPN	PROPN	_	1	nsubj	_	_
 3	ag	ag	ADP	ADP	_	1	xcomp	_	_
 4	meabhrú	meabhrú	NOUN	NOUN	_	3	nmod	_	_
-+++5	gurb	is	VERB	VERB	_	6	cop	_	_+++
+5	gurb	is	VERB	VERB	_	6	cop	_	_
 6	iomchuí	iomchuí	ADJ	ADJ	_	4	ccomp	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	t-ionad	ionad	NOUN	NOUN	_	6	nsubj	_	_
@@ -8695,13 +8695,13 @@
 21	na	na	DET	DET	_	22	det	_	_
 22	altrach	altrach	NOUN	NOUN	_	20	compound	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
-+++24	is	is	VERB	VERB	_	25	cop	_	_+++
+24	is	is	VERB	VERB	_	25	cop	_	_
 25	é	é	PRON	PRON	_	1	ccomp	_	_
 26	sin	sin	PRON	PRON	_	25	nsubj	_	_
 27	,	,	PUNCT	PUNCT	_	28	punct	_	_
 28	ag	ag	ADP	ADP	_	30	case	_	_
 29	an	an	DET	DET	_	30	det	_	_
-30	véarsa	véarsa	NOUN	NOUN	_	24	nmod	_	_
+30	véarsa	véarsa	NOUN	NOUN	_	25	nmod	_	_
 31	a	a	PART	PART	_	32	dobj	_	_
 32	dúramar	abair	VERB	VERB	_	30	acl:relcl	_	_
 ***33	romhainn	roimh	ADP	ADP	_	32	case	_	_***
@@ -8767,22 +8767,22 @@
 25	d'	do	PART	PART	_	26	mark:prt	_	_
 26	aontaigh	aontaigh	VERB	VERB	_	0	ROOT	_	_
 27	Seán	Seán	PROPN	PROPN	_	26	nsubj	_	_
-+++28	gur	is	VERB	VERB	_	29	cop	_	_+++
+28	gur	is	VERB	VERB	_	29	cop	_	_
 29	mar	mar	ADP	ADP	_	26	ccomp	_	_
 30	sin	sin	PRON	PRON	_	29	nmod	_	_
 31	a	a	PART	PART	_	32	mark:prt	_	_
 32	bhí	bí	VERB	VERB	_	29	nsubj	_	_
 33	ach	ach	SCONJ	SCONJ	_	35	mark	_	_
 34	go	go	SCONJ	SCONJ	_	35	mark	_	_
-+++35	mba	is	VERB	VERB	_	36	cop	_	_+++
-36	é	é	PRON	PRON	_	28	ccomp	_	_
+35	mba	is	VERB	VERB	_	36	cop	_	_
+36	é	é	PRON	PRON	_	29	ccomp	_	_
 37	a	a	PART	PART	_	38	mark:prt	_	_
 38	dúirt	abair	VERB	VERB	_	36	nsubj	_	_
 39	sé	sé	PRON	PRON	_	38	nsubj	_	_
 40	arís	arís	ADV	ADV	_	38	advmod	_	_
 41	,	,	PUNCT	PUNCT	_	42	punct	_	_
 42	go	go	SCONJ	SCONJ	_	43	mark	_	_
-+++43	mba	is	VERB	VERB	_	44	cop	_	_+++
+43	mba	is	VERB	VERB	_	44	cop	_	_
 44	ag	ag	ADP	ADP	_	38	ccomp	_	_
 45	breathnú	breathnú	NOUN	NOUN	_	44	nmod	_	_
 ***46	roimhe	roimh	ADP	ADP	_	45	case	_	_***
@@ -8792,7 +8792,7 @@
 50	féin	féin	NOUN	NOUN	_	49	compound	_	_
 51	agus	agus	CONJ	CONJ	_	42	cc	_	_
 52	go	go	SCONJ	SCONJ	_	42	conj	_	_
-+++53	mba	is	VERB	VERB	_	54	cop	_	_+++
+53	mba	is	VERB	VERB	_	54	cop	_	_
 54	é	é	PRON	PRON	_	52	ccomp	_	_
 55	seo	seo	PRON	PRON	_	54	det	_	_
 56	an	an	DET	DET	_	57	det	_	_
@@ -8844,10 +8844,10 @@
 14	misean	misean	NOUN	NOUN	_	8	appos	_	_
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhéidir	féidir	NOUN	NOUN	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
-+++4	mba	is	VERB	VERB	_	5	cop	_	_+++
+4	mba	is	VERB	VERB	_	5	cop	_	_
 5	shólás	sólás	NOUN	NOUN	_	2	csubj:cop	_	_
 6	leis	le	ADP	ADP	_	5	nsubj	_	_
 7	sin	sin	PRON	PRON	_	6	det	_	_
@@ -8868,7 +8868,7 @@
 22	ghránna	gránna	ADJ	ADJ	_	21	amod	_	_
 23	a	a	DET	DET	_	24	det	_	_
 24	chnis	cneas	NOUN	NOUN	_	21	compound	_	_
-25	.	.	PUNCT	PUNCT	_	1	punct	_	_
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Foinse	foinse	NOUN	NOUN	_	0	ROOT	_	_
 2	sa	i	ADP	ADP	_	3	case	_	_
@@ -8958,7 +8958,7 @@
 8	neamheochrach	eochair	ADJ	ADJ	_	7	amod	_	_
 9	a	a	PART	PART	_	10	mark	_	_
 10	sheinnt	seinnt	NOUN	NOUN	_	3	xcomp	_	_
-+++11	is	is	VERB	VERB	_	12	cop	_	_+++
+11	is	is	VERB	VERB	_	12	cop	_	_
 12	den	de	ADP	ADP	_	0	ROOT	_	_
 13	dearadh	dearadh	NOUN	NOUN	_	12	nmod	_	_
 14	agus	agus	CONJ	CONJ	_	12	cc	_	_
@@ -8969,13 +8969,13 @@
 19	é	é	PRON	PRON	_	12	nsubj	_	_
 20	leis	le	ADP	ADP	_	22	case	_	_
 21	an	an	DET	DET	_	22	det	_	_
-22	bhfliúit	fliúit	NOUN	NOUN	_	11	nmod	_	_
+22	bhfliúit	fliúit	NOUN	NOUN	_	12	nmod	_	_
 23	eochrach	eochair	ADJ	ADJ	_	22	amod	_	_
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
 25	atá	bí	VERB	VERB	_	22	acl:relcl	_	_
 26	níos	níos	NOUN	NOUN	_	27	mark:prt	_	_
 27	costasúla	costasúil	ADJ	ADJ	_	25	xcomp:pred	_	_
-28	.	.	PUNCT	PUNCT	_	11	punct	_	_
+28	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	AIE	AIE	X	X	_	1	nsubj	_	_
@@ -9217,7 +9217,7 @@
 10	seo	seo	DET	DET	_	9	det	_	_
 11	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	ise	ise	PRON	PRON	_	0	ROOT	_	_
 3	a	a	PART	PART	_	4	mark:prt	_	_
 4	chuir	cuir	VERB	VERB	_	2	nsubj	_	_
@@ -9230,7 +9230,7 @@
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	nuair	nuair	SCONJ	SCONJ	_	14	mark	_	_
 13	a	a	PART	PART	_	14	mark:prt	_	_
-14	bunaíodh	bunaigh	VERB	VERB	_	1	advcl	_	_
+14	bunaíodh	bunaigh	VERB	VERB	_	2	advcl	_	_
 15	an	an	DET	DET	_	17	det	_	_
 16	chéad	céad	NUM	NUM	_	17	nummod	_	_
 17	Chomhrialtas	comhrialtas	NOUN	NOUN	_	14	dobj	_	_
@@ -9242,7 +9242,7 @@
 23	sa	i	ADP	ADP	_	24	case	_	_
 24	bhliain	bliain	NOUN	NOUN	_	14	nmod	_	_
 25	1992	1992	NUM	NUM	_	24	nummod	_	_
-26	.	.	PUNCT	PUNCT	_	1	punct	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Slán	slán	NOUN	NOUN	_	0	ROOT	_	_
 ***2	leat	le	ADP	ADP	_	1	case	_	_***
@@ -9260,11 +9260,11 @@
 6	ann	i	ADP	ADP	_	5	xcomp:pred	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	gá	gá	NOUN	NOUN	_	0	ROOT	_	_
 3	freastal	freastal	NOUN	NOUN	_	2	nsubj	_	_
 ***4	uirthi	ar	ADP	ADP	_	3	case	_	_***
-5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
@@ -9301,7 +9301,7 @@
 28	daichidí	daichead	NOUN	NOUN	_	23	nmod	_	_
 29	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	hamháin	amháin	ADJ	ADJ	_	0	ROOT	_	_
 3	nach	nach	PART	PART	_	4	mark:prt	_	_
 4	bhfaca	feic	VERB	VERB	_	2	csubj:cop	_	_
@@ -9312,7 +9312,7 @@
 9	áfach	áfach	ADV	ADV	_	4	advmod	_	_
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	ach	ach	SCONJ	SCONJ	_	12	mark	_	_
-12	bhí	bí	VERB	VERB	_	1	advcl	_	_
+12	bhí	bí	VERB	VERB	_	2	advcl	_	_
 13	sé	sé	PRON	PRON	_	12	nsubj	_	_
 14	patuar	patuar	ADJ	ADJ	_	12	xcomp:pred	_	_
 15	go	go	PART	PART	_	16	mark:prt	_	_
@@ -9335,7 +9335,7 @@
 32	ghnóthú	gnóthú	NOUN	NOUN	_	12	nmod	_	_
 33	ar	ar	ADP	ADP	_	34	case	_	_
 34	ball	ball	NOUN	NOUN	_	32	nmod	_	_
-35	.	.	PUNCT	PUNCT	_	1	punct	_	_
+35	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	FEARAIS	fearas	NOUN	NOUN	_	6	compound	_	_
 2	TI	TI	PROPN	PROPN	_	1	compound	_	_
@@ -9362,13 +9362,13 @@
 23	tuaithe	tuath	NOUN	NOUN	_	22	compound	_	_
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
 25	agus	agus	CONJ	CONJ	_	6	cc	_	_
-+++26	is	is	VERB	VERB	_	27	cop	_	_+++
+26	is	is	VERB	VERB	_	27	cop	_	_
 27	léar	léar	NOUN	NOUN	_	6	conj	_	_
 28	sin	sin	PRON	PRON	_	27	nsubj	_	_
 29	ar	ar	ADP	ADP	_	32	case	_	_
 30	a	a	DET	DET	_	32	nmod:poss	_	_
 31	chuid	cuid	NOUN	NOUN	_	32	advmod	_	_
-32	filíochta	filíocht	NOUN	NOUN	_	26	nmod	_	_
+32	filíochta	filíocht	NOUN	NOUN	_	27	nmod	_	_
 33	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
@@ -9408,11 +9408,11 @@
 18	mhaith	maith	ADJ	ADJ	_	17	amod	_	_
 19	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	iomaí	iomaí	ADJ	ADJ	_	0	ROOT	_	_
 3	mac	mac	NOUN	NOUN	_	2	nsubj	_	_
 4	tar_éis	tar_éis	ADP	ADP	_	5	case	_	_
-5	dó	do	ADP	ADP	_	1	nmod	_	_
+5	dó	do	ADP	ADP	_	2	nmod	_	_
 6	dílse	dílse	NOUN	NOUN	_	8	dobj	_	_
 7	a	a	PART	PART	_	8	mark	_	_
 8	thréigean	tréigean	NOUN	NOUN	_	4	nmod	_	_
@@ -9423,9 +9423,9 @@
 13	a	a	PART	PART	_	14	nsubj	_	_
 14	dhéanfaidh	déan	VERB	VERB	_	3	acl:relcl	_	_
 15	feall	feall	NOUN	NOUN	_	14	dobj	_	_
-+++16	is	is	VERB	VERB	_	17	cop	_	_+++
-17	éigean	éigean	NOUN	NOUN	_	1	ccomp	_	_
-18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+16	is	is	VERB	VERB	_	17	cop	_	_
+17	éigean	éigean	NOUN	NOUN	_	2	ccomp	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Réitíonn	réitigh	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -9452,7 +9452,7 @@
 4	éadrom	éadrom	ADJ	ADJ	_	1	xcomp:pred	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	mar	mar	ADP	ADP	_	7	mark	_	_
-+++7	is	is	VERB	VERB	_	8	cop	_	_+++
+7	is	is	VERB	VERB	_	8	cop	_	_
 8	giairseach	giairseach	NOUN	NOUN	_	1	advcl	_	_
 9	bheag	beag	ADJ	ADJ	_	8	amod	_	_
 10	do	do	PART	PART	_	11	mark:prt	_	_
@@ -9474,12 +9474,12 @@
 26	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Ní	is	VERB	VERB	_	4	cop	_	_+++
+2	Ní	is	VERB	VERB	_	4	cop	_	_
 3	haon	aon	NUM	NUM	_	4	nummod	_	_
 4	droch-chuimhneamh	cuimhneamh	NOUN	NOUN	_	9	ccomp	_	_
 5	é	é	PRON	PRON	_	4	nsubj	_	_
 6	sin	sin	PRON	PRON	_	5	det	_	_
-7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
 8	'	'	PUNCT	PUNCT	_	9	punct	_	_
 9	arsa	arsa	VERB	VERB	_	0	ROOT	_	_
 10	an	an	DET	DET	_	11	det	_	_
@@ -9575,11 +9575,11 @@
 27	eicínt	eicínt	ADJ	ADJ	_	26	amod	_	_
 28	,	,	PUNCT	PUNCT	_	29	punct	_	_
 29	agus	agus	CONJ	CONJ	_	22	cc	_	_
-+++30	gur	is	VERB	VERB	_	31	cop	_	_+++
+30	gur	is	VERB	VERB	_	31	cop	_	_
 31	ceist	ceist	NOUN	NOUN	_	22	conj	_	_
 32	eile	eile	DET	DET	_	31	det	_	_
 33	fós	fós	ADV	ADV	_	31	advmod	_	_
-34	í	í	PRON	PRON	_	30	nsubj	_	_
+34	í	í	PRON	PRON	_	31	nsubj	_	_
 35	d'	de	ADP	ADP	_	36	case	_	_
 36	ualach	ualach	NOUN	NOUN	_	31	nmod	_	_
 37	géagach	géagach	ADJ	ADJ	_	36	amod	_	_
@@ -9603,7 +9603,7 @@
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	6	punct	_	_
-++++++2	Is	is	VERB	VERB	_	6	ccomp	_	_++++++
++++2	Is	is	VERB	VERB	_	6	ccomp	_	_+++
 3	ea	ea	PRON	PRON	_	2	nsubj	_	_
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	'	'	PUNCT	PUNCT	_	6	punct	_	_
@@ -9698,7 +9698,7 @@
 5	thugann	tabhair	VERB	VERB	_	3	acl:relcl	_	_
 6	le	le	ADP	ADP	_	7	case	_	_
 7	tuisgint	tuiscint	NOUN	NOUN	_	5	nmod	_	_
-+++8	gur	is	VERB	VERB	_	9	cop	_	_+++
+8	gur	is	VERB	VERB	_	9	cop	_	_
 9	cóip	cóip	NOUN	NOUN	_	2	ccomp	_	_
 10	í	í	PRON	PRON	_	9	nsubj	_	_
 11	do	do	ADP	ADP	_	12	dobj	_	_
@@ -9942,7 +9942,7 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	17	punct	_	_
-+++2	B'	is	VERB	VERB	_	3	cop	_	_+++
+2	B'	is	VERB	VERB	_	3	cop	_	_
 3	fhéidir	féidir	NOUN	NOUN	_	17	ccomp	_	_
 4	go	go	PART	PART	_	5	mark:prt	_	_
 5	mbeadh	bí	VERB	VERB	_	3	csubj:cop	_	_
@@ -9951,7 +9951,7 @@
 ***8	agat	ag	ADP	ADP	_	5	case	_	_***
 9	féin	féin	NOUN	NOUN	_	8	compound	_	_
 10	an	an	DET	DET	_	11	det	_	_
-11	t-earrach	earrach	NOUN	NOUN	_	2	advmod	_	_
+11	t-earrach	earrach	NOUN	NOUN	_	3	advmod	_	_
 12	seo	seo	DET	DET	_	11	det	_	_
 ***13	chugainn	chuig	ADP	ADP	_	11	case	_	_***
 14	,	,	PUNCT	PUNCT	_	17	punct	_	_
@@ -10109,7 +10109,7 @@
 24	bliana	bliain	NOUN	NOUN	_	22	compound	_	_
 25	nua	nua	ADJ	ADJ	_	24	amod	_	_
 26	;	;	PUNCT	PUNCT	_	27	punct	_	_
-+++27	is	is	VERB	VERB	_	28	cop	_	_+++
+27	is	is	VERB	VERB	_	28	cop	_	_
 28	cur	cur	NOUN	NOUN	_	7	ccomp	_	_
 ***29	i_láthair	i_láthair	ADP	ADP	_	28	case	_	_***
 30	í	í	PRON	PRON	_	28	nsubj	_	_
@@ -10216,7 +10216,7 @@
 36	gcaitheamh	caitheamh	NOUN	NOUN	_	28	nmod	_	_
 37	a	a	DET	DET	_	38	nmod:poss	_	_
 38	shaoil	saol	NOUN	NOUN	_	36	compound	_	_
-+++39	gurbh	is	VERB	VERB	_	42	cop	_	_+++
+39	gurbh	is	VERB	VERB	_	42	cop	_	_
 40	é	é	PRON	PRON	_	42	nmod	_	_
 41	a	a	DET	DET	_	42	nmod:poss	_	_
 42	dheaslámh	lámh	NOUN	NOUN	_	28	ccomp	_	_
@@ -10266,7 +10266,7 @@
 2	mé	mé	PRON	PRON	_	1	nsubj	_	_
 3	bréid	bréid	NOUN	NOUN	_	1	dobj	_	_
 4	mar	mar	SCONJ	SCONJ	_	5	mark	_	_
-+++5	is	is	VERB	VERB	_	6	cop	_	_+++
+5	is	is	VERB	VERB	_	6	cop	_	_
 6	ceart	ceart	ADJ	ADJ	_	1	advcl	_	_
 7	amárach	amárach	ADV	ADV	_	1	advmod	_	_
 ***8	uirthi	ar	ADP	ADP	_	1	case	_	_***
@@ -10357,7 +10357,7 @@
 2	File	File	PROPN	PROPN	_	5	xcomp:pred	_	_
 3	cumasach	cumasach	ADJ	ADJ	_	2	amod	_	_
 4	eile	eile	DET	DET	_	2	det	_	_
-++++++5	ab	is	VERB	VERB	_	0	ROOT	_	_++++++
++++5	ab	is	VERB	VERB	_	0	ROOT	_	_+++
 6	ea	ea	PRON	PRON	_	7	nmod	_	_
 7	Dónall	Dónall	PROPN	PROPN	_	5	nsubj	_	_
 8	Ó	ó	PART	PART	_	7	name	_	_
@@ -10395,7 +10395,7 @@
 40	agus	agus	CONJ	CONJ	_	35	cc	_	_
 41	le	le	ADP	ADP	_	35	conj	_	_
 42	gliondar	gliondar	NOUN	NOUN	_	41	nmod	_	_
-+++43	ní	is	VERB	VERB	_	44	cop	_	_+++
+43	ní	is	VERB	VERB	_	44	cop	_	_
 44	hamháin	amháin	ADJ	ADJ	_	33	ccomp	_	_
 45	ar	ar	ADP	ADP	_	44	nsubj	_	_
 46	fuaid	fuaid	NOUN	NOUN	_	45	nmod	_	_
@@ -10404,9 +10404,9 @@
 49	,	,	PUNCT	PUNCT	_	50	punct	_	_
 50	ach	ach	SCONJ	SCONJ	_	52	mark	_	_
 51	go	go	PART	PART	_	52	mark:prt	_	_
-52	deimhin	deimhin	ADJ	ADJ	_	43	advmod	_	_
+52	deimhin	deimhin	ADJ	ADJ	_	44	advmod	_	_
 53	ar	ar	ADP	ADP	_	54	case	_	_
-54	fuaid	fuaid	NOUN	NOUN	_	43	nmod	_	_
+54	fuaid	fuaid	NOUN	NOUN	_	44	nmod	_	_
 55	an	an	DET	DET	_	56	det	_	_
 56	domhain	domhan	NOUN	NOUN	_	54	compound	_	_
 57	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -10428,10 +10428,10 @@
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Níor	is	VERB	VERB	_	3	cop	_	_+++
+2	Níor	is	VERB	VERB	_	3	cop	_	_
 3	ghá	gá	NOUN	NOUN	_	0	ROOT	_	_
 4	ach	ach	SCONJ	SCONJ	_	3	mark:prt	_	_
-5	sracfhéachaint	féachaint	NOUN	NOUN	_	2	nsubj	_	_
+5	sracfhéachaint	féachaint	NOUN	NOUN	_	3	nsubj	_	_
 6	ar	ar	ADP	ADP	_	8	case	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	ealaín	ealaín	NOUN	NOUN	_	5	nmod	_	_
@@ -10454,7 +10454,7 @@
 25	tsnátha	snáth	NOUN	NOUN	_	23	compound	_	_
 26	ghil	geal	ADJ	ADJ	_	25	amod	_	_
 27	anois	anois	ADV	ADV	_	19	advmod	_	_
-28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Mar	mar	SCONJ	SCONJ	_	3	mark	_	_
 2	a	a	PART	PART	_	3	mark:prt	_	_
@@ -10546,7 +10546,7 @@
 
 1	Dúirt	abair	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
-+++3	nár	is	VERB	VERB	_	4	cop	_	_+++
+3	nár	is	VERB	VERB	_	4	cop	_	_
 4	múinteoir	múinteoir	NOUN	NOUN	_	1	ccomp	_	_
 5	é	é	PRON	PRON	_	4	nsubj	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -10659,7 +10659,7 @@
 5	Seachnasaí	seachnasaí	NOUN	NOUN	_	3	name	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	é	é	PRON	PRON	_	0	ROOT	_	_
 3	sin	sin	PRON	PRON	_	2	det	_	_
 4	an	an	DET	DET	_	5	det	_	_
@@ -10667,7 +10667,7 @@
 6	'	'	PUNCT	PUNCT	_	7	punct	_	_
 7	liosta	liosta	NOUN	NOUN	_	5	compound	_	_
 8	'	'	PUNCT	PUNCT	_	7	punct	_	_
-9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dhéanadh	déan	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
@@ -10797,7 +10797,7 @@
 2	na	na	DET	DET	_	3	det	_	_
 3	foclóirí	foclóir	NOUN	NOUN	_	5	nmod	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
-+++5	ní	is	VERB	VERB	_	6	cop	_	_+++
+5	ní	is	VERB	VERB	_	6	cop	_	_
 6	heol	eol	NOUN	NOUN	_	0	ROOT	_	_
 ***7	dom	do	ADP	ADP	_	6	case	_	_***
 8	a	a	DET	DET	_	9	nmod:poss	_	_
@@ -10809,16 +10809,16 @@
 14	linn	linn	NOUN	NOUN	_	13	nmod	_	_
 15	ach	ach	SCONJ	SCONJ	_	17	mark	_	_
 16	An	an	DET	DET	_	17	det	_	_
-17	Bíobla	Bíobla	NOUN	NOUN	_	5	compound	_	_
+17	Bíobla	Bíobla	NOUN	NOUN	_	6	compound	_	_
 18	Naofa	naofa	ADJ	ADJ	_	17	amod	_	_
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	agus	agus	CONJ	CONJ	_	21	mark	_	_
-21	féach	féach	VERB	VERB	_	5	advcl	_	_
-+++22	gur	is	VERB	VERB	_	23	cop	_	_+++
+21	féach	féach	VERB	VERB	_	6	advcl	_	_
+22	gur	is	VERB	VERB	_	23	cop	_	_
 23	oiriúnach	oiriúnach	ADJ	ADJ	_	21	advcl	_	_
 24	ar	ar	ADP	ADP	_	25	case	_	_
 25	fad	fad	NOUN	NOUN	_	23	nmod	_	_
-+++26	gurb	is	VERB	VERB	_	28	cop	_	_+++
+26	gurb	is	VERB	VERB	_	28	cop	_	_
 27	é	é	PRON	PRON	_	28	nmod	_	_
 28	Fear	fear	NOUN	NOUN	_	23	csubj:cop	_	_
 29	an	an	DET	DET	_	30	det	_	_
@@ -10844,7 +10844,7 @@
 49	dá	dá	SCONJ	SCONJ	_	50	mark	_	_
 50	n-abrainn	n-abr	VERB	VERB	_	47	advcl	_	_
 51	é	é	PRON	PRON	_	50	dobj	_	_
-52	.	.	PUNCT	PUNCT	_	5	punct	_	_
+52	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 1	Tagann	tar	VERB	VERB	_	0	ROOT	_	_
 2	a	a	DET	DET	_	3	nmod:poss	_	_
@@ -10919,14 +10919,14 @@
 4	chodladh	codladh	NOUN	NOUN	_	3	nmod	_	_
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	leabhar	leabhar	NOUN	NOUN	_	0	ROOT	_	_
 3	a	a	PART	PART	_	4	mark:prt	_	_
 4	thug	tabhair	VERB	VERB	_	2	nsubj	_	_
 5	sí	sí	PRON	PRON	_	4	nsubj	_	_
 6	do	do	ADP	ADP	_	7	case	_	_
 7	Mháire	Máire	PROPN	PROPN	_	4	nmod	_	_
-8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Níor	níor	PART	PART	_	2	neg	_	_
 2	chuir	cuir	VERB	VERB	_	0	ROOT	_	_
@@ -10945,13 +10945,13 @@
 7	thacsaí	tacsaí	NOUN	NOUN	_	4	nmod	_	_
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	é	é	PRON	PRON	_	0	ROOT	_	_
 3	a	a	PART	PART	_	4	mark:prt	_	_
 4	tharla	tarlaigh	VERB	VERB	_	2	nsubj	_	_
 5	ná	ná	CONJ	CONJ	_	7	mark	_	_
 6	gur	gur	PART	PART	_	7	mark:prt	_	_
-7	cuireadh	cuir	VERB	VERB	_	1	advcl	_	_
+7	cuireadh	cuir	VERB	VERB	_	2	advcl	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	dlí	dlí	NOUN	NOUN	_	7	dobj	_	_
 10	ar	ar	ADP	ADP	_	11	case	_	_
@@ -10964,7 +10964,7 @@
 17	a	a	PART	PART	_	18	mark	_	_
 18	tharraingt	tarraingt	NOUN	NOUN	_	13	xcomp	_	_
 19	siar	siar	ADV	ADV	_	18	advmod	_	_
-20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	CÉIMÍOCHT	céimíocht	NOUN	NOUN	_	0	ROOT	_	_
@@ -10988,7 +10988,7 @@
 20	mbliana	bliain	NOUN	NOUN	_	9	nmod	_	_
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	leor	leor	ADJ	ADJ	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	teoiric	teoiric	NOUN	NOUN	_	2	nsubj	_	_
@@ -11001,9 +11001,9 @@
 11	ar_feadh	ar_feadh	ADP	ADP	_	14	case	_	_
 12	dhá	dó	NUM	NUM	_	14	nummod	_	_
 13	chéad	céad	NUM	NUM	_	14	nummod	_	_
-14	bliain	bliain	NOUN	NOUN	_	1	nmod	_	_
+14	bliain	bliain	NOUN	NOUN	_	2	nmod	_	_
 15	ach	ach	SCONJ	SCONJ	_	16	mark	_	_
-16	bhí	bí	VERB	VERB	_	1	advcl	_	_
+16	bhí	bí	VERB	VERB	_	2	advcl	_	_
 17	sí	sí	PRON	PRON	_	16	nsubj	_	_
 18	fabhtach	fabhtach	ADJ	ADJ	_	16	xcomp:pred	_	_
 19	chun	chun	ADP	ADP	_	20	case	_	_
@@ -11024,7 +11024,7 @@
 34	ar	ar	ADP	ADP	_	35	case	_	_
 35	scála	scála	NOUN	NOUN	_	33	nmod	_	_
 36	idir-réaltach	idir-réalt	ADJ	ADJ	_	35	amod	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Imíonn	imigh	VERB	VERB	_	0	ROOT	_	_
 2	sí	sí	PRON	PRON	_	1	nsubj	_	_
@@ -11044,14 +11044,14 @@
 5	)	)	PUNCT	PUNCT	_	4	punct	_	_
 6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	dúinn	do	ADP	ADP	_	2	case	_	_***
 4	imeacht	imeacht	NOUN	NOUN	_	2	nsubj	_	_
 5	isteach	isteach	ADV	ADV	_	4	advmod	_	_
 6	a	a	PART	PART	_	7	case:voc	_	_
-7	Tom	Tom	PROPN	PROPN	_	1	vocative	_	_
-8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	Tom	Tom	PROPN	PROPN	_	2	vocative	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Le	le	ADP	ADP	_	2	case	_	_
 2	roinnt	roinnt	NOUN	NOUN	_	6	nmod	_	_
@@ -11164,7 +11164,7 @@
 16	sa	i	ADP	ADP	_	17	case	_	_
 17	dóigh	dóigh	NOUN	NOUN	_	18	nmod	_	_
 18	is	agus	CONJ	CONJ	_	10	cc	_	_
-++++++19	gur	is	VERB	VERB	_	10	conj	_	_++++++
++++19	gur	is	VERB	VERB	_	10	conj	_	_+++
 20	cuireadh	cuir	VERB	VERB	_	19	ccomp	_	_
 21	béim	béim	NOUN	NOUN	_	20	dobj	_	_
 22	láidir	láidir	ADJ	ADJ	_	21	amod	_	_
@@ -11179,7 +11179,7 @@
 2	labhair	labhair	VERB	VERB	_	0	ROOT	_	_
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	ghearr	gearr	ADJ	ADJ	_	0	ROOT	_	_
 3	gur	gur	PART	PART	_	4	mark:prt	_	_
 4	fhás	fás	VERB	VERB	_	2	csubj:cop	_	_
@@ -11208,7 +11208,7 @@
 27	versa	versa	NOUN	NOUN	_	26	compound	_	_
 28	go	go	PART	PART	_	29	mark:prt	_	_
 29	cruinn	cruinn	ADJ	ADJ	_	4	advmod	_	_
-30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+30	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	An	an	PART	PART	_	2	mark:prt	_	_
 2	mothaíonn	mothaigh	VERB	VERB	_	0	ROOT	_	_
@@ -11391,7 +11391,7 @@
 23	taispeáint	taispeáint	NOUN	NOUN	_	16	nmod	_	_
 24	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	gnáthach	gnáthach	NOUN	NOUN	_	0	ROOT	_	_
 3	leis	le	ADP	ADP	_	5	case	_	_
 4	an	an	DET	DET	_	5	det	_	_
@@ -11410,17 +11410,17 @@
 17	seo	seo	DET	DET	_	16	det	_	_
 18	gach	gach	DET	DET	_	19	det	_	_
 19	bliain	bliain	NOUN	NOUN	_	14	advmod	_	_
-20	agus	agus	CONJ	CONJ	_	1	cc	_	_
-21	thug	tabhair	VERB	VERB	_	1	conj	_	_
+20	agus	agus	CONJ	CONJ	_	2	cc	_	_
+21	thug	tabhair	VERB	VERB	_	2	conj	_	_
 22	sé	sé	PRON	PRON	_	21	nsubj	_	_
 23	cúpla	cúpla	NOUN	NOUN	_	24	nummod	_	_
 24	lá	lá	NOUN	NOUN	_	21	dobj	_	_
 ***25	ann	i	ADP	ADP	_	21	case	_	_***
 26	le	le	ADP	ADP	_	27	case	_	_
 27	déanaí	déanach	ADJ	ADJ	_	21	nmod	_	_
-28	.	.	PUNCT	PUNCT	_	1	punct	_	_
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	teicneolaíocht	teicneolaíocht	NOUN	NOUN	_	0	ROOT	_	_
 3	nua-aimseartha	nua-aimseartha	ADJ	ADJ	_	2	amod	_	_
 4	a	a	PART	PART	_	5	mark:prt	_	_
@@ -11429,7 +11429,7 @@
 7	gceist	ceist	NOUN	NOUN	_	6	nmod	_	_
 ***8	aige	ag	ADP	ADP	_	5	case	_	_***
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-10	priontáil	priontáil	NOUN	NOUN	_	1	nmod	_	_
+10	priontáil	priontáil	NOUN	NOUN	_	2	nmod	_	_
 11	lazer	lazer	X	X	_	10	compound	_	_
 12	a	a	PART	PART	_	13	nsubj	_	_
 13	bhéidh	bí	VERB	VERB	_	11	acl:relcl	_	_
@@ -11441,8 +11441,8 @@
 19	chur	cur	NOUN	NOUN	_	13	xcomp	_	_
 20	ar	ar	ADP	ADP	_	21	case	_	_
 21	C.D.	C.D.	X	X	_	19	nmod	_	_
-+++22	Is	is	VERB	VERB	_	23	cop	_	_+++
-23	tríd	trí	ADP	ADP	_	1	ccomp	_	_
+22	Is	is	VERB	VERB	_	23	cop	_	_
+23	tríd	trí	ADP	ADP	_	2	ccomp	_	_
 24	an	an	DET	DET	_	25	det	_	_
 25	bhfulaingt	fulaingt	NOUN	NOUN	_	23	nmod	_	_
 26	a	a	PART	PART	_	27	mark:prt	_	_
@@ -11452,7 +11452,7 @@
 30	na	na	DET	DET	_	31	det	_	_
 31	timpeallachta	timpeallacht	NOUN	NOUN	_	29	compound	_	_
 32	creidimh	creideamh	NOUN	NOUN	_	31	compound	_	_
-33	.	.	PUNCT	PUNCT	_	1	punct	_	_
+33	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Seans	seans	NOUN	NOUN	_	3	compound	_	_
 2	gur	gur	PART	PART	_	3	mark:prt	_	_
@@ -11684,7 +11684,7 @@
 23	sin	sin	DET	DET	_	22	det	_	_
 24	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	dóigh	dóigh	NOUN	NOUN	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
 4	go	go	PART	PART	_	5	mark:prt	_	_
@@ -11693,7 +11693,7 @@
 7	ar	ar	ADP	ADP	_	9	case	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	gcainteoir	cainteoir	NOUN	NOUN	_	5	nmod	_	_
-+++10	ba	is	VERB	VERB	_	11	cop	_	_+++
+10	ba	is	VERB	VERB	_	11	cop	_	_
 11	chruthaithí	cruthaitheach	ADJ	ADJ	_	9	ccomp	_	_
 12	dá	dá	SCONJ	SCONJ	_	13	mark	_	_
 13	raibh	bí	VERB	VERB	_	5	advcl	_	_
@@ -11707,9 +11707,9 @@
 21	nó	nó	CONJ	CONJ	_	19	cc	_	_
 22	i	i	ADP	ADP	_	19	conj	_	_
 23	nGaeilge	Gaeilge	PROPN	PROPN	_	22	nmod	_	_
-24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	4	cop	_	_+++
+1	Is	is	VERB	VERB	_	4	cop	_	_
 2	í	í	PRON	PRON	_	4	nmod	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	difríocht	difríocht	NOUN	NOUN	_	0	ROOT	_	_
@@ -11744,7 +11744,7 @@
 33	athréimniú	réimniú	NOUN	NOUN	_	32	nsubj	_	_
 34	na	na	DET	DET	_	35	det	_	_
 35	hEabhraise	heabhraise	NOUN	NOUN	_	33	compound	_	_
-36	.	.	PUNCT	PUNCT	_	1	punct	_	_
+36	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	De	de	ADP	ADP	_	2	case	_	_
 2	réir	réir	NOUN	NOUN	_	6	nmod	_	_
@@ -11795,7 +11795,7 @@
 47	phleanannaí	phleanannaí	NOUN	NOUN	_	45	nmod	_	_
 48	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	4	cop	_	_+++
+1	Is	is	VERB	VERB	_	4	cop	_	_
 2	í	í	PRON	PRON	_	4	nmod	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	phríomhchonstaic	constaic	NOUN	NOUN	_	0	ROOT	_	_
@@ -11803,8 +11803,8 @@
 6	bhí	bí	VERB	VERB	_	4	nsubj	_	_
 7	ann	i	ADP	ADP	_	6	xcomp:pred	_	_
 8	ná	ná	CONJ	CONJ	_	9	mark	_	_
-+++9	gur	is	VERB	VERB	_	10	cop	_	_+++
-10	eagraíocht	eagraíocht	NOUN	NOUN	_	1	advcl	_	_
+9	gur	is	VERB	VERB	_	10	cop	_	_
+10	eagraíocht	eagraíocht	NOUN	NOUN	_	4	advcl	_	_
 11	ina	i	PART	PART	_	12	dobj	_	_
 12	bhfuil	bí	VERB	VERB	_	10	acl:relcl	_	_
 13	dhá	dó	NUM	NUM	_	14	nummod	_	_
@@ -11828,9 +11828,9 @@
 31	riaradh	riaradh	NOUN	NOUN	_	30	nmod	_	_
 32	comórtais	comórtas	NOUN	NOUN	_	31	dobj	_	_
 33	idirchontae	contae	NOUN	NOUN	_	32	compound	_	_
-34	.	.	PUNCT	PUNCT	_	1	punct	_	_
+34	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	miosáir	miosáir	NOUN	NOUN	_	0	ROOT	_	_
 3	é	é	PRON	PRON	_	5	nmod	_	_
 4	an	an	DET	DET	_	5	det	_	_
@@ -11843,7 +11843,7 @@
 11	nó	nó	CONJ	CONJ	_	10	cc	_	_
 12	soláthair	soláthar	NOUN	NOUN	_	10	conj	_	_
 13	chumhachta	cumhacht	NOUN	NOUN	_	12	compound	_	_
-14	.	.	PUNCT	PUNCT	_	1	punct	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Coincleach	coincleach	NOUN	NOUN	_	2	compound	_	_
 2	Rinneadh	déan	VERB	VERB	_	0	ROOT	_	_
@@ -11910,13 +11910,13 @@
 1	Seán	Seán	PROPN	PROPN	_	0	ROOT	_	_
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	eisean	é	PRON	PRON	_	0	ROOT	_	_
 3	atá	bí	VERB	VERB	_	2	nsubj	_	_
 4	ag	ag	ADP	ADP	_	3	xcomp	_	_
 5	cabhrú	cabhrú	NOUN	NOUN	_	4	nmod	_	_
 ***6	liom	le	ADP	ADP	_	5	case	_	_***
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Conas	conas	ADV	ADV	_	0	ROOT	_	_
 2	atá	bí	VERB	VERB	_	1	nsubj	_	_
@@ -11995,7 +11995,7 @@
 10	i	i	ADP	ADP	_	11	case	_	_
 11	gcomhlacht	comhlacht	NOUN	NOUN	_	6	nmod	_	_
 12	Champabasso	Champabasso	PROPN	PROPN	_	11	compound	_	_
-+++13	gurbh	is	VERB	VERB	_	14	cop	_	_+++
+13	gurbh	is	VERB	VERB	_	14	cop	_	_
 14	olc	olc	ADJ	ADJ	_	6	ccomp	_	_
 15	a	a	PART	PART	_	16	mark:prt	_	_
 16	chuireadar	cuir	VERB	VERB	_	14	nsubj	_	_
@@ -12059,7 +12059,7 @@
 19	tútach	tútach	ADJ	ADJ	_	17	advmod	_	_
 20	le_go	le_go	SCONJ	SCONJ	_	21	mark	_	_
 21	sílfí	síl	VERB	VERB	_	1	advcl	_	_
-+++22	gur	is	VERB	VERB	_	23	cop	_	_+++
+22	gur	is	VERB	VERB	_	23	cop	_	_
 23	ar	ar	ADP	ADP	_	21	ccomp	_	_
 24	a	a	DET	DET	_	25	nmod:poss	_	_
 25	ghlúine	glúin	NOUN	NOUN	_	23	nmod	_	_
@@ -12067,15 +12067,15 @@
 27	bhí	bí	VERB	VERB	_	23	nsubj	_	_
 28	sé	sé	PRON	PRON	_	27	nsubj	_	_
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
-30	nó	nó	CONJ	CONJ	_	22	cc	_	_
+30	nó	nó	CONJ	CONJ	_	23	cc	_	_
 31	,	,	PUNCT	PUNCT	_	30	punct	_	_
 32	ar	ar	ADP	ADP	_	34	case	_	_
 33	a	a	DET	DET	_	34	nmod:poss	_	_
 34	laghad	laghad	NOUN	NOUN	_	37	nmod	_	_
 35	,	,	PUNCT	PUNCT	_	37	punct	_	_
 36	go	go	PART	PART	_	37	mark:prt	_	_
-37	dtuigfí	tuig	VERB	VERB	_	22	conj	_	_
-+++38	nach	is	VERB	VERB	_	39	cop	_	_+++
+37	dtuigfí	tuig	VERB	VERB	_	23	conj	_	_
+38	nach	is	VERB	VERB	_	39	cop	_	_
 39	ina	i	ADP	ADP	_	37	ccomp	_	_
 40	shuí	suí	NOUN	NOUN	_	39	nmod	_	_
 41	a	a	PART	PART	_	42	mark:prt	_	_
@@ -12110,17 +12110,17 @@
 ***25	acu	ag	ADP	ADP	_	5	case	_	_***
 26	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	3	cop	_	_+++
+1	Ba	is	VERB	VERB	_	3	cop	_	_
 2	í	í	PRON	PRON	_	3	nmod	_	_
 3	Dearbhla	Dearbhla	PROPN	PROPN	_	0	ROOT	_	_
-++++++4	Ní	is	VERB	VERB	_	3	name	_	_++++++
++++4	Ní	is	VERB	VERB	_	3	name	_	_+++
 5	Bhrolacháin	bhrolachán	NOUN	NOUN	_	3	name	_	_
 6	a	a	PART	PART	_	7	mark:prt	_	_
 7	léirigh	léirigh	VERB	VERB	_	3	nsubj	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	seó	seó	NOUN	NOUN	_	7	nsubj	_	_
 10	agus	agus	CONJ	CONJ	_	11	mark	_	_
-11	dar	dar	SCONJ	SCONJ	_	1	advcl	_	_
+11	dar	dar	SCONJ	SCONJ	_	3	advcl	_	_
 12	ndóigh	dóigh	NOUN	NOUN	_	11	xcomp:pred	_	_
 13	tá	bí	VERB	VERB	_	12	ccomp	_	_
 14	aithne	aithne	NOUN	NOUN	_	13	nsubj	_	_
@@ -12132,7 +12132,7 @@
 20	den	de	ADP	ADP	_	21	case	_	_
 21	scoth	scoth	NOUN	NOUN	_	19	nmod	_	_
 22	agus	agus	CONJ	CONJ	_	13	cc	_	_
-+++23	is	is	VERB	VERB	_	24	cop	_	_+++
+23	is	is	VERB	VERB	_	24	cop	_	_
 24	cuimhin	cuimhin	NOUN	NOUN	_	13	conj	_	_
 ***25	linn	le	ADP	ADP	_	24	case	_	_***
 26	ar	ar	ADP	ADP	_	27	case	_	_
@@ -12148,7 +12148,7 @@
 36	blianta	bliain	NOUN	NOUN	_	33	compound	_	_
 37	ó	ó	ADP	ADP	_	38	case	_	_
 38	shin	sin	PRON	PRON	_	36	nmod	_	_
-39	.	.	PUNCT	PUNCT	_	1	punct	_	_
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	Níl	bí	VERB	VERB	_	0	ROOT	_	_
@@ -12286,12 +12286,12 @@
 36	géara	géar	ADJ	ADJ	_	35	amod	_	_
 37	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	i	i	ADP	ADP	_	0	ROOT	_	_
 3	1987	1987	NUM	NUM	_	2	nmod	_	_
 4	fosta	fosta	ADV	ADV	_	2	advmod	_	_
 5	a	a	PART	PART	_	6	mark:prt	_	_
-6	cuireadh	cuir	VERB	VERB	_	1	nsubj	_	_
+6	cuireadh	cuir	VERB	VERB	_	2	nsubj	_	_
 7	tús	tús	NOUN	NOUN	_	6	dobj	_	_
 8	le	le	ADP	ADP	_	9	case	_	_
 9	sraith	sraith	NOUN	NOUN	_	6	nmod	_	_
@@ -12313,7 +12313,7 @@
 25	fórsaí	fórsa	NOUN	NOUN	_	23	nmod	_	_
 26	na	na	DET	DET	_	27	det	_	_
 27	Breataine	Breatain	PROPN	PROPN	_	25	compound	_	_
-28	.	.	PUNCT	PUNCT	_	1	punct	_	_
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Máirseach	máirseach	NOUN	NOUN	_	0	ROOT	_	_
 2	Sergeant	Sergeant	PROPN	PROPN	_	1	compound	_	_
@@ -12323,7 +12323,7 @@
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	(3)	(3)	X	X	_	2	nummod	_	_
-+++2	Is	is	VERB	VERB	_	3	cop	_	_+++
+2	Is	is	VERB	VERB	_	3	cop	_	_
 3	saoránach	saoránach	NOUN	NOUN	_	0	ROOT	_	_
 4	Éireannach	Éireannach	ADJ	ADJ	_	3	amod	_	_
 5	óna	ó	ADP	ADP	_	6	case	_	_
@@ -12331,7 +12331,7 @@
 7	no	no	NOUN	NOUN	_	5	cc	_	_
 8	óna	ó	ADP	ADP	_	5	conj	_	_
 9	breith	breith	NOUN	NOUN	_	8	nmod	_	_
-10	duine	duine	NOUN	NOUN	_	2	nsubj	_	_
+10	duine	duine	NOUN	NOUN	_	3	nsubj	_	_
 11	a	a	PART	PART	_	12	dobj	_	_
 12	bheirtear	beir	VERB	VERB	_	10	acl:relcl	_	_
 13	in	i	ADP	ADP	_	14	case	_	_
@@ -12339,7 +12339,7 @@
 15	na	na	DET	DET	_	16	det	_	_
 16	hÉireann	Éire	PROPN	PROPN	_	14	compound	_	_
 17	mura	mura	SCONJ	SCONJ	_	18	mark	_	_
-18	bhfuil	bí	VERB	VERB	_	2	advcl	_	_
+18	bhfuil	bí	VERB	VERB	_	3	advcl	_	_
 19	sé	sé	PRON	PRON	_	18	nsubj	_	_
 20	nó	nó	CONJ	CONJ	_	19	cc	_	_
 21	sí	sí	PRON	PRON	_	19	conj	_	_
@@ -12354,7 +12354,7 @@
 ***30	aige	ag	ADP	ADP	_	29	case	_	_***
 31	nó	nó	CONJ	CONJ	_	30	cc	_	_
 32	aici	ag	ADP	ADP	_	30	conj	_	_
-33	.	.	PUNCT	PUNCT	_	2	punct	_	_
+33	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Céimeanna	céim	NOUN	NOUN	_	0	ROOT	_	_
 2	comparáide	comparáid	NOUN	NOUN	_	1	compound	_	_
@@ -12556,7 +12556,7 @@
 7	alt	alt	NOUN	NOUN	_	4	nmod	_	_
 8	seo	seo	DET	DET	_	7	det	_	_
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-+++10	is	is	VERB	VERB	_	11	cop	_	_+++
+10	is	is	VERB	VERB	_	11	cop	_	_
 11	iad	iad	PRON	PRON	_	0	ROOT	_	_
 12	a	a	PART	PART	_	13	nsubj	_	_
 13	bheidh	bí	VERB	VERB	_	11	acl:relcl	_	_
@@ -12565,17 +12565,17 @@
 16	mBuanchoiste	buanchoiste	NOUN	NOUN	_	13	nmod	_	_
 17	Eolaíochta	eolaíocht	NOUN	NOUN	_	16	compound	_	_
 18	cibé	cibé	DET	DET	_	19	det	_	_
-19	líon	líon	NOUN	NOUN	_	10	nsubj	_	_
+19	líon	líon	NOUN	NOUN	_	11	nsubj	_	_
 20	comhaltaí	comhalta	NOUN	NOUN	_	19	compound	_	_
-+++21	is	is	VERB	VERB	_	22	cop	_	_+++
+21	is	is	VERB	VERB	_	22	cop	_	_
 22	cuí	cuí	ADJ	ADJ	_	19	ccomp	_	_
 23	leis	le	ADP	ADP	_	25	case	_	_
 24	an	an	DET	DET	_	25	det	_	_
 25	gCoimisiún	gcoimisiún	NOUN	NOUN	_	22	nmod	_	_
 26	agus	agus	CONJ	CONJ	_	27	mark	_	_
-27	féadfar	féad	VERB	VERB	_	10	advcl	_	_
+27	féadfar	féad	VERB	VERB	_	11	advcl	_	_
 28	daoine	duine	NOUN	NOUN	_	34	dobj	_	_
-+++29	nach	is	VERB	VERB	_	30	cop	_	_+++
+29	nach	is	VERB	VERB	_	30	cop	_	_
 30	comhaltaí	comhalta	NOUN	NOUN	_	28	ccomp	_	_
 31	den	de	ADP	ADP	_	32	case	_	_
 32	Choimisiún	choimisiún	NOUN	NOUN	_	30	nmod	_	_
@@ -12584,9 +12584,9 @@
 35	ar	ar	ADP	ADP	_	37	case	_	_
 36	a	a	DET	DET	_	37	nmod:poss	_	_
 37	chomhaltaí	comhalta	NOUN	NOUN	_	34	nmod	_	_
-38	.	.	PUNCT	PUNCT	_	10	punct	_	_
+38	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	iad	iad	PRON	PRON	_	0	ROOT	_	_
 3	a	a	PART	PART	_	4	mark:prt	_	_
 4	bheidh	bí	VERB	VERB	_	2	nsubj	_	_
@@ -12597,7 +12597,7 @@
 9	coistí	coiste	NOUN	NOUN	_	6	nmod	_	_
 10	sin	sin	DET	DET	_	9	det	_	_
 11	ná	ná	CONJ	CONJ	_	12	mark	_	_
-12	comhaltaí	comhalta	NOUN	NOUN	_	1	compound	_	_
+12	comhaltaí	comhalta	NOUN	NOUN	_	2	compound	_	_
 13	tofa	tofa	ADJ	ADJ	_	12	amod	_	_
 14	an	an	DET	DET	_	15	det	_	_
 15	údaráis	údarás	NOUN	NOUN	_	12	compound	_	_
@@ -12607,7 +12607,7 @@
 19	bheidh	bí	VERB	VERB	_	17	acl:relcl	_	_
 20	i	i	ADP	ADP	_	19	xcomp:pred	_	_
 21	gceist	ceist	NOUN	NOUN	_	20	nmod	_	_
-22	.	.	PUNCT	PUNCT	_	1	punct	_	_
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	(	(	PUNCT	PUNCT	_	2	punct	_	_
 2	1A	1A	X	X	_	5	nummod	_	_
@@ -12810,7 +12810,7 @@
 115	haghaidh	aghaidh	NOUN	NOUN	_	113	nmod	_	_
 116	fanachta	fanacht	NOUN	NOUN	_	115	compound	_	_
 117	bheartaithe	beartaithe	ADJ	ADJ	_	116	amod	_	_
-+++118	nach	is	VERB	VERB	_	119	cop	_	_+++
+118	nach	is	VERB	VERB	_	119	cop	_	_
 119	mó	mó	ADJ	ADJ	_	116	acl:relcl	_	_
 120	ná	ná	SCONJ	SCONJ	_	122	mark	_	_
 121	trí	trí	NUM	NUM	_	122	nummod	_	_
@@ -12900,7 +12900,7 @@
 205	mBallstát	stát	NOUN	NOUN	_	203	compound	_	_
 206	le_linn	le_linn	ADP	ADP	_	207	case	_	_
 207	tréimhse	tréimhse	NOUN	NOUN	_	195	nmod	_	_
-+++208	nach	is	VERB	VERB	_	209	cop	_	_+++
+208	nach	is	VERB	VERB	_	209	cop	_	_
 209	mó	mó	ADJ	ADJ	_	207	ccomp	_	_
 210	ná	ná	SCONJ	SCONJ	_	212	mark	_	_
 211	trí	trí	NUM	NUM	_	212	nummod	_	_
@@ -12990,7 +12990,7 @@
 66	)	)	PUNCT	PUNCT	_	65	punct	_	_
 67	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	leor	leor	ADJ	ADJ	_	0	ROOT	_	_
 3	breathnú	breathnú	NOUN	NOUN	_	2	nsubj	_	_
 4	ar	ar	ADP	ADP	_	5	case	_	_
@@ -13003,7 +13003,7 @@
 11	matamaitice	matamaitic	NOUN	NOUN	_	8	conj	_	_
 12	chun	chun	ADP	ADP	_	14	case	_	_
 13	a	a	PART	PART	_	14	mark	_	_
-14	fheiceáil	fheiceáil	NOUN	NOUN	_	1	nmod	_	_
+14	fheiceáil	fheiceáil	NOUN	NOUN	_	2	nmod	_	_
 15	gur	gur	PART	PART	_	16	mark:prt	_	_
 16	thit	tit	VERB	VERB	_	14	ccomp	_	_
 17	na	na	DET	DET	_	18	det	_	_
@@ -13026,7 +13026,7 @@
 34	tíre	tír	NOUN	NOUN	_	32	compound	_	_
 35	san	i	ADP	ADP	_	36	case	_	_
 36	iomlán	iomlán	NOUN	NOUN	_	26	nmod	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -13062,7 +13062,7 @@
 21	siúl	siúl	NOUN	NOUN	_	19	nmod	_	_
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-++1	B'	is	VERB	VERB	_	12	cop	_	_++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	liomsa	le	ADP	ADP	_	2	case	_	_***
 4	maraithe	maraithe	ADJ	ADJ	_	2	nsubj	_	_
@@ -13073,7 +13073,7 @@
 9	dtalamh	talamh	NOUN	NOUN	_	4	nmod	_	_
 10	Ná	ná	CONJ	CONJ	_	12	mark	_	_
 11	a	a	PART	PART	_	12	mark	_	_
-12	bheith	bheith	NOUN	NOUN	_	2	cop	_	_
+12	bheith	bheith	NOUN	NOUN	_	2	xcomp	_	_
 13	beo	beo	ADJ	ADJ	_	12	xcomp:pred	_	_
 14	roimh	roimh	ADP	ADP	_	16	case	_	_
 15	an	an	DET	DET	_	16	det	_	_
@@ -13083,7 +13083,7 @@
 19	ndán	dán	NOUN	NOUN	_	18	nmod	_	_
 20	dom	do	ADP	ADP	_	19	compound	_	_
 21	Má	má	SCONJ	SCONJ	_	22	mark	_	_
-22	tá	bí	VERB	VERB	_	12	advcl	_	_
+22	tá	bí	VERB	VERB	_	2	advcl	_	_
 23	sí	sí	PRON	PRON	_	22	nsubj	_	_
 24	sa	i	ADP	ADP	_	22	xcomp:pred	_	_
 25	bpobal	pobal	NOUN	NOUN	_	24	nmod	_	_
@@ -13103,7 +13103,7 @@
 39	le	le	ADP	ADP	_	38	xcomp	_	_
 40	fáil	fáil	NOUN	NOUN	_	39	nmod	_	_
 41	í	í	PRON	PRON	_	38	dobj	_	_
-42	!	!	PUNCT	PUNCT	_	1	punct	_	_
+42	!	!	PUNCT	PUNCT	_	2	punct	_	_
 
 1	BUAIL	buail	VERB	VERB	_	0	ROOT	_	_
 2	AR	ar	ADP	ADP	_	4	case	_	_
@@ -13197,7 +13197,7 @@
 17	Uisnigh	Uisnigh	PROPN	PROPN	_	16	compound	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	agus	agus	CONJ	CONJ	_	11	cc	_	_
-+++20	is	is	VERB	VERB	_	21	cop	_	_+++
+20	is	is	VERB	VERB	_	21	cop	_	_
 21	róchosúil	cosúil	ADJ	ADJ	_	11	conj	_	_
 22	lena	le	ADP	ADP	_	23	case	_	_
 23	athair	athair	NOUN	NOUN	_	21	nmod	_	_
@@ -13213,14 +13213,14 @@
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Agus	agus	CONJ	CONJ	_	2	advmod	_	_
-+++2	b'	is	VERB	VERB	_	3	cop	_	_+++
+2	b'	is	VERB	VERB	_	3	cop	_	_
 3	in	i	ADP	ADP	_	0	ROOT	_	_
 4	mar	mar	SCONJ	SCONJ	_	6	mark	_	_
 5	a	a	PART	PART	_	6	mark:prt	_	_
 6	tharla	tarlaigh	VERB	VERB	_	3	advcl	_	_
-7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	é	é	PRON	PRON	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	difríocht	difríocht	NOUN	NOUN	_	2	nsubj	_	_
@@ -13233,7 +13233,7 @@
 11	gan	gan	ADP	ADP	_	14	case	_	_
 12	piocháin	piochán	NOUN	NOUN	_	14	dobj	_	_
 13	a	a	PART	PART	_	14	mark	_	_
-14	bheith	bheith	NOUN	NOUN	_	1	nmod	_	_
+14	bheith	bheith	NOUN	NOUN	_	2	nmod	_	_
 15	i	i	ADP	ADP	_	14	xcomp:pred	_	_
 16	mbogadhmaid	adhmad	NOUN	NOUN	_	15	nmod	_	_
 17	,	,	PUNCT	PUNCT	_	18	punct	_	_
@@ -13243,14 +13243,14 @@
 21	bheith	bheith	NOUN	NOUN	_	14	conj	_	_
 22	i	i	ADP	ADP	_	21	xcomp:pred	_	_
 23	gcrua-adhmaid	adhmad	NOUN	NOUN	_	22	nmod	_	_
-24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	mhaith	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
 4	gan	gan	ADP	ADP	_	2	nsubj	_	_
 5	fanacht	fanacht	NOUN	NOUN	_	4	nmod	_	_
-6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Gan	gan	ADP	ADP	_	3	case	_	_
 2	aon	aon	DET	DET	_	3	det	_	_
@@ -13288,7 +13288,7 @@
 
 1	Dúirt	abair	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
-+++3	gur	is	VERB	VERB	_	4	cop	_	_+++
+3	gur	is	VERB	VERB	_	4	cop	_	_
 4	múinteoir	múinteoir	NOUN	NOUN	_	1	ccomp	_	_
 5	é	é	PRON	PRON	_	4	nsubj	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -13331,7 +13331,7 @@
 36	é	é	PRON	PRON	_	33	nsubj	_	_
 37	nó	nó	CONJ	CONJ	_	36	cc	_	_
 38	í	í	PRON	PRON	_	36	conj	_	_
-+++39	is	is	VERB	VERB	_	40	cop	_	_+++
+39	is	is	VERB	VERB	_	40	cop	_	_
 40	comhpháirtí	páirteach	ADJ	ADJ	_	36	acl:relcl	_	_
 41	i	i	ADP	ADP	_	42	case	_	_
 42	dtrádáil	trádáil	NOUN	NOUN	_	40	nmod	_	_
@@ -13408,7 +13408,7 @@
 113	le	le	ADP	ADP	_	106	xcomp	_	_
 114	tabhairt	tabhairt	NOUN	NOUN	_	113	nmod	_	_
 115	,	,	PUNCT	PUNCT	_	116	punct	_	_
-+++116	gur	is	VERB	VERB	_	117	cop	_	_+++
+116	gur	is	VERB	VERB	_	117	cop	_	_
 117	comhpháirtí	páirtí	NOUN	NOUN	_	94	advcl	_	_
 118	gníomhach	gníomhach	ADJ	ADJ	_	117	amod	_	_
 119	i	i	ADP	ADP	_	120	case	_	_
@@ -13421,7 +13421,7 @@
 126	phearsa	pearsa	NOUN	NOUN	_	124	compound	_	_
 127	aonair	aonar	NOUN	NOUN	_	126	compound	_	_
 128	,	,	PUNCT	PUNCT	_	129	punct	_	_
-+++129	ní	is	VERB	VERB	_	130	cop	_	_+++
+129	ní	is	VERB	VERB	_	130	cop	_	_
 130	mó	mó	ADJ	ADJ	_	94	advcl	_	_
 131	méid	méid	NOUN	NOUN	_	130	nsubj	_	_
 132	aon	aon	DET	DET	_	133	det	_	_
@@ -13454,10 +13454,10 @@
 159	IRP25,000	IRP25,000	NUM	NUM	_	156	nummod	_	_
 160	i	i	ADP	ADP	_	161	case	_	_
 161	gcás	cás	NOUN	NOUN	_	153	nmod	_	_
-+++162	gurb	is	VERB	VERB	_	163	cop	_	_+++
+162	gurb	is	VERB	VERB	_	163	cop	_	_
 163	é	é	PRON	PRON	_	161	compound	_	_
 164	A	a	X	X	_	163	compound	_	_
-165	méid	méid	NOUN	NOUN	_	162	nsubj	_	_
+165	méid	méid	NOUN	NOUN	_	163	nsubj	_	_
 166	bhrabúis	brabús	NOUN	NOUN	_	165	compound	_	_
 167	nó	nó	CONJ	CONJ	_	166	cc	_	_
 168	ghnóchain	ghnóchain	NOUN	NOUN	_	166	conj	_	_
@@ -13467,10 +13467,10 @@
 172	pearsan	pearsa	NOUN	NOUN	_	169	compound	_	_
 173	aonair	aonar	NOUN	NOUN	_	172	compound	_	_
 174	sa	i	ADP	ADP	_	175	case	_	_
-175	bhliain	bliain	NOUN	NOUN	_	162	nmod	_	_
+175	bhliain	bliain	NOUN	NOUN	_	163	nmod	_	_
 176	chaillteanais	caillteanas	NOUN	NOUN	_	175	compound	_	_
 177	sula	sula	SCONJ	SCONJ	_	178	mark	_	_
-178	gcuirtear	cuir	VERB	VERB	_	162	advcl	_	_
+178	gcuirtear	cuir	VERB	VERB	_	163	advcl	_	_
 179	alt	alt	NOUN	NOUN	_	178	dobj	_	_
 180	392	392	NUM	NUM	_	179	nummod	_	_
 181	(1)	(1)	NUM	NUM	_	179	nummod	_	_
@@ -13479,7 +13479,7 @@
 184	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Cé	cé	SCONJ	SCONJ	_	2	mark	_	_
-+++2	gur	is	VERB	VERB	_	3	cop	_	_+++
+2	gur	is	VERB	VERB	_	3	cop	_	_
 3	rogha	rogha	NOUN	NOUN	_	13	advcl	_	_
 4	na	na	DET	DET	_	5	det	_	_
 5	coitiantachta	coitiantacht	NOUN	NOUN	_	3	compound	_	_
@@ -13489,17 +13489,17 @@
 9	na	na	DET	DET	_	10	det	_	_
 10	Mumhan	Mumhan	PROPN	PROPN	_	8	compound	_	_
 11	a	a	PART	PART	_	12	mark	_	_
-12	thógáil	tógáil	NOUN	NOUN	_	2	nmod	_	_
-+++13	is	is	VERB	VERB	_	14	cop	_	_+++
+12	thógáil	tógáil	NOUN	NOUN	_	3	nmod	_	_
+13	is	is	VERB	VERB	_	14	cop	_	_
 14	beag	beag	ADJ	ADJ	_	0	ROOT	_	_
 15	atá	bí	VERB	VERB	_	14	nsubj	_	_
 16	idir	idir	ADP	ADP	_	15	xcomp:pred	_	_
 17	an	an	DET	DET	_	19	det	_	_
 18	dhá	dó	NUM	NUM	_	19	nummod	_	_
 19	fhoireann	foireann	NOUN	NOUN	_	16	nmod	_	_
-20	agus	agus	CONJ	CONJ	_	13	cc	_	_
-+++21	is	is	VERB	VERB	_	22	cop	_	_+++
-22	cinnte	cinnte	ADJ	ADJ	_	13	conj	_	_
+20	agus	agus	CONJ	CONJ	_	14	cc	_	_
+21	is	is	VERB	VERB	_	22	cop	_	_
+22	cinnte	cinnte	ADJ	ADJ	_	14	conj	_	_
 23	go	go	PART	PART	_	24	mark:prt	_	_
 24	mbeidh	bí	VERB	VERB	_	22	csubj:cop	_	_
 25	Nicky	Nicky	PROPN	PROPN	_	26	compound	_	_
@@ -13537,7 +13537,7 @@
 57	sheachtain	seachtain	NOUN	NOUN	_	42	nmod	_	_
 58	ó	ó	ADP	ADP	_	59	case	_	_
 59	shin	sin	PRON	PRON	_	57	nmod	_	_
-60	.	.	PUNCT	PUNCT	_	13	punct	_	_
+60	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
 1	Ní	ní	PART	PART	_	2	neg	_	_
 2	raibh	bí	VERB	VERB	_	0	ROOT	_	_
@@ -13608,7 +13608,7 @@
 1	Ach	ach	SCONJ	SCONJ	_	0	ROOT	_	_
 2	chruthaigh	cruthaigh	VERB	VERB	_	1	advcl	_	_
 3	sé	sé	PRON	PRON	_	2	nsubj	_	_
-+++4	gur	is	VERB	VERB	_	5	cop	_	_+++
+4	gur	is	VERB	VERB	_	5	cop	_	_
 5	féidir	féidir	NOUN	NOUN	_	2	ccomp	_	_
 6	a	a	PART	PART	_	7	mark	_	_
 7	dhéanamh	déanamh	NOUN	NOUN	_	5	csubj:cop	_	_
@@ -13690,7 +13690,7 @@
 18	sin	sin	PRON	PRON	_	17	compound	_	_
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	bíodh	bí	VERB	VERB	_	1	ccomp	_	_
-+++21	nach	is	VERB	VERB	_	22	cop	_	_+++
+21	nach	is	VERB	VERB	_	22	cop	_	_
 22	sos	sos	NOUN	NOUN	_	20	ccomp	_	_
 ***23	dó	do	ADP	ADP	_	22	case	_	_***
 24	ach	ach	SCONJ	SCONJ	_	22	mark	_	_
@@ -13714,7 +13714,7 @@
 2	inis	inis	VERB	VERB	_	0	ROOT	_	_
 3	mé	mé	PRON	PRON	_	2	nsubj	_	_
 ***4	di	do	ADP	ADP	_	2	case	_	_***
-+++5	gurbh	is	VERB	VERB	_	6	cop	_	_+++
+5	gurbh	is	VERB	VERB	_	6	cop	_	_
 6	iomaí	iomaí	DET	DET	_	2	ccomp	_	_
 7	athair	athair	NOUN	NOUN	_	6	nsubj	_	_
 8	agus	agus	CONJ	CONJ	_	7	cc	_	_
@@ -13874,7 +13874,7 @@
 1	Anois	anois	ADV	ADV	_	0	ROOT	_	_
 2	thuig	tuig	VERB	VERB	_	1	ccomp	_	_
 3	mé	mé	PRON	PRON	_	2	nsubj	_	_
-+++4	gurbh	is	VERB	VERB	_	5	cop	_	_+++
+4	gurbh	is	VERB	VERB	_	5	cop	_	_
 5	fhocail	focal	NOUN	NOUN	_	2	ccomp	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	chineál	cineál	NOUN	NOUN	_	5	nmod	_	_
@@ -13886,7 +13886,7 @@
 ***13	chugam	chuig	ADP	ADP	_	12	case	_	_***
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
 15	agus	agus	CONJ	CONJ	_	16	mark	_	_
-16	solas	solas	NOUN	NOUN	_	4	compound	_	_
+16	solas	solas	NOUN	NOUN	_	5	compound	_	_
 17	agus	agus	CONJ	CONJ	_	16	cc	_	_
 18	foghar	foghar	NOUN	NOUN	_	16	conj	_	_
 ***19	uathu	ó	ADP	ADP	_	16	case	_	_***
@@ -14179,7 +14179,7 @@
 19	1985	1985	NUM	NUM	_	17	conj	_	_
 20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	dóigh	dóigh	NOUN	NOUN	_	0	ROOT	_	_
 ***3	leis	le	ADP	ADP	_	2	case	_	_***
 4	go	go	PART	PART	_	5	mark:prt	_	_
@@ -14197,7 +14197,7 @@
 16	leis	le	ADP	ADP	_	18	case	_	_
 17	an	an	DET	DET	_	18	det	_	_
 18	Mhuircheartach	mhuircheartach	NOUN	NOUN	_	13	nmod	_	_
-19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ansin	ansin	ADV	ADV	_	0	ROOT	_	_
 2	déarfaidh	abair	VERB	VERB	_	1	ccomp	_	_
@@ -14207,7 +14207,7 @@
 6	líne	líne	NOUN	NOUN	_	2	dobj	_	_
 7	ar	ar	ADP	ADP	_	8	case	_	_
 8	bith	bith	NOUN	NOUN	_	6	nmod	_	_
-+++9	is	is	VERB	VERB	_	10	cop	_	_+++
+9	is	is	VERB	VERB	_	10	cop	_	_
 10	mian	mian	NOUN	NOUN	_	2	ccomp	_	_
 ***11	leis	le	ADP	ADP	_	10	case	_	_***
 12	ón	ó	ADP	ADP	_	13	case	_	_
@@ -14443,7 +14443,7 @@
 
 1	Anois	anois	ADV	ADV	_	0	ROOT	_	_
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
-+++3	ní	is	VERB	VERB	_	4	cop	_	_+++
+3	ní	is	VERB	VERB	_	4	cop	_	_
 4	mór	mór	ADJ	ADJ	_	1	ccomp	_	_
 ***5	dó	do	ADP	ADP	_	4	case	_	_***
 6	an	an	DET	DET	_	7	det	_	_
@@ -14453,7 +14453,7 @@
 10	ar_ais	ar_ais	ADV	ADV	_	9	advmod	_	_
 11	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhearr	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	leis	le	ADP	ADP	_	2	case	_	_***
 4	go	go	PART	PART	_	5	mark:prt	_	_
@@ -14467,7 +14467,7 @@
 12	cheilt	ceilt	NOUN	NOUN	_	10	nmod	_	_
 13	é	é	PRON	PRON	_	10	dobj	_	_
 14	nó	nó	CONJ	CONJ	_	15	mark	_	_
-15	bhí	bí	VERB	VERB	_	1	advcl	_	_
+15	bhí	bí	VERB	VERB	_	2	advcl	_	_
 16	eagla	eagla	NOUN	NOUN	_	15	nsubj	_	_
 ***17	air	ar	ADP	ADP	_	15	case	_	_***
 18	go	go	PART	PART	_	19	mark:prt	_	_
@@ -14478,7 +14478,7 @@
 23	aghaidh	aghaidh	NOUN	NOUN	_	21	nmod	_	_
 24	duine	duine	NOUN	NOUN	_	23	compound	_	_
 25	éigin	éigin	ADJ	ADJ	_	24	amod	_	_
-26	.	.	PUNCT	PUNCT	_	1	punct	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -14509,7 +14509,7 @@
 5	mo	mo	DET	DET	_	6	nmod:poss	_	_
 6	mháthair	máthair	NOUN	NOUN	_	2	nmod	_	_
 7	cad	cad	PRON	PRON	_	8	dobj	_	_
-+++8	ba	is	VERB	VERB	_	9	cop	_	_+++
+8	ba	is	VERB	VERB	_	9	cop	_	_
 9	bhun	bun	NOUN	NOUN	_	2	ccomp	_	_
 10	leis	le	ADP	ADP	_	12	case	_	_
 11	an	an	DET	DET	_	12	det	_	_
@@ -14554,14 +14554,14 @@
 6	ag	ag	ADP	ADP	_	3	xcomp	_	_
 7	amharc	amharc	NOUN	NOUN	_	6	nmod	_	_
 ***8	orthu	ar	ADP	ADP	_	7	case	_	_***
-+++9	ba	is	VERB	VERB	_	12	cop	_	_+++
+9	ba	is	VERB	VERB	_	12	cop	_	_
 10	é	é	PRON	PRON	_	12	nmod	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	smaointiú	smaointiú	NOUN	NOUN	_	0	ROOT	_	_
 13	a	a	PART	PART	_	14	nsubj	_	_
 14	tháinig	tar	VERB	VERB	_	12	acl:relcl	_	_
 ***15	chugam	chuig	ADP	ADP	_	14	case	_	_***
-+++16	gur	is	VERB	VERB	_	18	cop	_	_+++
+16	gur	is	VERB	VERB	_	18	cop	_	_
 17	a	a	DET	DET	_	18	nmod:poss	_	_
 18	leithéid	leithéid	NOUN	NOUN	_	12	nsubj	_	_
 19	seo	seo	PRON	PRON	_	18	det	_	_
@@ -14583,7 +14583,7 @@
 35	hart	hart	NOUN	NOUN	_	30	nmod	_	_
 36	an	an	DET	DET	_	37	det	_	_
 37	dathadóra	dathadóir	NOUN	NOUN	_	35	compound	_	_
-38	.	.	PUNCT	PUNCT	_	9	punct	_	_
+38	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 1	(a)	(a)	X	X	_	2	nummod	_	_
 2	Ospideul	Ospideul	PROPN	PROPN	_	0	ROOT	_	_
@@ -14695,20 +14695,20 @@
 5	chnámha	cnámh	NOUN	NOUN	_	1	nmod	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	múinteoir	múinteoir	NOUN	NOUN	_	0	ROOT	_	_
 3	é	é	PRON	PRON	_	2	nsubj	_	_
-4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	mhaith	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
 4	cáca	cáca	NOUN	NOUN	_	6	dobj	_	_
 5	a	a	PART	PART	_	6	mark	_	_
 6	dhéanamh	déanamh	NOUN	NOUN	_	2	nsubj	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	fios	fios	NOUN	NOUN	_	0	ROOT	_	_
 3	cén	cé	PRON	PRON	_	2	nsubj	_	_
 4	toradh	toradh	NOUN	NOUN	_	3	xcomp:pred	_	_
@@ -14717,15 +14717,15 @@
 ***7	air	ar	ADP	ADP	_	6	case	_	_***
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	má	má	SCONJ	SCONJ	_	10	mark	_	_
-10	éiríonn	éirigh	VERB	VERB	_	1	advcl	_	_
+10	éiríonn	éirigh	VERB	VERB	_	2	advcl	_	_
 ***11	leis	le	ADP	ADP	_	10	case	_	_***
 12	ach	ach	SCONJ	SCONJ	_	13	mark	_	_
-13	tá	bí	VERB	VERB	_	1	advcl	_	_
+13	tá	bí	VERB	VERB	_	2	advcl	_	_
 14	rud	rud	NOUN	NOUN	_	13	nsubj	_	_
 15	amháin	amháin	ADJ	ADJ	_	14	amod	_	_
 16	cinnte	cinnte	ADJ	ADJ	_	13	xcomp:pred	_	_
 17	-	-	PUNCT	PUNCT	_	18	punct	_	_
-+++18	gur	is	VERB	VERB	_	19	cop	_	_+++
+18	gur	is	VERB	VERB	_	19	cop	_	_
 19	sna	i	ADP	ADP	_	13	ccomp	_	_
 20	cúirteanna	cúirt	NOUN	NOUN	_	19	nmod	_	_
 21	a	a	PART	PART	_	22	mark:prt	_	_
@@ -14734,12 +14734,12 @@
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
 25	ar_nós	ar_nós	ADP	ADP	_	27	mark	_	_
 26	ar	ar	PART	PART	_	27	mark:prt	_	_
-27	tharla	tarlaigh	VERB	VERB	_	18	advcl	_	_
+27	tharla	tarlaigh	VERB	VERB	_	19	advcl	_	_
 28	i	i	ADP	ADP	_	29	case	_	_
 29	gCás	cás	NOUN	NOUN	_	27	nmod	_	_
 30	X.	X.	X	X	_	29	compound	_	_
-+++31	Ní	is	VERB	VERB	_	32	cop	_	_+++
-32	gnó	gnó	NOUN	NOUN	_	1	ccomp	_	_
+31	Ní	is	VERB	VERB	_	32	cop	_	_
+32	gnó	gnó	NOUN	NOUN	_	2	ccomp	_	_
 33	don	do	ADP	ADP	_	34	case	_	_
 34	Stát	stát	NOUN	NOUN	_	32	nmod	_	_
 35	é	é	PRON	PRON	_	37	dobj	_	_
@@ -14747,14 +14747,14 @@
 37	threorú	treorú	NOUN	NOUN	_	32	nsubj	_	_
 ***38	dóibh	do	ADP	ADP	_	37	case	_	_***
 39	conas	conas	ADV	ADV	_	40	advmod	_	_
-+++40	ba	is	VERB	VERB	_	41	cop	_	_+++
+40	ba	is	VERB	VERB	_	41	cop	_	_
 41	chóir	cóir	ADJ	ADJ	_	37	ccomp	_	_
 ***42	dóibh	do	ADP	ADP	_	41	case	_	_***
 43	préamhú	préamhú	NOUN	NOUN	_	41	nsubj	_	_
 44	as	as	ADP	ADP	_	46	case	_	_
 45	an	an	DET	DET	_	46	det	_	_
 46	nua	nua	ADJ	ADJ	_	43	nmod	_	_
-47	.	.	PUNCT	PUNCT	_	1	punct	_	_
+47	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Déroinn	déroinn	NOUN	NOUN	_	0	ROOT	_	_
 2	[	[	PUNCT	PUNCT	_	3	punct	_	_
@@ -14772,14 +14772,14 @@
 2	na	na	DET	DET	_	3	det	_	_
 3	tíortha	tír	NOUN	NOUN	_	1	nsubj	_	_
 4	sin	sin	DET	DET	_	3	det	_	_
-+++5	gur	is	VERB	VERB	_	6	cop	_	_+++
+5	gur	is	VERB	VERB	_	6	cop	_	_
 6	coinníoll	coinníoll	NOUN	NOUN	_	1	ccomp	_	_
 7	fíor-riachtanach	riachtanach	ADJ	ADJ	_	6	amod	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	t-athneartú	neartú	NOUN	NOUN	_	6	nsubj	_	_
 10	sin	sin	DET	DET	_	9	det	_	_
 11	do	do	ADP	ADP	_	12	case	_	_
-12	chlabhsúr	clabhsúr	NOUN	NOUN	_	5	nmod	_	_
+12	chlabhsúr	clabhsúr	NOUN	NOUN	_	6	nmod	_	_
 13	na	na	DET	DET	_	15	det	_	_
 14	chéad	céad	NUM	NUM	_	15	nummod	_	_
 15	chaibidlíochta	chaibidlíocht	NOUN	NOUN	_	12	compound	_	_
@@ -14814,7 +14814,7 @@
 26	ar	ar	ADP	ADP	_	21	xcomp:pred	_	_
 27	an	an	DET	DET	_	28	det	_	_
 28	gceann	ceann	NOUN	NOUN	_	26	nmod	_	_
-+++29	ba	is	VERB	VERB	_	30	cop	_	_+++
+29	ba	is	VERB	VERB	_	30	cop	_	_
 30	rathúla	rathúil	ADJ	ADJ	_	28	acl:relcl	_	_
 31	sa	i	ADP	ADP	_	32	case	_	_
 32	tír	tír	NOUN	NOUN	_	30	nmod	_	_
@@ -15036,7 +15036,7 @@
 5	den	de	ADP	ADP	_	6	case	_	_
 6	scoth	scoth	NOUN	NOUN	_	4	nmod	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
-+++8	b'	is	VERB	VERB	_	9	cop	_	_+++
+8	b'	is	VERB	VERB	_	9	cop	_	_
 9	iontach	iontach	ADJ	ADJ	_	0	ROOT	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	cúnamh	cúnamh	NOUN	NOUN	_	9	nsubj	_	_
@@ -15054,7 +15054,7 @@
 23	camógaíochta	camógaíocht	NOUN	NOUN	_	22	compound	_	_
 24	,	,	PUNCT	PUNCT	_	25	punct	_	_
 25	inar	i	PART	PART	_	26	case	_	_
-26	ghearr	gearr	NOUN	NOUN	_	8	nmod	_	_
+26	ghearr	gearr	NOUN	NOUN	_	9	nmod	_	_
 27	go	go	PART	PART	_	28	mark:prt	_	_
 28	raibh	bí	VERB	VERB	_	26	ccomp	_	_
 29	mé	mé	PRON	PRON	_	28	nsubj	_	_
@@ -15062,7 +15062,7 @@
 31	sa	i	ADP	ADP	_	28	xcomp:pred	_	_
 32	chéad	céad	NUM	NUM	_	33	nummod	_	_
 33	líne	líne	NOUN	NOUN	_	31	nmod	_	_
-34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+34	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 1	Leoga	leoga	ITJ	ITJ	_	3	discourse	_	_
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -15089,7 +15089,7 @@
 23	2001	2001	NUM	NUM	_	17	nmod	_	_
 24	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	i	i	ADP	ADP	_	0	ROOT	_	_
 3	1993	1993	NUM	NUM	_	2	nmod	_	_
 4	agus	agus	CONJ	CONJ	_	5	mark	_	_
@@ -15112,12 +15112,12 @@
 21	bhunscoil	bunscoil	NOUN	NOUN	_	19	nmod	_	_
 ***22	ann	i	ADP	ADP	_	21	case	_	_***
 23	a	a	PART	PART	_	24	mark:prt	_	_
-24	cuireadh	cuir	VERB	VERB	_	1	nsubj	_	_
+24	cuireadh	cuir	VERB	VERB	_	2	nsubj	_	_
 25	in	i	ADP	ADP	_	26	case	_	_
 26	iúl	iúl	NOUN	NOUN	_	24	nmod	_	_
 27	don	do	ADP	ADP	_	28	case	_	_
 28	Bhr	Bhr	X	X	_	24	nmod	_	_
-29	.	.	PUNCT	PUNCT	_	1	punct	_	_
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Beidh	bí	VERB	VERB	_	0	ROOT	_	_
 2	imeachtaí	imeacht	NOUN	NOUN	_	1	nsubj	_	_
@@ -15200,7 +15200,7 @@
 27	measc	measc	NOUN	NOUN	_	13	nmod	_	_
 28	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-+++1	Níorbh	is	VERB	VERB	_	2	cop	_	_+++
+1	Níorbh	is	VERB	VERB	_	2	cop	_	_
 2	eol	eol	NOUN	NOUN	_	0	ROOT	_	_
 3	d'	do	ADP	ADP	_	4	case	_	_
 4	éinne	duine	NOUN	NOUN	_	2	nmod	_	_
@@ -15239,7 +15239,7 @@
 37	bheadh	bí	VERB	VERB	_	30	conj	_	_
 38	in	i	ADP	ADP	_	37	xcomp:pred	_	_
 39	eangach	eangach	NOUN	NOUN	_	38	nmod	_	_
-40	.	.	PUNCT	PUNCT	_	1	punct	_	_
+40	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Cén	cé	PRON	PRON	_	0	ROOT	_	_
 2	dearcadh	dearcadh	NOUN	NOUN	_	1	xcomp:pred	_	_
@@ -15279,7 +15279,7 @@
 20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Níor	is	VERB	VERB	_	3	cop	_	_+++
+2	Níor	is	VERB	VERB	_	3	cop	_	_
 3	cheart	ceart	ADJ	ADJ	_	0	ROOT	_	_
 4	go	go	PART	PART	_	5	mark:prt	_	_
 5	mbeadh	bí	VERB	VERB	_	3	ccomp	_	_
@@ -15302,7 +15302,7 @@
 22	féin	féin	NOUN	NOUN	_	21	compound	_	_
 23	a	a	PART	PART	_	24	mark	_	_
 24	fhorbairt	forbairt	NOUN	NOUN	_	19	nmod	_	_
-25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Féach	féach	VERB	VERB	_	0	ROOT	_	_
 2	ar	ar	ADP	ADP	_	4	case	_	_
@@ -15381,14 +15381,14 @@
 17	chaoi	caoi	NOUN	NOUN	_	20	nmod	_	_
 18	ar	ar	ADP	ADP	_	19	case	_	_
 19	bith	bith	NOUN	NOUN	_	17	nmod	_	_
-+++20	b'	is	VERB	VERB	_	21	cop	_	_+++
+20	b'	is	VERB	VERB	_	21	cop	_	_
 21	fhurusta	furasta	ADJ	ADJ	_	1	advcl	_	_
 22	cead	cead	NOUN	NOUN	_	25	dobj	_	_
 23	eisceachta	eisceacht	NOUN	NOUN	_	22	compound	_	_
 24	a	a	PART	PART	_	25	mark	_	_
 25	fháil	fáil	NOUN	NOUN	_	21	nsubj	_	_
 26	de_bharr	de_bharr	ADP	ADP	_	27	case	_	_
-27	easláinte	easláinte	NOUN	NOUN	_	20	nmod	_	_
+27	easláinte	easláinte	NOUN	NOUN	_	21	nmod	_	_
 28	,	,	PUNCT	PUNCT	_	29	punct	_	_
 29	nó	nó	CONJ	CONJ	_	27	cc	_	_
 30	sclábhaíocht	sclábhaíocht	NOUN	NOUN	_	27	conj	_	_
@@ -15467,7 +15467,7 @@
 45	II	II	NUM	NUM	_	44	nummod	_	_
 46	thíos	thíos	ADV	ADV	_	44	advmod	_	_
 47	)	)	PUNCT	PUNCT	_	42	punct	_	_
-+++48	Ba	is	VERB	VERB	_	49	cop	_	_+++
+48	Ba	is	VERB	VERB	_	49	cop	_	_
 49	mhór	mór	ADJ	ADJ	_	1	ccomp	_	_
 50	an	an	DET	DET	_	51	det	_	_
 51	chabhair	cabhair	NOUN	NOUN	_	49	nsubj	_	_
@@ -15559,7 +15559,7 @@
 2	an	an	DET	DET	_	3	det	_	_
 3	fáth	fáth	NOUN	NOUN	_	1	nsubj	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
-+++5	is	is	VERB	VERB	_	6	cop	_	_+++
+5	is	is	VERB	VERB	_	6	cop	_	_
 6	léir	léir	ADJ	ADJ	_	1	ccomp	_	_
 7	go	go	PART	PART	_	8	mark:prt	_	_
 8	bhfuil	bí	VERB	VERB	_	6	ccomp	_	_
@@ -15572,8 +15572,8 @@
 15	an	an	DET	DET	_	16	det	_	_
 16	IDA	IDA	X	X	_	14	compound	_	_
 17	-	-	PUNCT	PUNCT	_	18	punct	_	_
-18	meastar	meas	VERB	VERB	_	5	parataxis	_	_
-+++19	gur	is	VERB	VERB	_	20	cop	_	_+++
+18	meastar	meas	VERB	VERB	_	6	parataxis	_	_
+19	gur	is	VERB	VERB	_	20	cop	_	_
 20	in	i	ADP	ADP	_	18	ccomp	_	_
 21	Éirinn	Éire	PROPN	PROPN	_	20	nmod	_	_
 22	a	a	PART	PART	_	23	mark:prt	_	_
@@ -15659,7 +15659,7 @@
 
 1	Ach	ach	SCONJ	SCONJ	_	3	advmod	_	_
 2	fós	fós	ADV	ADV	_	3	advmod	_	_
-+++3	ní	is	VERB	VERB	_	4	cop	_	_+++
+3	ní	is	VERB	VERB	_	4	cop	_	_
 4	mórán	mórán	NOUN	NOUN	_	0	ROOT	_	_
 5	dóchais	dóchas	NOUN	NOUN	_	4	nsubj	_	_
 6	atá	bí	VERB	VERB	_	5	acl:relcl	_	_
@@ -15672,7 +15672,7 @@
 13	ar	ar	ADP	ADP	_	14	case	_	_
 14	SEIF	SEIF	X	X	_	10	nmod	_	_
 15	riamh	riamh	ADV	ADV	_	10	advmod	_	_
-16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	zip	zip	X	X	_	0	ROOT	_	_
 2	(	(	PUNCT	PUNCT	_	4	punct	_	_
@@ -15844,7 +15844,7 @@
 17	a	a	PART	PART	_	18	mark:prt	_	_
 18	chonaic	feic	VERB	VERB	_	12	advcl	_	_
 19	sé	sé	PRON	PRON	_	18	nsubj	_	_
-+++20	nach	is	VERB	VERB	_	21	cop	_	_+++
+20	nach	is	VERB	VERB	_	21	cop	_	_
 21	Gaeilge	Gaeilge	PROPN	PROPN	_	18	ccomp	_	_
 22	a	a	PART	PART	_	23	mark:prt	_	_
 23	bhí	bí	VERB	VERB	_	21	nsubj	_	_
@@ -15853,16 +15853,16 @@
 ***26	uirthi	ar	ADP	ADP	_	23	case	_	_***
 27	,	,	PUNCT	PUNCT	_	28	punct	_	_
 28	ná	ná	CONJ	CONJ	_	29	mark	_	_
-29	fiú	fiú	NOUN	NOUN	_	20	advmod	_	_
-30	Gaeilge	Gaeilge	PROPN	PROPN	_	20	compound	_	_
+29	fiú	fiú	NOUN	NOUN	_	21	advmod	_	_
+30	Gaeilge	Gaeilge	PROPN	PROPN	_	21	compound	_	_
 31	agus	agus	CONJ	CONJ	_	30	cc	_	_
 32	Béarla	béarla	NOUN	NOUN	_	30	conj	_	_
 33	,	,	PUNCT	PUNCT	_	34	punct	_	_
 34	ach	ach	SCONJ	SCONJ	_	35	mark	_	_
-35	Béarla	béarla	NOUN	NOUN	_	20	compound	_	_
+35	Béarla	béarla	NOUN	NOUN	_	21	compound	_	_
 36	amháin	amháin	ADJ	ADJ	_	35	amod	_	_
 37	(	(	PUNCT	PUNCT	_	38	punct	_	_
-38	cé_is_moite	cé_is_moite	SCONJ	SCONJ	_	20	ccomp	_	_
+38	cé_is_moite	cé_is_moite	SCONJ	SCONJ	_	21	ccomp	_	_
 39	den	de	ADP	ADP	_	40	case	_	_
 40	leasainm	leasainm	NOUN	NOUN	_	38	nmod	_	_
 41	nó	nó	CONJ	CONJ	_	40	cc	_	_
@@ -15942,7 +15942,7 @@
 21	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 1	Agus	agus	CONJ	CONJ	_	2	advmod	_	_
-+++2	is	is	VERB	VERB	_	3	cop	_	_+++
+2	is	is	VERB	VERB	_	3	cop	_	_
 3	iomaí	iomaí	ADJ	ADJ	_	0	ROOT	_	_
 4	lá	lá	NOUN	NOUN	_	3	nsubj	_	_
 5	fada	fada	ADJ	ADJ	_	4	amod	_	_
@@ -15963,7 +15963,7 @@
 20	scoil	scoil	NOUN	NOUN	_	18	nmod	_	_
 21	seo	seo	DET	DET	_	20	det	_	_
 ***22	againne	ag	ADP	ADP	_	16	case	_	_***
-23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Tháinig	tar	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
@@ -16071,7 +16071,7 @@
 18	sé	sé	PRON	PRON	_	17	nsubj	_	_
 19	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	féidir	féidir	NOUN	NOUN	_	0	ROOT	_	_
 3	acmhainní	acmhainn	NOUN	NOUN	_	6	dobj	_	_
 4	nádúrtha	nádúrtha	ADJ	ADJ	_	3	amod	_	_
@@ -16087,7 +16087,7 @@
 14	agus	agus	CONJ	CONJ	_	12	cc	_	_
 15	acmhainní	acmhainn	NOUN	NOUN	_	12	conj	_	_
 16	neamh-athnuaite	neamh-athnuaite	ADJ	ADJ	_	15	amod	_	_
-17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	SLUA	slua	NOUN	NOUN	_	0	ROOT	_	_
@@ -16174,7 +16174,7 @@
 18	Teoranta	teoranta	ADJ	ADJ	_	17	amod	_	_
 19	Euro	Euro	PROPN	PROPN	_	17	compound	_	_
 20	5	5	NUM	NUM	_	19	nummod	_	_
-+++21	Is	is	VERB	VERB	_	23	cop	_	_+++
+21	Is	is	VERB	VERB	_	23	cop	_	_
 22	iad	iad	PRON	PRON	_	23	nmod	_	_
 23	Coiste	coiste	NOUN	NOUN	_	6	ccomp	_	_
 24	Dhaonscoil	daonscoil	NOUN	NOUN	_	23	compound	_	_
@@ -16196,7 +16196,7 @@
 40	chéile	céile	NOUN	NOUN	_	38	compound	_	_
 41	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	contúirt	contúirt	NOUN	NOUN	_	0	ROOT	_	_
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
 4	áfach	áfach	ADV	ADV	_	2	advmod	_	_
@@ -16205,10 +16205,10 @@
 7	iomarca	iomarca	NOUN	NOUN	_	10	dobj	_	_
 8	muiníne	muinín	NOUN	NOUN	_	7	compound	_	_
 9	a	a	PART	PART	_	10	mark	_	_
-10	chur	cur	NOUN	NOUN	_	1	nsubj	_	_
+10	chur	cur	NOUN	NOUN	_	2	nsubj	_	_
 11	i	i	ADP	ADP	_	12	case	_	_
 12	bpobalbhreith	pobalbhreith	NOUN	NOUN	_	10	nmod	_	_
-13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	11	punct	_	_
 2	Ó	ó	ADP	ADP	_	11	advmod	_	_
@@ -16452,7 +16452,7 @@
 37	súnás	súnás	NOUN	NOUN	_	34	conj	_	_
 38	(	(	PUNCT	PUNCT	_	39	punct	_	_
 39	agus	agus	CONJ	CONJ	_	9	cc	_	_
-+++40	ní	is	VERB	VERB	_	41	cop	_	_+++
+40	ní	is	VERB	VERB	_	41	cop	_	_
 41	samhnas	samhnas	NOUN	NOUN	_	9	conj	_	_
 42	mar	mar	SCONJ	SCONJ	_	41	nsubj	_	_
 43	a	a	PART	PART	_	44	mark:prt	_	_
@@ -16462,8 +16462,8 @@
 47	sa	i	ADP	ADP	_	48	case	_	_
 48	téacs	téacs	NOUN	NOUN	_	44	nmod	_	_
 49	é	é	PRON	PRON	_	44	dobj	_	_
-50	!	!	PUNCT	PUNCT	_	40	punct	_	_
-51	)	)	PUNCT	PUNCT	_	40	punct	_	_
+50	!	!	PUNCT	PUNCT	_	41	punct	_	_
+51	)	)	PUNCT	PUNCT	_	41	punct	_	_
 52	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Ar	ar	ADP	ADP	_	4	case	_	_
@@ -16506,7 +16506,7 @@
 
 1	Splándíd	Splándíd	PROPN	PROPN	_	0	ROOT	_	_
 2	:	:	PUNCT	PUNCT	_	3	punct	_	_
-+++3	Nach	is	VERB	VERB	_	4	cop	_	_+++
+3	Nach	is	VERB	VERB	_	4	cop	_	_
 4	iontach	iontach	ADJ	ADJ	_	1	ccomp	_	_
 5	sin	sin	PRON	PRON	_	4	nsubj	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -16587,10 +16587,10 @@
 3	ar_ais	ar_ais	ADV	ADV	_	2	advmod	_	_
 4	do	do	ADP	ADP	_	5	case	_	_
 5	Dhamien	Dhamien	PROPN	PROPN	_	2	nmod	_	_
-+++6	b'	is	VERB	VERB	_	7	cop	_	_+++
+6	b'	is	VERB	VERB	_	7	cop	_	_
 7	in	sin	PRON	PRON	_	2	ccomp	_	_
 8	roimhe	roimh	ADP	ADP	_	7	advmod	_	_
-9	é	é	PRON	PRON	_	6	nsubj	_	_
+9	é	é	PRON	PRON	_	7	nsubj	_	_
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
@@ -16677,9 +16677,9 @@
 25	níos	níos	NOUN	NOUN	_	26	mark:prt	_	_
 26	faide	fada	ADJ	ADJ	_	24	amod	_	_
 27	mar	mar	SCONJ	SCONJ	_	28	mark	_	_
-+++28	b'	is	VERB	VERB	_	29	cop	_	_+++
+28	b'	is	VERB	VERB	_	29	cop	_	_
 29	fhéidir	féidir	NOUN	NOUN	_	14	advcl	_	_
-+++30	gur	is	VERB	VERB	_	31	cop	_	_+++
+30	gur	is	VERB	VERB	_	31	cop	_	_
 31	raic	raic	NOUN	NOUN	_	29	csubj:cop	_	_
 32	eile	eile	DET	DET	_	31	det	_	_
 33	a	a	PART	PART	_	34	mark:prt	_	_
@@ -16689,7 +16689,7 @@
 37	bharr	barr	NOUN	NOUN	_	34	nmod	_	_
 38	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	3	cop	_	_+++
+1	Is	is	VERB	VERB	_	3	cop	_	_
 2	é	é	PRON	PRON	_	3	nmod	_	_
 3	atá	bí	VERB	VERB	_	0	ROOT	_	_
 4	i	i	ADP	ADP	_	3	xcomp:pred	_	_
@@ -16700,12 +16700,12 @@
 9	dheonacha	deonach	ADJ	ADJ	_	8	amod	_	_
 10	ná	ná	PART	PART	_	12	mark	_	_
 11	eagrais	eagras	NOUN	NOUN	_	10	nsubj	_	_
-+++12	nach	is	VERB	VERB	_	13	cop	_	_+++
+12	nach	is	VERB	VERB	_	13	cop	_	_
 13	eagrais	eagras	NOUN	NOUN	_	3	advcl	_	_
 14	Stáit	stát	NOUN	NOUN	_	13	compound	_	_
 15	iad	iad	PRON	PRON	_	13	nsubj	_	_
 16	'	'	PUNCT	PUNCT	_	15	punct	_	_
-17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Níos	níos	NOUN	NOUN	_	2	mark:prt	_	_
 2	práinní	práinneach	ADJ	ADJ	_	5	amod	_	_
@@ -16750,7 +16750,7 @@
 15	mó	mór	ADJ	ADJ	_	16	amod	_	_
 16	uair	uair	NOUN	NOUN	_	10	compound	_	_
 17	ná	ná	CONJ	CONJ	_	18	mark	_	_
-+++18	ba	is	VERB	VERB	_	19	cop	_	_+++
+18	ba	is	VERB	VERB	_	19	cop	_	_
 19	ghnách	gnách	ADJ	ADJ	_	10	advcl	_	_
 ***20	léi	le	ADP	ADP	_	19	case	_	_***
 21	,	,	PUNCT	PUNCT	_	19	punct	_	_
@@ -16881,9 +16881,9 @@
 1	Táthar	bí	VERB	VERB	_	0	ROOT	_	_
 2	á	do	ADP	ADP	_	1	xcomp	_	_
 3	rá	rá	NOUN	NOUN	_	2	nmod	_	_
-+++4	gurb	is	VERB	VERB	_	5	cop	_	_+++
+4	gurb	is	VERB	VERB	_	5	cop	_	_
 5	í	í	PRON	PRON	_	3	ccomp	_	_
-+++6	is	is	VERB	VERB	_	7	cop	_	_+++
+6	is	is	VERB	VERB	_	7	cop	_	_
 7	ciontach	ciontach	ADJ	ADJ	_	5	csubj:cop	_	_
 8	le	le	ADP	ADP	_	9	case	_	_
 9	galar	galar	NOUN	NOUN	_	7	nmod	_	_
@@ -17152,7 +17152,7 @@
 1	'	'	PUNCT	PUNCT	_	16	punct	_	_
 2	M'	mo	DET	DET	_	3	nmod:poss	_	_
 3	anam	anam	NOUN	NOUN	_	16	nmod	_	_
-+++4	gur	is	VERB	VERB	_	5	cop	_	_+++
+4	gur	is	VERB	VERB	_	5	cop	_	_
 5	dócha	dócha	ADJ	ADJ	_	16	ccomp	_	_
 6	go	go	PART	PART	_	7	mark:prt	_	_
 7	raibh	bí	VERB	VERB	_	5	csubj:cop	_	_
@@ -17261,7 +17261,7 @@
 73	aonaid	aonad	NOUN	NOUN	_	72	nmod	_	_
 74	chuntais	cuntas	NOUN	NOUN	_	73	compound	_	_
 75	,	,	PUNCT	PUNCT	_	76	punct	_	_
-+++76	is	is	VERB	VERB	_	77	cop	_	_+++
+76	is	is	VERB	VERB	_	77	cop	_	_
 77	cuma	cuma	ADJ	ADJ	_	45	ccomp	_	_
 78	cén	cé	PRON	PRON	_	77	csubj:cop	_	_
 79	fhoirm	foirm	NOUN	NOUN	_	78	xcomp:pred	_	_
@@ -17384,7 +17384,7 @@
 26	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 1	Dá	dá	SCONJ	SCONJ	_	2	mark	_	_
-+++2	mba	is	VERB	VERB	_	3	cop	_	_+++
+2	mba	is	VERB	VERB	_	3	cop	_	_
 3	mise	mé	PRON	PRON	_	6	advcl	_	_
 4	thú	tú	PRON	PRON	_	3	nsubj	_	_
 5	ní	ní	PART	PART	_	6	neg	_	_
@@ -17450,13 +17450,13 @@
 
 1	'	'	PUNCT	PUNCT	_	3	punct	_	_
 2	Conas	conas	ADV	ADV	_	3	advmod	_	_
-+++3	ab	is	VERB	VERB	_	4	cop	_	_+++
+3	ab	is	VERB	VERB	_	4	cop	_	_
 4	fhéidir	féidir	NOUN	NOUN	_	0	ROOT	_	_
 ***5	liom	le	ADP	ADP	_	4	case	_	_***
 6	sin	sin	PRON	PRON	_	8	dobj	_	_
 7	a	a	PART	PART	_	8	mark	_	_
 8	dhéanamh	déanamh	NOUN	NOUN	_	4	nsubj	_	_
-9	?	?	PUNCT	PUNCT	_	3	punct	_	_
+9	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	4	advmod	_	_
 2	conas	conas	ADV	ADV	_	4	advmod	_	_
@@ -17471,7 +17471,7 @@
 11	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
-+++2	b'	is	VERB	VERB	_	3	cop	_	_+++
+2	b'	is	VERB	VERB	_	3	cop	_	_
 3	shin	sin	PRON	PRON	_	0	ROOT	_	_
 4	an	an	DET	DET	_	5	det	_	_
 5	t-aon	aon	DET	DET	_	6	det	_	_
@@ -17482,19 +17482,19 @@
 10	éirigh	éirigh	VERB	VERB	_	6	acl:relcl	_	_
 11	le	le	ADP	ADP	_	12	case	_	_
 12	héilitheoir	éilitheoir	NOUN	NOUN	_	10	nmod	_	_
-13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	3	punct	_	_
 2	Ná	ná	PART	PART	_	3	neg	_	_
 3	habair	abar	NOUN	NOUN	_	0	ROOT	_	_
 ***4	liom	le	ADP	ADP	_	3	case	_	_***
-+++5	gurb	is	VERB	VERB	_	8	cop	_	_+++
+5	gurb	is	VERB	VERB	_	8	cop	_	_
 6	é	é	PRON	PRON	_	8	nmod	_	_
 7	do	do	DET	DET	_	8	nmod:poss	_	_
 8	thuairimse	tuairim	NOUN	NOUN	_	3	ccomp	_	_
 9	leis	le	ADP	ADP	_	10	case	_	_
 10	é	é	PRON	PRON	_	8	nmod	_	_
-+++11	gur	is	VERB	VERB	_	12	cop	_	_+++
+11	gur	is	VERB	VERB	_	12	cop	_	_
 12	bréaga	bréag	NOUN	NOUN	_	8	csubj:cop	_	_
 13	a	a	DET	DET	_	14	det	_	_
 14	leath	leath	NOUN	NOUN	_	12	compound	_	_
@@ -17504,10 +17504,10 @@
 ***18	againn	ag	ADP	ADP	_	17	case	_	_***
 19	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	mise	mé	PRON	PRON	_	0	ROOT	_	_
 3	Briain	Briain	PROPN	PROPN	_	2	nsubj	_	_
-4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	22	punct	_	_
 2	Múineadh	múin	VERB	VERB	_	22	ccomp	_	_
@@ -17536,7 +17536,7 @@
 
 1	Arís	arís	ADV	ADV	_	3	advmod	_	_
 2	eile	eile	DET	DET	_	1	det	_	_
-+++3	is	is	PART	PART	_	4	cop	_	_+++
+3	is	is	PART	PART	_	4	cop	_	_
 4	lúide	beag	ADJ	ADJ	_	0	ROOT	_	_
 5	an	an	DET	DET	_	6	det	_	_
 6	taitneamh	taitneamh	NOUN	NOUN	_	4	nsubj	_	_
@@ -17547,7 +17547,7 @@
 11	as	as	ADP	ADP	_	12	case	_	_
 12	scéalta	scéal	NOUN	NOUN	_	8	nmod	_	_
 13	seo	seo	DET	DET	_	12	det	_	_
-14	Mháire	Máire	PROPN	PROPN	_	3	compound	_	_
+14	Mháire	Máire	PROPN	PROPN	_	4	compound	_	_
 15	rian	rian	NOUN	NOUN	_	21	nsubj	_	_
 16	seo	seo	DET	DET	_	15	det	_	_
 17	na	na	DET	DET	_	18	det	_	_
@@ -17559,16 +17559,16 @@
 23	láidir	láidir	ADJ	ADJ	_	21	amod	_	_
 24	sin	sin	DET	DET	_	23	det	_	_
 ***25	orthu	ar	ADP	ADP	_	21	case	_	_***
-26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	Nach	is	VERB	VERB	_	2	cop	_	_+++
+1	Nach	is	VERB	VERB	_	2	cop	_	_
 2	ise	ise	PRON	PRON	_	0	ROOT	_	_
 3	atá	bí	VERB	VERB	_	2	nsubj	_	_
 4	gnóthach	gnóthach	ADJ	ADJ	_	3	xcomp:pred	_	_
 5	an	an	DET	DET	_	6	det	_	_
 6	tseachtain	seachtain	NOUN	NOUN	_	3	compound	_	_
 7	seo	seo	DET	DET	_	6	det	_	_
-8	!	!	PUNCT	PUNCT	_	1	punct	_	_
+8	!	!	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
 2	chuadar	téigh	VERB	VERB	_	0	ROOT	_	_
@@ -17577,7 +17577,7 @@
 5	bpolaitíocht	polaitíocht	NOUN	NOUN	_	2	nmod	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	céard	céard	PRON	PRON	_	8	dobj	_	_
-+++8	nár	is	VERB	VERB	_	9	cop	_	_+++
+8	nár	is	VERB	VERB	_	9	cop	_	_
 9	chóir	cóir	ADJ	ADJ	_	2	ccomp	_	_
 10	airgeadas	airgeadas	NOUN	NOUN	_	13	nsubj	_	_
 11	mór	mór	ADJ	ADJ	_	10	amod	_	_
@@ -17635,7 +17635,7 @@
 ***12	leat	le	ADP	ADP	_	9	case	_	_***
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-++1	Ba	is	VERB	VERB	_	10	cop	_	_++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	léir	léir	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	raibh	bí	VERB	VERB	_	2	csubj:cop	_	_
@@ -17644,8 +17644,8 @@
 7	cad	cad	PRON	PRON	_	10	nsubj	_	_
 8	é	é	PRON	PRON	_	7	nmod	_	_
 9	a	a	PART	PART	_	10	mark:prt	_	_
-10	tharla	tarlaigh	VERB	VERB	_	2	cop	_	_
-11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+10	tharla	tarlaigh	VERB	VERB	_	2	xcomp	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Chaitheamar	caith	VERB	VERB	_	0	ROOT	_	_
 2	roinnt	roinnt	NOUN	NOUN	_	1	nsubj	_	_
@@ -17763,7 +17763,7 @@
 2	lár	lár	NOUN	NOUN	_	1	nmod	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	tubaiste	tubaiste	NOUN	NOUN	_	2	compound	_	_
-++++++5	is	is	VERB	VERB	_	0	ROOT	_	_++++++
++++5	is	is	VERB	VERB	_	0	ROOT	_	_+++
 6	ea	ea	PRON	PRON	_	5	nsubj	_	_
 7	stadfaidh	stad	VERB	VERB	_	5	ccomp	_	_
 8	an	an	DET	DET	_	9	det	_	_
@@ -17796,7 +17796,7 @@
 35	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 1	Ansin	ansin	ADV	ADV	_	2	advmod	_	_
-+++2	nach	is	VERB	VERB	_	6	cop	_	_+++
+2	nach	is	VERB	VERB	_	6	cop	_	_
 3	deas	deas	ADJ	ADJ	_	6	xcomp:pred	_	_
 4	mar	mar	SCONJ	SCONJ	_	2	mark	_	_
 5	a	a	PART	PART	_	6	mark:prt	_	_
@@ -17846,7 +17846,7 @@
 1	Limistéar	limistéar	NOUN	NOUN	_	0	ROOT	_	_
 2	na	na	DET	DET	_	3	det	_	_
 3	Meánmhara	muir	NOUN	NOUN	_	1	compound	_	_
-+++4	is	is	VERB	VERB	_	5	cop	_	_+++
+4	is	is	VERB	VERB	_	5	cop	_	_
 5	áit	áit	NOUN	NOUN	_	1	ccomp	_	_
 6	dúcháis	dúchas	NOUN	NOUN	_	5	compound	_	_
 7	don	do	ADP	ADP	_	9	case	_	_
@@ -17869,7 +17869,7 @@
 13	don	do	ADP	ADP	_	9	conj	_	_
 14	mhúinteoir	múinteoir	NOUN	NOUN	_	13	nmod	_	_
 15	'	'	PUNCT	PUNCT	_	16	punct	_	_
-+++16	Is	is	VERB	VERB	_	17	cop	_	_+++
+16	Is	is	VERB	VERB	_	17	cop	_	_
 17	dócha	dócha	ADJ	ADJ	_	1	ccomp	_	_
 18	go	go	PART	PART	_	19	mark:prt	_	_
 19	bhfuil	bí	VERB	VERB	_	17	csubj:cop	_	_
@@ -17880,7 +17880,7 @@
 ***24	againn	ag	ADP	ADP	_	23	case	_	_***
 25	agus	agus	CONJ	CONJ	_	27	mark	_	_
 26	n'	ní	PART	PART	_	27	mark:prt	_	_
-27	fheadar	fheadar	VERB	VERB	_	16	advcl	_	_
+27	fheadar	fheadar	VERB	VERB	_	17	advcl	_	_
 28	cad	cad	PRON	PRON	_	27	ccomp	_	_
 29	é	é	PRON	PRON	_	28	xcomp:pred	_	_
 30	an	an	DET	DET	_	31	det	_	_
@@ -18035,7 +18035,7 @@
 16	ar	ar	ADP	ADP	_	18	case	_	_
 17	an	an	DET	DET	_	18	det	_	_
 18	scéal	scéal	NOUN	NOUN	_	12	nmod	_	_
-++++++19	gur	is	VERB	VERB	_	11	ccomp	_	_++++++
++++19	gur	is	VERB	VERB	_	11	ccomp	_	_+++
 20	amhlaidh	amhlaidh	ADV	ADV	_	19	advmod	_	_
 21	atá	bí	VERB	VERB	_	19	nsubj	_	_
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
@@ -18089,7 +18089,7 @@
 11	tosaigh	tosach	NOUN	NOUN	_	9	nmod	_	_
 ***12	air	ar	ADP	ADP	_	7	case	_	_***
 13	agus	agus	CONJ	CONJ	_	14	mark	_	_
-+++14	is	is	VERB	VERB	_	15	cop	_	_+++
+14	is	is	VERB	VERB	_	15	cop	_	_
 15	mar	mar	ADP	ADP	_	5	advcl	_	_
 16	sin	sin	PRON	PRON	_	15	nmod	_	_
 17	a	a	PART	PART	_	18	rel	_	_
@@ -18129,7 +18129,7 @@
 51	gcrích	críoch	NOUN	NOUN	_	49	nmod	_	_
 52	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-++++++1	Is	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	Is	is	VERB	VERB	_	0	ROOT	_	_+++
 2	ar	ar	ADP	ADP	_	3	case	_	_
 3	éigean	éigean	NOUN	NOUN	_	1	nmod	_	_
 4	a	a	PART	PART	_	5	rel	_	_
@@ -18241,7 +18241,7 @@
 58	á	do	ADP	ADP	_	59	mark	_	_
 59	áitiú	áitiú	NOUN	NOUN	_	51	nmod	_	_
 60	agus	agus	CONJ	CONJ	_	61	mark	_	_
-+++61	gurb	is	VERB	VERB	_	64	cop	_	_+++
+61	gurb	is	VERB	VERB	_	64	cop	_	_
 62	í	í	PRON	PRON	_	64	nmod	_	_
 63	an	an	DET	DET	_	64	det	_	_
 64	talmhaíocht	talmhaíocht	NOUN	NOUN	_	49	advcl	_	_
@@ -18251,15 +18251,15 @@
 68	go	go	ADP	ADP	_	69	mark:prt	_	_
 69	formhór	formhór	NOUN	NOUN	_	66	conj	_	_
 70	a	a	DET	DET	_	71	nmod:poss	_	_
-71	shlí	slí	NOUN	NOUN	_	61	nsubj	_	_
+71	shlí	slí	NOUN	NOUN	_	64	nsubj	_	_
 72	bheatha	beatha	NOUN	NOUN	_	71	compound	_	_
 73	agus	agus	CONJ	CONJ	_	74	mark	_	_
-+++74	nach	is	VERB	VERB	_	75	cop	_	_+++
-75	mó	mó	ADJ	ADJ	_	61	advcl	_	_
+74	nach	is	VERB	VERB	_	75	cop	_	_
+75	mó	mó	ADJ	ADJ	_	64	advcl	_	_
 76	ná	ná	CONJ	CONJ	_	78	mark	_	_
 77	seasca	seasca	NUM	NUM	_	78	nummod	_	_
 78	punt	punt	NOUN	NOUN	_	75	compound	_	_
-79	luacháil	luacháil	NOUN	NOUN	_	74	nsubj	_	_
+79	luacháil	luacháil	NOUN	NOUN	_	75	nsubj	_	_
 80	inrátaithe	inrátaithe	ADJ	ADJ	_	79	amod	_	_
 81	nó	nó	CONJ	CONJ	_	79	cc	_	_
 82	comhiomlán	comhiomlán	NOUN	NOUN	_	79	conj	_	_
@@ -18280,14 +18280,14 @@
 97	,	,	PUNCT	PUNCT	_	98	punct	_	_
 98	ná	ná	CONJ	CONJ	_	100	mark	_	_
 99	dhá	dó	NUM	NUM	_	100	nummod	_	_
-100	thrian	trian	NOUN	NOUN	_	74	compound	_	_
+100	thrian	trian	NOUN	NOUN	_	75	compound	_	_
 101	den	de	ADP	ADP	_	102	case	_	_
 102	mhéid	méid	NOUN	NOUN	_	100	nmod	_	_
 103	a	a	PART	PART	_	104	rel	_	_
 104	measfaidh	meas	VERB	VERB	_	102	acl:relcl	_	_
 105	an	an	DET	DET	_	106	det	_	_
 106	tAire	aire	NOUN	NOUN	_	104	nsubj	_	_
-+++107	gurb	is	VERB	VERB	_	109	cop	_	_+++
+107	gurb	is	VERB	VERB	_	109	cop	_	_
 108	é	é	PRON	PRON	_	109	nmod	_	_
 109	costas	costas	NOUN	NOUN	_	104	ccomp	_	_
 110	na	na	DET	DET	_	111	det	_	_
@@ -18309,7 +18309,7 @@
 126	measfaidh	meas	VERB	VERB	_	124	acl:relcl	_	_
 127	an	an	DET	DET	_	128	det	_	_
 128	tAire	aire	NOUN	NOUN	_	126	nsubj	_	_
-+++129	gurb	is	VERB	VERB	_	131	cop	_	_+++
+129	gurb	is	VERB	VERB	_	131	cop	_	_
 130	é	é	PRON	PRON	_	131	nmod	_	_
 131	costas	costas	NOUN	NOUN	_	126	ccomp	_	_
 132	na	na	DET	DET	_	133	det	_	_
@@ -18342,7 +18342,7 @@
 159	measfaidh	meas	VERB	VERB	_	157	acl:relcl	_	_
 160	an	an	DET	DET	_	161	det	_	_
 161	tAire	aire	NOUN	NOUN	_	159	nsubj	_	_
-+++162	gurb	is	VERB	VERB	_	164	cop	_	_+++
+162	gurb	is	VERB	VERB	_	164	cop	_	_
 163	é	é	PRON	PRON	_	164	nmod	_	_
 164	costas	costas	NOUN	NOUN	_	159	ccomp	_	_
 165	na	na	DET	DET	_	166	det	_	_
@@ -18469,7 +18469,7 @@
 15	agus	agus	CONJ	CONJ	_	10	cc	_	_
 16	cionn	ceann	NOUN	NOUN	_	10	conj	_	_
 17	is	agus	CONJ	CONJ	_	18	mark	_	_
-+++18	gur	is	VERB	VERB	_	19	cop	_	_+++
+18	gur	is	VERB	VERB	_	19	cop	_	_
 19	ansin	ansin	ADV	ADV	_	16	ccomp	_	_
 20	is	is	PART	PART	_	21	mark:prt	_	_
 21	mó	mór	ADJ	ADJ	_	19	xcomp:pred	_	_
@@ -18585,7 +18585,7 @@
 48	éagtha	éag	NOUN	NOUN	_	47	compound	_	_
 49	na	na	DET	DET	_	50	det	_	_
 50	tréimhse	tréimhse	NOUN	NOUN	_	47	compound	_	_
-+++51	ar	is	VERB	VERB	_	52	cop	_	_+++
+51	ar	is	VERB	VERB	_	52	cop	_	_
 52	lena	le	ADP	ADP	_	47	acl:relcl	_	_
 53	linn	linn	NOUN	NOUN	_	52	nmod	_	_
 54	a	a	PART	PART	_	55	mark:prt	_	_
@@ -18775,7 +18775,7 @@
 2	duine	duine	NOUN	NOUN	_	0	ROOT	_	_
 3	rialta	rialta	ADJ	ADJ	_	2	amod	_	_
 4	baoth	baoth	ADJ	ADJ	_	2	amod	_	_
-+++5	Is	is	VERB	VERB	_	6	cop	_	_+++
+5	Is	is	VERB	VERB	_	6	cop	_	_
 6	méanar	méanar	ADJ	ADJ	_	2	ccomp	_	_
 7	don	do	ADP	ADP	_	8	case	_	_
 8	duine	duine	NOUN	NOUN	_	6	nmod	_	_
@@ -18986,7 +18986,7 @@
 59	deirtear	abair	VERB	VERB	_	46	parataxis	_	_
 ***60	linn	le	ADP	ADP	_	59	case	_	_***
 61	)	)	PUNCT	PUNCT	_	46	punct	_	_
-+++62	níor	is	VERB	VERB	_	63	cop	_	_+++
+62	níor	is	VERB	VERB	_	63	cop	_	_
 63	cheart	ceart	ADJ	ADJ	_	0	ROOT	_	_
 64	cur	cur	NOUN	NOUN	_	63	xcomp	_	_
 65	suas	suas	ADV	ADV	_	64	advmod	_	_
@@ -19004,7 +19004,7 @@
 77	Éirinn	Éire	PROPN	PROPN	_	72	nmod	_	_
 78	de	de	ADP	ADP	_	79	case	_	_
 79	ghnáth	gnáth	NOUN	NOUN	_	72	nmod	_	_
-80	.	.	PUNCT	PUNCT	_	62	punct	_	_
+80	.	.	PUNCT	PUNCT	_	63	punct	_	_
 
 1	An	an	DET	DET	_	3	det	_	_
 2	chéad	céad	NUM	NUM	_	3	nummod	_	_
@@ -19490,14 +19490,14 @@
 77	an	an	DET	DET	_	78	det	_	_
 78	choirp	corp	NOUN	NOUN	_	74	nmod	_	_
 79	;	;	PUNCT	PUNCT	_	80	punct	_	_
-+++80	is	is	VERB	VERB	_	81	cop	_	_+++
+80	is	is	VERB	VERB	_	81	cop	_	_
 81	é	é	PRON	PRON	_	2	ccomp	_	_
 82	ráta	ráta	NOUN	NOUN	_	81	nsubj	_	_
 83	cuisle	cuisle	NOUN	NOUN	_	82	compound	_	_
 84	duine	duine	NOUN	NOUN	_	83	compound	_	_
 85	fhásta	fásta	ADJ	ADJ	_	84	amod	_	_
 86	ná	ná	CONJ	CONJ	_	87	mark	_	_
-87	thart	thart	ADV	ADV	_	80	advmod	_	_
+87	thart	thart	ADV	ADV	_	81	advmod	_	_
 88	ar	ar	ADP	ADP	_	90	case	_	_
 89	70	70	NUM	NUM	_	90	nummod	_	_
 90	buille	buille	NOUN	NOUN	_	87	nmod	_	_
@@ -19506,7 +19506,7 @@
 93	nóiméid	nóiméad	NOUN	NOUN	_	90	nmod	_	_
 94	,	,	PUNCT	PUNCT	_	95	punct	_	_
 95	ach	ach	SCONJ	SCONJ	_	96	mark	_	_
-96	bíonn	bí	VERB	VERB	_	80	advcl	_	_
+96	bíonn	bí	VERB	VERB	_	81	advcl	_	_
 97	sí	sí	PRON	PRON	_	96	nsubj	_	_
 98	i	i	ADP	ADP	_	99	case	_	_
 99	bhfad	fad	NOUN	NOUN	_	96	nmod	_	_
@@ -19561,7 +19561,7 @@
 148	réimse	réimse	NOUN	NOUN	_	146	nmod	_	_
 149	sin	sin	DET	DET	_	148	det	_	_
 150	;	;	PUNCT	PUNCT	_	151	punct	_	_
-+++151	is	is	VERB	VERB	_	152	cop	_	_+++
+151	is	is	VERB	VERB	_	152	cop	_	_
 152	féidir	féidir	NOUN	NOUN	_	2	ccomp	_	_
 153	ceann	ceann	NOUN	NOUN	_	155	dobj	_	_
 154	a	a	PART	PART	_	155	mark	_	_
@@ -19582,7 +19582,7 @@
 169	i	i	ADP	ADP	_	170	case	_	_
 170	gcrích	gcrích	NOUN	NOUN	_	167	nmod	_	_
 171	,	,	PUNCT	PUNCT	_	172	punct	_	_
-+++172	is	is	VERB	VERB	_	174	cop	_	_+++
+172	is	is	VERB	VERB	_	174	cop	_	_
 173	é	é	PRON	PRON	_	174	nmod	_	_
 174	sin	sin	PRON	PRON	_	2	ccomp	_	_
 175	,	,	PUNCT	PUNCT	_	176	punct	_	_
@@ -19595,7 +19595,7 @@
 182	an	an	DET	DET	_	183	det	_	_
 183	tsecoind	tsecoind	NOUN	NOUN	_	180	nmod	_	_
 184	;	;	PUNCT	PUNCT	_	185	punct	_	_
-+++185	is	is	VERB	VERB	_	188	cop	_	_+++
+185	is	is	VERB	VERB	_	188	cop	_	_
 186	é	é	PRON	PRON	_	188	nmod	_	_
 187	an	an	DET	DET	_	188	det	_	_
 188	watt	watt	NOUN	NOUN	_	2	ccomp	_	_
@@ -19615,7 +19615,7 @@
 202	mais	mais	NOUN	NOUN	_	201	nsubj	_	_
 ***203	aige	ag	ADP	ADP	_	201	case	_	_***
 204	;	;	PUNCT	PUNCT	_	205	punct	_	_
-+++205	is	is	VERB	VERB	_	206	cop	_	_+++
+205	is	is	VERB	VERB	_	206	cop	_	_
 206	féidir	féidir	NOUN	NOUN	_	2	ccomp	_	_
 207	mais	mais	NOUN	NOUN	_	209	dobj	_	_
 208	a	a	PART	PART	_	209	mark	_	_
@@ -19643,7 +19643,7 @@
 230	staid	staid	NOUN	NOUN	_	226	nmod	_	_
 231	ábhair	ábhar	NOUN	NOUN	_	230	compound	_	_
 232	;	;	PUNCT	PUNCT	_	233	punct	_	_
-+++233	is	is	VERB	VERB	_	234	cop	_	_+++
+233	is	is	VERB	VERB	_	234	cop	_	_
 234	féidir	féidir	NOUN	NOUN	_	2	ccomp	_	_
 235	staid	staid	NOUN	NOUN	_	238	dobj	_	_
 236	amháin	amháin	ADJ	ADJ	_	235	amod	_	_
@@ -19658,9 +19658,9 @@
 245	fhuarú	fuarú	NOUN	NOUN	_	243	conj	_	_
 246	dath	dath	NOUN	NOUN	_	243	compound	_	_
 247	príomhúil	príomhúil	ADJ	ADJ	_	246	amod	_	_
-+++248	is	is	VERB	VERB	_	250	cop	_	_+++
+248	is	is	VERB	VERB	_	250	cop	_	_
 249	iad	iad	PRON	PRON	_	250	nmod	_	_
-250	dathanna	dath	NOUN	NOUN	_	233	ccomp	_	_
+250	dathanna	dath	NOUN	NOUN	_	234	ccomp	_	_
 251	príomhúla	príomhúil	ADJ	ADJ	_	250	amod	_	_
 252	an	an	DET	DET	_	253	det	_	_
 253	tsolais	solas	NOUN	NOUN	_	250	compound	_	_
@@ -19707,7 +19707,7 @@
 294	agus	agus	CONJ	CONJ	_	291	cc	_	_
 295	magenta	magen	NOUN	NOUN	_	291	conj	_	_
 296	;	;	PUNCT	PUNCT	_	297	punct	_	_
-+++297	is	is	VERB	VERB	_	299	cop	_	_+++
+297	is	is	VERB	VERB	_	299	cop	_	_
 298	iad	iad	PRON	PRON	_	299	nmod	_	_
 299	dathanna	dath	NOUN	NOUN	_	2	ccomp	_	_
 300	príomhúla	príomhúil	ADJ	ADJ	_	299	amod	_	_
@@ -19747,7 +19747,7 @@
 25	phoist	post	NOUN	NOUN	_	23	compound	_	_
 26	,	,	PUNCT	PUNCT	_	27	punct	_	_
 27	haiste	haiste	NOUN	NOUN	_	28	mark	_	_
-+++28	nár	is	VERB	VERB	_	29	cop	_	_+++
+28	nár	is	VERB	VERB	_	29	cop	_	_
 29	mhóide	móide	ADJ	ADJ	_	6	advcl	_	_
 30	go	go	PART	PART	_	31	mark:prt	_	_
 31	mbeadh	bí	VERB	VERB	_	29	csubj:cop	_	_
@@ -19761,7 +19761,7 @@
 39	,	,	PUNCT	PUNCT	_	40	punct	_	_
 40	ionas	ionas	NOUN	NOUN	_	42	mark	_	_
 41	nach	nach	PART	PART	_	42	mark:prt	_	_
-42	mbeidh	bí	VERB	VERB	_	28	advcl	_	_
+42	mbeidh	bí	VERB	VERB	_	29	advcl	_	_
 ***43	air	ar	ADP	ADP	_	42	case	_	_***
 44	fanacht	fanacht	NOUN	NOUN	_	42	xcomp	_	_
 45	rófhada	fada	ADJ	ADJ	_	44	amod	_	_
@@ -19793,7 +19793,7 @@
 1	Más	má	SCONJ	SCONJ	_	4	mark	_	_
 2	rud	rud	NOUN	NOUN	_	1	xcomp:pred	_	_
 3	é	é	PRON	PRON	_	1	nsubj	_	_
-+++4	nach	is	VERB	VERB	_	5	cop	_	_+++
+4	nach	is	VERB	VERB	_	5	cop	_	_
 5	féidir	féidir	NOUN	NOUN	_	23	advcl	_	_
 6	le	le	ADP	ADP	_	7	case	_	_
 7	heolaíocht	eolaíocht	NOUN	NOUN	_	5	nmod	_	_
@@ -19812,22 +19812,22 @@
 20	sa	i	ADP	ADP	_	19	xcomp:pred	_	_
 21	leabhair	leabhar	NOUN	NOUN	_	20	nmod	_	_
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
-+++23	ní	is	VERB	VERB	_	24	cop	_	_+++
+23	ní	is	VERB	VERB	_	24	cop	_	_
 24	fada	fada	ADJ	ADJ	_	0	ROOT	_	_
 ***25	uainn	ó	ADP	ADP	_	24	case	_	_***
 26	an	an	DET	DET	_	27	det	_	_
 27	t-am	am	NOUN	NOUN	_	24	nsubj	_	_
 28	,	,	PUNCT	PUNCT	_	30	punct	_	_
 29	gach	gach	DET	DET	_	30	det	_	_
-30	seans	seans	NOUN	NOUN	_	23	nmod	_	_
+30	seans	seans	NOUN	NOUN	_	24	nmod	_	_
 31	,	,	PUNCT	PUNCT	_	33	punct	_	_
 32	a	a	PART	PART	_	33	mark:prt	_	_
-33	mbeidh	bí	VERB	VERB	_	23	csubj:cop	_	_
+33	mbeidh	bí	VERB	VERB	_	24	csubj:cop	_	_
 34	siad	siad	PRON	PRON	_	33	nsubj	_	_
 35	intuigthe	intuigthe	ADJ	ADJ	_	33	xcomp:pred	_	_
 36	go	go	PART	PART	_	37	mark:prt	_	_
 37	maith	maith	ADJ	ADJ	_	33	advmod	_	_
-38	.	.	PUNCT	PUNCT	_	23	punct	_	_
+38	.	.	PUNCT	PUNCT	_	24	punct	_	_
 
 1	Faightear	faigh	VERB	VERB	_	0	ROOT	_	_
 2	seangán	seangán	NOUN	NOUN	_	1	dobj	_	_
@@ -20139,13 +20139,13 @@
 7	insint	insint	NOUN	NOUN	_	6	nmod	_	_
 8	scéil	scéal	NOUN	NOUN	_	7	dobj	_	_
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-+++10	ní	is	VERB	VERB	_	11	cop	_	_+++
+10	ní	is	VERB	VERB	_	11	cop	_	_
 11	scéal	scéal	NOUN	NOUN	_	0	ROOT	_	_
 12	scéil	scéal	NOUN	NOUN	_	11	compound	_	_
 13	a	a	PART	PART	_	14	mark:prt	_	_
 14	bhíodh	bí	VERB	VERB	_	11	nsubj	_	_
 ***15	aige	ag	ADP	ADP	_	14	case	_	_***
-16	.	.	PUNCT	PUNCT	_	10	punct	_	_
+16	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 1	An	an	DET	DET	_	2	det	_	_
 2	tseachtain	seachtain	NOUN	NOUN	_	5	advmod	_	_
@@ -20242,7 +20242,7 @@
 41	órga	órga	ADJ	ADJ	_	40	amod	_	_
 42	,	,	PUNCT	PUNCT	_	43	punct	_	_
 43	áit	áit	NOUN	NOUN	_	40	compound	_	_
-+++44	ar	is	VERB	VERB	_	45	cop	_	_+++
+44	ar	is	VERB	VERB	_	45	cop	_	_
 45	féidir	féidir	NOUN	NOUN	_	43	ccomp	_	_
 ***46	leis	le	ADP	ADP	_	45	case	_	_***
 47	an	an	DET	DET	_	48	det	_	_
@@ -20281,7 +20281,7 @@
 
 1	''	''	PUNCT	PUNCT	_	3	punct	_	_
 2	Ach	ach	SCONJ	SCONJ	_	3	mark	_	_
-+++3	ní	is	VERB	VERB	_	6	cop	_	_+++
+3	ní	is	VERB	VERB	_	6	cop	_	_
 4	hé	é	PRON	PRON	_	3	nsubj	_	_
 5	sin	sin	DET	DET	_	4	det	_	_
 6	amháin	amháin	ADJ	ADJ	_	0	ROOT	_	_
@@ -20305,13 +20305,13 @@
 24	neamhspléach	neamhspleách	ADJ	ADJ	_	23	amod	_	_
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
 26	agus	agus	CONJ	CONJ	_	27	mark	_	_
-+++27	is	is	VERB	VERB	_	28	cop	_	_+++
-28	fada	fada	ADJ	ADJ	_	3	advcl	_	_
+27	is	is	VERB	VERB	_	28	cop	_	_
+28	fada	fada	ADJ	ADJ	_	6	advcl	_	_
 ***29	uainne	ó	ADP	ADP	_	28	case	_	_***
 30	an	an	DET	DET	_	31	det	_	_
 31	buntáiste	buntáiste	NOUN	NOUN	_	28	nsubj	_	_
 32	sin	sin	DET	DET	_	31	det	_	_
-33	.	.	PUNCT	PUNCT	_	3	punct	_	_
+33	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 1	D'	do	PART	PART	_	2	mark:prt	_	_
 2	fhéadfadh	féad	VERB	VERB	_	0	ROOT	_	_
@@ -20346,7 +20346,7 @@
 5	aghaidh	aghaidh	NOUN	NOUN	_	2	nmod	_	_
 6	ag	ag	ADP	ADP	_	2	xcomp	_	_
 7	rá	rá	NOUN	NOUN	_	6	nmod	_	_
-+++8	gur	is	VERB	VERB	_	9	cop	_	_+++
+8	gur	is	VERB	VERB	_	9	cop	_	_
 9	ceadmhach	ceadmhach	ADJ	ADJ	_	7	ccomp	_	_
 10	taibléidí	taibléid	NOUN	NOUN	_	16	dobj	_	_
 11	a	a	PART	PART	_	12	rel	_	_
@@ -20357,7 +20357,7 @@
 16	úsáid	úsáid	NOUN	NOUN	_	9	xcomp	_	_
 17	fiú	fiú	NOUN	NOUN	_	19	mark	_	_
 18	má	má	SCONJ	SCONJ	_	19	mark	_	_
-19	bhíonn	bí	VERB	VERB	_	8	advcl	_	_
+19	bhíonn	bí	VERB	VERB	_	9	advcl	_	_
 20	seans	seans	NOUN	NOUN	_	19	nsubj	_	_
 21	go	go	PART	PART	_	22	mark:prt	_	_
 22	dtabharfadh	tabhair	VERB	VERB	_	19	xcomp	_	_
@@ -20368,8 +20368,8 @@
 27	giorra	gearr	ADJ	ADJ	_	25	amod	_	_
 28	,	,	PUNCT	PUNCT	_	29	punct	_	_
 29	ach	ach	SCONJ	SCONJ	_	30	mark	_	_
-+++30	nach	is	VERB	VERB	_	31	cop	_	_+++
-31	ceadmhach	ceadmhach	ADJ	ADJ	_	8	advcl	_	_
+30	nach	is	VERB	VERB	_	31	cop	_	_
+31	ceadmhach	ceadmhach	ADJ	ADJ	_	9	advcl	_	_
 32	iad	iad	PRON	PRON	_	34	dobj	_	_
 33	a	a	PART	PART	_	34	mark	_	_
 34	úsáid	úsáid	NOUN	NOUN	_	31	xcomp	_	_
@@ -20383,7 +20383,7 @@
 42	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Mar	mar	SCONJ	SCONJ	_	2	mark	_	_
-+++2	is	is	VERB	VERB	_	3	cop	_	_+++
+2	is	is	VERB	VERB	_	3	cop	_	_
 3	léir	léir	ADJ	ADJ	_	5	advcl	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	eisíodh	eisigh	VERB	VERB	_	0	ROOT	_	_
@@ -20493,7 +20493,7 @@
 32	áireamhacht	áireamhacht	NOUN	NOUN	_	29	nmod	_	_
 33	iomláin	iomlán	NOUN	NOUN	_	32	compound	_	_
 34	,	,	PUNCT	PUNCT	_	35	punct	_	_
-+++35	gur	is	VERB	VERB	_	36	cop	_	_+++
+35	gur	is	VERB	VERB	_	36	cop	_	_
 36	dá	do	ADP	ADP	_	29	acl:relcl	_	_
 37	druim	droim	NOUN	NOUN	_	36	nmod	_	_
 38	a	a	PART	PART	_	39	rel	_	_
@@ -20651,7 +20651,7 @@
 48	Fiontar	fiontar	NOUN	NOUN	_	47	compound	_	_
 49	.	.	PUNCT	PUNCT	_	40	punct	_	_
 
-++++++1	Níorbh	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	Níorbh	is	VERB	VERB	_	0	ROOT	_	_+++
 2	é	é	PRON	PRON	_	1	nsubj	_	_
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -20741,7 +20741,7 @@
 12	agus	agus	CONJ	CONJ	_	2	cc	_	_
 13	déarfaidís	abair	VERB	VERB	_	2	conj	_	_
 ***14	leat	le	ADP	ADP	_	13	case	_	_***
-+++15	nár	is	VERB	VERB	_	16	cop	_	_+++
+15	nár	is	VERB	VERB	_	16	cop	_	_
 16	cóir	cóir	ADJ	ADJ	_	13	ccomp	_	_
 17	an	an	DET	DET	_	19	det	_	_
 18	iomad	iomad	NOUN	NOUN	_	19	advmod	_	_
@@ -20763,7 +20763,7 @@
 
 1	Le	le	ADP	ADP	_	2	case	_	_
 2	cruthú	cruthú	NOUN	NOUN	_	13	nmod	_	_
-+++3	nárbh	is	VERB	VERB	_	4	cop	_	_+++
+3	nárbh	is	VERB	VERB	_	4	cop	_	_
 4	eagal	eagal	NOUN	NOUN	_	2	acl:relcl	_	_
 ***5	leis	le	ADP	ADP	_	4	case	_	_***
 6	taobh	taobh	NOUN	NOUN	_	4	nsubj	_	_
@@ -20823,14 +20823,14 @@
 60	oibrithe	oibrí	NOUN	NOUN	_	55	nmod	_	_
 61	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	chiallmhar	ciallmhar	ADJ	ADJ	_	0	ROOT	_	_
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
-+++4	ba	is	VERB	VERB	_	5	cop	_	_+++
-5	riachtanach	riachtanach	ADJ	ADJ	_	1	ccomp	_	_
+4	ba	is	VERB	VERB	_	5	cop	_	_
+5	riachtanach	riachtanach	ADJ	ADJ	_	2	ccomp	_	_
 6	agus	agus	CONJ	CONJ	_	7	mark	_	_
-+++7	ba	is	VERB	VERB	_	8	cop	_	_+++
-8	chuí	cuí	ADJ	ADJ	_	1	advcl	_	_
+7	ba	is	VERB	VERB	_	8	cop	_	_
+8	chuí	cuí	ADJ	ADJ	_	2	advcl	_	_
 9	gach	gach	DET	DET	_	10	det	_	_
 10	focal	focal	NOUN	NOUN	_	8	nsubj	_	_
 11	a	a	PART	PART	_	12	rel	_	_
@@ -20879,7 +20879,7 @@
 54	,	,	PUNCT	PUNCT	_	56	punct	_	_
 55	Rupert	Rupert	PROPN	PROPN	_	56	compound	_	_
 56	Murdoch	Murdoch	PROPN	PROPN	_	53	nmod	_	_
-57	.	.	PUNCT	PUNCT	_	1	punct	_	_
+57	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	I	I	ADP	ADP	_	2	case	_	_
 2	dteannta	teannta	NOUN	NOUN	_	8	nmod	_	_
@@ -20910,15 +20910,15 @@
 7	laoch	laoch	NOUN	NOUN	_	5	compound	_	_
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	agus	agus	CONJ	CONJ	_	2	cc	_	_
-+++10	is	is	VERB	VERB	_	11	cop	_	_+++
+10	is	is	VERB	VERB	_	11	cop	_	_
 11	fíor	fíor	ADJ	ADJ	_	2	conj	_	_
 12	sin	sin	PRON	PRON	_	11	nsubj	_	_
 13	faoi	faoi	ADP	ADP	_	15	case	_	_
 14	mo	mo	DET	DET	_	15	nmod:poss	_	_
-15	liostasa	liosta	NOUN	NOUN	_	10	nmod	_	_
+15	liostasa	liosta	NOUN	NOUN	_	11	nmod	_	_
 16	scríbhneoirí	scríbhneoir	NOUN	NOUN	_	15	compound	_	_
 17	chomh	chomh	ADV	ADV	_	18	mark:prt	_	_
-18	maith	maith	ADJ	ADJ	_	10	advmod	_	_
+18	maith	maith	ADJ	ADJ	_	11	advmod	_	_
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
@@ -20960,17 +20960,17 @@
 1	Ná	ná	PART	PART	_	2	neg	_	_
 2	habair	abair	VERB	VERB	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
-+++4	gurb	is	VERB	VERB	_	7	cop	_	_+++
+4	gurb	is	VERB	VERB	_	7	cop	_	_
 5	é	é	PRON	PRON	_	7	nmod	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	gearradh	gearradh	NOUN	NOUN	_	2	ccomp	_	_
 8	céanna	céanna	ADJ	ADJ	_	7	amod	_	_
 9	é	é	PRON	PRON	_	7	nsubj	_	_
 10	ag	ag	ADP	ADP	_	11	case	_	_
-11	Noonan	Noonan	PROPN	PROPN	_	4	nmod	_	_
+11	Noonan	Noonan	PROPN	PROPN	_	7	nmod	_	_
 12	an	an	DET	DET	_	14	det	_	_
 13	chéad	céad	NUM	NUM	_	14	nummod	_	_
-14	lá	lá	NOUN	NOUN	_	4	compound	_	_
+14	lá	lá	NOUN	NOUN	_	7	compound	_	_
 15	eile	eile	DET	DET	_	14	det	_	_
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -21038,7 +21038,7 @@
 ***28	ann	i	ADP	ADP	_	24	case	_	_***
 29	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-+++1	Níor	is	VERB	VERB	_	2	cop	_	_+++
+1	Níor	is	VERB	VERB	_	2	cop	_	_
 2	ghá	gá	NOUN	NOUN	_	0	ROOT	_	_
 ***3	dó	do	ADP	ADP	_	2	case	_	_***
 4	ach	ach	SCONJ	SCONJ	_	5	mark	_	_
@@ -21066,14 +21066,14 @@
 26	chun	chun	ADP	ADP	_	29	case	_	_
 27	tuiscint	tuiscint	NOUN	NOUN	_	29	dobj	_	_
 28	a	a	PART	PART	_	29	mark	_	_
-29	bheith	bheith	NOUN	NOUN	_	1	nmod	_	_
+29	bheith	bheith	NOUN	NOUN	_	2	nmod	_	_
 30	ag	ag	ADP	ADP	_	31	case	_	_
 31	riarthóir	riarthóir	NOUN	NOUN	_	29	nmod	_	_
 32	ar	ar	ADP	ADP	_	34	case	_	_
 33	an	an	DET	DET	_	34	det	_	_
 34	gcailliúint	cailliúint	NOUN	NOUN	_	29	nmod	_	_
 35	mhór	mór	ADJ	ADJ	_	34	amod	_	_
-36	.	.	PUNCT	PUNCT	_	1	punct	_	_
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	/	/	PUNCT	PUNCT	_	2	punct	_	_
 2	Níl	bí	VERB	VERB	_	0	ROOT	_	_
@@ -21152,12 +21152,12 @@
 16	súl	súil	NOUN	NOUN	_	14	compound	_	_
 17	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	3	cop	_	_+++
+1	Ní	is	VERB	VERB	_	3	cop	_	_
 2	hé	é	PRON	PRON	_	3	nmod	_	_
 3	amháin	amháin	ADJ	ADJ	_	0	ROOT	_	_
 4	sin	sin	PRON	PRON	_	3	nsubj	_	_
 5	ach	ach	SCONJ	SCONJ	_	6	mark	_	_
-6	bhí	bí	VERB	VERB	_	1	advcl	_	_
+6	bhí	bí	VERB	VERB	_	3	advcl	_	_
 7	de	de	ADP	ADP	_	6	xcomp:pred	_	_
 8	thoradh	toradh	NOUN	NOUN	_	7	nmod	_	_
 9	ar	ar	ADP	ADP	_	12	case	_	_
@@ -21175,7 +21175,7 @@
 21	Fraince	Frainc	PROPN	PROPN	_	19	compound	_	_
 22	don	do	ADP	ADP	_	23	case	_	_
 23	Eaglais	Eaglais	NOUN	NOUN	_	19	nmod	_	_
-24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Tar_éis	tar_éis	ADP	ADP	_	2	case	_	_
 2	tamaill	tamall	NOUN	NOUN	_	8	nmod	_	_
@@ -21206,13 +21206,13 @@
 27	ní	ní	NOUN	NOUN	_	24	dobj	_	_
 28	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-+++1	Ar	is	VERB	VERB	_	2	cop	_	_+++
+1	Ar	is	VERB	VERB	_	2	cop	_	_
 2	mhaith	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	leat	le	ADP	ADP	_	2	case	_	_***
 4	teach	teach	NOUN	NOUN	_	6	dobj	_	_
 5	a	a	PART	PART	_	6	mark	_	_
 6	cheannach	ceannach	NOUN	NOUN	_	2	nsubj	_	_
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	a	a	DET	DET	_	3	nmod:poss	_	_
@@ -21237,7 +21237,7 @@
 6	t	t	X	X	_	5	compound	_	_
 7	?	?	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	deacair	deacair	ADJ	ADJ	_	0	ROOT	_	_
 3	treo	treo	NOUN	NOUN	_	7	dobj	_	_
 4	na	na	DET	DET	_	5	det	_	_
@@ -21248,7 +21248,7 @@
 9	uairibh	uairibh	NOUN	NOUN	_	7	nmod	_	_
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	sa	i	ADP	ADP	_	12	case	_	_
-12	ghnáthgharraí	garraí	NOUN	NOUN	_	1	nmod	_	_
+12	ghnáthgharraí	garraí	NOUN	NOUN	_	2	nmod	_	_
 13	cúil	cúl	NOUN	NOUN	_	12	compound	_	_
 14	sa	i	ADP	ADP	_	15	case	_	_
 15	bhaile	baile	NOUN	NOUN	_	12	nmod	_	_
@@ -21256,7 +21256,7 @@
 17	háirithe	áirithe	ADJ	ADJ	_	15	amod	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
 19	mar	mar	ADP	ADP	_	20	case	_	_
-20	gheall	geall	NOUN	NOUN	_	1	nmod	_	_
+20	gheall	geall	NOUN	NOUN	_	2	nmod	_	_
 21	ar	ar	ADP	ADP	_	23	case	_	_
 22	na	na	DET	DET	_	23	det	_	_
 23	foirgnimh	foirgneamh	NOUN	NOUN	_	20	nmod	_	_
@@ -21264,7 +21264,7 @@
 25	na	na	DET	DET	_	26	det	_	_
 26	crainn	crann	NOUN	NOUN	_	23	conj	_	_
 27	mórthimpeall	mórthimpeall	NOUN	NOUN	_	26	compound	_	_
-28	.	.	PUNCT	PUNCT	_	1	punct	_	_
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dúirt	abair	VERB	VERB	_	0	ROOT	_	_
 2	sí	sí	PRON	PRON	_	1	nsubj	_	_
@@ -21308,16 +21308,16 @@
 7	laghad	laghad	NOUN	NOUN	_	5	nmod	_	_
 ***8	orthu	ar	ADP	ADP	_	2	case	_	_***
 9	agus	agus	CONJ	CONJ	_	2	cc	_	_
-+++10	is	is	VERB	VERB	_	11	cop	_	_+++
+10	is	is	VERB	VERB	_	11	cop	_	_
 11	léir	léir	ADJ	ADJ	_	2	conj	_	_
-+++12	nach	is	VERB	VERB	_	13	cop	_	_+++
+12	nach	is	VERB	VERB	_	13	cop	_	_
 13	maith	maith	ADJ	ADJ	_	11	nsubj	_	_
 ***14	leo	le	ADP	ADP	_	13	case	_	_***
 15	sin	sin	PRON	PRON	_	13	nsubj	_	_
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	cé	cé	SCONJ	SCONJ	_	18	mark	_	_
-+++18	nach	is	VERB	VERB	_	19	cop	_	_+++
-19	féidir	féidir	NOUN	NOUN	_	10	advcl	_	_
+18	nach	is	VERB	VERB	_	19	cop	_	_
+19	féidir	féidir	NOUN	NOUN	_	11	advcl	_	_
 ***20	leo	le	ADP	ADP	_	19	case	_	_***
 21	tada	tada	NOUN	NOUN	_	23	dobj	_	_
 22	a	a	PART	PART	_	23	mark	_	_
@@ -21337,7 +21337,7 @@
 10	shaothar	saothar	NOUN	NOUN	_	8	nmod	_	_
 11	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Níor	is	VERB	VERB	_	2	cop	_	_+++
+1	Níor	is	VERB	VERB	_	2	cop	_	_
 2	mhasla	masla	NOUN	NOUN	_	0	ROOT	_	_
 3	gan	gan	ADP	ADP	_	4	case	_	_
 4	bhrí	brí	NOUN	NOUN	_	2	nmod	_	_
@@ -21351,12 +21351,12 @@
 12	fhocal	focal	NOUN	NOUN	_	11	nmod	_	_
 13	sin	sin	DET	DET	_	12	det	_	_
 14	twaddle	twaddle	X	X	_	12	compound	_	_
-15	.	.	PUNCT	PUNCT	_	1	punct	_	_
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	den	de	ADP	ADP	_	0	ROOT	_	_
 2	Bhunreacht	bunreacht	NOUN	NOUN	_	1	nmod	_	_
 3	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++4	gur	is	VERB	VERB	_	5	cop	_	_+++
+4	gur	is	VERB	VERB	_	5	cop	_	_
 5	san	i	ADP	ADP	_	1	conj	_	_
 6	Oireachtas	oireachtas	NOUN	NOUN	_	5	nmod	_	_
 7	amháin	amháin	ADJ	ADJ	_	6	amod	_	_
@@ -21498,7 +21498,7 @@
 2	an	an	DET	DET	_	3	det	_	_
 3	Ridire	Ridire	PROPN	PROPN	_	1	nsubj	_	_
 4	Pádraig	Pádraig	PROPN	PROPN	_	3	compound	_	_
-+++5	gur	is	VERB	VERB	_	6	cop	_	_+++
+5	gur	is	VERB	VERB	_	6	cop	_	_
 6	cheart	ceart	ADJ	ADJ	_	1	ccomp	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	Ghaeilge	Gaeilge	PROPN	PROPN	_	10	dobj	_	_
@@ -21519,7 +21519,7 @@
 2	don	do	ADP	ADP	_	3	case	_	_
 3	fhear	fear	NOUN	NOUN	_	1	nmod	_	_
 4	seo	seo	DET	DET	_	3	det	_	_
-+++5	nár	is	VERB	VERB	_	6	cop	_	_+++
+5	nár	is	VERB	VERB	_	6	cop	_	_
 6	chóir	cóir	ADJ	ADJ	_	1	ccomp	_	_
 7	do	do	ADP	ADP	_	8	case	_	_
 8	Éireannaigh	Éireannach	PROPN	PROPN	_	6	nmod	_	_
@@ -21559,7 +21559,7 @@
 1	Fataí	fata	NOUN	NOUN	_	0	ROOT	_	_
 2	agus	agus	CONJ	CONJ	_	1	cc	_	_
 3	coirce	coirce	NOUN	NOUN	_	1	conj	_	_
-+++4	ba	is	VERB	VERB	_	5	cop	_	_+++
+4	ba	is	VERB	VERB	_	5	cop	_	_
 5	mhó	mó	ADJ	ADJ	_	3	ccomp	_	_
 6	a	a	PART	PART	_	7	mark:prt	_	_
 7	chuirtí	cuir	VERB	VERB	_	5	nsubj	_	_
@@ -21665,7 +21665,7 @@
 16	bruíne	bruíon	NOUN	NOUN	_	15	dobj	_	_
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	móide	mór	ADJ	ADJ	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	n-éireoidh	éirigh	VERB	VERB	_	2	csubj:cop	_	_
@@ -21675,12 +21675,12 @@
 8	seo	seo	DET	DET	_	7	det	_	_
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	ach	ach	SCONJ	SCONJ	_	11	mark	_	_
-+++11	ní	is	VERB	VERB	_	12	cop	_	_+++
-12	shin	sin	PRON	PRON	_	1	advcl	_	_
+11	ní	is	VERB	VERB	_	12	cop	_	_
+12	shin	sin	PRON	PRON	_	2	advcl	_	_
 13	le	le	ADP	ADP	_	12	xcomp	_	_
 14	rá	rá	NOUN	NOUN	_	13	nmod	_	_
 15	nach	nach	PART	PART	_	16	mark:prt	_	_
-16	mbeifear	bí	VERB	VERB	_	11	csubj:cop	_	_
+16	mbeifear	bí	VERB	VERB	_	12	csubj:cop	_	_
 17	á	do	ADP	ADP	_	16	xcomp	_	_
 18	bhrú	brú	NOUN	NOUN	_	17	nmod	_	_
 19	chun	chun	ADP	ADP	_	20	case	_	_
@@ -21691,14 +21691,14 @@
 24	seo	seo	DET	DET	_	23	det	_	_
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
 26	agus	agus	CONJ	CONJ	_	27	mark	_	_
-+++27	b'	is	VERB	VERB	_	28	cop	_	_+++
+27	b'	is	VERB	VERB	_	28	cop	_	_
 28	fhéidir	féidir	NOUN	NOUN	_	16	advcl	_	_
 29	an	an	DET	DET	_	30	det	_	_
 30	bhliain	bliain	NOUN	NOUN	_	28	nsubj	_	_
 31	seo	seo	DET	DET	_	30	det	_	_
 ***32	chugainn	chuig	ADP	ADP	_	30	case	_	_***
 ***33	leis	le	ADP	ADP	_	32	case	_	_***
-34	.	.	PUNCT	PUNCT	_	1	punct	_	_
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -21718,7 +21718,7 @@
 16	shíl	síl	VERB	VERB	_	11	conj	_	_
 17	an	an	DET	DET	_	18	det	_	_
 18	scríbhneoir	scríbhneoir	NOUN	NOUN	_	16	nsubj	_	_
-+++19	gurbh	is	VERB	VERB	_	20	cop	_	_+++
+19	gurbh	is	VERB	VERB	_	20	cop	_	_
 20	fhiú	fiú	NOUN	NOUN	_	16	ccomp	_	_
 21	cuntas	cuntas	NOUN	NOUN	_	23	dobj	_	_
 22	a	a	PART	PART	_	23	mark	_	_
@@ -21783,7 +21783,7 @@
 19	an	an	DET	DET	_	20	det	_	_
 20	líne	líne	NOUN	NOUN	_	14	nmod	_	_
 21	lántosach	tosach	NOUN	NOUN	_	20	compound	_	_
-+++22	is	is	PART	PART	_	23	cop	_	_+++
+22	is	is	PART	PART	_	23	cop	_	_
 23	mó	mór	ADJ	ADJ	_	8	ccomp	_	_
 24	clú	clú	NOUN	NOUN	_	23	nsubj	_	_
 25	a	a	PART	PART	_	26	rel	_	_
@@ -21801,13 +21801,13 @@
 37	ann	i	ADP	ADP	_	30	xcomp:pred	_	_
 38	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	fiacla	fiacail	NOUN	NOUN	_	0	ROOT	_	_
 3	sealadacha	sealadach	ADJ	ADJ	_	2	amod	_	_
 4	iad	iad	PRON	PRON	_	2	nsubj	_	_
-5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	é	é	PRON	PRON	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	leabhar	leabhar	NOUN	NOUN	_	2	nsubj	_	_
@@ -21816,7 +21816,7 @@
 7	sí	sí	PRON	PRON	_	6	nsubj	_	_
 8	do	do	ADP	ADP	_	9	case	_	_
 9	Mháire	Máire	PROPN	PROPN	_	6	nmod	_	_
-10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Seo	seo	PRON	PRON	_	0	ROOT	_	_
 2	cúpla	cúpla	NOUN	NOUN	_	1	nsubj	_	_
@@ -21830,11 +21830,11 @@
 4	ann	i	ADP	ADP	_	3	xcomp:pred	_	_
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	furast	furasta	ADJ	ADJ	_	0	ROOT	_	_
 3	aithne	aithne	NOUN	NOUN	_	2	nsubj	_	_
 4	é	é	PRON	PRON	_	3	nmod	_	_
-5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dheisigh	deisigh	VERB	VERB	_	0	ROOT	_	_
 2	Seán	Seán	PROPN	PROPN	_	1	nsubj	_	_
@@ -21950,11 +21950,11 @@
 12	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Ba	is	VERB	VERB	_	3	cop	_	_+++
+2	Ba	is	VERB	VERB	_	3	cop	_	_
 3	mhaith	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***4	liom	le	ADP	ADP	_	3	case	_	_***
 5	sin	sin	PRON	PRON	_	3	nsubj	_	_
-6	.	.	PUNCT	PUNCT	_	2	punct	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Cuimhní	cuimhne	NOUN	NOUN	_	0	ROOT	_	_
 2	ó	ó	ADP	ADP	_	3	case	_	_
@@ -21969,12 +21969,12 @@
 11	shin	sin	PRON	PRON	_	8	nmod	_	_
 12	?	?	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	airde	ard	ADJ	ADJ	_	0	ROOT	_	_
 3	sliabh	sliabh	NOUN	NOUN	_	2	nsubj	_	_
 4	ná	ná	CONJ	CONJ	_	3	cc	_	_
 5	cnoc	cnoc	NOUN	NOUN	_	3	conj	_	_
-6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Thug	tabhair	VERB	VERB	_	0	ROOT	_	_
 2	siad	siad	PRON	PRON	_	1	nsubj	_	_
@@ -22033,7 +22033,7 @@
 2	a	a	DET	DET	_	3	nmod:poss	_	_
 3	fhios	fios	NOUN	NOUN	_	1	nsubj	_	_
 ***4	againn	ag	ADP	ADP	_	1	case	_	_***
-+++5	gur	is	VERB	VERB	_	6	cop	_	_+++
+5	gur	is	VERB	VERB	_	6	cop	_	_
 6	ar	ar	ADP	ADP	_	1	ccomp	_	_
 7	shuíomh	suíomh	NOUN	NOUN	_	6	nmod	_	_
 8	an	an	DET	DET	_	9	det	_	_
@@ -22073,7 +22073,7 @@
 7	seo	seo	DET	DET	_	6	det	_	_
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	shin	sin	PRON	PRON	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	uair	uair	NOUN	NOUN	_	2	nsubj	_	_
@@ -22097,7 +22097,7 @@
 ***22	air	ar	ADP	ADP	_	19	case	_	_***
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
 24	Raidhse	raidhse	NOUN	NOUN	_	17	appos	_	_
-25	.	.	PUNCT	PUNCT	_	1	punct	_	_
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
 2	ionad	ionad	NOUN	NOUN	_	1	nsubj	_	_
@@ -22117,7 +22117,7 @@
 16	Aontaithe	aontaithe	ADJ	ADJ	_	15	amod	_	_
 17	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	beag	beag	ADJ	ADJ	_	0	ROOT	_	_
 3	planda	planda	NOUN	NOUN	_	2	nsubj	_	_
 4	a	a	PART	PART	_	5	rel	_	_
@@ -22126,10 +22126,10 @@
 7	dteocht	teocht	NOUN	NOUN	_	5	nmod	_	_
 8	faoi_bhun	faoi_bhun	ADP	ADP	_	9	case	_	_
 9	4C	4C	X	X	_	7	nmod	_	_
-10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Níor	is	VERB	VERB	_	3	cop	_	_+++
+2	Níor	is	VERB	VERB	_	3	cop	_	_
 3	cheart	ceart	ADJ	ADJ	_	0	ROOT	_	_
 4	do	do	ADP	ADP	_	6	case	_	_
 5	na	na	DET	DET	_	6	det	_	_
@@ -22147,7 +22147,7 @@
 17	ngannchuid	gannchuid	NOUN	NOUN	_	14	nmod	_	_
 18	maidir_lena	maidir_le	ADP	ADP	_	19	case	_	_
 19	bhfíorú	fíorú	NOUN	NOUN	_	14	nmod	_	_
-20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	(	(	PUNCT	PUNCT	_	3	punct	_	_
 2	'	'	PUNCT	PUNCT	_	3	punct	_	_
@@ -22161,7 +22161,7 @@
 10	)	)	PUNCT	PUNCT	_	9	punct	_	_
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-++++++1	Is	is	VERB	VERB	_	0	ROOT	_	_++++++
++++1	Is	is	VERB	VERB	_	0	ROOT	_	_+++
 2	amhlaidh	amhlaidh	ADV	ADV	_	1	advmod	_	_
 3	a	a	PART	PART	_	4	mark:prt	_	_
 4	dhípholaraíonn	dhípholaraigh	VERB	VERB	_	1	nsubj	_	_
@@ -22186,18 +22186,18 @@
 23	craptha	craptha	NOUN	NOUN	_	18	nmod	_	_
 24	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Níor	is	VERB	VERB	_	2	cop	_	_+++
+1	Níor	is	VERB	VERB	_	2	cop	_	_
 2	chúis	cúis	NOUN	NOUN	_	0	ROOT	_	_
 3	iontais	iontas	NOUN	NOUN	_	2	compound	_	_
 4	í	í	PRON	PRON	_	2	nsubj	_	_
 5	go	go	PART	PART	_	6	mark:prt	_	_
-6	hiomlán	iomlán	ADJ	ADJ	_	1	advmod	_	_
+6	hiomlán	iomlán	ADJ	ADJ	_	2	advmod	_	_
 7	gur	gur	PART	PART	_	8	mark:prt	_	_
-8	ghlaoigh	glaoigh	VERB	VERB	_	1	csubj:cop	_	_
+8	ghlaoigh	glaoigh	VERB	VERB	_	2	csubj:cop	_	_
 9	sé	sé	PRON	PRON	_	8	nsubj	_	_
 10	ar	ar	ADP	ADP	_	11	case	_	_
 11	Melissa	Melissa	PROPN	PROPN	_	8	nmod	_	_
-12	.	.	PUNCT	PUNCT	_	1	punct	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -22209,13 +22209,13 @@
 8	mbean	bean	NOUN	NOUN	_	5	nmod	_	_
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	B'	is	VERB	VERB	_	2	cop	_	_+++
+1	B'	is	VERB	VERB	_	2	cop	_	_
 2	fhéidir	féidir	NOUN	NOUN	_	0	ROOT	_	_
 3	go	go	PART	PART	_	4	mark:prt	_	_
 4	raibh	bí	VERB	VERB	_	2	csubj:cop	_	_
 5	tuirse	tuirse	NOUN	NOUN	_	4	nsubj	_	_
 ***6	orm	ar	ADP	ADP	_	4	case	_	_***
-7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Nár	nár	PART	PART	_	2	mark:prt	_	_
 2	labhair	labhair	VERB	VERB	_	0	ROOT	_	_
@@ -22352,7 +22352,7 @@
 67	fáil	fáil	NOUN	NOUN	_	65	nmod	_	_
 68	-	-	PUNCT	PUNCT	_	69	punct	_	_
 69	thiocfadh	tar	VERB	VERB	_	50	parataxis	_	_
-+++70	gurbh	is	VERB	VERB	_	71	cop	_	_+++
+70	gurbh	is	VERB	VERB	_	71	cop	_	_
 71	é	é	PRON	PRON	_	69	ccomp	_	_
 72	seo	seo	DET	DET	_	71	det	_	_
 73	an	an	DET	DET	_	75	det	_	_
@@ -22491,7 +22491,7 @@
 4	a	a	PART	PART	_	5	case:voc	_	_
 5	Bheartla	Bheartla	PROPN	PROPN	_	7	vocative	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
-+++7	ní	is	VERB	VERB	_	16	cop	_	_+++
+7	ní	is	VERB	VERB	_	16	cop	_	_
 8	hí	í	PRON	PRON	_	10	nmod	_	_
 9	an	an	DET	DET	_	10	det	_	_
 10	smólach	smólach	NOUN	NOUN	_	7	nsubj	_	_
@@ -22508,7 +22508,7 @@
 21	-	-	PUNCT	PUNCT	_	16	punct	_	_
 22	a	a	PART	PART	_	23	case:voc	_	_
 23	Shéamais	Shéamais	PROPN	PROPN	_	16	vocative	_	_
-24	.	.	PUNCT	PUNCT	_	7	punct	_	_
+24	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
 1	Éileofar	éiligh	VERB	VERB	_	0	ROOT	_	_
 2	air	ar	ADP	ADP	_	1	dobj	_	_
@@ -22523,7 +22523,7 @@
 11	Ionad	ionad	NOUN	NOUN	_	8	nmod	_	_
 ***12	de_réir	de_réir	ADP	ADP	_	8	case	_	_***
 ***13	mar	mar	ADP	ADP	_	12	case	_	_***
-++++++14	is	is	VERB	VERB	_	13	ncmod	_	_++++++
++++14	is	is	VERB	VERB	_	13	ncmod	_	_+++
 15	gá	gá	NOUN	NOUN	_	14	nsubj	_	_
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -22568,7 +22568,7 @@
 39	1997	1997	NUM	NUM	_	31	nummod	_	_
 40	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	i	i	ADP	ADP	_	0	ROOT	_	_
 3	dtithe	teach	NOUN	NOUN	_	2	nmod	_	_
 4	lucht	lucht	NOUN	NOUN	_	3	compound	_	_
@@ -22585,7 +22585,7 @@
 15	airgid	airgead	NOUN	NOUN	_	14	compound	_	_
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	ach	ach	SCONJ	SCONJ	_	18	mark	_	_
-18	bhí	bí	VERB	VERB	_	1	advcl	_	_
+18	bhí	bí	VERB	VERB	_	2	advcl	_	_
 19	go_leor	go_leor	NOUN	NOUN	_	18	nsubj	_	_
 20	eile	eile	DET	DET	_	19	det	_	_
 21	ag	ag	ADP	ADP	_	18	xcomp	_	_
@@ -22594,7 +22594,7 @@
 ***24	uaidh	ó	ADP	ADP	_	22	case	_	_***
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
 26	fosta	fosta	ADV	ADV	_	22	advmod	_	_
-27	.	.	PUNCT	PUNCT	_	1	punct	_	_
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dhá	dó	NUM	NUM	_	2	nummod	_	_
 2	arm	arm	NOUN	NOUN	_	0	ROOT	_	_
@@ -22603,13 +22603,13 @@
 5	dá	dó	NUM	NUM	_	6	nummod	_	_
 6	theanga	teanga	NOUN	NOUN	_	2	nsubj	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
-+++8	ba	is	VERB	VERB	_	11	cop	_	_+++
+8	ba	is	VERB	VERB	_	11	cop	_	_
 9	ghnáth	gnáth	NOUN	NOUN	_	11	xcomp:pred	_	_
 10	a	a	PART	PART	_	11	mark	_	_
 11	rá	rá	NOUN	NOUN	_	2	xcomp	_	_
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_
 13	ach	ach	SCONJ	SCONJ	_	14	mark	_	_
-+++14	is	is	VERB	VERB	_	15	cop	_	_+++
+14	is	is	VERB	VERB	_	15	cop	_	_
 15	arm	arm	NOUN	NOUN	_	2	advcl	_	_
 16	eile	eile	DET	DET	_	15	det	_	_
 ***17	agam	ag	ADP	ADP	_	15	case	_	_***
@@ -22871,11 +22871,11 @@
 8	na	na	DET	DET	_	9	det	_	_
 9	teanga	teanga	NOUN	NOUN	_	7	compound	_	_
 10	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++11	is	is	VERB	VERB	_	12	cop	_	_+++
+11	is	is	VERB	VERB	_	12	cop	_	_
 12	mithid	mithid	ADJ	ADJ	_	1	conj	_	_
 13	sin	sin	PRON	PRON	_	12	nsubj	_	_
 14	le	le	ADP	ADP	_	15	case	_	_
-15	freastal	freastal	NOUN	NOUN	_	11	nmod	_	_
+15	freastal	freastal	NOUN	NOUN	_	12	nmod	_	_
 16	ar	ar	ADP	ADP	_	17	case	_	_
 17	mhúinteoirí	múinteoir	NOUN	NOUN	_	15	nmod	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
@@ -22995,7 +22995,7 @@
 8	maith	maith	ADJ	ADJ	_	4	advmod	_	_
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	ag	ag	ADP	ADP	_	0	ROOT	_	_
 3	léamh	léamh	NOUN	NOUN	_	2	nmod	_	_
 4	an	an	DET	DET	_	5	det	_	_
@@ -23003,7 +23003,7 @@
 6	a	a	PART	PART	_	7	mark:prt	_	_
 7	bhí	bí	VERB	VERB	_	2	nsubj	_	_
 8	seisean	seisean	PRON	PRON	_	7	nsubj	_	_
-9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	As	as	ADP	ADP	_	0	ROOT	_	_
 2	ucht	ucht	NOUN	NOUN	_	1	nmod	_	_
@@ -23022,14 +23022,14 @@
 5	chainníocht	cainníocht	NOUN	NOUN	_	7	dobj	_	_
 6	a	a	PART	PART	_	7	mark	_	_
 7	thomhas	tomhas	NOUN	NOUN	_	2	xcomp	_	_
-+++8	ní	is	VERB	VERB	_	9	cop	_	_+++
+8	ní	is	VERB	VERB	_	9	cop	_	_
 9	mór	mór	ADJ	ADJ	_	0	ROOT	_	_
 ***10	dúinn	do	ADP	ADP	_	9	case	_	_***
 11	aonad	aonad	NOUN	NOUN	_	13	dobj	_	_
 12	a	a	PART	PART	_	13	mark	_	_
 13	bheith	bheith	NOUN	NOUN	_	9	nsubj	_	_
 ***14	againn	ag	ADP	ADP	_	13	case	_	_***
-15	.	.	PUNCT	PUNCT	_	8	punct	_	_
+15	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 1	Ní	ní	PART	PART	_	2	neg	_	_
 2	raibh	bí	VERB	VERB	_	0	ROOT	_	_
@@ -23056,7 +23056,7 @@
 23	Oileán	oileán	NOUN	NOUN	_	20	nmod	_	_
 24	-	-	PUNCT	PUNCT	_	25	punct	_	_
 25	agus	agus	CONJ	CONJ	_	2	cc	_	_
-+++26	nár	is	VERB	VERB	_	27	cop	_	_+++
+26	nár	is	VERB	VERB	_	27	cop	_	_
 27	mhillteanach	millteanach	ADJ	ADJ	_	2	conj	_	_
 28	an	an	DET	DET	_	29	det	_	_
 29	bhreab	breab	NOUN	NOUN	_	27	nsubj	_	_
@@ -23069,14 +23069,14 @@
 36	móna	móin	NOUN	NOUN	_	35	compound	_	_
 37	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	mó	mó	ADJ	ADJ	_	0	ROOT	_	_
 3	uair	uair	NOUN	NOUN	_	2	nsubj	_	_
 4	le	le	ADP	ADP	_	5	case	_	_
-5	blianta	bliain	NOUN	NOUN	_	1	nmod	_	_
+5	blianta	bliain	NOUN	NOUN	_	2	nmod	_	_
 6	anuas	anuas	ADV	ADV	_	5	advmod	_	_
 7	go	go	PART	PART	_	8	mark:prt	_	_
-8	bhfuil	bí	VERB	VERB	_	1	ccomp	_	_
+8	bhfuil	bí	VERB	VERB	_	2	ccomp	_	_
 9	báireoirí	báireoir	NOUN	NOUN	_	8	nsubj	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	chontae	contae	NOUN	NOUN	_	9	compound	_	_
@@ -23086,11 +23086,11 @@
 15	in	i	ADP	ADP	_	16	case	_	_
 16	ANOIS	anois	ADV	ADV	_	8	nmod	_	_
 17	ach	ach	SCONJ	SCONJ	_	18	mark	_	_
-+++18	ní	is	VERB	VERB	_	19	cop	_	_+++
-19	mór	mór	ADJ	ADJ	_	1	advcl	_	_
+18	ní	is	VERB	VERB	_	19	cop	_	_
+19	mór	mór	ADJ	ADJ	_	2	advcl	_	_
 20	a	a	PART	PART	_	21	mark	_	_
 21	admháil	admháil	NOUN	NOUN	_	19	nsubj	_	_
-+++22	gur	is	VERB	VERB	_	23	cop	_	_+++
+22	gur	is	VERB	VERB	_	23	cop	_	_
 23	le	le	ADP	ADP	_	21	ccomp	_	_
 24	Cill_Chainnigh	Cill_Chainnigh	PROPN	PROPN	_	23	nmod	_	_
 25	a	a	PART	PART	_	26	mark:prt	_	_
@@ -23102,7 +23102,7 @@
 31	seachtain	seachtain	NOUN	NOUN	_	26	advmod	_	_
 32	ó	ó	ADP	ADP	_	33	case	_	_
 33	shin	sin	PRON	PRON	_	31	nmod	_	_
-34	.	.	PUNCT	PUNCT	_	1	punct	_	_
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Dar	dar	VERB	VERB	_	0	ROOT	_	_
 2	leis	le	ADP	ADP	_	4	case	_	_
@@ -23239,7 +23239,7 @@
 2	ráfla	ráfla	NOUN	NOUN	_	1	nsubj	_	_
 3	ann	i	ADP	ADP	_	1	xcomp:pred	_	_
 4	go	go	SCONJ	SCONJ	_	5	mark:prt	_	_
-+++5	mb'	is	VERB	VERB	_	6	cop	_	_+++
+5	mb'	is	VERB	VERB	_	6	cop	_	_
 6	fhéidir	féidir	NOUN	NOUN	_	1	ccomp	_	_
 7	go	go	PART	PART	_	8	mark:prt	_	_
 8	dtiocfadh	tar	VERB	VERB	_	6	csubj:cop	_	_
@@ -23261,7 +23261,7 @@
 24	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Fógraíodh	fógair	VERB	VERB	_	0	ROOT	_	_
-+++2	gur	is	VERB	VERB	_	3	cop	_	_+++
+2	gur	is	VERB	VERB	_	3	cop	_	_
 3	Cipirigh-Gréigeacha	Cipirigh-Gréigeacha	X	X	_	1	ccomp	_	_
 4	a	a	PART	PART	_	5	mark:prt	_	_
 5	mharaigh	maraigh	VERB	VERB	_	3	nsubj	_	_
@@ -23307,7 +23307,7 @@
 6	orgánach	orgánach	NOUN	NOUN	_	3	nmod	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	3	cop	_	_+++
+1	Ba	is	VERB	VERB	_	3	cop	_	_
 2	é	é	PRON	PRON	_	3	nmod	_	_
 3	Seán	Seán	PROPN	PROPN	_	0	ROOT	_	_
 4	a	a	PART	PART	_	6	mark:prt	_	_
@@ -23322,9 +23322,9 @@
 13	aisteacha	aisteach	ADJ	ADJ	_	12	amod	_	_
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
 15	a	a	PART	PART	_	16	mark:prt	_	_
-16	shíl	síl	VERB	VERB	_	1	ccomp	_	_
+16	shíl	síl	VERB	VERB	_	3	ccomp	_	_
 17	mé	mé	PRON	PRON	_	16	nsubj	_	_
-18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	a	a	DET	DET	_	3	nmod:poss	_	_
@@ -23345,7 +23345,7 @@
 17	stad	stad	NOUN	NOUN	_	14	nmod	_	_
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Ba	is	VERB	VERB	_	2	cop	_	_+++
+1	Ba	is	VERB	VERB	_	2	cop	_	_
 2	chóir	cóir	ADJ	ADJ	_	0	ROOT	_	_
 3	machnamh	machnamh	NOUN	NOUN	_	5	dobj	_	_
 4	a	a	PART	PART	_	5	mark	_	_
@@ -23366,7 +23366,7 @@
 19	scoileanna	scoil	NOUN	NOUN	_	17	nmod	_	_
 20	samhraidh	samhradh	NOUN	NOUN	_	19	compound	_	_
 21	Gaeilge	Gaeilge	PROPN	PROPN	_	20	compound	_	_
-22	.	.	PUNCT	PUNCT	_	1	punct	_	_
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
 2	saibhreas	saibhreas	NOUN	NOUN	_	1	nsubj	_	_
@@ -23396,7 +23396,7 @@
 3	dtuigtear	tuig	VERB	VERB	_	1	nsubj	_	_
 4	go	go	PART	PART	_	5	mark:prt	_	_
 5	coitianta	coitianta	ADJ	ADJ	_	3	advmod	_	_
-+++6	is	is	VERB	VERB	_	7	cop	_	_+++
+6	is	is	VERB	VERB	_	7	cop	_	_
 7	um	um	ADP	ADP	_	1	ccomp	_	_
 8	Nollaig	Nollaig	PROPN	PROPN	_	7	nmod	_	_
 9	a	a	PART	PART	_	10	mark:prt	_	_
@@ -23414,8 +23414,8 @@
 21	oisrí	oisre	NOUN	NOUN	_	20	compound	_	_
 22	-	-	PUNCT	PUNCT	_	23	punct	_	_
 23	agus	agus	CONJ	CONJ	_	24	mark	_	_
-+++24	is	is	VERB	VERB	_	25	cop	_	_+++
-25	ar	ar	ADP	ADP	_	6	advcl	_	_
+24	is	is	VERB	VERB	_	25	cop	_	_
+25	ar	ar	ADP	ADP	_	7	advcl	_	_
 26	an	an	DET	DET	_	27	det	_	_
 27	margadh	margadh	NOUN	NOUN	_	25	nmod	_	_
 28	sin	sin	DET	DET	_	27	det	_	_
@@ -23477,7 +23477,7 @@
 30	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
-+++2	is	is	VERB	VERB	_	3	cop	_	_+++
+2	is	is	VERB	VERB	_	3	cop	_	_
 3	lena	le	ADP	ADP	_	0	ROOT	_	_
 4	aghaidh	aghaidh	NOUN	NOUN	_	3	nmod	_	_
 5	sin	sin	DET	DET	_	4	det	_	_
@@ -23494,7 +23494,7 @@
 16	choinneáil	coinneáil	NOUN	NOUN	_	14	xcomp	_	_
 17	ag	ag	ADP	ADP	_	16	xcomp	_	_
 18	sodarnaíl	sodarnaíl	NOUN	NOUN	_	17	nmod	_	_
-19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Dúirt	abair	VERB	VERB	_	0	ROOT	_	_
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
@@ -23528,7 +23528,7 @@
 10	sin	sin	DET	DET	_	9	det	_	_
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_
 12	agus	agus	CONJ	CONJ	_	2	cc	_	_
-+++13	níorbh	is	VERB	VERB	_	14	cop	_	_+++
+13	níorbh	is	VERB	VERB	_	14	cop	_	_
 14	fhada	fada	ADJ	ADJ	_	2	conj	_	_
 15	go	go	PART	PART	_	16	mark:prt	_	_
 16	raibh	bí	VERB	VERB	_	14	ccomp	_	_
@@ -23541,8 +23541,8 @@
 23	phoirt	port	NOUN	NOUN	_	21	dobj	_	_
 24	toisc	toisc	NOUN	NOUN	_	26	mark	_	_
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
-+++26	ní	is	VERB	VERB	_	27	cop	_	_+++
-27	foláir	foláir	NOUN	NOUN	_	13	ccomp	_	_
+26	ní	is	VERB	VERB	_	27	cop	_	_
+27	foláir	foláir	NOUN	NOUN	_	14	ccomp	_	_
 28	,	,	PUNCT	PUNCT	_	30	punct	_	_
 29	go	go	PART	PART	_	30	mark:prt	_	_
 30	raibh	bí	VERB	VERB	_	24	xcomp	_	_
@@ -23656,7 +23656,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Ach	ach	SCONJ	SCONJ	_	2	advmod	_	_
-+++2	ba	is	VERB	VERB	_	3	cop	_	_+++
+2	ba	is	VERB	VERB	_	3	cop	_	_
 3	dhúnmharfóir	dúnmharfóir	NOUN	NOUN	_	0	ROOT	_	_
 4	é	é	PRON	PRON	_	6	nmod	_	_
 5	an	an	DET	DET	_	6	det	_	_
@@ -23670,7 +23670,7 @@
 13	déanta	déanta	ADJ	ADJ	_	10	amod	_	_
 14	as	as	ADP	ADP	_	15	case	_	_
 15	nuachtán	nuachtán	NOUN	NOUN	_	13	nmod	_	_
-16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Cheap	ceap	VERB	VERB	_	0	ROOT	_	_
 2	Brian	Brian	PROPN	PROPN	_	1	nsubj	_	_
@@ -23686,7 +23686,7 @@
 3	a	a	DET	DET	_	4	nmod:poss	_	_
 4	iarrachtaí	iarracht	NOUN	NOUN	_	2	compound	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
-+++6	is	is	VERB	VERB	_	7	cop	_	_+++
+6	is	is	VERB	VERB	_	7	cop	_	_
 7	ar	ar	ADP	ADP	_	0	ROOT	_	_
 8	eigean	eigean	NOUN	NOUN	_	7	nmod	_	_
 9	a	a	PART	PART	_	10	mark:prt	_	_
@@ -23899,7 +23899,7 @@
 12	Riadach	Riada	PROPN	PROPN	_	8	conj	_	_
 13	ann	i	ADP	ADP	_	7	xcomp:pred	_	_
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
-+++15	is	is	VERB	VERB	_	16	cop	_	_+++
+15	is	is	VERB	VERB	_	16	cop	_	_
 16	beag	beag	ADJ	ADJ	_	0	ROOT	_	_
 17	fianaise	fianaise	NOUN	NOUN	_	16	nsubj	_	_
 18	eile	eile	DET	DET	_	17	det	_	_
@@ -23910,7 +23910,7 @@
 23	reilig	reilig	NOUN	NOUN	_	19	nmod	_	_
 24	chéanna	céanna	ADJ	ADJ	_	23	amod	_	_
 25	go	go	PART	PART	_	26	mark:prt	_	_
-26	bhfuil	bí	VERB	VERB	_	15	ccomp	_	_
+26	bhfuil	bí	VERB	VERB	_	16	ccomp	_	_
 27	beirt	beirt	NOUN	NOUN	_	26	nsubj	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
 29	mhór-cheannródaithe	ceannródaí	NOUN	NOUN	_	27	nmod	_	_
@@ -23923,7 +23923,7 @@
 36	hÉireann	Éire	PROPN	PROPN	_	34	compound	_	_
 37	curtha	curtha	ADJ	ADJ	_	26	xcomp:pred	_	_
 ***38	ann	i	ADP	ADP	_	37	case	_	_***
-39	.	.	PUNCT	PUNCT	_	15	punct	_	_
+39	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
 1	Go	go	PART	PART	_	2	mark:prt	_	_
 2	han-luath	luath	ADJ	ADJ	_	7	advmod	_	_
@@ -23972,7 +23972,7 @@
 19	ceart	ceart	NOUN	NOUN	_	17	nsubj	_	_
 20	ag	ag	ADP	ADP	_	21	case	_	_
 21	daoine	duine	NOUN	NOUN	_	17	nmod	_	_
-++++++22	ar	is	VERB	VERB	_	23	case	_	_++++++
++++22	ar	is	VERB	VERB	_	23	case	_	_+++
 23	sheirbhísí	seirbhís	NOUN	NOUN	_	19	nmod	_	_
 24	poiblí	poiblí	ADJ	ADJ	_	23	amod	_	_
 25	uile	uile	DET	DET	_	23	det	_	_
@@ -23983,7 +23983,7 @@
 30	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Ní	is	VERB	VERB	_	3	cop	_	_+++
+2	Ní	is	VERB	VERB	_	3	cop	_	_
 3	cóir	cóir	ADJ	ADJ	_	0	ROOT	_	_
 4	go	go	PART	PART	_	5	mark:prt	_	_
 5	mbeadh	bí	VERB	VERB	_	3	ccomp	_	_
@@ -23991,7 +23991,7 @@
 7	ar	ar	ADP	ADP	_	8	case	_	_
 8	bith	bith	NOUN	NOUN	_	6	nmod	_	_
 9	ann	i	ADP	ADP	_	5	xcomp:pred	_	_
-10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	Ó	ó	PART	PART	_	2	name	_	_
 2	Dubhurthuile	dubhurthuile	PROPN	PROPN	_	0	ROOT	_	_
@@ -24004,7 +24004,7 @@
 9	gCraobh	craobh	NOUN	NOUN	_	6	nmod	_	_
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	IS	is	VERB	VERB	_	2	cop	_	_+++
+1	IS	is	VERB	VERB	_	2	cop	_	_
 2	maith	maith	ADJ	ADJ	_	0	ROOT	_	_
 ***3	liom	le	ADP	ADP	_	2	case	_	_***
 4	an	an	DET	DET	_	5	det	_	_
@@ -24040,7 +24040,7 @@
 34	i	i	ADP	ADP	_	35	case	_	_
 35	gceist	ceist	NOUN	NOUN	_	33	nmod	_	_
 36	arís	arís	ADV	ADV	_	29	advmod	_	_
-37	.	.	PUNCT	PUNCT	_	1	punct	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Phós	pós	VERB	VERB	_	0	ROOT	_	_
 2	Siobhán	Siobhán	PROPN	PROPN	_	1	nsubj	_	_
@@ -24143,11 +24143,11 @@
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
-+++2	Ní	is	VERB	VERB	_	3	cop	_	_+++
+2	Ní	is	VERB	VERB	_	3	cop	_	_
 3	cuimhin	cuimhin	NOUN	NOUN	_	0	ROOT	_	_
 ***4	liom	le	ADP	ADP	_	3	case	_	_***
-5	...	...	PUNCT	PUNCT	_	2	punct	_	_
-6	.	.	PUNCT	PUNCT	_	2	punct	_	_
+5	...	...	PUNCT	PUNCT	_	3	punct	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 1	'	'	PUNCT	PUNCT	_	2	punct	_	_
 2	Míbhuntáistí	míbhuntáiste	NOUN	NOUN	_	0	ROOT	_	_
@@ -24201,7 +24201,7 @@
 5	chabhrú	cabhrú	NOUN	NOUN	_	3	nmod	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	4	cop	_	_+++
+1	Is	is	VERB	VERB	_	4	cop	_	_
 2	iad	iad	PRON	PRON	_	4	nmod	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	daoine	duine	NOUN	NOUN	_	0	ROOT	_	_
@@ -24216,7 +24216,7 @@
 13	sin	sin	DET	DET	_	12	det	_	_
 14	a	a	PART	PART	_	15	rel	_	_
 15	chreideann	creid	VERB	VERB	_	12	acl:relcl	_	_
-+++16	gur	is	VERB	VERB	_	17	cop	_	_+++
+16	gur	is	VERB	VERB	_	17	cop	_	_
 17	cathair	cathair	NOUN	NOUN	_	15	ccomp	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
 19	chuid	cuid	NOUN	NOUN	_	17	nmod	_	_
@@ -24224,9 +24224,9 @@
 21	Breataine	Breatain	PROPN	PROPN	_	19	compound	_	_
 22	í	í	PRON	PRON	_	17	nsubj	_	_
 23	seo	seo	DET	DET	_	22	det	_	_
-24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-+++1	Ní	is	VERB	VERB	_	2	cop	_	_+++
+1	Ní	is	VERB	VERB	_	2	cop	_	_
 2	fheadar	fheadar	NOUN	NOUN	_	0	ROOT	_	_
 3	cén	cé	PRON	PRON	_	2	det	_	_
 4	fáth	fáth	NOUN	NOUN	_	3	compound	_	_
@@ -24256,7 +24256,7 @@
 28	tosaithe	tosaí	NOUN	NOUN	_	22	nmod	_	_
 29	na	na	DET	DET	_	30	det	_	_
 30	Fraince	Frainc	PROPN	PROPN	_	28	compound	_	_
-31	.	.	PUNCT	PUNCT	_	1	punct	_	_
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Arsa	arsa	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -24442,7 +24442,7 @@
 9	córas	córas	NOUN	NOUN	_	8	nsubj	_	_
 10	séarachais	séarachas	NOUN	NOUN	_	9	compound	_	_
 11	mar	mar	SCONJ	SCONJ	_	1	mark	_	_
-+++12	is	is	VERB	VERB	_	13	cop	_	_+++
+12	is	is	VERB	VERB	_	13	cop	_	_
 13	ceart	ceart	ADJ	ADJ	_	11	advcl	_	_
 14	ann	i	ADP	ADP	_	8	xcomp:pred	_	_
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -24481,7 +24481,7 @@
 7	leath	leath	NOUN	NOUN	_	2	nmod	_	_
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	ach	ach	SCONJ	SCONJ	_	10	mark	_	_
-++10	ba	is	VERB	VERB	_	18	cop	_	_++
+10	ba	is	VERB	VERB	_	11	cop	_	_
 11	bheag	beag	ADJ	ADJ	_	2	advcl	_	_
 12	a	a	PART	PART	_	13	mark:prt	_	_
 13	ghoill	goill	VERB	VERB	_	11	nsubj	_	_
@@ -24489,7 +24489,7 @@
 ***15	orthu	ar	ADP	ADP	_	13	case	_	_***
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	agus	agus	CONJ	CONJ	_	18	mark	_	_
-18	go_leor	go_leor	NOUN	NOUN	_	11	cop	_	_
+18	go_leor	go_leor	NOUN	NOUN	_	11	xcomp:pred	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	na	na	DET	DET	_	21	det	_	_
 21	cailíní	cailín	NOUN	NOUN	_	18	nmod	_	_
@@ -24506,7 +24506,7 @@
 32	balla	balla	NOUN	NOUN	_	30	nmod	_	_
 33	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	olc	olc	ADJ	ADJ	_	0	ROOT	_	_
 3	an	an	DET	DET	_	4	det	_	_
 4	nós	nós	NOUN	NOUN	_	6	dobj	_	_
@@ -24514,7 +24514,7 @@
 6	thabhairt	tabhairt	NOUN	NOUN	_	2	nsubj	_	_
 ***7	dóibh	do	ADP	ADP	_	6	case	_	_***
 8	é	é	PRON	PRON	_	6	nmod	_	_
-9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Thug	tabhair	VERB	VERB	_	0	ROOT	_	_
 2	an	an	DET	DET	_	3	det	_	_
@@ -24668,14 +24668,14 @@
 3	inniu	inniu	ADV	ADV	_	2	compound	_	_
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-+++1	Is	is	VERB	VERB	_	2	cop	_	_+++
+1	Is	is	VERB	VERB	_	2	cop	_	_
 2	crobhaingí	crobhaing	NOUN	NOUN	_	0	ROOT	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	shíolta	síol	NOUN	NOUN	_	2	nmod	_	_
 5	crúcacha	crúcach	ADJ	ADJ	_	4	compound	_	_
 6	na	na	DET	DET	_	7	det	_	_
 7	torthaí	toradh	NOUN	NOUN	_	2	nsubj	_	_
-8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	D'	do	PART	PART	_	2	mark:prt	_	_
 2	itheamar	ith	VERB	VERB	_	0	ROOT	_	_
@@ -24688,7 +24688,7 @@
 3	báistí	báisteach	NOUN	NOUN	_	2	compound	_	_
 4	aniar	aniar	ADV	ADV	_	1	advmod	_	_
 5	agus	agus	CONJ	CONJ	_	1	cc	_	_
-+++6	b'	is	VERB	VERB	_	7	cop	_	_+++
+6	b'	is	VERB	VERB	_	7	cop	_	_
 7	éigean	éigean	NOUN	NOUN	_	1	conj	_	_
 ***8	dúinn	do	ADP	ADP	_	7	case	_	_***
 9	dul	dul	NOUN	NOUN	_	7	nsubj	_	_
