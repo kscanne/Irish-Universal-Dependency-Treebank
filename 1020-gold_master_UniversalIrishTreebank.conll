@@ -1,4 +1,4 @@
-1	Eisean	eisean	PRON	PRON	_	0	ROOT	_	_
+1OA	Eisean	eisean	PRON	PRON	_	0	ROOT	_	_
 2	a	a	PART	PART	_	3	mark:prt	_	_
 3	thug	tabhair	VERB	VERB	_	1	nsubj	_	_
 4	chuig	chuig	ADP	ADP	_	6	case	_	_
@@ -7455,11 +7455,11 @@
 24	suas	suas	ADV	ADV	_	23	mark:prt	_	_
 25	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Cailín	Cailín	PROPN	PROPN	_	2	xcomp:pred	_	_
-+++2	is	is	VERB	VERB	_	0	ROOT	_	_+++
+1	Cailín	Cailín	PROPN	PROPN	_	0	ROOT	_	_
+2	is	is	VERB	VERB	_	1	cop	_	_
 3	ea	ea	PRON	PRON	_	4	nmod	_	_
-4	í	í	PRON	PRON	_	2	nsubj	_	_
-5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+4	í	í	PRON	PRON	_	1	nsubj	_	_
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Sa	i	ADP	ADP	_	2	case	_	_
 2	seanam	am	NOUN	NOUN	_	5	nmod	_	_
@@ -7843,9 +7843,9 @@
 8	iascaireacht	iascaireacht	NOUN	NOUN	_	7	nmod	_	_
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Daoine	duine	NOUN	NOUN	_	2	xcomp:pred	_	_
-+++2	nach	is	VERB	VERB	_	0	ROOT	_	_+++
-3	iad	iad	PRON	PRON	_	2	nsubj	_	_
+1	Daoine	duine	NOUN	NOUN	_	0	ROOT	_	_
+2	nach	is	VERB	VERB	_	1	cop	_	_
+3	iad	iad	PRON	PRON	_	1	nsubj	_	_
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ar	ar	PART	PART	_	2	mark:prt	_	_
@@ -8285,16 +8285,16 @@
 43	Márta	Márta	NOUN	NOUN	_	34	nmod	_	_
 44	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	'	'	PUNCT	PUNCT	_	7	punct	_	_
-2	COMHAONTUITHE	comhaontú	NOUN	NOUN	_	7	nmod	_	_
+1	'	'	PUNCT	PUNCT	_	5	punct	_	_
+2	COMHAONTUITHE	comhaontú	NOUN	NOUN	_	5	nmod	_	_
 3	FAOI	faoi	ADP	ADP	_	4	case	_	_
 4	SHAINCHEADU	shaincheadu	NOUN	NOUN	_	2	nmod	_	_
-5	Comharsain	Comharsain	PROPN	PROPN	_	7	xcomp:pred	_	_
+5	Comharsain	Comharsain	PROPN	PROPN	_	0	ROOT	_	_
 6	aoibhne	aoibhne	ADJ	ADJ	_	5	amod	_	_
-+++7	ab	is	VERB	VERB	_	0	ROOT	_	_+++
+7	ab	is	VERB	VERB	_	5	cop	_	_
 8	ea	ea	PRON	PRON	_	9	nmod	_	_
-9	iad	iad	PRON	PRON	_	7	nsubj	_	_
-10	.	.	PUNCT	PUNCT	_	7	punct	_	_
+9	iad	iad	PRON	PRON	_	5	nsubj	_	_
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 1	(4)	(4)	X	X	_	24	nummod	_	_
 2	Maidir_le	maidir_le	ADP	ADP	_	3	case	_	_
@@ -10353,13 +10353,13 @@
 25	oileáin	oileán	NOUN	NOUN	_	22	nmod	_	_
 26	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-1	'	'	PUNCT	PUNCT	_	5	punct	_	_
-2	File	File	PROPN	PROPN	_	5	xcomp:pred	_	_
+1	'	'	PUNCT	PUNCT	_	2	punct	_	_
+2	File	File	PROPN	PROPN	_	0	ROOT	_	_
 3	cumasach	cumasach	ADJ	ADJ	_	2	amod	_	_
 4	eile	eile	DET	DET	_	2	det	_	_
-+++5	ab	is	VERB	VERB	_	0	ROOT	_	_+++
++++5	ab	is	VERB	VERB	_	2	cop	_	_+++
 6	ea	ea	PRON	PRON	_	7	nmod	_	_
-7	Dónall	Dónall	PROPN	PROPN	_	5	nsubj	_	_
+7	Dónall	Dónall	PROPN	PROPN	_	2	nsubj	_	_
 8	Ó	ó	PART	PART	_	7	name	_	_
 9	Muláin	Muláin	PROPN	PROPN	_	7	name	_	_
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
@@ -10409,7 +10409,7 @@
 54	fuaid	fuaid	NOUN	NOUN	_	44	nmod	_	_
 55	an	an	DET	DET	_	56	det	_	_
 56	domhain	domhan	NOUN	NOUN	_	54	compound	_	_
-57	.	.	PUNCT	PUNCT	_	5	punct	_	_
+57	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Tugann	tabhair	VERB	VERB	_	0	ROOT	_	_
 2	An	an	DET	DET	_	3	det	_	_
@@ -17759,13 +17759,13 @@
 26	)	)	PUNCT	PUNCT	_	25	punct	_	_
 27	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	As	as	ADP	ADP	_	5	xcomp:pred	_	_
-2	lár	lár	NOUN	NOUN	_	1	nmod	_	_
+1	As	as	ADP	ADP	_	2	case	_	_
+2	lár	lár	NOUN	NOUN	_	0	ROOT	_	_
 3	na	na	DET	DET	_	4	det	_	_
 4	tubaiste	tubaiste	NOUN	NOUN	_	2	compound	_	_
-+++5	is	is	VERB	VERB	_	0	ROOT	_	_+++
-6	ea	ea	PRON	PRON	_	5	nsubj	_	_
-7	stadfaidh	stad	VERB	VERB	_	5	ccomp	_	_
+5	is	is	VERB	VERB	_	2	cop	_	_
+6	ea	ea	PRON	PRON	_	2	nsubj	_	_
+7	stadfaidh	stad	VERB	VERB	_	2	ccomp	_	_
 8	an	an	DET	DET	_	9	det	_	_
 9	ghrian	grian	NOUN	NOUN	_	7	nsubj	_	_
 10	sula	sula	SCONJ	SCONJ	_	11	mark	_	_
@@ -17780,7 +17780,7 @@
 19	lonrú	lonrú	NOUN	NOUN	_	11	nmod	_	_
 20	anuas	anuas	ADV	ADV	_	19	advmod	_	_
 21	;	;	PUNCT	PUNCT	_	22	punct	_	_
-22	solas	solas	NOUN	NOUN	_	5	compound	_	_
+22	solas	solas	NOUN	NOUN	_	2	compound	_	_
 23	ní	ní	PART	PART	_	24	rel	_	_
 24	bheidh	bí	VERB	VERB	_	22	acl:relcl	_	_
 25	ar	ar	ADP	ADP	_	24	xcomp	_	_
@@ -17793,7 +17793,7 @@
 32	mar	mar	ADP	ADP	_	28	conj	_	_
 33	éiclips	éiclips	NOUN	NOUN	_	32	nmod	_	_
 34	lán	lán	ADJ	ADJ	_	33	amod	_	_
-35	.	.	PUNCT	PUNCT	_	5	punct	_	_
+35	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ansin	ansin	ADV	ADV	_	2	advmod	_	_
 2	nach	is	VERB	VERB	_	6	cop	_	_
