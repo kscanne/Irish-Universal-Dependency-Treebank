@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-package irishdependencytreebank;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,7 +18,7 @@ import java.util.ArrayList;
  * @author fosterjen
  */
 public class IrishDependencyTreebank {
-
+    static ArrayList<Sentence> sentences = new ArrayList();
     /**
      * @param args the command line arguments
      */
@@ -30,15 +29,24 @@ public class IrishDependencyTreebank {
             int lineCount = 0;
             BufferedReader b = new BufferedReader(new FileReader(new File(args[0])));
             String line = b.readLine();
-            ArrayList lines = new ArrayList();
-            
+            ArrayList<String> lines;
             while (line != null)
             {
-                lines.add(line);
-                line = b.readLine();         
+                //System.out.println(line);
+                lines = new ArrayList<String>();
+                while (line != null && line.length() >1)
+                {
+                    lines.add(line);
+                    line = b.readLine();
+                    //System.out.println(line);
+                }
+                sentences.add(new Sentence(lines));
+                line = b.readLine();
             }      
             b.close();
-             process(lines);
+            //processPP();
+            processCopula();
+            printSentences();
         }
         catch (IOException io)
         {
@@ -47,107 +55,101 @@ public class IrishDependencyTreebank {
        
     }
     
-    public static void process(ArrayList sentences) 
+    public static void processPP() 
     {
-        int lineCount = 0;
-        String line;
+        Sentence sentence;
                   
         for (int i=0; i < sentences.size(); i++)
         {
-            line = (String) sentences.get(i); 
-            boolean isWrongNMod = false;
-            boolean isNotAnMod = false;
-            boolean finishedSentence = false;
-            boolean finishedFile = false;
-            //System.out.println("LINE" + line);
-            int prepLine;
-            lineCount++;
-            String nextLine;
-            String [] tokens = line.split("\t");    
-            if (tokens.length >= 7 && tokens[7].equals("case"))
+            sentence = (Sentence) sentences.get(i); 
+            
+            //does the sentence contain a case relation?
+            //if it does, find the nmod that it is related to
+            ArrayList<Word> caseWords = sentence.findWords("case");
+            for (int j=0; j < caseWords.size(); j++)
             {
-                String prepId = tokens[0];
-                String prepHeadId = tokens[6];
-                prepLine = i;
-                lineCount = i;
-                
-                String [] nmodTokens = null;
-                String nmodId = null;
-                String nmodHead = null;
-                
-                do
+                Word caseWord = caseWords.get(j);
+            
+                ArrayList<Word> nmodWords = sentence.findDependents(caseWord);
+                if (nmodWords.size() == 0)
                 {
-                    lineCount++;
-                    isWrongNMod = false;
-                    isNotAnMod = false;
-                    nextLine = (String) sentences.get(lineCount);
-                    //System.out.println("NEXTLINE " + nextLine);
-                        
-                    if (nextLine == null)
-                    {
-                        finishedFile = true;
-                    }
-                    else if (nextLine.length() <= 1)
-                    {
-                        finishedSentence = true;     
-                    }
-                    else if (nextLine.indexOf("nmod") == -1)
-                    {
-                        //System.out.println("Not an mod");
-                        isNotAnMod = true;
-                    }
-                    else 
-                    {
-                        nmodTokens = nextLine.split("\t");
-                        nmodId = nmodTokens[0];
-                        nmodHead = nmodTokens[6];
-                        if (!prepId.equals(nmodHead))
-                        {
-                            //System.out.println("Found the wrong nmod");
-                            isWrongNMod = true; 
-                        }    
-                    }             
-                }while ((isNotAnMod || isWrongNMod) && !finishedSentence && !finishedFile);
-                   
-                if (!finishedSentence && !finishedFile)
-                {
-                    //the new head of the prep is the nmod
-                    tokens[6] = nmodId;
-                    //the new head of the nmod is the previous head of the prep
-                    nmodTokens[6] = prepHeadId;
-                    line = ""; nextLine = "";
-                    for (int k=0; k < tokens.length-1; k++)
-                    {
-                        line += tokens[k] + "\t";
-                    }
-                    line += tokens[tokens.length-1];
-                    for (int j=0; j < nmodTokens.length-1; j++)
-                    {
-                        nextLine += nmodTokens[j] + "\t";
-                    }
-                    nextLine += nmodTokens[nmodTokens.length-1];
-                    //System.out.println(line);
-                    //System.out.println(prepLine);
-                    sentences.set(prepLine,line);
-                    sentences.set(lineCount,nextLine);
+                    //no nmod, mark it
+                    caseWord.setToken("***"+ caseWord.getToken()+"***");
                 }
-                else if (finishedSentence || finishedFile)
+                else
                 {
-                    sentences.set(prepLine,"***"+line+"***");
-                    i = prepLine+1;
-                    lineCount = prepLine+1;
+                    for (int k=0; k < nmodWords.size(); k++)
+                    {
+                        Word nmodWord = nmodWords.get(k);
+                    
+                       
+                        if (nmodWord.getHead() == caseWord.getId())
+                        {
+                            //System.out.println(nmodWord.getToken());
+                            //System.out.println(caseWord.getToken());
+                            //System.out.println("changing the heads");
+                            //sentence.swapHead(caseWord.getId(),nmodWord.getId());
+                            nmodWord.setHead(caseWord.getHead());
+                            caseWord.setHead(nmodWord.getId());
+                        }
+                    }       
                 }
             }
-        }
+        }        
+    }
+            
+    public static void processCopula() 
+    {
+        Sentence sentence;
         for (int i=0; i < sentences.size(); i++)
         {
+            sentence = (Sentence) sentences.get(i);
+            //does the sentence contain a copula?
+            ArrayList<Word> copWords = sentence.findWordsByLemma("is");
+            for (int j=0; j < copWords.size(); j++)
+            {
+                Word copWord = (Word) copWords.get(j);
+                //check that the word is not a mark:prt
+                if (!copWord.getRelation().equals("mark:prt"))
+                {
+                    //look for the xcomp
+                    ArrayList<Word> xcompWords = sentence.findWords("xcomp:pred");
+                    xcompWords.addAll(sentence.findWords("xcomp"));
+                    if (xcompWords.size() == 0)
+                    {
+                        //no xcomp, something strange going on
+                        copWord.setToken("+++"+copWord.getToken()+"+++");
+                    }
+                    for (int k=0; k < xcompWords.size(); k++)
+                    {
+                        Word xcompWord = xcompWords.get(k);
+                        if (xcompWord.getHead() == copWord.getId())
+                        {
+                            xcompWord.setHead(copWord.getHead());
+                            xcompWord.setRelation(copWord.getRelation());
+                            copWord.setHead(xcompWord.getId());
+                            copWord.setRelation("cop");
+                        }
+                    }
+                    //look for other dependents of the copula
+                    ArrayList<Word> otherDeps = sentence.findDependents(copWord);
+                    for (int x=0; x < otherDeps.size(); x++)
+                    {
+                        Word dep = otherDeps.get(x);
+                        dep.setHead(copWord.getHead());
+                    }
+                }
+                
+            }
+        }  
+    }
+    
+    public static void printSentences()
+    {
+         for (int i=0; i < sentences.size(); i++)
+        {
             System.out.println(sentences.get(i));
-        }
-        
-            
-            
-           
-           
+        }      
     }
     
 }
