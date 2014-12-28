@@ -647,7 +647,7 @@
 12	-	-	PUNCT	PUNCT	_	13	punct	_	_
 13	bhí	bí	VERB	VERB	_	2	parataxis	_	_
 14	100	100	NUM	NUM	_	13	nsubj	_	_
-15	$$$i$$$	i	ADP	ADP	_	13	xcomp:pred	_	_
+15	i	i	ADP	ADP	_	16	case	_	_
 16	nGaillimh	Gaillimh	PROPN	PROPN	_	13	nmod	_	_
 17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -15096,9 +15096,9 @@
 5	é	é	PRON	PRON	_	2	advcl	_	_
 6	ina	i	ADP	ADP	_	7	case	_	_
 7	uachtarán	uachtarán	NOUN	NOUN	_	5	xcomp:pred	_	_
-8	ar	ar	ADP	ADP	_	7	nmod	_	_
+8	ar	ar	ADP	ADP	_	10	case	_	_
 9	an	an	DET	DET	_	10	det	_	_
-10	gcomhluadar	comhluadar	NOUN	NOUN	_	8	nmod	_	_
+10	gcomhluadar	comhluadar	NOUN	NOUN	_	7	nmod	_	_
 11	i	i	ADP	ADP	_	12	case	_	_
 12	Mhainistir	mainistir	NOUN	NOUN	_	10	nmod	_	_
 13	Éimhín	Éimhín	PROPN	PROPN	_	12	compound	_	_
