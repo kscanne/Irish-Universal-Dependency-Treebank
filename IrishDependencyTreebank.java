@@ -45,7 +45,9 @@ public class IrishDependencyTreebank {
             }      
             b.close();
             //processPP();
-            processCopula();
+            //processCopula();
+            //processProPreps();
+	    processPPXComp();
             printSentences();
         }
         catch (IOException io)
@@ -85,10 +87,6 @@ public class IrishDependencyTreebank {
                        
                         if (nmodWord.getHead() == caseWord.getId())
                         {
-                            //System.out.println(nmodWord.getToken());
-                            //System.out.println(caseWord.getToken());
-                            //System.out.println("changing the heads");
-                            //sentence.swapHead(caseWord.getId(),nmodWord.getId());
                             nmodWord.setHead(caseWord.getHead());
                             caseWord.setHead(nmodWord.getId());
                         }
@@ -96,6 +94,60 @@ public class IrishDependencyTreebank {
                 }
             }
         }        
+    }
+
+
+    public static void processPPXComp()
+    {
+	Sentence sentence;
+
+	for (int i=0; i < sentences.size(); i++)
+	    {
+		sentence = (Sentence) sentences.get(i);
+
+		//does the sentence contain a case relation?
+		//if it does, find the nmod that it is related to
+		ArrayList<Word> xcompWords = sentence.findWords("xcomp:pred");
+		for (int j=0; j < xcompWords.size(); j++)
+		    {
+			Word xcompWord = xcompWords.get(j);
+			if (xcompWord.getPosCoarse().equals("ADP"))
+			    {
+
+				ArrayList<Word> nmodWords = sentence.findDependents(xcompWord);
+				if (nmodWords.size() == 0)
+				    {
+					//no nmod
+					if (isProPrep(xcompWord.getToken(),xcompWord.getLemma()))
+					    {
+						xcompWord.setToken("%"+ xcompWord.getToken()+"%");
+					    }
+					    else
+					    {
+						//something strange going on - mark it
+						xcompWord.setToken("$"+ xcompWord.getToken()+"$");
+					    }
+				    }
+				else
+				    {
+					for (int k=0; k < nmodWords.size(); k++)
+					    {
+						Word nmodWord = nmodWords.get(k);
+                                                if (nmodWord.getHead() == xcompWord.getId())
+						    {
+							nmodWord.setHead(xcompWord.getHead());
+							xcompWord.setHead(nmodWord.getId());
+							xcompWord.setToken("@"+xcompWord.getToken());
+							nmodWord.setRelation(xcompWord.getRelation());
+							xcompWord.setRelation("case");
+						    }
+						
+					    }
+				    }
+			    }
+			   
+		    }	
+	    }
     }
             
     public static void processCopula() 
@@ -144,6 +196,28 @@ public class IrishDependencyTreebank {
         }  
     }
     
+    public static void processProPreps()
+    {
+        for (int i=0; i < sentences.size(); i++)
+        {
+            Sentence sentence = sentences.get(i);
+            ArrayList<Word> caseWords = sentence.findWords("case");
+            for (int j=0; j < caseWords.size(); j++)
+            { 
+                Word caseWord = caseWords.get(j);
+                if (caseWord != null && caseWord.getToken().startsWith("***"))
+                {
+                    if (isProPrep(caseWord.getToken().substring(3,caseWord.getToken().length()-3),caseWord.getLemma()))
+                    {
+                         caseWord.setToken(caseWord.getToken().substring(3,caseWord.getToken().length()-3));
+                         caseWord.setRelation("nmod:prep");
+                    }
+                }
+            }
+        }
+    }
+    
+    
     public static void printSentences()
     {
          for (int i=0; i < sentences.size(); i++)
@@ -151,5 +225,23 @@ public class IrishDependencyTreebank {
             System.out.println(sentences.get(i));
         }      
     }
+
+    private static boolean isProPrep(String token, String lemma) 
+    {
+        //String [] proPrepList = {"agam","agat","aige","aici","againn","agaibh","acu","liom","leat","leis","leí","linn","libh","leo"
+                 //,"orm","ort","air","uirthi","orainn","oraibh","orthu","dom","duit","dó","dúinn","daoibh","dóibh","uaim","uait",
+        //"uaidh","domsa"};
+        String [] prepList = {"do","ag","ar","le","de","faoi","ó","chuig","roimh","i","trí","as","thar"};
+        for (int i=0; i < prepList.length;i++)
+        {
+            if (prepList[i].equalsIgnoreCase(lemma) && !lemma.equalsIgnoreCase(token) && !token.equalsIgnoreCase("lena") && !token.equalsIgnoreCase("lenar") &&
+		!token.equalsIgnoreCase("don") && !token.equalsIgnoreCase("den") && !token.equalsIgnoreCase("d'"))
+            {
+                return true;
+            }
+        }
+        return false; //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }
