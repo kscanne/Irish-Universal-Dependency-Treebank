@@ -97,6 +97,69 @@ public class IrishDependencyTreebank {
     }
 
 
+    public static void processAspectualPhrases()
+    {
+	Sentence sentence;
+
+	for (int i=0; i < sentences.size(); i++)
+	    {
+		sentence = (Sentence) sentences.get(i);
+		ArrayList<Word> xcompWords = sentence.findWords("xcomp");
+		for (int j=0; j < xcompWords.size(); j++)
+		    {
+			Word xcompWord = xcompWords.get(j);
+			if (xcompWord.getLemma().equals("ag"))
+			    {
+				ArrayList<Word> dependentWords = sentence.findDependents(xcompWord);
+				if (dependentWords.size() == 0)
+				    {
+
+					//something strange going on - mark it
+					xcompWord.setToken("@@@"+ xcompWord.getToken()+"@@@");
+				    }
+			   
+		    
+		else if (dependentWords.size() == 1)
+		    {
+
+			Word dependentWord = dependentWords.get(0);
+			if (dependentWord.getRelation().equals("dobj"))
+			    {
+				dependentWord.setRelation(xcompWord.getRelation());
+				dependentWord.setHead(xcompWord.getHead());
+				xcompWord.setRelation("case");
+				xcompWord.setHead(dependentWord.getId());
+			    }
+			else
+			    {
+				//something strange going on - mark it
+				xcompWord.setToken("@@@"+ xcompWord.getToken()+"@@@");
+
+			    }
+
+
+		    }
+		else {
+
+		    for (int k=0; k < dependentWords.size(); k++)
+			{
+			    Word dependentWord = dependentWords.get(k);
+			    dependentWord.setHead(xcompWord.getHead());
+			    if (dependentWord.getRelation().equals("dobj"))
+				{
+				    xcompWord.setHead(dependentWord.getId());
+				    dependentWord.setRelation(xcompWord.getRelation());
+				}
+			}
+		    xcompWord.setRelation("case");
+		}
+	    }
+
+	    }
+	    }
+    }
+
+    
     public static void processPPXComp()
     {
 	Sentence sentence;
