@@ -114,35 +114,45 @@ public class IrishDependencyTreebank {
 			if (xcompWord.getPosCoarse().equals("ADP"))
 			    {
 
-				ArrayList<Word> nmodWords = sentence.findDependents(xcompWord);
-				if (nmodWords.size() == 0)
+				ArrayList<Word> dependentWords = sentence.findDependents(xcompWord);
+				if (dependentWords.size() == 0)
 				    {
 					//no nmod
 					if (isProPrep(xcompWord.getToken(),xcompWord.getLemma()))
 					    {
-						xcompWord.setToken("%"+ xcompWord.getToken()+"%");
+						xcompWord.setToken("%%%"+ xcompWord.getToken()+"%%%");
 					    }
 					    else
 					    {
 						//something strange going on - mark it
-						xcompWord.setToken("$"+ xcompWord.getToken()+"$");
+						xcompWord.setToken("$$$"+ xcompWord.getToken()+"$$$");
 					    }
 				    }
-				else
+				else if (dependentWords.size() == 1)
 				    {
-					for (int k=0; k < nmodWords.size(); k++)
+					Word dependentWord = dependentWords.get(0);
+					dependentWord.setRelation(xcompWord.getRelation());
+					dependentWord.setHead(xcompWord.getHead());
+					xcompWord.setRelation("case");
+					xcompWord.setHead(dependentWord.getId());
+				 
+					
+				    }
+				else {
+				    
+					for (int k=0; k < dependentWords.size(); k++)
 					    {
-						Word nmodWord = nmodWords.get(k);
-                                                if (nmodWord.getHead() == xcompWord.getId())
+						Word dependentWord = dependentWords.get(k);
+						dependentWord.setHead(xcompWord.getHead());
+						if (dependentWord.getRelation().equals("nmod") || dependentWord.getRelation().startsWith("xcomp"))
 						    {
-							nmodWord.setHead(xcompWord.getHead());
-							xcompWord.setHead(nmodWord.getId());
-							xcompWord.setToken("@"+xcompWord.getToken());
-							nmodWord.setRelation(xcompWord.getRelation());
-							xcompWord.setRelation("case");
+							xcompWord.setHead(dependentWord.getId());
+							dependentWord.setRelation(xcompWord.getRelation());
 						    }
 						
+						
 					    }
+					xcompWord.setRelation("case");
 				    }
 			    }
 			   
