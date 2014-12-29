@@ -378,8 +378,8 @@
 9	nó	nó	CONJ	CONJ	_	5	cc	_	_
 10	aon	aon	DET	DET	_	11	det	_	_
 11	ní	ní	NOUN	NOUN	_	5	conj	_	_
-12	***den***	de	ADP	ADP	_	13	case	_	_
-13	tsórt	tsórt	NOUN	NOUN	_	11	compound	_	_
+12	den	de	ADP	ADP	_	13	case	_	_
+13	tsórt	tsórt	NOUN	NOUN	_	11	nmod	_	_
 14	leat	le	ADP	ADP	_	3	nmod:prep	_	_
 15	,	,	PUNCT	PUNCT	_	3	punct	_	_
 16	a	a	PART	PART	_	17	case:voc	_	_
@@ -477,7 +477,7 @@
 
 1	Bíonn	bí	VERB	VERB	_	0	ROOT	_	_
 2	suas	suas	ADV	ADV	_	1	advmod	_	_
-3	***le***	le	ADP	ADP	_	2	case	_	_
+3	le	le	ADP	ADP	_	2	compound:prt	_	_
 4	céad	céad	NUM	NUM	_	5	nummod	_	_
 5	cineál	cineál	NOUN	NOUN	_	1	nsubj	_	_
 6	éagsúil	éagsúil	ADJ	ADJ	_	5	amod	_	_
@@ -559,7 +559,7 @@
 17	,	,	PUNCT	PUNCT	_	10	punct	_	_
 18	i_ndiaidh	i_ndiaidh	ADP	ADP	_	19	case	_	_
 19	éirí	éirí	NOUN	NOUN	_	10	xcomp:pred	_	_
-20	***as***	as	ADP	ADP	_	19	case	_	_
+20	as	as	ADP	ADP	_	19	compound:prt	_	_
 21	de_thairbhe	de_thairbhe	ADP	ADP	_	23	case	_	_
 22	'	'	PUNCT	PUNCT	_	23	punct	_	_
 23	cúiseanna	cúis	NOUN	NOUN	_	19	nmod	_	_
@@ -1151,7 +1151,7 @@
 70	feidhm	feidhm	NOUN	NOUN	_	65	nmod	_	_
 71	a	a	PART	PART	_	72	dobj	_	_
 72	thugtar	tabhair	VERB	VERB	_	70	acl:relcl	_	_
-73	***don***	do	ADP	ADP	_	72	case	_	_
+73	don	do	ADP	ADP	_	74	case	_	_
 74	fhochuideachta	cuideachta	NOUN	NOUN	_	72	nmod	_	_
 75	de	de	ADP	ADP	_	76	case	_	_
 76	bhua	bua	NOUN	NOUN	_	74	nmod	_	_
@@ -2250,7 +2250,7 @@
 39	agus	agus	CONJ	CONJ	_	37	cc	_	_
 40	na	na	DET	DET	_	41	det	_	_
 41	scrúduithe	scrúdú	NOUN	NOUN	_	37	conj	_	_
-42	***le***	le	ADP	ADP	_	44	case	_	_
+42	le	le	ADP	ADP	_	43	case	_	_
 43	n-a	a	PART	PART	_	44	nmod	_	_
 44	mbaineann	bain	VERB	VERB	_	37	acl:relcl	_	_
 45	an	an	DET	DET	_	46	det	_	_
@@ -3081,7 +3081,7 @@
 1	Má	má	SCONJ	SCONJ	_	2	mark	_	_
 2	imríonn	imir	VERB	VERB	_	11	advcl	_	_
 3	siad	siad	PRON	PRON	_	2	nsubj	_	_
-4	***faoi***	faoi	ADP	ADP	_	2	case	_	_
+4	faoi	faoi	ADP	ADP	_	2	compound:prt	_	_
 5	mar	mar	ADP	ADP	_	2	mark	_	_
 6	is	is	VERB	VERB	_	2	advcl	_	_
 7	féidir	féidir	NOUN	NOUN	_	2	nsubj	_	_
@@ -4898,9 +4898,9 @@
 3	teach	teach	NOUN	NOUN	_	1	nsubj	_	_
 4	a	a	PART	PART	_	5	nsubj	_	_
 5	bhí	bí	VERB	VERB	_	3	acl:relcl	_	_
-6	***ag***	ag	ADP	ADP	_	5	case	_	_
+6	ag	ag	ADP	ADP	_	8	case	_	_
 7	an	an	DET	DET	_	8	det	_	_
-8	mhinistéir	mhinistéir	NOUN	NOUN	_	5	nsubj	_	_
+8	mhinistéir	mhinistéir	NOUN	NOUN	_	5	xcomp:pred	_	_
 9	ansin	ansin	ADV	ADV	_	5	advmod	_	_
 10	,	,	PUNCT	PUNCT	_	13	punct	_	_
 11	'	'	PUNCT	PUNCT	_	13	punct	_	_
@@ -5462,7 +5462,7 @@
 2	1	1	NUM	NUM	_	1	nummod	_	_
 3	:	:	PUNCT	PUNCT	_	1	punct	_	_
 4	Feidhmeannach	feidhmeannach	NOUN	NOUN	_	1	appos	_	_
-5	***Riaracháin***	riarachán	NOUN	NOUN	_	4	case	_	_
+5	Riaracháin	riarachán	NOUN	NOUN	_	4	compound	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Bhí	bí	VERB	VERB	_	0	ROOT	_	_
@@ -5999,7 +5999,7 @@
 3	:	:	PUNCT	PUNCT	_	4	punct	_	_
 4	Cén	cé	DET	DET	_	5	nsubj	_	_
 5	dul	dul	NOUN	NOUN	_	0	ROOT	_	_
-6	***as***	as	ADP	ADP	_	5	case	_	_
+6	as	as	ADP	ADP	_	5	compound:prt	_	_
 7	a	a	PART	PART	_	8	nsubj	_	_
 8	bhí	bí	VERB	VERB	_	5	acl:relcl	_	_
 9	agam	ag	ADP	ADP	_	8	nmod:prep	_	_
@@ -6042,7 +6042,7 @@
 35	bhfios	fios	NOUN	NOUN	_	33	dobj	_	_
 36	don	do	ADP	ADP	_	44	case	_	_
 37	iarratasóir	iarratasóir	NOUN	NOUN	_	33	nmod	_	_
-38	***lena***	le	PART	PART	_	39	case	_	_
+38	lena	le	PART	PART	_	39	nmod	_	_
 39	mbaineann	bain	VERB	VERB	_	37	acl:relcl	_	_
 40	agus	agus	CONJ	CONJ	_	37	cc	_	_
 41	dá	do	ADP	ADP	_	40	conj	_	_
@@ -6567,8 +6567,8 @@
 15	a	a	DET	DET	_	16	nmod:poss	_	_
 16	leithéid	leithéid	NOUN	NOUN	_	21	dobj	_	_
 17	sin	sin	PRON	PRON	_	16	det	_	_
-18	***d'***	de	ADP	ADP	_	19	case	_	_
-19	achomharc	achomharc	NOUN	NOUN	_	16	compound	_	_
+18	d'	de	ADP	ADP	_	19	case	_	_
+19	achomharc	achomharc	NOUN	NOUN	_	16	nmod	_	_
 20	a	a	PART	PART	_	21	mark	_	_
 21	dhéanamh	déanamh	NOUN	NOUN	_	5	xcomp	_	_
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -7180,7 +7180,7 @@
 19	scaradh	scaradh	NOUN	NOUN	_	18	nsubj	_	_
 20	scun	scun	NOUN	NOUN	_	19	compound	_	_
 21	scan	scan	NOUN	NOUN	_	19	compound	_	_
-22	***lenar***	le	PART	PART	_	23	case	_	_
+22	lenar	le	PART	PART	_	23	nmod	_	_
 23	tharla	tarlaigh	VERB	VERB	_	19	acl:relcl	_	_
 24	fadó	fadó	ADV	ADV	_	23	advmod	_	_
 25	,	,	PUNCT	PUNCT	_	18	punct	_	_
@@ -8032,9 +8032,9 @@
 1	!	!	PUNCT	PUNCT	_	0	ROOT	_	_
 
 1	Tá	bí	VERB	VERB	_	0	ROOT	_	_
-2	smut	smut	NOUN	NOUN	_	4	advmod	_	_
-3	***den***	de	ADP	ADP	_	2	case	_	_
-4	dul	dul	NOUN	NOUN	_	1	nsubj	_	_
+2	smut	smut	NOUN	NOUN	_	1	nsubj	_	_
+3	den	de	ADP	ADP	_	4	case	_	_
+4	dul	dul	NOUN	NOUN	_	2	nmod	_	_
 5	thar	thar	ADP	ADP	_	6	case	_	_
 6	fóir	fóir	NOUN	NOUN	_	4	nmod	_	_
 7	sa	i	ADP	ADP	_	8	case	_	_
@@ -8327,7 +8327,7 @@
 29	Conarthach	conarthach	ADJ	ADJ	_	28	amod	_	_
 30	aon	aon	DET	DET	_	31	det	_	_
 31	stát	stát	NOUN	NOUN	_	28	nsubj	_	_
-32	***lena***	le	PART	PART	_	33	case	_	_
+32	lena	le	PART	PART	_	33	nmod	_	_
 33	mbaineann	bain	VERB	VERB	_	31	acl:relcl	_	_
 34	an	an	DET	DET	_	35	det	_	_
 35	dearbhú	dearbhú	NOUN	NOUN	_	33	nsubj	_	_
@@ -8928,7 +8928,7 @@
 13	go	go	PART	PART	_	14	mark:prt	_	_
 14	raibh	bí	VERB	VERB	_	1	ccomp	_	_
 15	thart	thart	ADV	ADV	_	18	advmod	_	_
-16	***ar***	ar	ADP	ADP	_	18	case	_	_
+16	ar	ar	ADP	ADP	_	18	mark:prt	_	_
 17	dhá	dó	NUM	NUM	_	18	nummod	_	_
 18	chéad	céad	NUM	NUM	_	21	nummod	_	_
 19	go	go	ADP	ADP	_	20	case	_	_
@@ -9400,7 +9400,7 @@
 10	imeachtaí	imeacht	NOUN	NOUN	_	9	dobj	_	_
 11	an	an	DET	DET	_	12	det	_	_
 12	scéil	scéal	NOUN	NOUN	_	10	compound	_	_
-13	***i_láthair***	i_láthair	ADP	ADP	_	9	case	_	_
+13	i_láthair	i_láthair	ADP	ADP	_	9	compound:prt	_	_
 14	tré	tré	ADP	ADP	_	15	case	_	_
 15	shúile	súil	NOUN	NOUN	_	9	nmod	_	_
 16	Mhairéid	Mhairéid	PROPN	PROPN	_	15	compound	_	_
@@ -10111,7 +10111,7 @@
 26	;	;	PUNCT	PUNCT	_	28	punct	_	_
 27	is	is	VERB	VERB	_	28	cop	_	_
 28	cur	cur	NOUN	NOUN	_	7	ccomp	_	_
-29	***i_láthair***	i_láthair	ADP	ADP	_	28	case	_	_
+29	i_láthair	i_láthair	ADP	ADP	_	28	compound:prt	_	_
 30	í	í	PRON	PRON	_	28	nsubj	_	_
 31	de	de	ADP	ADP	_	32	case	_	_
 32	thimthriall	triall	NOUN	NOUN	_	28	nmod	_	_
@@ -11765,7 +11765,7 @@
 17	téann	téigh	VERB	VERB	_	6	conj	_	_
 18	an	an	DET	DET	_	19	det	_	_
 19	cur	cur	NOUN	NOUN	_	17	nsubj	_	_
-20	***i_gcoinne***	i_gcoinne	ADP	ADP	_	19	case	_	_
+20	i_gcoinne	i_gcoinne	ADP	ADP	_	19	compound:prt	_	_
 21	i	i	ADP	ADP	_	22	case	_	_
 22	ndéine	déine	NOUN	NOUN	_	17	nmod	_	_
 23	...	...	PUNCT	PUNCT	_	27	punct	_	_
