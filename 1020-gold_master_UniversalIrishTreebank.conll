@@ -159,7 +159,7 @@
 99	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Sa	i	ADP	ADP	_	2	case	_	_
-2	bhliain	bliain	NOUN	NOUN	_	5	nmod	_	_
+2	bhliain	bliain	NOUN	NOUN	_	5	nmod:tmod	_	_
 3	sin	sin	DET	DET	_	2	det	_	_
 4	d'	do	PART	PART	_	5	mark:prt	_	_
 5	éirigh	éirigh	VERB	VERB	_	0	ROOT	_	_
@@ -604,7 +604,7 @@
 7	dhaoine	duine	NOUN	NOUN	_	2	nmod	_	_
 8	fásta	fásta	ADJ	ADJ	_	7	amod	_	_
 9	gach	gach	DET	DET	_	10	det	_	_
-10	oíche	oíche	NOUN	NOUN	_	2	advmod	_	_
+10	oíche	oíche	NOUN	NOUN	_	2	nmod:tmod	_	_
 11	Dé	Dé	NOUN	NOUN	_	12	compound	_	_
 12	Luain	luain	NOUN	NOUN	_	10	compound	_	_
 13	ag	ag	ADP	ADP	_	14	case	_	_
@@ -705,11 +705,11 @@
 29	bheith	bheith	NOUN	NOUN	_	1	ccomp	_	_
 30	ar	ar	ADP	ADP	_	31	case	_	_
 31	garda	garda	NOUN	NOUN	_	29	nmod	_	_
-32	de	de	ADP	ADP	_	35	case	_	_
-33	ló	lá	NOUN	NOUN	_	30	nmod	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	ló	lá	NOUN	NOUN	_	29	nmod:tmod	_	_
 34	is	agus	CONJ	CONJ	_	33	cc	_	_
-35	d'	de	ADP	ADP	_	34	conj	_	_
-36	oíche	oíche	NOUN	NOUN	_	35	nmod	_	_
+35	d'	de	ADP	ADP	_	36	case	_	_
+36	oíche	oíche	NOUN	NOUN	_	33	conj	_	_
 37	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Ní	is	VERB	VERB	_	2	cop	_	_
@@ -2948,7 +2948,7 @@
 4	sin	sin	PRON	PRON	_	2	nsubj	_	_
 5	le_hais	le_hais	ADP	ADP	_	7	case	_	_
 6	na	na	DET	DET	_	7	det	_	_
-7	hoíche	oíche	NOUN	NOUN	_	2	nmod	_	_
+7	hoíche	oíche	NOUN	NOUN	_	2	nmod:tmod	_	_
 8	ar	ar	PART	PART	_	9	mark:prt	_	_
 9	fhéach	féach	VERB	VERB	_	2	ccomp	_	_
 10	Cóil	Cóil	PROPN	PROPN	_	9	nsubj	_	_
@@ -2970,7 +2970,7 @@
 26	caitheamh	caitheamh	NOUN	NOUN	_	9	xcomp	_	_
 27	,	,	PUNCT	PUNCT	_	28	punct	_	_
 28	an	an	DET	DET	_	29	det	_	_
-29	oíche	oíche	NOUN	NOUN	_	7	appos	_	_
+29	oíche	oíche	NOUN	NOUN	_	7	nmod:tmod	_	_
 30	sul	sul	NOUN	NOUN	_	29	compound	_	_
 31	ar	ar	PART	PART	_	32	nmod:tmod	_	_
 32	pósadh	pós	VERB	VERB	_	29	acl:relcl	_	_
@@ -4113,7 +4113,7 @@
 2	sí	sí	PRON	PRON	_	1	nsubj	_	_
 3	%%%ann%%%	i	ADP	ADP	_	1	xcomp:pred	_	_
 4	ar_feadh	ar_feadh	ADP	ADP	_	5	case	_	_
-5	bliana	bliain	NOUN	NOUN	_	1	nmod	_	_
+5	bliana	bliain	NOUN	NOUN	_	1	nmod:tmod	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	Seasadh	seas	VERB	VERB	_	0	ROOT	_	_
@@ -4271,9 +4271,9 @@
 21	leat	le	ADP	ADP	_	20	nmod:prep	_	_
 22	ón	ó	ADP	ADP	_	24	case	_	_
 23	chéad	céad	NUM	NUM	_	24	nummod	_	_
-24	lá	lá	NOUN	NOUN	_	17	nmod	_	_
+24	lá	lá	NOUN	NOUN	_	17	nmod:tmod	_	_
 25	sin	sin	DET	DET	_	24	det	_	_
-26	ar	ar	PART	PART	_	27	nmod:tmod	_	_
+26	ar	ar	PART	PART	_	27	nmod	_	_
 27	leag	leag	VERB	VERB	_	24	acl:relcl	_	_
 28	mé	mé	PRON	PRON	_	27	nsubj	_	_
 29	súil	súil	NOUN	NOUN	_	27	dobj	_	_
@@ -6178,7 +6178,7 @@
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 1	Le	le	ADP	ADP	_	2	case	_	_
-2	blianta	bliain	NOUN	NOUN	_	4	nmod	_	_
+2	blianta	bliain	NOUN	NOUN	_	4	nmod:tmod	_	_
 3	fada	fada	ADJ	ADJ	_	2	amod	_	_
 4	tá	bí	VERB	VERB	_	0	ROOT	_	_
 5	dumpáil	dumpáil	NOUN	NOUN	_	4	nsubj	_	_
@@ -7748,14 +7748,14 @@
 29	gcladach	cladach	NOUN	NOUN	_	25	nmod	_	_
 30	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-1	Le	le	ADP	ADP	_	0	ROOT	_	_
-2	bliain	bliain	NOUN	NOUN	_	1	nmod	_	_
+1	Le	le	ADP	ADP	_	1	case	_	_
+2	bliain	bliain	NOUN	NOUN	_	0	ROOT	_	_
 3	nó	nó	CONJ	CONJ	_	2	cc	_	_
 4	dhó	dó	NUM	NUM	_	2	conj	_	_
-5	anuas	anuas	ADV	ADV	_	1	advmod	_	_
-6	amháin	amháin	ADJ	ADJ	_	1	amod	_	_
+5	anuas	anuas	ADV	ADV	_	2	advmod	_	_
+6	amháin	amháin	ADJ	ADJ	_	2	amod	_	_
 7	a	a	PART	PART	_	8	mark:prt	_	_
-8	thosaigh	tosaigh	VERB	VERB	_	1	nsubj	_	_
+8	thosaigh	tosaigh	VERB	VERB	_	2	nsubj	_	_
 9	sé	sé	PRON	PRON	_	8	nsubj	_	_
 10	ag	ag	ADP	ADP	_	8	xcomp	_	_
 11	tabhairt	tabhairt	NOUN	NOUN	_	10	nmod	_	_
@@ -7763,7 +7763,7 @@
 13	difríochta	difríocht	NOUN	NOUN	_	11	dobj	_	_
 14	faoi	faoi	ADP	ADP	_	15	case	_	_
 15	deara	deara	NOUN	NOUN	_	11	nmod	_	_
-16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	ART	Art	PROPN	PROPN	_	4	nmod	_	_
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_
@@ -8126,7 +8126,7 @@
 1	is	is	VERB	VERB	_	2	cop	_	_
 2	laistigh	laistigh	ADV	ADV	_	0	ROOT	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
-4	bhliain	bliain	NOUN	NOUN	_	2	nmod	_	_
+4	bhliain	bliain	NOUN	NOUN	_	2	nmod:tmod	_	_
 5	o	ó	ADP	ADP	_	6	case	_	_
 6	am	am	NOUN	NOUN	_	4	nmod	_	_
 7	rithte	rithte	ADJ	ADJ	_	6	amod	_	_
@@ -8590,7 +8590,7 @@
 11	a	a	PART	PART	_	12	mark	_	_
 12	bhunú	bunú	NOUN	NOUN	_	7	cop	_	_
 13	sa	i	ADP	ADP	_	14	case	_	_
-14	bhliain	bliain	NOUN	NOUN	_	12	nmod	_	_
+14	bhliain	bliain	NOUN	NOUN	_	12	nmod:tmod	_	_
 15	1992	1992	NUM	NUM	_	14	nummod	_	_
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -8944,7 +8944,7 @@
 29	teach	teach	NOUN	NOUN	_	27	dobj	_	_
 30	tionóil	tionól	NOUN	NOUN	_	29	compound	_	_
 31	sa	i	ADP	ADP	_	32	case	_	_
-32	bhliain	bliain	NOUN	NOUN	_	27	nmod	_	_
+32	bhliain	bliain	NOUN	NOUN	_	27	nmod:tmod	_	_
 33	1839	1839	NUM	NUM	_	32	nummod	_	_
 34	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -9173,7 +9173,7 @@
 21	,	,	PUNCT	PUNCT	_	24	punct	_	_
 22	beagnach	beagnach	ADV	ADV	_	23	advmod	_	_
 23	seacht	seacht	NUM	NUM	_	24	nummod	_	_
-24	mbliana	bliain	NOUN	NOUN	_	11	advmod	_	_
+24	mbliana	bliain	NOUN	NOUN	_	11	nmod:tmod	_	_
 25	déag	déag	NOUN	NOUN	_	24	compound	_	_
 26	roimhe	roimh	ADP	ADP	_	27	case	_	_
 27	sin	sin	PRON	PRON	_	24	det	_	_
@@ -9213,7 +9213,7 @@
 6	lá	lá	NOUN	NOUN	_	4	dobj	_	_
 7	breithe	breith	NOUN	NOUN	_	6	compound	_	_
 8	an	an	DET	DET	_	9	det	_	_
-9	tseachtain	seachtain	NOUN	NOUN	_	2	advmod	_	_
+9	tseachtain	seachtain	NOUN	NOUN	_	2	nmod:tmod	_	_
 10	seo	seo	DET	DET	_	9	det	_	_
 11	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -9240,7 +9240,7 @@
 21	an	an	DET	DET	_	22	det	_	_
 22	Lucht_Oibre	Lucht_Oibre	PROPN	PROPN	_	19	conj	_	_
 23	sa	i	ADP	ADP	_	24	case	_	_
-24	bhliain	bliain	NOUN	NOUN	_	14	nmod	_	_
+24	bhliain	bliain	NOUN	NOUN	_	14	nmod:tmod	_	_
 25	1992	1992	NUM	NUM	_	24	nummod	_	_
 26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -9816,7 +9816,7 @@
 10	tÚdarás	údarás	NOUN	NOUN	_	8	nsubj	_	_
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
 12	dhá	dó	NUM	NUM	_	13	nummod	_	_
-13	bhliain	bliain	NOUN	NOUN	_	8	advmod	_	_
+13	bhliain	bliain	NOUN	NOUN	_	8	nmod:tmod	_	_
 14	ó	ó	ADP	ADP	_	15	case	_	_
 15	shin	sin	PRON	PRON	_	13	nmod	_	_
 16	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -10909,7 +10909,7 @@
 61	líne	líne	NOUN	NOUN	_	58	nmod	_	_
 62	le	le	ADP	ADP	_	64	case	_	_
 63	25	25	NUM	NUM	_	64	nummod	_	_
-64	bliain	bliain	NOUN	NOUN	_	58	nmod	_	_
+64	bliain	bliain	NOUN	NOUN	_	58	nmod:tmod	_	_
 65	anuas	anuas	ADV	ADV	_	64	advmod	_	_
 66	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -10985,7 +10985,7 @@
 17	Mhic	mac	PART	PART	_	18	name	_	_
 18	Reachtain	Reachtain	PROPN	PROPN	_	16	compound	_	_
 19	i	i	ADP	ADP	_	20	case	_	_
-20	mbliana	bliain	NOUN	NOUN	_	9	nmod	_	_
+20	mbliana	bliain	NOUN	NOUN	_	9	nmod:tmod	_	_
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 1	Ba	is	VERB	VERB	_	2	cop	_	_
@@ -11001,7 +11001,7 @@
 11	ar_feadh	ar_feadh	ADP	ADP	_	14	case	_	_
 12	dhá	dó	NUM	NUM	_	14	nummod	_	_
 13	chéad	céad	NUM	NUM	_	14	nummod	_	_
-14	bliain	bliain	NOUN	NOUN	_	2	nmod	_	_
+14	bliain	bliain	NOUN	NOUN	_	2	nmod:tmod	_	_
 15	ach	ach	SCONJ	SCONJ	_	16	mark	_	_
 16	bhí	bí	VERB	VERB	_	2	advcl	_	_
 17	sí	sí	PRON	PRON	_	16	nsubj	_	_
@@ -11409,7 +11409,7 @@
 16	óstán	óstán	NOUN	NOUN	_	14	nmod	_	_
 17	seo	seo	DET	DET	_	16	det	_	_
 18	gach	gach	DET	DET	_	19	det	_	_
-19	bliain	bliain	NOUN	NOUN	_	14	advmod	_	_
+19	bliain	bliain	NOUN	NOUN	_	14	nmod:tmod	_	_
 20	agus	agus	CONJ	CONJ	_	2	cc	_	_
 21	thug	tabhair	VERB	VERB	_	2	conj	_	_
 22	sé	sé	PRON	PRON	_	21	nsubj	_	_
@@ -11527,7 +11527,7 @@
 8	mhair	mair	VERB	VERB	_	5	acl:relcl	_	_
 9	na	na	DET	DET	_	10	det	_	_
 10	milliúin	milliún	NOUN	NOUN	_	11	nummod	_	_
-11	bliain	bliain	NOUN	NOUN	_	8	nmod	_	_
+11	bliain	bliain	NOUN	NOUN	_	8	nmod:tmod	_	_
 12	ó	ó	ADP	ADP	_	13	case	_	_
 13	shin	sin	PRON	PRON	_	11	nmod	_	_
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_
@@ -12145,7 +12145,7 @@
 33	eisigh	eisigh	VERB	VERB	_	29	acl:relcl	_	_
 34	sí	sí	PRON	PRON	_	33	nsubj	_	_
 35	roinnt	roinnt	NOUN	NOUN	_	36	compound	_	_
-36	blianta	bliain	NOUN	NOUN	_	33	compound	_	_
+36	blianta	bliain	NOUN	NOUN	_	33	nmod:tmod	_	_
 37	ó	ó	ADP	ADP	_	38	case	_	_
 38	shin	sin	PRON	PRON	_	36	nmod	_	_
 39	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -13345,7 +13345,7 @@
 50	thabhú	tabhú	NOUN	NOUN	_	47	acl:relcl	_	_
 51	an	an	DET	DET	_	53	det	_	_
 52	3ú	3	NUM	NUM	_	53	nummod	_	_
-53	lá	lá	NOUN	NOUN	_	50	advmod	_	_
+53	lá	lá	NOUN	NOUN	_	50	nmod:tmod	_	_
 54	de	de	ADP	ADP	_	55	case	_	_
 55	Nollaig	Nollaig	PROPN	PROPN	_	53	nmod	_	_
 56	,	,	PUNCT	PUNCT	_	57	punct	_	_
@@ -13534,7 +13534,7 @@
 54	in_aghaidh	in_aghaidh	ADP	ADP	_	55	case	_	_
 55	Phort_Láirge	Port_Láirge	NOUN	NOUN	_	53	nmod	_	_
 56	dha	dó	NUM	NUM	_	57	nummod	_	_
-57	sheachtain	seachtain	NOUN	NOUN	_	42	nmod	_	_
+57	sheachtain	seachtain	NOUN	NOUN	_	42	nmod:tmod	_	_
 58	ó	ó	ADP	ADP	_	59	case	_	_
 59	shin	sin	PRON	PRON	_	57	nmod	_	_
 60	.	.	PUNCT	PUNCT	_	14	punct	_	_
@@ -13657,7 +13657,7 @@
 11	Bhinse	Binse	PROPN	PROPN	_	7	nmod	_	_
 12	Fiosraithe	fiosrú	NOUN	NOUN	_	11	compound	_	_
 13	an	an	DET	DET	_	14	det	_	_
-14	lá	lá	NOUN	NOUN	_	7	nmod	_	_
+14	lá	lá	NOUN	NOUN	_	7	nmod:tmod	_	_
 15	céanna	céanna	ADJ	ADJ	_	14	amod	_	_
 16	a	a	PART	PART	_	17	nsubj	_	_
 17	bhí	bí	VERB	VERB	_	14	acl:relcl	_	_
@@ -14052,7 +14052,7 @@
 41	cinn	ceann	NOUN	NOUN	_	34	nmod	_	_
 42	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Seachtain	seachtain	NOUN	NOUN	_	5	nmod	_	_
+1	Seachtain	seachtain	NOUN	NOUN	_	5	nmod:tmod	_	_
 2	níos	níos	NOUN	NOUN	_	3	mark:prt	_	_
 3	déanaí	déanach	ADJ	ADJ	_	1	amod	_	_
 4	áfach	áfach	ADV	ADV	_	5	advmod	_	_
@@ -14218,7 +14218,7 @@
 1	Leanann	lean	VERB	VERB	_	0	ROOT	_	_
 2	Ramadan	Ramadan	PROPN	PROPN	_	1	nsubj	_	_
 3	ar_feadh	ar_feadh	ADP	ADP	_	4	case	_	_
-4	seachtaine	seachtain	NOUN	NOUN	_	1	nmod	_	_
+4	seachtaine	seachtain	NOUN	NOUN	_	1	nmod:tmod	_	_
 5	4	4	NUM	NUM	_	4	nummod	_	_
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -15251,7 +15251,7 @@
 8	tír	tír	NOUN	NOUN	_	3	nmod	_	_
 9	seo	seo	DET	DET	_	8	det	_	_
 10	sa	i	ADP	ADP	_	11	case	_	_
-11	lá	lá	NOUN	NOUN	_	3	dobj	_	_
+11	lá	lá	NOUN	NOUN	_	3	nmod:tmod	_	_
 12	atá	bí	VERB	VERB	_	11	acl:relcl	_	_
 13	inniu	inniu	ADV	ADV	_	12	advmod	_	_
 14	%%%ann%%%	i	ADP	ADP	_	12	xcomp:pred	_	_
@@ -15896,7 +15896,7 @@
 8	Éirinn	Éire	PROPN	PROPN	_	6	nmod	_	_
 9	le	le	ADP	ADP	_	11	case	_	_
 10	75	75	NUM	NUM	_	11	nummod	_	_
-11	bliain	bliain	NOUN	NOUN	_	8	nmod	_	_
+11	bliain	bliain	NOUN	NOUN	_	8	nmod:tmod	_	_
 12	anuas	anuas	ADV	ADV	_	11	advmod	_	_
 13	os	os	ADP	ADP	_	15	case	_	_
 14	ár	ár	DET	DET	_	15	nmod:poss	_	_
@@ -15969,7 +15969,7 @@
 2	sé	sé	PRON	PRON	_	1	nsubj	_	_
 3	ar_ais	ar_ais	ADV	ADV	_	1	advmod	_	_
 4	an	an	DET	DET	_	5	det	_	_
-5	oíche	oíche	NOUN	NOUN	_	1	advmod	_	_
+5	oíche	oíche	NOUN	NOUN	_	1	nmod:tmod	_	_
 6	sin	sin	DET	DET	_	5	det	_	_
 7	agus	agus	CONJ	CONJ	_	8	mark	_	_
 8	scéala	scéala	NOUN	NOUN	_	1	advcl	_	_
@@ -17566,7 +17566,7 @@
 3	atá	bí	VERB	VERB	_	2	nsubj	_	_
 4	gnóthach	gnóthach	ADJ	ADJ	_	3	xcomp:pred	_	_
 5	an	an	DET	DET	_	6	det	_	_
-6	tseachtain	seachtain	NOUN	NOUN	_	3	compound	_	_
+6	tseachtain	seachtain	NOUN	NOUN	_	3	nmod:tmod	_	_
 7	seo	seo	DET	DET	_	6	det	_	_
 8	!	!	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -17999,7 +17999,7 @@
 5	Rafiq	Rafiq	PROPN	PROPN	_	2	nmod	_	_
 6	Mottiar	Mottiar	PROPN	PROPN	_	5	name	_	_
 7	sa	i	ADP	ADP	_	8	case	_	_
-8	bhliain	bliain	NOUN	NOUN	_	1	nmod	_	_
+8	bhliain	bliain	NOUN	NOUN	_	1	nmod:tmod	_	_
 9	1965	1965	NUM	NUM	_	8	nummod	_	_
 10	agus	agus	CONJ	CONJ	_	1	cc	_	_
 11	riamh	riamh	ADV	ADV	_	1	advmod	_	_
@@ -19022,7 +19022,7 @@
 14	príomhnuachtáin	nuachtán	NOUN	NOUN	_	12	nmod	_	_
 15	,	,	PUNCT	PUNCT	_	17	punct	_	_
 16	an	an	DET	DET	_	17	det	_	_
-17	tseachtain	seachtain	NOUN	NOUN	_	12	compound	_	_
+17	tseachtain	seachtain	NOUN	NOUN	_	12	nmod:tmod	_	_
 18	seo	seo	DET	DET	_	17	det	_	_
 19	chugainn	chuig	ADP	ADP	_	17	nmod:prep	_	_
 20	,	,	PUNCT	PUNCT	_	21	punct	_	_
@@ -20148,7 +20148,7 @@
 16	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 1	An	an	DET	DET	_	2	det	_	_
-2	tseachtain	seachtain	NOUN	NOUN	_	5	advmod	_	_
+2	tseachtain	seachtain	NOUN	NOUN	_	5	nmod:tmod	_	_
 3	seo	seo	DET	DET	_	2	det	_	_
 4	caite	caite	ADJ	ADJ	_	2	amod	_	_
 5	phléigh	pléigh	VERB	VERB	_	0	ROOT	_	_
@@ -21489,7 +21489,7 @@
 34	scéim	scéim	NOUN	NOUN	_	31	nmod	_	_
 35	seo	seo	DET	DET	_	34	det	_	_
 36	sna	i	ADP	ADP	_	37	case	_	_
-37	blianta	bliain	NOUN	NOUN	_	31	nmod	_	_
+37	blianta	bliain	NOUN	NOUN	_	31	nmod:tmod	_	_
 38	eile	eile	DET	DET	_	37	det	_	_
 39	)	)	PUNCT	PUNCT	_	24	punct	_	_
 40	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -21687,7 +21687,7 @@
 20	cinn	ceann	NOUN	NOUN	_	18	nmod	_	_
 21	le_linn	le_linn	ADP	ADP	_	23	case	_	_
 22	na	na	DET	DET	_	23	det	_	_
-23	bliana	bliain	NOUN	NOUN	_	16	nmod	_	_
+23	bliana	bliain	NOUN	NOUN	_	16	nmod:tmod	_	_
 24	seo	seo	DET	DET	_	23	det	_	_
 25	,	,	PUNCT	PUNCT	_	26	punct	_	_
 26	agus	agus	CONJ	CONJ	_	28	mark	_	_
@@ -21897,7 +21897,7 @@
 17	tír	tír	NOUN	NOUN	_	13	nmod	_	_
 18	mór	mór	ADJ	ADJ	_	17	amod	_	_
 19	sa	i	ADP	ADP	_	20	case	_	_
-20	bhliain	bliain	NOUN	NOUN	_	13	nmod	_	_
+20	bhliain	bliain	NOUN	NOUN	_	13	nmod:tmod	_	_
 21	1975	1975	NUM	NUM	_	20	nummod	_	_
 22	nuair	nuair	SCONJ	SCONJ	_	24	mark	_	_
 23	a	a	PART	PART	_	24	mark:prt	_	_
@@ -21929,7 +21929,7 @@
 4	chuid	cuid	NOUN	NOUN	_	1	dobj	_	_
 5	Ghaeilge	Gaeilge	PROPN	PROPN	_	4	compound	_	_
 6	gach	gach	DET	DET	_	7	det	_	_
-7	bliain	bliain	NOUN	NOUN	_	1	advmod	_	_
+7	bliain	bliain	NOUN	NOUN	_	1	nmod:tmod	_	_
 8	ar	ar	ADP	ADP	_	9	case	_	_
 9	saoire	saoire	NOUN	NOUN	_	1	nmod	_	_
 10	sa	i	ADP	ADP	_	11	case	_	_
@@ -23073,7 +23073,7 @@
 2	mó	mó	ADJ	ADJ	_	0	ROOT	_	_
 3	uair	uair	NOUN	NOUN	_	2	nsubj	_	_
 4	le	le	ADP	ADP	_	5	case	_	_
-5	blianta	bliain	NOUN	NOUN	_	2	nmod	_	_
+5	blianta	bliain	NOUN	NOUN	_	2	nmod:tmod	_	_
 6	anuas	anuas	ADV	ADV	_	5	advmod	_	_
 7	go	go	PART	PART	_	8	mark:prt	_	_
 8	bhfuil	bí	VERB	VERB	_	2	ccomp	_	_
@@ -23099,7 +23099,7 @@
 28	mo	mo	DET	DET	_	29	nmod:poss	_	_
 29	ghuth	guth	NOUN	NOUN	_	26	dobj	_	_
 30	vótála	vótáil	NOUN	NOUN	_	29	compound	_	_
-31	seachtain	seachtain	NOUN	NOUN	_	26	advmod	_	_
+31	seachtain	seachtain	NOUN	NOUN	_	26	nmod:tmod	_	_
 32	ó	ó	ADP	ADP	_	33	case	_	_
 33	shin	sin	PRON	PRON	_	31	nmod	_	_
 34	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -24658,7 +24658,7 @@
 29	san	i	ADP	ADP	_	30	case	_	_
 30	ardchathair	ardchathair	NOUN	NOUN	_	25	nmod	_	_
 31	céad	céad	NUM	NUM	_	32	nummod	_	_
-32	bliain	bliain	NOUN	NOUN	_	25	nmod	_	_
+32	bliain	bliain	NOUN	NOUN	_	25	nmod:tmod	_	_
 33	ó	ó	ADP	ADP	_	34	case	_	_
 34	shin	sin	PRON	PRON	_	32	nmod	_	_
 35	.	.	PUNCT	PUNCT	_	2	punct	_	_
