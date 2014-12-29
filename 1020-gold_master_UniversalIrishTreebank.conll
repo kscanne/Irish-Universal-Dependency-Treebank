@@ -7796,7 +7796,7 @@
 20	saoirse	saoirse	NOUN	NOUN	_	22	dobj	_	_
 21	a	a	PART	PART	_	22	mark	_	_
 22	bhaint	baint	NOUN	NOUN	_	14	nmod	_	_
-23	amach	amach	ADV	ADV	_	22	mark:prt	_	_
+23	amach	amach	ADV	ADV	_	22	compound:prt	_	_
 24	seachas	seachas	ADP	ADP	_	26	case	_	_
 25	an	an	DET	DET	_	26	det	_	_
 26	lámh	lámh	NOUN	NOUN	_	14	nmod	_	_
@@ -7994,7 +7994,7 @@
 24	imeachta	imeacht	NOUN	NOUN	_	23	compound	_	_
 25	atá	bí	VERB	VERB	_	23	acl:relcl	_	_
 26	leagtha	leagtha	ADJ	ADJ	_	25	xcomp:pred	_	_
-27	síos	síos	ADV	ADV	_	26	mark:prt	_	_
+27	síos	síos	ADV	ADV	_	26	compound:prt	_	_
 28	iontu	i	ADP	ADP	_	26	nmod:prep	_	_
 29	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -8998,7 +8998,7 @@
 19	mar	mar	SCONJ	SCONJ	_	20	case	_	_
 20	atá	bí	VERB	VERB	_	10	xcomp	_	_
 21	leagtha	leagtha	ADJ	ADJ	_	20	xcomp:pred	_	_
-22	amach	amach	ADV	ADV	_	21	mark:prt	_	_
+22	amach	amach	ADV	ADV	_	21	compound:prt	_	_
 23	in	i	ADP	ADP	_	24	case	_	_
 24	Airteagal	airteagal	NOUN	NOUN	_	21	nmod	_	_
 25	J.	J.	X	X	_	24	compound	_	_
@@ -10131,7 +10131,7 @@
 10	leanadar	lean	VERB	VERB	_	2	conj	_	_
 11	ag	ag	ADP	ADP	_	10	xcomp	_	_
 12	éirí	éirí	NOUN	NOUN	_	11	nmod	_	_
-13	amach	amach	ADV	ADV	_	12	mark:prt	_	_
+13	amach	amach	ADV	ADV	_	12	compound:prt	_	_
 14	go_ceann	go_ceann	ADP	ADP	_	16	case	_	_
 15	fiche	fiche	NUM	NUM	_	16	nummod	_	_
 16	bliain	bliain	NOUN	NOUN	_	10	nmod	_	_
