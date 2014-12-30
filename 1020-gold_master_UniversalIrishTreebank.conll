@@ -3377,7 +3377,7 @@
 22	,	,	PUNCT	PUNCT	_	23	punct	_	_
 23	Conraitheoir	conraitheoir	NOUN	NOUN	_	9	conj	_	_
 24	gníomhach	gníomhach	ADJ	ADJ	_	23	amod	_	_
-25	Liam	Liam	PROPN	PROPN	_	27	appos	_	_
+25	Liam	Liam	PROPN	PROPN	_	23	appos	_	_
 26	Ó	ó	PART	PART	_	25	name	_	_
 27	Briain	Briain	PROPN	PROPN	_	25	name	_	_
 28	istigh	istigh	ADV	ADV	_	23	advmod	_	_
@@ -5075,7 +5075,7 @@
 1	IS	is	VERB	VERB	_	2	cop	_	_
 2	É	é	PRON	PRON	_	0	ROOT	_	_
 3	IS	is	VERB	VERB	_	4	cop	_	_
-4	PAITRIARC	patrarc	NOUN	NOUN	_	5	ncmod	_	_
+4	PAITRIARC	patrarc	NOUN	NOUN	_	2	ncmod	_	_
 5	ann	i	ADP	ADP	_	4	ccomp	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	duine	duine	NOUN	NOUN	_	4	appos	_	_
@@ -6426,7 +6426,7 @@
 7	fear	fear	NOUN	NOUN	_	4	conj	_	_
 8	eile	eile	DET	DET	_	7	det	_	_
 9	Tom	Tom	PROPN	PROPN	_	7	appos	_	_
-10	Sheldon	Sheldon	PROPN	PROPN	_	10	name	_	_
+10	Sheldon	Sheldon	PROPN	PROPN	_	9	name	_	_
 11	a	a	PART	PART	_	12	mark:prt	_	_
 12	bhí	bí	VERB	VERB	_	4	nsubj	_	_
 13	i_mbun	i_mbun	ADP	ADP	_	15	case	_	_
@@ -7748,7 +7748,7 @@
 29	gcladach	cladach	NOUN	NOUN	_	25	nmod	_	_
 30	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-1	Le	le	ADP	ADP	_	1	case	_	_
+1	Le	le	ADP	ADP	_	2	case	_	_
 2	bliain	bliain	NOUN	NOUN	_	0	ROOT	_	_
 3	nó	nó	CONJ	CONJ	_	2	cc	_	_
 4	dhó	dó	NUM	NUM	_	2	conj	_	_
