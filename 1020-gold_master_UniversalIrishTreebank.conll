@@ -3083,9 +3083,9 @@
 3	siad	siad	PRON	PRON	_	2	nsubj	_	_
 4	faoi	faoi	ADP	ADP	_	2	compound:prt	_	_
 5	mar	mar	ADP	ADP	_	2	mark	_	_
-6	is	is	VERB	VERB	_	2	advcl	_	_
-7	féidir	féidir	NOUN	NOUN	_	2	nsubj	_	_
-8	leo	le	ADP	ADP	_	2	nmod:prep	_	_
+6	is	is	VERB	VERB	_	7	cop	_	_
+7	féidir	féidir	NOUN	NOUN	_	2	advcl	_	_
+8	leo	le	ADP	ADP	_	7	nmod:prep	_	_
 9	,	,	PUNCT	PUNCT	_	11	punct	_	_
 10	is	is	VERB	VERB	_	11	cop	_	_
 11	dóigh	dóigh	NOUN	NOUN	_	0	ROOT	_	_
@@ -5059,8 +5059,8 @@
 22	sé	sé	PRON	PRON	_	21	nsubj	_	_
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
 24	mar	mar	SCONJ	SCONJ	_	21	mark	_	_
-25	ba	is	VERB	VERB	_	21	advcl	_	_
-26	nós	nós	NOUN	NOUN	_	21	nsubj	_	_
+25	ba	is	VERB	VERB	_	26	cop	_	_
+26	nós	nós	NOUN	NOUN	_	21	advcl	_	_
 27	,	,	PUNCT	PUNCT	_	28	punct	_	_
 28	ina	i	PART	PART	_	21	xcomp:pred	_	_
 29	dhéan	déan	VERB	VERB	_	28	nmod	_	_
@@ -12113,7 +12113,7 @@
 1	Ba	is	VERB	VERB	_	3	cop	_	_
 2	í	í	PRON	PRON	_	3	nmod	_	_
 3	Dearbhla	Dearbhla	PROPN	PROPN	_	0	ROOT	_	_
-4	Ní	is	VERB	VERB	_	3	name	_	_
+4	Ní	ní	PART	PART	_	3	name	_	_
 5	Bhrolacháin	bhrolachán	NOUN	NOUN	_	3	name	_	_
 6	a	a	PART	PART	_	7	mark:prt	_	_
 7	léirigh	léirigh	VERB	VERB	_	3	nsubj	_	_
@@ -22523,8 +22523,8 @@
 11	Ionad	ionad	NOUN	NOUN	_	8	nmod	_	_
 12	de_réir	de_réir	ADP	ADP	_	8	case	_	_
 13	mar	mar	ADP	ADP	_	12	case	_	_
-14	is	is	VERB	VERB	_	12	ncmod	_	_
-15	gá	gá	NOUN	NOUN	_	12	nsubj	_	_
+14	is	is	VERB	VERB	_	15	cop	_	_
+15	gá	gá	NOUN	NOUN	_	12	ncmod	_	_
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 1	(	(	PUNCT	PUNCT	_	2	punct	_	_
