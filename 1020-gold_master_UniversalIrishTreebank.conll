@@ -2557,10 +2557,10 @@
 
 1	Ní	is	VERB	VERB	_	3	cop	_	_
 2	hamháin	amháin	ADJ	ADJ	_	0	ROOT	_	_
-3	mar	mar	ADP	ADP	_	2	cop	_	_
-4	shaoránach	saoránach	NOUN	NOUN	_	3	nmod	_	_
-5	ach	ach	SCONJ	SCONJ	_	3	cc	_	_
-6	mar	mar	ADP	ADP	_	3	conj	_	_
+3	mar	mar	ADP	ADP	_	4	case	_	_
+4	shaoránach	saoránach	NOUN	NOUN	_	2	nmod	_	_
+5	ach	ach	SCONJ	SCONJ	_	4	cc	_	_
+6	mar	mar	ADP	ADP	_	4	conj	_	_
 7	ealaíontóir	ealaíontóir	NOUN	NOUN	_	6	nmod	_	_
 8	fosta	fosta	ADV	ADV	_	3	advmod	_	_
 9	goilleann	goill	VERB	VERB	_	3	ccomp	_	_
@@ -7377,7 +7377,7 @@
 27	riamh	riamh	ADV	ADV	_	30	advmod	_	_
 28	ná	ná	SCONJ	SCONJ	_	30	mark	_	_
 29	an	an	DET	DET	_	30	det	_	_
-30	radharc	radharc	NOUN	NOUN	_	25	cop	_	_
+30	radharc	radharc	NOUN	NOUN	_	25	nmod	_	_
 31	a	a	PART	PART	_	32	nsubj	_	_
 32	bhí	bí	VERB	VERB	_	30	acl:relcl	_	_
 33	le	le	ADP	ADP	_	34	case	_	_
@@ -19665,7 +19665,7 @@
 252	an	an	DET	DET	_	253	det	_	_
 253	tsolais	solas	NOUN	NOUN	_	250	compound	_	_
 254	ná	ná	CONJ	CONJ	_	255	mark	_	_
-255	dearg	dearg	ADJ	ADJ	_	250	cop	_	_
+255	dearg	dearg	ADJ	ADJ	_	250	nsubj	_	_
 256	,	,	PUNCT	PUNCT	_	257	punct	_	_
 257	uaine	uaine	ADJ	ADJ	_	255	conj	_	_
 258	agus	agus	CONJ	CONJ	_	255	cc	_	_
@@ -19713,7 +19713,7 @@
 300	príomhúla	príomhúil	ADJ	ADJ	_	299	amod	_	_
 301	péinte	péint	NOUN	NOUN	_	299	compound	_	_
 302	ná	ná	CONJ	CONJ	_	303	mark	_	_
-303	dearg	dearg	ADJ	ADJ	_	299	cop	_	_
+303	dearg	dearg	ADJ	ADJ	_	299	nsubj	_	_
 304	,	,	PUNCT	PUNCT	_	305	punct	_	_
 305	buí	buí	ADJ	ADJ	_	303	conj	_	_
 306	agus	agus	CONJ	CONJ	_	303	cc	_	_
@@ -24489,7 +24489,7 @@
 15	orthu	ar	ADP	ADP	_	13	nmod:prep	_	_
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
 17	agus	agus	CONJ	CONJ	_	18	mark	_	_
-18	go_leor	go_leor	NOUN	NOUN	_	11	cop	_	_
+18	go_leor	go_leor	NOUN	NOUN	_	11	nmod	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	na	na	DET	DET	_	21	det	_	_
 21	cailíní	cailín	NOUN	NOUN	_	18	nmod	_	_
